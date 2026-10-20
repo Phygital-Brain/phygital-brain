@@ -22,7 +22,7 @@ body:
         - "Using my brain every day"
         - "A folder or what goes where"
         - "Brain Keeper or morning brief"
-        - "Another agent (Codex, ChatGPT, ...)"
+        - "Another agent (Codex, Hermes Agent, OpenClaw, ...)"
         - "Another language"
         - "Something else"
   - type: input

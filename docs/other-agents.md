@@ -1,10 +1,10 @@
 # Other agents
 
-Phygital Brain is plain text files and plain instructions. Any agent that can **read and write files in a folder on your computer** can build it, use it and tidy it. Claude is the easiest, because the setup was made for it, but it isn't the only one.
+Phygital Brain is plain text files and plain instructions. Any agent that can **read and write files in a folder on your computer** can build it, use it and tidy it. Claude is the easiest, because the setup was made for it, but it isn't the only one: Codex, Hermes Agent, OpenClaw and others work too.
 
 ## What works where
 
-| Part | Claude desktop app | Other agents that work in a folder (like Codex or Claude Code) | Chat apps that can't save files |
+| Part | Claude desktop app | Other agents that work in a folder (like Claude Code, Codex, Hermes Agent or OpenClaw) | Chat apps that can't save files |
 |---|---|---|---|
 | Build the brain | Yes | Yes | No |
 | The four form windows | Yes | Usually no: the same questions come in chat | No |
@@ -40,6 +40,7 @@ The brain's rule files are all called `CLAUDE.md`, because most people use Claud
 | Claude (app and Claude Code) | `CLAUDE.md` |
 | Codex | `AGENTS.md` |
 | Gemini CLI | `GEMINI.md` |
+| Hermes Agent, OpenClaw | Their own workspace and memory files (check their docs). If yours doesn't load `CLAUDE.md`, use the line below. |
 
 During the setup, your agent checks which name its own tool needs. If it's not `CLAUDE.md`, it puts a small file with that name next to each `CLAUDE.md`, with one line: "Read CLAUDE.md in this folder and follow it." So there's still only one set of rules, and you never have to keep two copies the same.
 

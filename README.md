@@ -12,11 +12,11 @@
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-5AC8FA" alt="Pull requests welcome"></a>
 </p>
 <p align="center">
-<a href="docs/other-agents.md"><img src="https://img.shields.io/badge/agents-Claude%20%C2%B7%20Codex%20%C2%B7%20others-555" alt="Agents: Claude, Codex and others"></a>
-<a href="docs/getting-started.md#2-a-cloud-drive-folder"><img src="https://img.shields.io/badge/cloud-Google%20Drive%20%C2%B7%20Nextcloud%20%C2%B7%20Dropbox-555" alt="Cloud drives: Google Drive, Nextcloud, Dropbox and others"></a>
-<a href="docs/how-it-works.md"><img src="https://img.shields.io/badge/notes-Markdown-555?logo=markdown" alt="Notes: plain Markdown"></a>
-<a href="#languages"><img src="https://img.shields.io/badge/languages-11%20ready%20%C2%B7%20add%20yours-555" alt="11 languages ready, add yours"></a>
-<a href="SECURITY.md#what-you-share-with-your-ai"><img src="https://img.shields.io/badge/telemetry-none-555" alt="No telemetry"></a>
+<a href="docs/other-agents.md"><img src="https://img.shields.io/badge/agents-Claude%20%C2%B7%20Codex%20%C2%B7%20Hermes%20%C2%B7%20OpenClaw-0B0D12?labelColor=F05AB8" alt="Agents: Claude, Codex, Hermes Agent, OpenClaw and others"></a>
+<a href="docs/getting-started.md#2-a-cloud-drive-folder"><img src="https://img.shields.io/badge/cloud-Google%20Drive%20%C2%B7%20Nextcloud%20%C2%B7%20Dropbox-0B0D12?labelColor=5AC8FA" alt="Cloud drives: Google Drive, Nextcloud, Dropbox and others"></a>
+<a href="docs/how-it-works.md"><img src="https://img.shields.io/badge/notes-Markdown-0B0D12?logo=markdown&labelColor=F05AB8" alt="Notes: plain Markdown"></a>
+<a href="#languages"><img src="https://img.shields.io/badge/languages-11%20ready%20%C2%B7%20add%20yours-0B0D12?labelColor=5AC8FA" alt="11 languages ready, add yours"></a>
+<a href="SECURITY.md#what-you-share-with-your-ai"><img src="https://img.shields.io/badge/telemetry-none-0B0D12?labelColor=F05AB8" alt="No telemetry"></a>
 </p>
 <!-- Turn these on when the repository is public (GitHub can't show them for a private repository):
 <a href="https://github.com/Phygital-Brain/phygital-brain/stargazers"><img src="https://img.shields.io/github/stars/Phygital-Brain/phygital-brain?style=flat" alt="GitHub stars"></a>
@@ -64,7 +64,7 @@ Phygital Brain gives the agent one place to read from and write to, with rules i
 
 ## How it works
 
-<p align="center"><img src="docs/images/os.png" alt="An operating system for your notes, in five layers: 01 you talk, drop files and ask questions, on your computer or phone; 02 your agent, Claude, Codex or any agent that works in a folder; 03 the rules, a CLAUDE.md in every folder saying where things go and what to ask first; 04 your notes, seven folders of plain Markdown files in your cloud drive; 05 the Brain Keeper, which tidies every day and runs a full check-up when you ask." width="100%"></p>
+<p align="center"><img src="docs/images/os.png" alt="An operating system for your notes, in five layers: 01 you talk, drop files and ask questions, on your computer or phone; 02 your agent: Claude, Codex, Hermes Agent, OpenClaw and more; 03 the rules, a CLAUDE.md in every folder saying where things go and what to ask first; 04 your notes, seven folders of plain Markdown files in your cloud drive; 05 the Brain Keeper, which tidies every day and runs a full check-up when you ask." width="100%"></p>
 
 The parts of a computer's operating system each have a match in your brain:
 
@@ -232,7 +232,7 @@ The `add-language` skill asks you three things (formal or informal "you", the ma
 
 ## Works with your agent
 
-| | Claude desktop app | Agents that work in a folder (Codex, Claude Code) | Chat apps that can't save files |
+| | Claude desktop app | Agents that work in a folder (Claude Code, Codex, Hermes Agent, OpenClaw) | Chat apps that can't save files |
 |---|---|---|---|
 | Build the brain | Yes | Yes | No |
 | The four form windows | Yes | The same questions, in chat | No |
@@ -279,7 +279,7 @@ No. You install a few apps, answer four forms and talk in plain words. The only 
 <details>
 <summary><b>Which AI agents does it work with?</b></summary>
 
-Any agent that can read, edit and create files in a folder on your computer. Claude is what we use and recommend: it's the only one that shows the setup as form windows, and it can schedule the Brain Keeper. Codex and similar agents ask the same questions in chat. See [Other agents](docs/other-agents.md).
+Any agent that can read, edit and create files in a folder on your computer. Claude is what we use and recommend: it's the only one that shows the setup as form windows, and it can schedule the Brain Keeper. Codex, Hermes Agent, OpenClaw and similar agents ask the same questions in chat. See [Other agents](docs/other-agents.md).
 </details>
 
 <details>
@@ -316,7 +316,7 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 | [The folders in your brain](docs/folders/README.md) | One page per folder and subfolder, with examples and rules |
 | [Main rules](docs/folders/main-rules.md) | The main `CLAUDE.md`, in plain words |
 | [Your brain on your phone](docs/phone.md) | Ask from your agent's phone app, send tasks to your computer |
-| [Other agents](docs/other-agents.md) | Using Codex or another agent, rule file names, two agents on one brain |
+| [Other agents](docs/other-agents.md) | Using Codex, Hermes Agent, OpenClaw or another agent, rule file names, two agents on one brain |
 | [Languages](languages/README.md) | How other languages work |
 | [Limits](docs/limits.md) | What it does badly, or not yet |
 | [Glossary](docs/glossary.md) | Every term, in plain words |

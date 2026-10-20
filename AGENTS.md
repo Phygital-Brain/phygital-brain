@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Notes for AI agents (Claude Code, Codex, Cursor and others) and people who **change this repository**. Read this before you change a skill, a template, a form or a doc.
+Notes for AI agents (Claude Code, Codex, Hermes Agent, OpenClaw, Cursor and others) and people who **change this repository**. Read this before you change a skill, a template, a form or a doc.
 
 > [!NOTE]
 > If you are an agent **using** Phygital Brain (building or running someone's brain, not editing this repository), follow [skills/brain-setup/SKILL.md](skills/brain-setup/SKILL.md) to build a brain, or [skills/brain-keeper/SKILL.md](skills/brain-keeper/SKILL.md) for the Brain Keeper. Inside a brain, its own `CLAUDE.md` files are the rules.

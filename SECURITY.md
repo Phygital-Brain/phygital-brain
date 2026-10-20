@@ -36,7 +36,7 @@ There is no email contact. Use private reporting.
 ## What to include
 
 - The Phygital Brain version (the first line of your brain's root `CLAUDE.md`, or `CHANGELOG.md`).
-- Which agent and app you use (for example Claude desktop app, Claude Code, Codex).
+- Which agent and app you use (for example Claude desktop app, Claude Code, Codex, Hermes Agent, OpenClaw).
 - What you found, and which file it's in if you know: a skill, a template, a form or a doc.
 - Steps to reproduce it, using a **test brain** with made-up notes.
 - What could go wrong for a real person.

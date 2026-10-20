@@ -15,7 +15,7 @@ flowchart LR
 
 ## What you need
 
-- **An AI agent that can work in a folder on your computer:** read, edit and create files there. We recommend the Claude desktop app with a paid plan. The setup was built and tested there, and it's the only one that shows the setup as form windows. Codex, Claude Code and other agents work too: see [Other agents](other-agents.md).
+- **An AI agent that can work in a folder on your computer:** read, edit and create files there. We recommend the Claude desktop app with a paid plan. The setup was built and tested there, and it's the only one that shows the setup as form windows. Claude Code, Codex, Hermes Agent, OpenClaw and other agents work too: see [Other agents](other-agents.md).
 - **A cloud drive** that keeps a copy of the folder on your computer and that your agent can connect to, so you can reach the brain from your phone. For example Google Drive, Nextcloud, Dropbox or OneDrive.
 - **A computer** (Mac or Windows), with a little free space. A brain is small: plain text files, plus any pictures you add.
 

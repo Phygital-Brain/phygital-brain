@@ -36,7 +36,7 @@ body:
     id: agent
     attributes:
       label: Your agent and app
-      placeholder: "Claude desktop app, Claude Code, Codex, ..."
+      placeholder: "Claude desktop app, Claude Code, Codex, Hermes Agent, OpenClaw, ..."
     validations:
       required: true
   - type: input

@@ -5,7 +5,7 @@ Words you'll see in Phygital Brain, in plain terms.
 | Word | What it means |
 |---|---|
 | **About pages** | The notes in `About/`: you, your goals, your work, your customers and your voice. Your agent reads them to understand you. |
-| **Agent** | The AI that does the work in your brain folder: reads, writes, files and links notes. Claude is one; Codex is another. |
+| **Agent** | The AI that does the work in your brain folder: reads, writes, files and links notes. Claude is one; Codex, Hermes Agent and OpenClaw are others. |
 | **Backup** | A copy of the files your agent is about to change, saved in the hidden `.backups/` folder for 10 days. "Undo the last change" puts them back. |
 | **Brain** | Your Phygital Brain folder and everything in it. |
 | **Brain Keeper** | The helper that tidies your brain. It runs on its own every work day, and does a full check-up when you ask. |

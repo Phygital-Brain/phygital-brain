@@ -103,7 +103,7 @@ The setup needs an empty folder, or one without its own rule file. If the folder
 <details>
 <summary><b>Which AI agents does it work with?</b></summary>
 
-Any agent that can read, edit and create files in a folder on your computer. Claude (the desktop app and Claude Code) is what we use and recommend. Codex and similar agents work too. See [Other agents](other-agents.md).
+Any agent that can read, edit and create files in a folder on your computer. Claude (the desktop app and Claude Code) is what we use and recommend. Codex, Hermes Agent, OpenClaw and similar agents work too. See [Other agents](other-agents.md).
 </details>
 
 <details>
