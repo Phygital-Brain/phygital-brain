@@ -199,13 +199,11 @@ The rule files are called `CLAUDE.md`. Agents that look for another name, like `
 
 ## Privacy
 
-> [!IMPORTANT]
-> Your agent reads your notes to help you, so everything it reads goes to the company that runs your AI, and your files are stored by your drive's provider. Some AI companies may use your chats to train their models, depending on your plan and settings. Read [What you share with your AI](SECURITY.md#what-you-share-with-your-ai) before you start.
+Your notes are read by your AI agent and stored in your cloud drive. Phygital Brain itself has no server and collects nothing. More in [What you share with your AI](SECURITY.md#what-you-share-with-your-ai).
 
 - **Private details stay in one place.** Tax IDs, bank details, card numbers, your full legal name and your birth date live only in the note that needs them. Your agent never copies them into other notes, and never repeats them in a reply.
 - **A "never read" list.** `.claudeignore` covers password and key files and `Memory/finances/`. Your agent opens those only when you ask for an exact file. Your agent follows this as a rule, but nothing is locked.
 - **No secrets in notes.** Passwords, keys and tokens belong in a password manager.
-- **Nothing calls home.** Phygital Brain is files and instructions. It has no server and collects nothing.
 
 ## What it isn't
 
@@ -248,12 +246,6 @@ Any drive that keeps a copy of the folder on your computer and that your agent c
 <summary><b>Will it change my notes without asking?</b></summary>
 
 It saves small updates to notes that already exist and tells you in one line. It asks before it makes a new note, rewrites one, or moves, renames or deletes anything. The Brain Keeper never deletes your notes.
-</details>
-
-<details>
-<summary><b>Who can see my notes?</b></summary>
-
-The company that runs your AI sees what your agent reads, and your drive's provider stores the files. Phygital Brain has no server and collects nothing. See [What you share with your AI](SECURITY.md#what-you-share-with-your-ai).
 </details>
 
 <details>

@@ -23,8 +23,7 @@ You don't need to know any code.
 
 The cloud drive and Baalda are part of the setup. The cloud drive matters most: it's how you use your brain from your phone. If you don't want one of them, say so and the setup goes on without it.
 
-> [!IMPORTANT]
-> Your agent reads your notes, so they go to the company that runs your AI, and your files are stored by your drive's provider. Read [What you share with your AI](../SECURITY.md#what-you-share-with-your-ai) and check your AI's privacy settings before you start.
+Your agent reads your notes, and your drive stores them. It's worth a look at your AI's privacy settings: see [What you share with your AI](../SECURITY.md#what-you-share-with-your-ai).
 
 The steps below use **Claude and Google Drive** as the example, because that's the pair we tested most. With other apps the steps are the same idea; the menus have other names.
 
