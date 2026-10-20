@@ -113,6 +113,15 @@
     "drive_failed": "Dein Agent findet diesen Ordner in {drive} noch nicht. Prüf, ob der Ordner in deinem {drive}-Ordner liegt und ob der Konnektor an ist. Das Synchronisieren kann eine Minute dauern.",
     "try_again": "Erneut versuchen",
     "drive_later_note": "Kein Problem. Dein Gehirn funktioniert auf diesem Computer. Sag jederzeit \"verbinde meinen Cloud-Speicher\", um ihn hinzuzufügen.",
-    "drive_other": "Anderer Cloud-Speicher"
+    "drive_other": "Anderer Cloud-Speicher",
+    "finish_welcome": "Willkommen in deinem zweiten Gehirn, {Name}.",
+    "finish_assistant": "Es ist fertig, und ab jetzt bin ich dein persönlicher Assistent. Ich kenne deine Arbeit, deine Ziele und die Menschen um dich herum, und mit jedem Gespräch lerne ich mehr dazu. Wir wachsen zusammen und werden immer besser darin.",
+    "finish_ask": "Frag mich alles, jederzeit: wie du dein Gehirn nutzt, was es kann, oder eine Idee, an der du arbeiten möchtest.",
+    "finish_start": "Rede zum Start einfach mit mir, wie du mit Freunden redest: \"Ich hab mit Marta telefoniert, das haben wir ausgemacht.\" Ich lege es an der richtigen Stelle ab.",
+    "finish_cloud_later": "Im Moment ist dein Gehirn nur auf diesem Computer. Wenn du so weit bist, sag \"verbinde meinen Cloud-Speicher\", und ich helfe dir, Google Drive oder einen anderen Speicher zu verbinden. Dann ist dein Gehirn gesichert, und du kannst es auch auf dem Handy nutzen.",
+    "finish_cloud_on": "Dein Gehirn liegt in deinem Cloud-Speicher, also ist es gesichert und auch auf deinem Handy.",
+    "finish_keeper_short": "An jedem Arbeitstag um {keeper time} räumt der Aufräumhelfer deine Notizen für dich auf.",
+    "baalda_offer": "Willst du deine Notizen wie in einer App durchstöbern? Baalda zeigt dein Gehirn als Notiz-App auf deinem Computer.",
+    "baalda_install_button": "Baalda installieren"
   }
 }

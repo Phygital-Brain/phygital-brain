@@ -113,7 +113,16 @@
     "drive_failed": "Agenmu belum bisa menemukan folder ini di {drive}. Pastikan folder ini ada di dalam folder {drive}-mu dan konektornya aktif. Sinkronisasi bisa butuh semenit.",
     "try_again": "Coba lagi",
     "drive_later_note": "Tidak apa-apa. Otakmu tetap jalan di komputer ini. Bilang \"hubungkan cloud drive-ku\" kapan saja untuk menambahkannya.",
-    "drive_other": "Cloud drive lain"
+    "drive_other": "Cloud drive lain",
+    "finish_welcome": "Selamat datang di otak keduamu, {Name}.",
+    "finish_assistant": "Semuanya sudah siap, dan mulai sekarang aku asisten pribadimu. Aku tahu pekerjaanmu, tujuanmu, dan orang-orang di sekitarmu, dan aku akan belajar lebih banyak setiap kali kita ngobrol. Kita akan berkembang bersama dan makin jago.",
+    "finish_ask": "Tanya aku apa saja, kapan saja: cara memakai otakmu, apa saja yang bisa dilakukannya, atau ide yang ingin kamu kerjakan.",
+    "finish_start": "Untuk mulai, ngobrol saja denganku seperti ke teman: \"Tadi aku telepon Marta, ini yang kami sepakati.\" Aku akan menyimpannya di tempat yang tepat.",
+    "finish_cloud_later": "Untuk sekarang, otakmu hanya ada di komputer ini. Kalau sudah siap, bilang \"hubungkan cloud drive-ku\" dan aku akan bantu menghubungkan Google Drive atau drive lain. Setelah itu otakmu punya cadangan, dan bisa kamu pakai dari HP juga.",
+    "finish_cloud_on": "Otakmu ada di cloud drive, jadi sudah punya cadangan dan ada di HP-mu juga.",
+    "finish_keeper_short": "Setiap hari kerja pukul {keeper time}, Penjaga Otak merapikan catatanmu untukmu.",
+    "baalda_offer": "Mau melihat-lihat catatanmu seperti di aplikasi? Baalda menampilkan otakmu sebagai aplikasi catatan di komputermu.",
+    "baalda_install_button": "Pasang Baalda"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formulir pengaturan 1 dari 4: tentang kamu.",

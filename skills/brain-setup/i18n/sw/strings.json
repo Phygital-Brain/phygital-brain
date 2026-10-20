@@ -113,6 +113,15 @@
     "drive_failed": "Wakala wako bado hawezi kupata folda hii kwenye {drive}. Hakikisha folda iko ndani ya folda yako ya {drive} na kwamba kiunganishi kimewashwa. Usawazishaji unaweza kuchukua dakika moja.",
     "try_again": "Jaribu tena",
     "drive_later_note": "Hakuna shida. Ubongo wako unafanya kazi kwenye kompyuta hii. Sema \"unganisha hifadhi yangu ya mtandaoni\" wakati wowote ili kuiongeza.",
-    "drive_other": "Hifadhi nyingine ya mtandaoni"
+    "drive_other": "Hifadhi nyingine ya mtandaoni",
+    "finish_welcome": "Karibu kwenye ubongo wako wa pili, {Name}.",
+    "finish_assistant": "Ubongo wako uko tayari, na kuanzia sasa mimi ni msaidizi wako binafsi. Naijua kazi yako, malengo yako na watu wanaokuzunguka, na nitajifunza zaidi kila tunapoongea. Tutakua pamoja na kuwa bora zaidi katika hili.",
+    "finish_ask": "Niulize chochote, wakati wowote: jinsi ya kutumia ubongo wako, uwezo wake, au wazo ambalo ungependa kulifanyia kazi.",
+    "finish_start": "Ili kuanza, ongea nami kama unavyoongea na rafiki: \"Nimeongea na Neema kwenye simu, haya ndiyo tuliyokubaliana.\" Nitaweka kila kitu mahali pake.",
+    "finish_cloud_later": "Kwa sasa, ubongo wako uko kwenye kompyuta hii pekee. Ukiwa tayari, sema \"unganisha hifadhi yangu ya mtandaoni\" na nitakusaidia kuunganisha Google Drive au hifadhi nyingine. Hapo ubongo wako utakuwa na nakala ya akiba, na utaweza kuutumia kwenye simu yako pia.",
+    "finish_cloud_on": "Ubongo wako uko kwenye hifadhi yako ya mtandaoni, kwa hiyo una nakala ya akiba na uko kwenye simu yako pia.",
+    "finish_keeper_short": "Kila siku ya kazi saa {keeper time}, Mtunzaji wa Ubongo anakupangia noti zako.",
+    "baalda_offer": "Ungependa kuvinjari noti zako kama programu? Baalda inaonyesha ubongo wako kama programu ya noti kwenye kompyuta yako.",
+    "baalda_install_button": "Sakinisha Baalda"
   }
 }

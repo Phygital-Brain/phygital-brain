@@ -113,7 +113,16 @@
     "drive_failed": "Tu agente aún no encuentra esta carpeta en {drive}. Comprueba que la carpeta está dentro de tu carpeta de {drive} y que el conector está activado. La sincronización puede tardar un minuto.",
     "try_again": "Intentar de nuevo",
     "drive_later_note": "No pasa nada. Tu cerebro funciona en este dispositivo. Di \"conecta mi nube\" cuando quieras para añadirla.",
-    "drive_other": "Otra nube"
+    "drive_other": "Otra nube",
+    "finish_welcome": "Te doy la bienvenida a tu segundo cerebro, {Name}.",
+    "finish_assistant": "Ya está listo, y desde ahora soy tu asistente personal. Conozco tu trabajo, tus metas y a las personas que te rodean, y aprenderé más cada vez que hablemos. Iremos creciendo de la mano y haciéndolo cada vez mejor.",
+    "finish_ask": "Pregúntame lo que quieras, cuando quieras: cómo usar tu cerebro, qué puede hacer o una idea en la que te gustaría trabajar.",
+    "finish_start": "Para empezar, háblame como hablarías con alguien de confianza: \"Hablé con Marta y quedamos en esto.\" Yo lo guardo en su sitio.",
+    "finish_cloud_later": "Por ahora, tu cerebro solo está en este dispositivo. Cuando quieras, di \"conecta mi nube\" y te ayudo a conectar Google Drive u otra nube. Así tu cerebro tendrá copia de seguridad y también podrás usarlo desde el móvil.",
+    "finish_cloud_on": "Tu cerebro está en tu nube, así que tiene copia de seguridad y también está en tu móvil.",
+    "finish_keeper_short": "Cada día laborable a las {keeper time}, el Guardián del Cerebro ordena tus notas por ti.",
+    "baalda_offer": "¿Quieres ver tus notas como en una app? Baalda muestra tu cerebro como una app de notas en tu dispositivo.",
+    "baalda_install_button": "Instalar Baalda"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formulario de configuración 1 de 4: sobre ti.",

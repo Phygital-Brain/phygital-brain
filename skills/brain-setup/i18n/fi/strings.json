@@ -113,6 +113,15 @@
     "drive_failed": "Agenttisi ei vielä löydä tätä kansiota palvelusta {drive}. Tarkista, että kansio on {drive}-kansiosi sisällä ja että liitin on päällä. Synkronointi voi kestää hetken.",
     "try_again": "Yritä uudelleen",
     "drive_later_note": "Ei haittaa. Aivosi toimivat tällä tietokoneella. Sano milloin tahansa \"yhdistä pilvipalveluni\", niin lisätään se.",
-    "drive_other": "Muu pilvipalvelu"
+    "drive_other": "Muu pilvipalvelu",
+    "finish_welcome": "Tervetuloa toisiin aivoihisi, {Name}.",
+    "finish_assistant": "Ne ovat valmiit, ja tästä lähtien olen henkilökohtainen avustajasi. Tunnen työsi, tavoitteesi ja ihmiset ympärilläsi, ja opin lisää aina kun juttelemme. Kasvamme yhdessä ja tulemme tässä koko ajan paremmiksi.",
+    "finish_ask": "Kysy minulta mitä tahansa, milloin tahansa: miten aivojasi käytetään, mihin ne pystyvät, tai kerro idea, jota haluaisit työstää.",
+    "finish_start": "Aloita puhumalla minulle kuin ystävälle: \"Puhuin Martan kanssa, sovittiin näin.\" Vien sen oikeaan paikkaan.",
+    "finish_cloud_later": "Toistaiseksi aivosi ovat vain tällä tietokoneella. Kun olet valmis, sano \"yhdistä pilvipalveluni\", niin autan sinua yhdistämään Google Driven tai muun pilvipalvelun. Silloin aivosi ovat tallessa, ja voit käyttää niitä myös puhelimella.",
+    "finish_cloud_on": "Aivosi ovat pilvipalvelussasi, joten ne ovat tallessa ja myös puhelimessasi.",
+    "finish_keeper_short": "Joka työpäivä kello {keeper time} Siivousapuri siistii muistiinpanosi puolestasi.",
+    "baalda_offer": "Haluatko selata muistiinpanojasi kuin sovelluksessa? Baalda näyttää aivosi muistiinpanosovelluksena tietokoneellasi.",
+    "baalda_install_button": "Asenna Baalda"
   }
 }

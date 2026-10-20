@@ -5,7 +5,7 @@ description: Build a Phygital Brain second brain in the selected folder through 
 
 # Phygital Brain: Setup
 
-Version 0.1.6. Everything below is for the agent. Follow it step by step, and check each step before moving on.
+Version 0.1.7. Everything below is for the agent. Follow it step by step, and check each step before moving on.
 
 ## What you are building
 
@@ -48,12 +48,12 @@ If you are another agent and your tool loads a different rule file (for example 
 
    Never delete or overwrite existing notes.
 3. If the folder has other files, don't touch them. Build around them and mention them at the end.
-4. **Cloud drive and Baalda** come in Step 1.6, after the language question, so they're asked in the person's language.
+4. **The cloud drive** comes in Step 1.6, after the language question, so it's asked in the person's language. Baalda comes last, in Step 4.1.
 5. **Form window.** Check whether you can show an HTML form window (in Claude, the `show_widget` tool). Remember the answer. If you can't, use `forms/questions.md` in Step 2: click questions where you have them (AskUserQuestion, up to 4 questions per call), otherwise numbered options in chat. **On a phone, never use form windows**, even if you have the tool: they don't work well there. Use click questions for every step, from the language question on, with the texts and options from the forms (for a ready language, from `i18n/{code}/forms/`).
 
 ## Step 1: Language
 
-With a form window, show `forms/language.html` (made by `scripts/i18n.py build`: it has every ready language), adapted as its first comment says. Without one, or on a phone, ask one question with click options, in the language of their first message (English if unclear): **"Which language should your brain speak?"** The ready languages, each with its code:
+With a form window, show `forms/language.html` (made by `scripts/i18n.py build`), adapted as its first comment says. It shows the main languages as cards; every other ready language below is typed in Other and counts the same as a card. Its Chinese card (`zh`) leads to the Simplified or Traditional question below. Without one, or on a phone, ask one question with click options, in the language of their first message (English if unclear): **"Which language should your brain speak?"** The ready languages, each with its code:
 
 `English` (en) · `简体中文` (zh-CN) · `繁體中文` (zh-TW) · `हिन्दी` (hi) · `Español` (es) · `العربية` (ar) · `Français` (fr) · `বাংলা` (bn) · `Português (Brasil)` (pt-BR) · `Português (Portugal)` (pt-PT) · `Русский` (ru) · `اردو` (ur) · `Bahasa Indonesia` (id) · `Deutsch` (de) · `日本語` (ja) · `Tiếng Việt` (vi) · `Türkçe` (tr) · `한국어` (ko) · `Italiano` (it) · `Polski` (pl) · `Nederlands` (nl) · `فارسی` (fa) · `ไทย` (th) · `Українська` (uk) · `Kiswahili` (sw) · `தமிழ்` (ta) · `తెలుగు` (te) · `मराठी` (mr) · `ગુજરાતી` (gu) · `ਪੰਜਾਬੀ` (pa) · `Bahasa Melayu` (ms) · `Filipino` (fil) · `עברית` (he) · `Ελληνικά` (el) · `Čeština` (cs) · `Română` (ro) · `Magyar` (hu) · `Svenska` (sv) · `Dansk` (da) · `Norsk (bokmål)` (nb) · `Suomi` (fi) · Other
 
@@ -96,15 +96,15 @@ Right after the language, show `forms/form-0-welcome.html` (for a ready language
 
 Without a form window, or on a phone, send the same texts as one chat message, with the lettering in a code block exactly as it is in the form, and one click option: the form's Continue.
 
-## Step 1.6: Cloud drive and Baalda
+## Step 1.6: Cloud drive
 
-Both are part of the brain unless the person says they don't want them. A cloud drive lets them use the brain from their phone, so it matters most. On a phone (`docs/phone-only.md`) skip this step: the brain is already in their drive.
+The cloud drive is part of the brain unless the person says they don't want it: it backs the brain up and lets them use it from their phone. On a phone (`docs/phone-only.md`) skip this step: the brain is already in their drive.
 
 Each `name` below is a message: for a ready language, say it from `strings.json` (`messages`); otherwise say the English text given here, translated into their language. For each window, without a form window use a click question with the same texts and options.
 
 1. **Is the folder inside a cloud drive?** Look at the folder's path. Common signs: on a Mac, `~/Library/CloudStorage/` (Google Drive, Dropbox, OneDrive), `~/Library/Mobile Documents/` (iCloud), a `Nextcloud` or `Dropbox` folder in the home folder; on Windows, a `G:` drive (`My Drive`), or a `Dropbox`, `OneDrive` or `Nextcloud` folder. If you can't tell, ask: "Is this folder synced to a cloud drive?" If not, say `drive_why` ("A cloud drive keeps your brain backed up and lets you use it from your phone.") and ask: `drive_move` ("Help me move it to a cloud drive") (ask which drive they use, walk them through Getting started step 2: install the drive's desktop app, make the folder inside it, then pick that folder for a new chat and say "Set up my second brain" again; then stop) · `drive_skip` ("Continue without a cloud drive") (the brain stays on this computer only; add "No cloud drive: this brain is on one computer only." to `About/tools.md` later; skip 2 and 3).
 2. **Is the drive connected to your agent?** If you have tools for their cloud drive in this chat (a connector or MCP server that can read, edit and create files), go to 3. If not, show `forms/form-0-cloud.html`:
-   - **Set it up later** (answer `later`): say `drive_later_note` ("No problem. Your brain works on this computer. Say "connect my cloud drive" anytime to add it."), remember it for the finish message, and go to 4.
+   - **Set it up later** (answer `later`): say `drive_later_note` ("No problem. Your brain works on this computer. Say "connect my cloud drive" anytime to add it."), remember it for the finish message, and go on to Step 2.
    - **Set it up now** (answer `now`): show `forms/form-0-drive.html` (Google Drive starts selected; "Set it up later" there counts as later). Without a form window, ask two click questions: `Google Drive` · `drive_other` ("Other cloud drive"), then for Other: `Dropbox` · `OneDrive` · `Nextcloud` · `iCloud`, with the box for any other drive. Then:
      - Google Drive: say `drive_connect_google` ("Connect Google Drive: in Claude, open Settings, then Connectors, then Google Drive, and click Connect. Sign in and allow what it asks, then come back here.").
      - iCloud: say `drive_icloud` ("iCloud has no connector for most agents, so your agent can't reach your brain from your phone. It still syncs to your other Apple devices."), then go on as for later.
@@ -114,7 +114,6 @@ Each `name` below is a message: for a ready language, say it from `strings.json`
 3. **Does the drive see this folder?** Say `drive_checking` ("Checking that your agent can see this folder in {drive}…"). Save a small file called `phygital-brain-check.md` in the brain folder with your own file tools. Then look for it by name through the drive's tools.
    - Found: delete it, say `drive_ok` ("Connected. Your brain will be on your phone too."), and go on.
    - Not found: the drive may still be syncing. Wait about 30 seconds and look again, up to three times. Still not found: delete the file, say `drive_failed` ("Your agent can't find this folder in {drive} yet. Check that the folder is inside your {drive} folder and that the connector is on. Syncing can take a minute.") and ask `try_again` ("Try again") (do 3 again) · the cloud form's "Set it up later" (say `drive_later_note`, remember it for the finish message).
-4. **Is Baalda installed?** Ask: `Yes` · `Install it now` (give the link https://github.com/naveedharri/baalda, wait, then go on) · `Not now`.
 
 ## Step 2: The forms
 
@@ -300,23 +299,28 @@ Fix anything that fails, then check it again.
 
 ## Step 4: Finish
 
-One short message, no recap:
+A short, warm welcome, not a report of what was built. Say each message below from `strings.json` (`messages`) for a ready language, in their language for any other, as one message:
 
-1. **What was built:** folders, About pages, projects, and how many people pages. One or two lines.
-2. **Open it in Baalda:** open Baalda (https://github.com/naveedharri/baalda) and open this folder.
-3. **How to use it every day:** open a chat on this folder and talk normally. For example: "I had a call with X, here's what we agreed", "New project: ...", "Write a reply to this email". Your agent files everything in the right place.
-4. **Keep it healthy:** the Brain Keeper tidies every day at {keeper time}. Say "check up my brain" anytime.
-5. **Only if BRIEF = on:** your morning brief comes at {brief time} on work days. Say "morning brief" anytime.
-6. **On your phone** (if the brain is in a cloud drive; if they chose "Set it up later" in Step 1.6, say `drive_later_note` again instead): "Your brain is in your cloud drive, so you can use it from your phone." One line on each: ask about your notes in your agent's phone app with the drive connected, and send tasks to your computer if your agent can (in Claude, Dispatch). Point to the phone guide: https://github.com/Phygital-Brain/phygital-brain/blob/main/docs/phone.md. If the drive isn't connected yet, say how to connect it.
-7. **Instructions for every chat:** "Want your agent to talk like this in every chat, not only in your brain? Copy this into your agent's settings." Then the text in a box they can copy (see below), and where it goes: in Claude, the personal instructions box in Settings; in other agents, their custom instructions.
-8. **Only if they gave old notes in form 4:** "Want me to bring in your old notes now?" If yes, follow `Skills/import/import.md`.
-9. **One line on the extras:** "You can also say 'prep me for Marta', 'challenge my idea', or 'undo the last change'."
+1. `finish_welcome` ("Welcome to your second brain, {Name}.")
+2. `finish_assistant` ("It's ready, and from now on I'm your personal assistant. I know your work, your goals and the people around you, and I'll learn more each time we talk. We'll grow together and get better at this.")
+3. `finish_ask` ("Ask me anything, anytime: how to use your brain, what it can do, or an idea you'd like to work on.")
+4. `finish_start` ("To start, talk to me the way you'd talk to a friend: "I had a call with Marta, here's what we agreed." I'll put it in the right place.")
+5. The cloud drive: if they chose "Set it up later" in Step 1.6, `finish_cloud_later` ("For now, your brain is only on this computer. When you're ready, say "connect my cloud drive" and I'll help you link Google Drive or another drive. Your brain is then backed up, and you can use it from your phone too.") If the brain is in a connected drive, `finish_cloud_on` ("Your brain is in your cloud drive, so it's backed up and on your phone too.") With no drive at all, leave this out.
+6. `finish_keeper_short` ("Every work day at {keeper time}, the Brain Keeper tidies your notes for you.") Only if BRIEF = on, add `finish_brief` ("Your morning brief comes at {brief time} on work days. Say "morning brief" anytime.")
+7. **Only for a language with no ready set:** the line from Step 1 about the agent translating the brain.
+8. **Only if they gave old notes in form 4:** `finish_old_notes` ("Want me to bring in your old notes now?") If yes, follow `Skills/import/import.md`.
+
+Don't list the folders and files, don't explain the rules, and don't give the instructions text (it's only for the phone-only setup, see below): they can ask.
+
+### Step 4.1: Baalda
+
+Last, one click question (skip it on a phone): `baalda_offer` ("Want to browse your notes like an app? Baalda shows your brain as a notes app on your computer.") `baalda_install_button` ("Install Baalda") · `not_now` ("Not now"). For Install Baalda, give the link https://github.com/naveedharri/baalda and say to open this folder in it once it's installed.
 
 Then stop.
 
 ### The instructions text
 
-Write it in their language, 3 to 5 short sentences, from their answers. No names, no private details, nothing about this folder. Build it like this:
+Only for the phone-only setup (`docs/phone-only.md`), where there's no folder to open a chat on. Write it in their language, 3 to 5 short sentences, from their answers. No names, no private details, nothing about this folder. Build it like this:
 
 1. How to talk, from `style`: for example "Use simple, plain words and no jargon. Keep replies short, no walls of text."
 2. How they take things in, from `learning`, if answered: for example "Use short lists and examples."

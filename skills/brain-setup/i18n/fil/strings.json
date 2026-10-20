@@ -113,6 +113,15 @@
     "drive_failed": "Hindi pa makita ng agent mo ang folder na ito sa {drive}. Siguraduhing nasa loob ng {drive} folder mo ang folder at naka-on ang connector. Puwedeng tumagal nang isang minuto ang pag-sync.",
     "try_again": "Subukan ulit",
     "drive_later_note": "Okay lang. Gagana ang utak mo sa computer na ito. Sabihin lang ang \"ikonekta ang cloud drive ko\" kahit kailan para idagdag ito.",
-    "drive_other": "Ibang cloud drive"
+    "drive_other": "Ibang cloud drive",
+    "finish_welcome": "Maligayang pagdating sa pangalawang utak mo, {Name}.",
+    "finish_assistant": "Handa na ito, at mula ngayon, ako na ang personal assistant mo. Kilala ko ang trabaho mo, ang mga goal mo, at ang mga tao sa paligid mo, at mas marami pa akong matututunan tuwing nag-uusap tayo. Sabay tayong lalago at gagaling dito.",
+    "finish_ask": "Itanong mo sa akin ang kahit ano, kahit kailan: kung paano gamitin ang utak mo, ano ang kaya nitong gawin, o isang idea na gusto mong pagtrabahuhan.",
+    "finish_start": "Para magsimula, kausapin mo ako na parang kaibigan: \"Nag-call kami ni Marta, ito ang napagkasunduan namin.\" Ilalagay ko ito sa tamang lugar.",
+    "finish_cloud_later": "Sa ngayon, nasa computer na ito lang ang utak mo. Kapag handa ka na, sabihin ang \"ikonekta ang cloud drive ko\" at tutulungan kitang i-link ang Google Drive o ibang drive. Magkakaroon ng backup ang utak mo, at magagamit mo rin ito sa phone mo.",
+    "finish_cloud_on": "Nasa cloud drive mo ang utak mo, kaya may backup ito at nasa phone mo rin.",
+    "finish_keeper_short": "Tuwing araw ng trabaho nang {keeper time}, inaayos ng Taga-ayos ng Utak ang mga note mo para sa iyo.",
+    "baalda_offer": "Gusto mo bang tingnan ang mga note mo na parang app? Ipinapakita ng Baalda ang utak mo bilang notes app sa computer mo.",
+    "baalda_install_button": "I-install ang Baalda"
   }
 }

@@ -113,6 +113,15 @@
     "drive_failed": "Trợ lý AI của bạn chưa tìm thấy thư mục này trong {drive}. Hãy kiểm tra xem thư mục có nằm trong thư mục {drive} của bạn không, và trình kết nối đã bật chưa. Việc đồng bộ có thể mất khoảng một phút.",
     "try_again": "Thử lại",
     "drive_later_note": "Không sao. Bộ não của bạn vẫn dùng được trên máy tính này. Lúc nào muốn thêm, bạn cứ nói \"kết nối ổ đám mây của mình\".",
-    "drive_other": "Ổ đám mây khác"
+    "drive_other": "Ổ đám mây khác",
+    "finish_welcome": "Chào mừng bạn đến với bộ não thứ hai, {Name}.",
+    "finish_assistant": "Mọi thứ đã sẵn sàng, và từ giờ mình là trợ lý riêng của bạn. Mình biết công việc, mục tiêu và những người quanh bạn, và mỗi lần chúng ta trò chuyện, mình sẽ hiểu thêm. Chúng ta sẽ cùng nhau tiến bộ và làm việc này ngày càng tốt hơn.",
+    "finish_ask": "Cứ hỏi mình bất cứ điều gì, bất cứ lúc nào: cách dùng bộ não của bạn, nó làm được những gì, hay một ý tưởng bạn muốn bắt tay vào làm.",
+    "finish_start": "Để bắt đầu, bạn cứ nói chuyện với mình như với một người bạn: \"Mình vừa gọi cho Mai, đây là những gì hai bên đã thống nhất.\" Mình sẽ cất nó vào đúng chỗ.",
+    "finish_cloud_later": "Hiện giờ bộ não của bạn chỉ nằm trên máy tính này. Khi nào sẵn sàng, bạn cứ nói \"kết nối ổ đám mây của mình\", mình sẽ giúp bạn liên kết Google Drive hoặc một ổ khác. Khi đó bộ não của bạn sẽ có bản sao lưu, và bạn dùng được cả trên điện thoại.",
+    "finish_cloud_on": "Bộ não của bạn nằm trong ổ đám mây, nên luôn có bản sao lưu và có cả trên điện thoại.",
+    "finish_keeper_short": "Lúc {keeper time} mỗi ngày làm việc, Quản gia sẽ dọn dẹp ghi chú giúp bạn.",
+    "baalda_offer": "Bạn có muốn xem ghi chú như dùng một ứng dụng không? Baalda hiển thị bộ não của bạn thành một ứng dụng ghi chú trên máy tính.",
+    "baalda_install_button": "Cài đặt Baalda"
   }
 }

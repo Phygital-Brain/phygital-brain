@@ -66,9 +66,10 @@ Do these checks before the first question. If one fails, tell the person in one 
 
 Use `SKILL.md` Step 4, with these changes:
 
-- Leave out Baalda (item 2) and the phone item (item 6): they're already on their phone.
-- Item 3: "Start a new chat, check Google Drive is on, and talk normally."
-- Item 7: the instructions text gets one more sentence, first, in their language: "My second brain is the My Brain folder in my Google Drive. At the start of every chat, read My Brain/CLAUDE.md through the Google Drive connector and follow it." Tell them where to paste it: in the Claude app, Settings, then the personal instructions box.
+- Item 4: "Start a new chat, check Google Drive is on, and talk to me the way you'd talk to a friend."
+- Item 5: the brain is in Google Drive, so say `finish_cloud_on`.
+- Skip Step 4.1 (Baalda): it's a computer app.
+- Add the instructions text (`SKILL.md`, "The instructions text"), with one more sentence first, in their language: "My second brain is the My Brain folder in my Google Drive. At the start of every chat, read My Brain/CLAUDE.md through the Google Drive connector and follow it." Tell them where to paste it: in the Claude app, Settings, then the personal instructions box. Without it, a new chat won't know the brain is there.
 - Add one line: "To read your notes yourself, open the Google Drive app, then My Brain."
 
 Then stop.

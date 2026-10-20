@@ -113,6 +113,15 @@
     "drive_failed": "Asistanın bu klasörü {drive} içinde henüz bulamıyor. Klasörün {drive} klasörünün içinde olduğunu ve bağlayıcının açık olduğunu kontrol et. Senkronizasyon bir dakika sürebilir.",
     "try_again": "Tekrar dene",
     "drive_later_note": "Sorun değil. Beynin bu bilgisayarda çalışır. Eklemek istediğinde, istediğin zaman \"bulut depolamamı bağla\" demen yeterli.",
-    "drive_other": "Başka bulut depolama"
+    "drive_other": "Başka bulut depolama",
+    "finish_welcome": "İkinci beynine hoş geldin, {Name}.",
+    "finish_assistant": "Beynin hazır ve artık senin kişisel asistanınım. İşini, hedeflerini ve çevrendeki insanları biliyorum, her konuştuğumuzda daha fazlasını öğreneceğim. Birlikte büyüyecek ve bu işte gittikçe daha iyi olacağız.",
+    "finish_ask": "Bana istediğin zaman her şeyi sorabilirsin: beynini nasıl kullanacağını, neler yapabildiğini ya da üzerinde çalışmak istediğin bir fikri.",
+    "finish_start": "Başlamak için benimle bir arkadaşınla konuşur gibi konuş: \"Marta ile görüştüm, şunlarda anlaştık.\" Ben de onu doğru yere kaydederim.",
+    "finish_cloud_later": "Şimdilik beynin sadece bu bilgisayarda. Hazır olduğunda \"bulut depolamamı bağla\" de, Google Drive'ı ya da başka bir depolamayı bağlamana yardım edeyim. Böylece beyninin yedeği alınır ve onu telefonundan da kullanabilirsin.",
+    "finish_cloud_on": "Beynin bulut depolamanda, yani yedeği alınıyor ve telefonunda da duruyor.",
+    "finish_keeper_short": "Düzen Bekçisi her iş günü notlarını senin için toparlar (saat {keeper time}).",
+    "baalda_offer": "Notlarına bir uygulamadaki gibi göz atmak ister misin? Baalda, beynini bilgisayarında bir not uygulaması olarak gösterir.",
+    "baalda_install_button": "Baalda'yı yükle"
   }
 }

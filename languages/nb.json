@@ -113,7 +113,16 @@
     "drive_failed": "Agenten din finner ikke denne mappen i {drive} ennå. Sjekk at mappen ligger i {drive}-mappen din, og at koblingen er slått på. Synkronisering kan ta et minutt.",
     "try_again": "Prøv igjen",
     "drive_later_note": "Helt greit. Hjernen din fungerer på denne datamaskinen. Si «koble til skylagringen min» når du vil, så legger vi den til.",
-    "drive_other": "Annen skylagring"
+    "drive_other": "Annen skylagring",
+    "finish_welcome": "Velkommen til den andre hjernen din, {Name}.",
+    "finish_assistant": "Den er klar, og fra nå av er jeg din personlige assistent. Jeg kjenner jobben din, målene dine og menneskene rundt deg, og jeg lærer mer hver gang vi snakker sammen. Vi vokser sammen og blir bedre på dette.",
+    "finish_ask": "Spør meg om hva som helst, når som helst: hvordan du bruker hjernen din, hva den kan gjøre, eller en idé du vil jobbe med.",
+    "finish_start": "For å komme i gang kan du snakke med meg slik du snakker med en venn: «Jeg hadde en samtale med Marta, dette ble vi enige om.» Jeg legger det på riktig sted.",
+    "finish_cloud_later": "Foreløpig ligger hjernen din bare på denne datamaskinen. Når du er klar, sier du «koble til skylagringen min», så hjelper jeg deg med å koble til Google Drive eller en annen skylagring. Da blir hjernen din sikkerhetskopiert, og du kan bruke den fra mobilen også.",
+    "finish_cloud_on": "Hjernen din ligger i skylagringen din, så den er sikkerhetskopiert og finnes på mobilen også.",
+    "finish_keeper_short": "Hver arbeidsdag klokken {keeper time} rydder Ryddehjelperen i notatene dine for deg.",
+    "baalda_offer": "Vil du bla i notatene dine som i en app? Baalda viser hjernen din som en notatapp på datamaskinen din.",
+    "baalda_install_button": "Installer Baalda"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Oppsettskjema 1 av 4: om deg.",

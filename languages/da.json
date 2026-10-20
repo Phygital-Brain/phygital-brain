@@ -113,7 +113,16 @@
     "drive_failed": "Din agent kan ikke finde den her mappe i {drive} endnu. Tjek, at mappen ligger inde i din {drive}-mappe, og at connectoren er slået til. Synkronisering kan tage et minut.",
     "try_again": "Prøv igen",
     "drive_later_note": "Intet problem. Din hjerne virker på den her computer. Sig \"forbind mit cloud-drev\" når som helst for at tilføje det.",
-    "drive_other": "Andet cloud-drev"
+    "drive_other": "Andet cloud-drev",
+    "finish_welcome": "Velkommen til din anden hjerne, {Name}.",
+    "finish_assistant": "Den er klar, og fra nu af er jeg din personlige assistent. Jeg kender dit arbejde, dine mål og menneskerne omkring dig, og jeg lærer mere, hver gang vi snakker. Vi vokser sammen og bliver bedre til det her.",
+    "finish_ask": "Spørg mig om hvad som helst, når som helst: hvordan du bruger din hjerne, hvad den kan, eller en idé, du gerne vil arbejde med.",
+    "finish_start": "Start med at snakke med mig, som du ville snakke med en ven: \"Jeg har talt med Marta, og vi aftalte det her.\" Jeg lægger det det rigtige sted.",
+    "finish_cloud_later": "Lige nu ligger din hjerne kun på den her computer. Når du er klar, så sig \"forbind mit cloud-drev\", så hjælper jeg dig med at forbinde Google Drive eller et andet drev. Så har din hjerne en sikkerhedskopi, og du kan også bruge den fra din telefon.",
+    "finish_cloud_on": "Din hjerne ligger på dit cloud-drev, så den har en sikkerhedskopi og er også på din telefon.",
+    "finish_keeper_short": "Hver arbejdsdag kl. {keeper time} rydder Oprydningshjælperen op i dine noter for dig.",
+    "baalda_offer": "Vil du se dine noter som i en app? Baalda viser din hjerne som en noteapp på din computer.",
+    "baalda_install_button": "Installér Baalda"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Opsætning, formular 1 af 4: om dig.",

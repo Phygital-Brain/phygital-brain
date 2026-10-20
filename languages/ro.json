@@ -113,7 +113,16 @@
     "drive_failed": "Agentul tău nu găsește încă acest folder în {drive}. Verifică dacă folderul e în folderul tău {drive} și dacă conectorul e pornit. Sincronizarea poate dura un minut.",
     "try_again": "Încearcă din nou",
     "drive_later_note": "Nicio problemă. Creierul tău merge pe acest calculator. Spune oricând \"conectează-mi cloud-ul\" ca să-l adaugi.",
-    "drive_other": "Alt cloud"
+    "drive_other": "Alt cloud",
+    "finish_welcome": "Bine ai venit în al doilea creier al tău, {Name}.",
+    "finish_assistant": "E gata și, de acum înainte, sunt asistentul tău personal. Îți cunosc munca, obiectivele și oamenii din jurul tău și aflu mai multe de fiecare dată când vorbim. Vom crește împreună și ne va ieși tot mai bine.",
+    "finish_ask": "Întreabă-mă orice, oricând: cum să-ți folosești creierul, ce poate face sau despre o idee la care vrei să lucrezi.",
+    "finish_start": "Ca să începi, vorbește cu mine cum ai vorbi cu un prieten: \"Am avut un apel cu Marta, uite ce am stabilit.\" Eu pun totul la locul potrivit.",
+    "finish_cloud_later": "Deocamdată, creierul tău e doar pe acest calculator. Când ești gata, spune \"conectează-mi cloud-ul\" și te ajut să conectezi Google Drive sau alt spațiu în cloud. Așa, creierul tău are o copie de siguranță și îl poți folosi și de pe telefon.",
+    "finish_cloud_on": "Creierul tău e în cloud, așa că are o copie de siguranță și e și pe telefon.",
+    "finish_keeper_short": "În fiecare zi lucrătoare, la {keeper time}, Îngrijitorul creierului îți face ordine în notițe.",
+    "baalda_offer": "Vrei să-ți răsfoiești notițele ca într-o aplicație? Baalda îți arată creierul ca pe o aplicație de notițe, pe calculator.",
+    "baalda_install_button": "Instalează Baalda"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formularul de configurare 1 din 4: despre tine.",

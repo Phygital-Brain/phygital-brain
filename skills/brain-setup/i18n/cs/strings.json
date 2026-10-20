@@ -113,6 +113,15 @@
     "drive_failed": "Tvůj agent zatím tuhle složku ve službě {drive} nenašel. Zkontroluj, že je složka uvnitř tvé složky {drive} a že je konektor zapnutý. Synchronizace může trvat i minutu.",
     "try_again": "Zkusit znovu",
     "drive_later_note": "Nevadí. Tvůj mozek funguje na tomhle počítači. Až budeš chtít úložiště přidat, stačí kdykoli říct „propoj moje cloudové úložiště“.",
-    "drive_other": "Jiné cloudové úložiště"
+    "drive_other": "Jiné cloudové úložiště",
+    "finish_welcome": "Vítej ve svém druhém mozku, {Name}.",
+    "finish_assistant": "Je hotovo a ode teď jsem tvůj osobní asistent. Znám tvoji práci, tvoje cíle i lidi kolem tebe a s každým naším rozhovorem se dozvím víc. Budeme růst spolu a půjde nám to čím dál líp.",
+    "finish_ask": "Ptej se mě na cokoli, kdykoli: jak svůj mozek používat, co umí, nebo na nápad, na kterém chceš pracovat.",
+    "finish_start": "Na začátek se mnou mluv jako s kamarádem: „Mám za sebou hovor s Martou, tady je naše dohoda.“ Uložím to na správné místo.",
+    "finish_cloud_later": "Zatím je tvůj mozek jen na tomhle počítači. Až budeš chtít, řekni „propoj moje cloudové úložiště“ a pomůžu ti připojit Google Drive nebo jiné úložiště. Tvůj mozek pak bude zálohovaný a budeš ho mít i v telefonu.",
+    "finish_cloud_on": "Tvůj mozek je v cloudovém úložišti, takže je zálohovaný a máš ho i v telefonu.",
+    "finish_keeper_short": "Každý pracovní den v {keeper time} ti Správce mozku uklidí poznámky.",
+    "baalda_offer": "Chceš si poznámky prohlížet jako v aplikaci? Baalda ti ukáže tvůj mozek jako aplikaci na poznámky v počítači.",
+    "baalda_install_button": "Nainstalovat Baaldu"
   }
 }

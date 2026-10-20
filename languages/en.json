@@ -113,7 +113,16 @@
     "drive_failed": "Your agent can't find this folder in {drive} yet. Check that the folder is inside your {drive} folder and that the connector is on. Syncing can take a minute.",
     "try_again": "Try again",
     "drive_later_note": "No problem. Your brain works on this computer. Say \"connect my cloud drive\" anytime to add it.",
-    "drive_other": "Other cloud drive"
+    "drive_other": "Other cloud drive",
+    "finish_welcome": "Welcome to your second brain, {Name}.",
+    "finish_assistant": "It's ready, and from now on I'm your personal assistant. I know your work, your goals and the people around you, and I'll learn more each time we talk. We'll grow together and get better at this.",
+    "finish_ask": "Ask me anything, anytime: how to use your brain, what it can do, or an idea you'd like to work on.",
+    "finish_start": "To start, talk to me the way you'd talk to a friend: \"I had a call with Marta, here's what we agreed.\" I'll put it in the right place.",
+    "finish_cloud_later": "For now, your brain is only on this computer. When you're ready, say \"connect my cloud drive\" and I'll help you link Google Drive or another drive. Your brain is then backed up, and you can use it from your phone too.",
+    "finish_cloud_on": "Your brain is in your cloud drive, so it's backed up and on your phone too.",
+    "finish_keeper_short": "Every work day at {keeper time}, the Brain Keeper tidies your notes for you.",
+    "baalda_offer": "Want to browse your notes like an app? Baalda shows your brain as a notes app on your computer.",
+    "baalda_install_button": "Install Baalda"
   },
   "forms": {
     "Connect a cloud drive now or later.": "Connect a cloud drive now or later.",

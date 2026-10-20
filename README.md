@@ -197,7 +197,7 @@ flowchart LR
     B --> D[One short message:<br>what was built, how to use it]
 ```
 
-At the end, your agent also gives you a short text to paste into your agent's settings, so it talks to you the same way in every chat.
+At the end, your agent welcomes you as your personal assistant, and offers Baalda to browse your notes like an app.
 
 ## A week with your brain
 
@@ -261,7 +261,7 @@ The full list is in [Limits](docs/limits.md).
 - **No app.** There's nothing to run. Your AI agent does the work, following the files in this repository.
 - **No lock yet.** The rules work only because your agent follows them. Keep truly secret things outside the brain folder. Locked folders are on the [roadmap](#roadmap).
 - **Not always on, unless you move it to the cloud.** On your computer, the Brain Keeper and the morning brief run only while your agent's app is open. As a cloud routine, they run with the computer off.
-- **An early version.** This is version 0.1.6, and the setup hasn't been tested with many people yet.
+- **An early version.** This is version 0.1.7, and the setup hasn't been tested with many people yet.
 
 ## Roadmap
 

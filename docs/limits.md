@@ -40,4 +40,4 @@ Reading your brain on your phone needs a phone app that can connect to your clou
 
 ## It's new
 
-This is version 0.1.6. The setup has been tested by its makers, not yet by many people. If something goes wrong, open an issue.
+This is version 0.1.7. The setup has been tested by its makers, not yet by many people. If something goes wrong, open an issue.

@@ -113,7 +113,16 @@
     "drive_failed": "O teu agente ainda não encontra esta pasta no {drive}. Confirma que a pasta está dentro da tua pasta do {drive} e que o conector está ligado. A sincronização pode demorar um minuto.",
     "try_again": "Tentar de novo",
     "drive_later_note": "Não faz mal. O teu cérebro funciona neste computador. Diz \"liga a minha nuvem\" quando quiseres, para a adicionar.",
-    "drive_other": "Outra nuvem"
+    "drive_other": "Outra nuvem",
+    "finish_welcome": "Boas-vindas ao teu segundo cérebro, {Name}.",
+    "finish_assistant": "Está pronto e, a partir de agora, sou o teu assistente pessoal. Conheço o teu trabalho, os teus objetivos e as pessoas à tua volta, e vou aprender mais sempre que falarmos. Vamos crescer lado a lado e fazer isto cada vez melhor.",
+    "finish_ask": "Pergunta-me o que quiseres, quando quiseres: como usar o teu cérebro, o que ele consegue fazer, ou traz-me uma ideia em que queiras trabalhar.",
+    "finish_start": "Para começar, fala comigo como falarias com um amigo: \"Tive uma chamada com a Marta, combinámos isto.\" Eu guardo no sítio certo.",
+    "finish_cloud_later": "Por agora, o teu cérebro está só neste computador. Quando quiseres, diz \"liga a minha nuvem\" e eu ajudo-te a ligar o Google Drive ou outra nuvem. Assim, o teu cérebro fica com uma cópia de segurança e também o podes usar no telemóvel.",
+    "finish_cloud_on": "O teu cérebro está na nuvem, por isso tem uma cópia de segurança e também está no teu telemóvel.",
+    "finish_keeper_short": "Em todos os dias de trabalho, às {keeper time}, o Organizador arruma as tuas notas por ti.",
+    "baalda_offer": "Queres ver as tuas notas como numa app? O Baalda mostra o teu cérebro como uma app de notas no teu computador.",
+    "baalda_install_button": "Instalar o Baalda"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formulário de configuração 1 de 4: sobre ti.",

@@ -113,7 +113,16 @@
     "drive_failed": "Ejen anda belum dapat mencari folder ini dalam {drive}. Pastikan folder itu berada di dalam folder {drive} anda dan penyambung dihidupkan. Penyegerakan mungkin mengambil masa seminit.",
     "try_again": "Cuba lagi",
     "drive_later_note": "Tiada masalah. Otak anda berfungsi pada komputer ini. Sebut \"sambungkan storan awan saya\" bila-bila masa untuk menambahkannya.",
-    "drive_other": "Storan awan lain"
+    "drive_other": "Storan awan lain",
+    "finish_welcome": "Selamat datang ke otak kedua anda, {Name}.",
+    "finish_assistant": "Ia sudah siap, dan mulai sekarang saya pembantu peribadi anda. Saya kenal kerja anda, matlamat anda dan orang di sekeliling anda, dan saya akan belajar lebih banyak setiap kali kita berbual. Kita akan berkembang bersama dan menjadi semakin baik.",
+    "finish_ask": "Tanya saya apa sahaja, bila-bila masa: cara menggunakan otak anda, apa yang boleh dilakukannya, atau idea yang anda mahu usahakan.",
+    "finish_start": "Untuk bermula, bercakaplah dengan saya seperti anda bercakap dengan kawan: \"Saya ada panggilan dengan Marta, ini yang kami setuju.\" Saya akan simpan di tempat yang betul.",
+    "finish_cloud_later": "Buat masa ini, otak anda hanya ada pada komputer ini. Bila anda sudah sedia, sebut \"sambungkan storan awan saya\" dan saya akan bantu anda sambungkan Google Drive atau storan awan lain. Selepas itu otak anda ada salinan sandaran, dan anda boleh gunakannya dari telefon bimbit juga.",
+    "finish_cloud_on": "Otak anda ada dalam storan awan anda, jadi ia ada salinan sandaran dan boleh digunakan dari telefon bimbit juga.",
+    "finish_keeper_short": "Setiap hari bekerja pada pukul {keeper time}, Penjaga Otak mengemas nota anda untuk anda.",
+    "baalda_offer": "Mahu melihat nota anda seperti dalam aplikasi? Baalda memaparkan otak anda sebagai aplikasi nota pada komputer anda.",
+    "baalda_install_button": "Pasang Baalda"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Borang persediaan 1 daripada 4: tentang anda.",

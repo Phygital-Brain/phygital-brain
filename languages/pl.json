@@ -113,7 +113,16 @@
     "drive_failed": "Twój agent nie widzi jeszcze tego folderu w {drive}. Sprawdź, czy folder jest w twoim folderze {drive} i czy konektor jest włączony. Synchronizacja może potrwać minutę.",
     "try_again": "Spróbuj ponownie",
     "drive_later_note": "Nie ma sprawy. Twój mózg działa na tym komputerze. Napisz w dowolnej chwili „połącz mój dysk w chmurze”, żeby go dodać.",
-    "drive_other": "Inny dysk w chmurze"
+    "drive_other": "Inny dysk w chmurze",
+    "finish_welcome": "Witaj w swoim drugim mózgu, {Name}.",
+    "finish_assistant": "Wszystko gotowe i od teraz jestem twoim osobistym asystentem. Znam twoją pracę, twoje cele i ludzi wokół ciebie, a z każdą rozmową będę wiedzieć więcej. Będziemy się rozwijać razem i będzie nam szło coraz lepiej.",
+    "finish_ask": "Możesz mnie pytać o wszystko, kiedy tylko chcesz: jak korzystać z mózgu, co potrafi albo jak ruszyć z pomysłem, nad którym chcesz popracować.",
+    "finish_start": "Na początek mów do mnie tak, jak do przyjaciela: „Rozmowa z Martą, oto nasze ustalenia.” Odłożę to na właściwe miejsce.",
+    "finish_cloud_later": "Na razie twój mózg jest tylko na tym komputerze. Kiedy zechcesz, powiedz „połącz mój dysk w chmurze”, a pomogę ci podłączyć Google Drive albo inny dysk. Wtedy twój mózg będzie miał kopię zapasową i skorzystasz z niego także na telefonie.",
+    "finish_cloud_on": "Twój mózg jest na dysku w chmurze, więc ma kopię zapasową i masz go też na telefonie.",
+    "finish_keeper_short": "W każdy dzień roboczy o {keeper time} Opiekun mózgu porządkuje za ciebie twoje notatki.",
+    "baalda_offer": "Chcesz przeglądać notatki jak w aplikacji? Baalda pokazuje twój mózg jako aplikację do notatek na komputerze.",
+    "baalda_install_button": "Zainstaluj Baaldę"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formularz konfiguracji 1 z 4: o tobie.",

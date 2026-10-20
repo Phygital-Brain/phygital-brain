@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.7 (2026-10-20)
+
+- The language window shows the main languages (English, Portuguese, Spanish, French, German, Arabic, Japanese, Chinese) and Other. Every other ready language is typed in Other.
+- A warmer, shorter finish: your agent welcomes you as your personal assistant, invites you to ask anything, and shows how to start. No list of what was built.
+- Baalda is offered at the very end, after the brain is built, and only that once.
+- The finish message no longer asks you to copy a text into your agent's settings. Only the phone-only setup still does, because a phone chat needs it to find the brain.
+
 ## 0.1.6 (2026-10-20)
 
 - A welcome screen right after the language question: the name, what Phygital Brain is in a few lines, and Continue.

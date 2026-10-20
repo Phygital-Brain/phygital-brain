@@ -106,13 +106,13 @@ Then this happens:
 1. **Checks.** Your agent checks it can save files in your folder, and that there's no brain in it yet.
 2. **Language.** Your agent asks which language your brain should speak. Everything after this is in that language.
 3. **Welcome.** A short screen with what Phygital Brain is. Click Continue.
-4. **Cloud drive.** Your agent checks that your folder is in a cloud drive and that the drive is connected. If it isn't, choose **Set it up now** (pick your drive and follow 2 or 3 short steps) or **Set it up later**. Your agent then saves a small test file to make sure the drive sees your brain folder, and deletes it. It also asks about Baalda.
+4. **Cloud drive.** Your agent checks that your folder is in a cloud drive and that the drive is connected. If it isn't, choose **Set it up now** (pick your drive and follow 2 or 3 short steps) or **Set it up later**. Your agent then saves a small test file to make sure the drive sees your brain folder, and deletes it.
 5. **Form 1: About you.** Your name, what you do, your strengths, how you like to work, and more.
 6. **Form 2: Your work.** It starts with 3 questions your agent writes for your own kind of work. Then your customers or interests, your goal, your projects and what's worrying you.
 7. **Form 3: Your days and people.** Work days, morning brief time, the people who matter, your social media, your tools.
 8. **Form 4: Files.** Drop your CV, a bio, a price list or old notes. Or skip it.
 9. **Build.** Your agent makes the folders, the rule files, your first notes and the Brain Keeper. This takes a few minutes. You don't need to do anything.
-10. **Finish.** One short message: what was built, how to open it, how to use it every day and on your phone, and a short text for your settings (see "Instructions for every chat" below).
+10. **Finish.** A short welcome from your agent, now your personal assistant: ask it anything, and start by talking to it like a friend. Last, it offers Baalda, to browse your notes like an app.
 
 **Tips for the forms:**
 
@@ -122,14 +122,14 @@ Then this happens:
 - Press Continue and the next form opens. The last one says "Build my brain".
 - If your app can't show form windows, your agent asks the same questions in chat instead.
 
-## 8. Instructions for every chat
+## 8. Optional: instructions for every chat
 
-Your brain's rules work inside your brain folder. To make your agent talk the same way in **every** chat, paste a short text into its settings:
+Your brain's rules work inside your brain folder. If you'd like your agent to talk the same way in **every** chat, paste a short text into its settings:
 
 - **Claude:** Settings, the personal instructions box. On the desktop app you can also save instructions on this computer.
 - **Other agents:** their custom instructions.
 
-At the end of the setup, your agent writes this text for you from your answers. It looks like this:
+To get yours, say **"Write my instructions for every chat."** Your agent writes it from your answers. It looks like this:
 
 ```
 Use simple, plain words and no jargon. Keep replies short, no walls of text. Use short lists and examples. Work step by step and check each step before moving on. Do only what I asked.

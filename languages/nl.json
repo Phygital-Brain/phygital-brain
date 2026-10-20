@@ -113,7 +113,16 @@
     "drive_failed": "Je agent kan deze map in {drive} nog niet vinden. Check of de map in je {drive}-map staat en of de connector aanstaat. Synchroniseren kan een minuutje duren.",
     "try_again": "Opnieuw proberen",
     "drive_later_note": "Geen probleem. Je brein werkt op deze computer. Zeg op elk moment \"koppel mijn cloudopslag\" om het toe te voegen.",
-    "drive_other": "Andere cloudopslag"
+    "drive_other": "Andere cloudopslag",
+    "finish_welcome": "Welkom in je tweede brein, {Name}.",
+    "finish_assistant": "Het is klaar, en vanaf nu ben ik je persoonlijke assistent. Ik ken je werk, je doelen en de mensen om je heen, en elke keer dat we praten leer ik meer bij. We groeien samen en worden hier steeds beter in.",
+    "finish_ask": "Vraag me alles, wanneer je maar wilt: hoe je je brein gebruikt, wat het kan, of een idee waar je aan wilt werken.",
+    "finish_start": "Begin gewoon door met me te praten zoals je met een vriend praat: \"Ik had een gesprek met Marta, dit hebben we afgesproken.\" Ik zet het op de juiste plek.",
+    "finish_cloud_later": "Je brein staat nu alleen op deze computer. Zeg \"koppel mijn cloudopslag\" als je er klaar voor bent, dan help ik je Google Drive of een andere cloudopslag te koppelen. Dan heb je altijd een back-up van je brein, en kun je het ook op je telefoon gebruiken.",
+    "finish_cloud_on": "Je brein staat in je cloudopslag, dus er is een back-up en je hebt het ook op je telefoon.",
+    "finish_keeper_short": "Elke werkdag om {keeper time} ruimt de Opruimhulp je notities voor je op.",
+    "baalda_offer": "Wil je door je notities bladeren zoals in een app? Baalda laat je brein zien als notitie-app op je computer.",
+    "baalda_install_button": "Baalda installeren"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Instelformulier 1 van 4: over jou.",

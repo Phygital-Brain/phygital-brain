@@ -113,7 +113,16 @@
     "drive_failed": "Din agent hittar inte den här mappen i {drive} än. Kolla att mappen ligger i din {drive}-mapp och att kopplingen är på. Synkningen kan ta en minut.",
     "try_again": "Försök igen",
     "drive_later_note": "Inga problem. Din hjärna fungerar på den här datorn. Säg \"anslut min molnlagring\" när du vill för att lägga till den.",
-    "drive_other": "Annan molnlagring"
+    "drive_other": "Annan molnlagring",
+    "finish_welcome": "Välkommen till din andra hjärna, {Name}.",
+    "finish_assistant": "Den är klar, och från och med nu är jag din personliga assistent. Jag känner till ditt arbete, dina mål och människorna runt dig, och jag lär mig mer varje gång vi pratar. Vi växer tillsammans och blir bättre på det här.",
+    "finish_ask": "Fråga mig vad som helst, när som helst: hur du använder din hjärna, vad den kan göra eller en idé du vill jobba med.",
+    "finish_start": "Börja med att prata med mig som du pratar med en vän: \"Jag hade ett samtal med Marta, så här kom vi överens.\" Jag lägger det på rätt ställe.",
+    "finish_cloud_later": "Just nu finns din hjärna bara på den här datorn. När du är redo säger du \"anslut min molnlagring\", så hjälper jag dig att ansluta Google Drive eller en annan molnlagring. Då har du en säkerhetskopia av din hjärna, och du kan använda den i mobilen också.",
+    "finish_cloud_on": "Din hjärna ligger i din molnlagring, så den har en säkerhetskopia och finns i mobilen också.",
+    "finish_keeper_short": "Varje arbetsdag klockan {keeper time} städar Städhjälpen i dina anteckningar åt dig.",
+    "baalda_offer": "Vill du bläddra i dina anteckningar som i en app? Baalda visar din hjärna som en anteckningsapp på din dator.",
+    "baalda_install_button": "Installera Baalda"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formulär 1 av 4: om dig.",

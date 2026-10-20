@@ -233,14 +233,20 @@ def language_order():
     return [c for c in listed if c in ready] + [c for c in ready if c not in listed]
 
 
+# The languages the window shows as cards. "zh" is one card for Chinese: the setup then asks which script.
+# Every other ready language is typed in Other.
+MAIN_LANGUAGES = ["en", "pt-BR", "es", "fr", "de", "ar", "ja", "zh"]
+
+
 def language_form():
-    """The window for Step 1: one card per ready language, in its own name, then Other."""
+    """The window for Step 1: a card for each main language, in its own name, then Other."""
     header = re.search(r"\n(    <svg viewBox.*?</svg>)\n", open(FORMS[-1], encoding="utf-8").read()).group(1)
     style = ("border-radius:12px; padding:12px 14px; display:flex; flex-direction:column; align-items:flex-start; "
              "text-align:left; min-width:150px; box-shadow:0 1px 2px rgba(0,0,0,0.04)")
     cards = []
-    for code in language_order():
-        meta = load(f"{LANG_DIR}/{code}.json")["language"]
+    for code in MAIN_LANGUAGES:
+        meta = ({"name": "中文", "english_name": "Chinese"} if code == "zh"
+                else load(f"{LANG_DIR}/{code}.json")["language"])
         name, english = meta["name"], meta.get("english_name", meta["name"])
         sub = f'<span style="font-size:11px; color:var(--text-muted)">{english}</span>' if english != name else ""
         pressed = ' aria-pressed="true"' if code == "en" else ""
@@ -248,12 +254,14 @@ def language_form():
                      f'<span style="font-size:13px; font-weight:500">{name}</span>{sub}</button>')
     cards.append(f'        <button type="button" class="elicit-pill" data-value="other" data-other style="{style}">'
                  '<span style="font-size:13px; font-weight:500; color:#F05AB8">Other</span>'
-                 '<span style="font-size:11px; color:var(--text-muted)">Type your language</span></button>')
+                 '<span style="font-size:11px; color:var(--text-muted)">Type any other language</span></button>')
     return "\n".join([
         '<h2 class="sr-only">Setup: which language the brain should speak.</h2>',
         "<!-- Made by scripts/i18n.py build from languages/*.json: don't edit by hand. ADAPTING: before showing it, "
-        "move aria-pressed=\"true\" to the language of their first message (English if unclear), and translate the "
-        "header, the question, Other, its hint and the buttons into that language. Leave every language name as it is. -->",
+        "move aria-pressed=\"true\" to the language of their first message if it has a card (English if unclear), and "
+        "translate the header, the question, Other, its hint and the buttons into that language. Leave every language "
+        "name as it is. zh means Chinese: ask Simplified or Traditional (SKILL.md Step 1). Any other ready language "
+        "typed in Other counts the same as a card. -->",
         '<form class="elicit">', '  <div class="elicit-header">', header,
         "    <span>Brain details: language</span>", "  </div>", '  <div class="elicit-body">',
         '    <div class="elicit-group">',
