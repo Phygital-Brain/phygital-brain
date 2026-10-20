@@ -1,0 +1,17 @@
+# Your agent never reads anything listed here,
+# unless you ask for that exact file in the chat.
+
+# Passwords and keys
+.env
+.env.*
+*.key
+*.pem
+credentials/
+secrets/
+
+# Money: invoices, taxes, bank details
+Memory/finances/
+
+# Private folders (remove the # to activate)
+# health/
+# journal/

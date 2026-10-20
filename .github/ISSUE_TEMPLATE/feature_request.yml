@@ -1,0 +1,38 @@
+name: Idea or feature
+description: Suggest something new or different
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "Ideas that keep the brain simple are the easiest to add. Never paste real notes or private details."
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you're trying to do, and what stops you today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should change. A made-up example helps.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Part of the project
+      options:
+        - "Setup questions and forms"
+        - "Folders and templates"
+        - "Brain Keeper"
+        - "Morning brief"
+        - "Other agents"
+        - "Languages"
+        - "Docs"
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Effect on privacy
+      description: Could the change move private details somewhere new, or let the agent change notes without asking?

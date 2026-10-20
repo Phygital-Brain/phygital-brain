@@ -1,0 +1,32 @@
+name: Question
+description: Ask how to do something with Phygital Brain
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: "Issues are public. Never paste your real notes, real names or private details."
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What you're trying to do, and what you tried.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: It's about
+      options:
+        - "Getting started: Claude, Google Drive, Baalda, the plugin"
+        - "The setup forms"
+        - "Using my brain every day"
+        - "A folder or what goes where"
+        - "Brain Keeper or morning brief"
+        - "Another agent (Codex, ChatGPT, ...)"
+        - "Another language"
+        - "Something else"
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: "The first line of your brain's root CLAUDE.md, if you have one"

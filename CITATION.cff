@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use or build on this project, please credit it like this."
+title: "Phygital Brain"
+abstract: "A second brain that thinks with you. A folder of Markdown notes that an AI agent builds through four short forms, reads, writes and keeps tidy."
+type: software
+authors:
+  - name: "Phygital-Brain"
+repository-code: "https://github.com/Phygital-Brain/phygital-brain"
+license: Apache-2.0
+version: 0.1.0
+date-released: "2026-10-20"
+keywords: [second-brain, notes, knowledge-base, markdown, claude-plugin, ai-agents, baalda]

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem, privately
+    url: https://github.com/Phygital-Brain/phygital-brain/security/advisories/new
+    about: Something could leak private notes or make the agent ignore the rules. Only the maintainer sees a private report.
+  - name: Read Getting started first
+    url: https://github.com/Phygital-Brain/phygital-brain/blob/main/docs/getting-started.md#if-something-goes-wrong
+    about: Common problems and their fixes.
