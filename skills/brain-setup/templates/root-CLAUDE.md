@@ -10,7 +10,7 @@
 
 # {Name}'s Second Brain
 
-Personal AI assistant. This folder is a knowledge base AND an operating system. All state lives in markdown files you read, write and maintain.
+Personal AI assistant. This folder is both a knowledge base and an operating system. All state lives in markdown files you read, write and maintain.
 
 ## Language
 
@@ -26,7 +26,7 @@ On first response:
 2. Silently read `About/me.md` for who {Name} is and how they want you to work.
 3. Silently read `Daily/tasks.md` if it exists.
 
-Never announce loading. Read, absorb, respond.
+Never announce that you are reading these files. Read them and respond.
 
 ## Knowledge Routing
 
@@ -74,7 +74,7 @@ When {Name} says "morning brief", "set up my morning brief", or the same in {Lan
 
 ## Document Voice
 
-Notes sound like a teammate wrote them, not AI. Specific names, specific context, specific consequences. Never generic.
+Write notes the way a teammate would: specific names, specific context, specific consequences. Never generic.
 
 - BAD: "The project is progressing well. Key milestones are being tracked."
 - GOOD: "Website 70% done. Next: the contact page. Waiting on photos from \[\[Ana\]\]. Back on it Monday."

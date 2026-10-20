@@ -33,7 +33,18 @@ tags: [daily, meeting, clients]
 
 - Each entry is a **bold headline** plus one or two sentences.
 - Details go in the linked note, not here.
-- The note is tidied in place. It's not a pile of repeated lines.
+- The note is tidied in place, so lines don't pile up or repeat.
+
+## A day note's life
+
+```mermaid
+stateDiagram-v2
+    direction LR
+    [*] --> Made: Brain Keeper makes it the day before
+    Made --> Active: the day starts, entries are added
+    Active --> Completed: 2 days later, Brain Keeper closes it and sets its tags
+    Completed --> [*]
+```
 
 ## The day tags
 

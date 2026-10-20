@@ -2,7 +2,7 @@
 
 ## What it's for
 
-`About/` holds the facts about you. Your agent reads these to understand you, so it can write like you, plan for you and give advice that fits. Think of it as your agent's notebook about you.
+`About/` holds the facts about you. Your agent reads these to understand you, so it can write like you, plan for you and give advice that fits.
 
 The rules your agent follows here: [about-CLAUDE.md](../../skills/brain-setup/templates/about-CLAUDE.md).
 
@@ -27,7 +27,7 @@ The setup makes a file only when it has something real to put in it. So your `Ab
 
 ### `me.md`: who you are
 
-**What it's for:** the first thing your agent reads in every chat. It's how your agent knows you.
+**What it's for:** your agent reads this first in every chat, so it knows who you are.
 
 **What goes in:** your name, what you do, where you live and your time zone, your strengths, what you stand for, work you say no to, when you focus best, what drains you, your work days, and a link about you.
 
@@ -39,7 +39,7 @@ It also has a part called **How I want my agent to work**: how to talk to you (f
 
 ### `goals.md`: what you're aiming for
 
-**What it's for:** so your agent knows what matters most, and can tell you when your work drifts away from it.
+**What it's for:** it tells your agent what matters most, so it can warn you when your work drifts away from it.
 
 **What goes in:** your main goal for the next 12 months, in your words, the areas that matter most, what's worrying you now, and the projects that help reach the goal.
 
@@ -75,7 +75,7 @@ It also has a part called **How I want my agent to work**: how to talk to you (f
 
 ### `pain-points.md`: what slows you down
 
-**What it's for:** so your agent can help with what really gets in your way.
+**What it's for:** it helps your agent work on what really gets in your way.
 
 **What goes in:** the problems you named, in your own words, like "admin, quotes and invoices" or "too many ideas, no follow-through".
 
@@ -83,7 +83,7 @@ It also has a part called **How I want my agent to work**: how to talk to you (f
 
 ### `brand.md`: how you sound
 
-**What it's for:** so everything your agent writes for you sounds like you.
+**What it's for:** it makes everything your agent writes for you sound like you.
 
 **What goes in:** your writing voice (for example "warm and personal"), words you use, words you never use, and your social media accounts.
 
@@ -93,7 +93,7 @@ It also has a part called **How I want my agent to work**: how to talk to you (f
 
 ### `tools.md`: where things live
 
-**What it's for:** so your agent knows where to look and where you talk to people.
+**What it's for:** it tells your agent where to look, and where you talk to people.
 
 **What goes in:** where you talk to people (email, WhatsApp, Slack), where your notes and work live (Google Drive, Notion, a paper notebook), and your social media.
 
@@ -101,7 +101,7 @@ It also has a part called **How I want my agent to work**: how to talk to you (f
 
 ### `cv.md`: your work history
 
-**What it's for:** bios, applications and pitches, without typing your history again.
+**What it's for:** your agent uses it for bios, applications and pitches, so you don't type your history again.
 
 **What goes in:** jobs, school, press, shows and awards, newest first.
 
@@ -136,7 +136,7 @@ She charges per project.
 
 ## How to use it
 
-Just tell your agent things about yourself, in any chat on your brain:
+Tell your agent things about yourself, in any chat on your brain:
 
 - "I moved to Porto."
 - "I don't take tobacco clients anymore."

@@ -1,6 +1,6 @@
 ---
 name: brain-keeper
-description: Set up, update, pause or run the Brain Keeper, which looks after a Phygital Brain in two ways - a daily tidy on its own, and a full check-up when asked. The brain setup installs it; use this skill on its own when the person says "set up my brain keeper", "update the brain keeper", or the same in another language.
+description: Set up, update, pause or run the Brain Keeper, which looks after a Phygital Brain in two ways, a daily tidy on its own and a full check-up when asked. The brain setup installs it; use this skill on its own when the person says "set up my brain keeper", "update the brain keeper", or the same in another language.
 ---
 
 # Phygital Brain: Brain Keeper

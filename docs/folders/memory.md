@@ -2,7 +2,7 @@
 
 ## What it's for
 
-`Memory/` is what your brain has learned and decided over time. Decisions and why you made them, things you researched, your money, applications you sent, and old things you don't need every day.
+`Memory/` is what your brain has learned and decided over time. It holds decisions and why you made them, things you researched, your money, applications you sent, and old things you don't need every day.
 
 The rules your agent follows here: [memory-CLAUDE.md](../../skills/brain-setup/templates/memory-CLAUDE.md).
 
@@ -109,6 +109,20 @@ Why: three clients said yes at 350 without asking. Talked it over with [[João]]
 > [!warning] Risk: small authors might go elsewhere.
 ```
 
+```mermaid
+stateDiagram-v2
+    direction LR
+    [*] --> open
+    open --> waiting: waiting on someone
+    waiting --> open
+    open --> paused
+    paused --> open
+    open --> closed
+    waiting --> closed
+    closed --> archived: only when you say so
+    note right of open: not looked at for 30 days? The Brain Keeper flags it for review
+```
+
 | Status | Means |
 |---|---|
 | `open` | Still being decided or worked on |
@@ -116,7 +130,7 @@ Why: three clients said yes at 350 without asking. Talked it over with [[João]]
 | `paused` | On hold |
 | `closed` | Done |
 
-`date` is when it was written. `updated` is the last time you looked at it. **A decision not looked at for 30 days needs a review.** Your agent reminds you until you keep it, close it or archive it.
+`date` is when it was written. `updated` is the last time you looked at it. A decision not looked at for 30 days needs a review. Your agent reminds you until you keep it, close it or archive it.
 
 ## How applications work
 

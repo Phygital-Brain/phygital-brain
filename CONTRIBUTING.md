@@ -23,7 +23,7 @@ Read [AGENTS.md](AGENTS.md) first. The short version:
 2. **Plain words.** Short sentences, everyday words, no jargon, in every question, message, template and doc.
 3. **No em dashes.**
 4. **"Your agent"**, never a product name, in anything a person sees.
-5. **English stays English** for folder names, file names, links to files and info block words.
+5. **English stays English** for folder names, file names, links to files and info block words (the lines at the top of each note).
 6. **The agent asks first** before it creates, moves, renames or deletes someone's notes. Never weaken that.
 7. **Keep upgrades safe:** a person's notes and own rules must survive every upgrade.
 

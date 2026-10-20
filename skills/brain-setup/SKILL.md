@@ -9,7 +9,7 @@ Version 0.1.0. Everything below is for the agent. Follow it step by step, and ch
 
 ## What you are building
 
-A second brain: a folder of notes that works as the person's knowledge base AND as your operating system. You ask four short forms, then build the folders, the rule files (`CLAUDE.md`), their first notes and the Brain Keeper. When a new chat opens in this folder later, you read those rules and know how to work with them.
+A second brain: a folder of notes that is both the person's knowledge base and your operating system. You show four short forms, then build the folders, the rule files (`CLAUDE.md`), their first notes and the Brain Keeper. When a new chat opens in this folder later, you read those rules and follow them.
 
 Files you use, all in this skill's folder:
 
@@ -48,7 +48,7 @@ If you are another agent and your tool loads a different rule file (for example 
 
    Never delete or overwrite existing notes.
 3. If the folder has other files, don't touch them. Build around them and mention them at the end.
-4. **Google Drive and Baalda.** Both are part of the brain unless the person says they don't want them. Google Drive is what lets them use the brain from their phone, so it matters most. Check each one, and for anything missing, say in one line why it helps and ask (click options):
+4. **Google Drive and Baalda.** Both are part of the brain unless the person says they don't want them. Google Drive lets them use the brain from their phone, so it matters most. Check each one, and for anything missing, say in one line why it helps and ask (click options):
    - **Is the folder inside Google Drive?** Look at the folder's path. On a Mac it's under `~/Library/CloudStorage/GoogleDrive-.../My Drive/`, on Windows usually on the `G:` drive under `My Drive`. If not: `Help me move to Google Drive` (walk them through Getting started step 2: install Google Drive for desktop, make the folder inside it, then pick that folder for a new chat and say "Set up my second brain" again; then stop) · `Continue without Google Drive` (the brain stays on this computer only; add "No Google Drive: this brain is on one computer only." to `About/tools.md` later).
    - **Is Google Drive connected to your agent?** If you have no Google Drive tools in this chat: `I'll connect it now` (in Claude: Settings, then Connectors, then Google Drive; wait, then go on) · `Later` (mention it again in the finish message).
    - **Is Baalda installed?** Ask: `Yes` · `Install it now` (give the link https://github.com/naveedharri/baalda, wait, then go on) · `Not now`.

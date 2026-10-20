@@ -38,14 +38,14 @@ It talks the way you chose in the setup (for example "short and plain"), and in 
 **Saving**
 - After real work (not small talk), it writes a short line in today's daily note.
 - It saves small updates (a date, a new fact) to a note that already exists, then tells you in one line.
-- It **asks first** before it makes a new note or folder, rewrites a note, or moves, renames or deletes anything.
+- It asks first before it makes a new note or folder, rewrites a note, or moves, renames or deletes anything.
 - Before deleting or moving, it checks which notes link to that one and tells you what would break.
 - It never makes files at the very top of your brain. Everything goes in a folder.
 
 **Writing notes**
 - Every person, company and project gets a `[[link]]`, inside the sentence.
 - Every note can stand on its own, like a Lego block.
-- Notes sound like a teammate wrote them: real names, real dates, real next steps. Not "the project is going well".
+- Notes sound like a teammate wrote them: real names, real dates, real next steps, instead of "the project is going well".
 - No long dashes, ever. Periods, commas and colons instead.
 - No AI-sounding words like "delve", "seamless" or "game-changer". Your own voice wins.
 - For writing other people will read (emails, posts, bios), it shows you the AI-sounding bits it found and lets you choose before it changes them.

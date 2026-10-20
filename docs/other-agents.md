@@ -47,7 +47,7 @@ If your agent doesn't load any rule file by itself, start each chat with: "Read 
 
 ## The "never read" list
 
-`.claudeignore` is a list of files and folders your agent must not open unless you ask for that exact one, like `Memory/finances/`. It isn't a lock. It works because the main rules tell every agent to respect it. So it works the same with any agent that follows the rules.
+`.claudeignore` is a list of files and folders your agent must not open unless you ask for that exact one, like `Memory/finances/`. It doesn't lock anything. The main rules tell every agent to respect it, so it works the same with any agent that follows those rules.
 
 For things that must stay truly private, don't put them in the brain folder at all.
 
@@ -65,4 +65,4 @@ The Brain Keeper's daily tidy and the morning brief are scheduled tasks. If your
 - Say **"run the brain keeper"** once a day.
 - Say **"morning brief"** when you start your day.
 
-Both do exactly the same thing as the scheduled version.
+Both do the same thing as the scheduled version.

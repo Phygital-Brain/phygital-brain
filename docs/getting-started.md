@@ -2,6 +2,17 @@
 
 About 20 minutes the first time: 10 to get the apps ready, 10 for the setup forms.
 
+```mermaid
+flowchart LR
+    A[1 Claude] --> B[2 Google Drive<br>folder]
+    B --> C[3 Attach<br>the folder]
+    C --> D[4 Connect<br>Google Drive]
+    D --> E[5 Baalda]
+    E --> F[6 Install<br>Phygital Brain]
+    F --> G[7 Set up my<br>second brain]
+    G --> H[8 Instructions<br>for every chat]
+```
+
 ## What you need
 
 - A computer (Mac or Windows). The setup runs in the Claude desktop app.
@@ -30,7 +41,8 @@ Your brain lives in Google Drive, so it's backed up and you can reach it from an
 2. Open your Google Drive folder on your computer and make a new folder for your brain, for example `My Brain`.
 3. Make sure that folder is kept **on your computer**, not only in the cloud. In Google Drive's settings, either choose to mirror your files, or right-click the `My Brain` folder and make it available offline.
 
-**Why step 3 matters:** if the files only live in the cloud, your agent may not be able to open them quickly, or at all, while you're offline.
+> [!WARNING]
+> **Why step 3 matters:** if the files only live in the cloud, your agent may not be able to open them quickly, or at all, while you're offline.
 
 **Why the folder goes in Drive first:** then you never have to move it later. Moving a brain after it's built can break things.
 
@@ -56,7 +68,7 @@ The cloud part is done.
 
 Download [Baalda](https://github.com/naveedharri/baalda) and open the same `My Brain` folder. This is where you read and browse your notes: click a `[[link]]` to jump to that note.
 
-You don't have to use Baalda to use your brain. Your agent does the writing. Baalda is for looking around. Baalda is for your computer. You don't need it on your phone.
+You don't have to use Baalda to use your brain. Your agent does the writing, and Baalda is for looking around on your computer. You don't need it on your phone.
 
 ## 6. Install Phygital Brain
 
@@ -77,12 +89,12 @@ In a chat on your `My Brain` folder, say:
 
 > Set up my second brain.
 
-Here's what happens:
+Then this happens:
 
 1. **Checks.** Your agent checks that your folder is in Google Drive, that Drive is connected, and that you have Baalda. If something is missing, it helps you, or goes on without it if you say so.
 2. **Language.** Your agent asks which language your brain should speak. Everything after this is in that language.
 3. **Form 1: About you.** Your name, what you do, your strengths, how you like to work, and more.
-4. **Form 2: Your work.** It starts with 3 questions your agent writes just for your kind of work. Then your customers or interests, your goal, your projects and what's worrying you.
+4. **Form 2: Your work.** It starts with 3 questions your agent writes for your own kind of work. Then your customers or interests, your goal, your projects and what's worrying you.
 5. **Form 3: Your days and people.** Work days, morning brief time, the people who matter, your social media, your tools.
 6. **Form 4: Files.** Drop your CV, a bio, a price list or old notes. Or skip it.
 7. **Build.** Your agent makes the folders, the rule files, your first notes and the Brain Keeper. This takes a few minutes. You don't need to do anything.
@@ -92,7 +104,7 @@ Here's what happens:
 
 - Mostly clicks. Short answers are fine.
 - Every choice has an "Other" box to write your own answer.
-- You can skip any question. You can add things later just by telling your agent.
+- You can skip any question. You can add things later by telling your agent.
 - Press Continue and the next form opens. The last one says "Build my brain".
 - If the form window doesn't open (some apps can't show it), your agent asks the same questions in chat instead.
 

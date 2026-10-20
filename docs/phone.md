@@ -1,6 +1,6 @@
 # Your brain on your phone
 
-Your brain lives in Google Drive, so you can reach it from your phone. This is where a second brain really pays off: on the bus, before a meeting, right after a call.
+Your brain lives in Google Drive, so you can reach it from your phone. That's where a second brain helps most: on the bus, before a meeting, right after a call.
 
 There are two ways, and they do different things:
 
@@ -9,7 +9,17 @@ There are two ways, and they do different things:
 | **1. Ask:** the Claude phone app, with Google Drive connected | Finding and reading what's in your brain | Can be off |
 | **2. Do:** Dispatch, sending a task to your computer | Adding things, filing, updating notes, the Brain Keeper | Must be on, with the Claude app open |
 
-Most people use both: **Ask** to look things up, **Do** to add things.
+You can use both: **Ask** to look things up, **Do** to add things.
+
+```mermaid
+flowchart LR
+    P[Your phone] --> Q{Look something up,<br>or add something?}
+    Q -- look up --> A[Claude phone app<br>+ Google Drive]
+    A --> D[(Brain folder<br>in Google Drive)]
+    Q -- add or change --> X[Dispatch]
+    X --> C[Claude app on<br>your computer]
+    C -->|follows the rules| D
+```
 
 ## Before you start
 

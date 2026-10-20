@@ -123,7 +123,7 @@ Then stop.
 - The daily note is state, not a log. Never add "run done" lines to it. Talk about the run goes in the report.
 - If a run changes nothing in today's note, don't touch it. Jobs 2.2 and 2.3 still run.
 - Smallest possible edits. Add to a file, never overwrite it.
-- Never ask, wait or ask for confirmation.
+- Never ask questions, wait, or ask for confirmation.
 
 ## When something fails
 

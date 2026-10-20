@@ -41,7 +41,7 @@ tags: [daily, meeting]
 - Dates follow root rule 30 (computer's time zone first, then {Time zone}).
 - Whoever creates the note (your agent or a scheduled task) writes the info block first. A note without one gets it added at the top the next time it's edited.
 - No `# YYYY-MM-DD` title heading. The file name is the title.
-- The daily note is **state, not a log**: one tidy document per day, sections updated in place, never a pile of repeated entries.
+- The daily note holds the day's current state: one tidy document per day, sections updated in place, never a pile of repeated entries.
 - Session logs: bold headline plus 1 or 2 sentences, people and projects as `[[wikilinks]]`, details go in the linked note.
 - Today's note holds today's activity only. Open tasks from earlier days go to `tasks.md`. Never copy them forward.
 - When you create today's note, look at the notes from 2, 3 and 4 days ago. Any still `status: active` become `completed`, and get tags from the fixed list for what clearly happened that day. Don't look further back.

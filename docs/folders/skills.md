@@ -65,9 +65,21 @@ It runs at the time set in the setup, on your work days, while the Claude app is
 3. Closes the daily notes from 2, 3 and 4 days ago.
 4. Lists your open decisions in today's note.
 5. Puts tasks open for more than 30 days on your list.
-6. Looks at **one folder** for problems, then the next folder the next day. The order is: About, Projects, Memory, Relationships, Library, Skills, Daily.
-7. Fixes **at most 5 small things**, checks each fix, and puts the rest on the list.
+6. Looks at one folder for problems, then the next folder the next day. The order is: About, Projects, Memory, Relationships, Library, Skills, Daily.
+7. Fixes at most 5 small things, checks each fix, and puts the rest on the list.
 8. Writes a short report.
+
+```mermaid
+flowchart TD
+    S[Scheduled run] --> P{PAUSED.md there?}
+    P -- yes --> X[Stops]
+    P -- no --> D[Daily notes: today's info block,<br>tomorrow's note, close old notes]
+    D --> O[Lists open decisions in today's note]
+    O --> F[Looks at one folder,<br>fixes up to 5 small things]
+    F --> C[Checks each fix]
+    C --> Q[Updates the list in queue.md]
+    Q --> R[Writes the day's report]
+```
 
 **Small things it can fix by itself:** missing info in a note's info block, long dashes, a title that repeats the file name, a name that should be a link, a person with no contact for 12 months moved to `dormant`.
 

@@ -23,4 +23,4 @@ There are also two files at the very top:
 - **An info block.** Every note starts with a few lines between `---` marks, like `status: active` and `tags: [...]`. It helps your agent find and sort notes. These words always stay in English, even if your brain speaks another language.
 - **Links.** Notes point to each other with double brackets, like `[[Marta]]` or `[[goals]]`. Click one in Baalda to jump to that note.
 - **No empty folders.** A folder inside a folder only appears when something needs to go in it.
-- **Your agent asks first** before it makes a new note, moves something, renames something or deletes something. Small updates to a note that already exists, it just does, and tells you in one line.
+- **Your agent asks first** before it makes a new note, moves something, renames something or deletes something. Small updates to a note that already exists don't need a yes. It makes them and tells you in one line.

@@ -22,7 +22,7 @@ Projects/
     └── archive/      old material from this project
 ```
 
-A new project starts as **just the README**. The other folders only appear when something needs to go in them. Folder names are short, lowercase, with hyphens, and no numbers in front.
+A new project starts with only the README. The other folders only appear when something needs to go in them. Folder names are short, lowercase, with hyphens, and no numbers in front.
 
 ## Inside a project, one by one
 
@@ -44,7 +44,7 @@ The `type` matches the folder: `notes`, `research`, `brief`, `draft`, `idea` or 
 
 **What it's for:** the one place to see the whole project at a glance.
 
-**What goes in:** what the project is, where it stands, the very next step, and links to the folders below. Not the details: those live in the folders.
+**What goes in:** what the project is, where it stands, the very next step, and links to the folders below. The details live in the folders.
 
 **You say:** "Update on the picture book: sketches are done." "What's the next step on the website?"
 
@@ -72,7 +72,7 @@ The `type` matches the folder: `notes`, `research`, `brief`, `draft`, `idea` or 
 
 ### `briefs/`: what the job asks for
 
-**What it's for:** the brief, the spec or the list of what the client wants. The thing you check your work against.
+**What it's for:** the brief, the spec or the list of what the client wants. You check your work against it.
 
 **What goes in:** one note per brief, like `briefs/picture-book.md`: what's wanted, sizes, deadlines, who decides.
 
@@ -160,6 +160,17 @@ The parts, in order:
 4. **Where things are:** only once the project has folders. A small table that links to each one.
 
 A project's `status` is `active`, `paused` or `done`.
+
+## A project's life
+
+```mermaid
+flowchart LR
+    N[New project:<br>just a README] --> A[active]
+    A --> P[paused]
+    P --> A
+    A --> D[done]
+    D -->|only when you say so| R[Memory/archive/]
+```
 
 ## How to use it
 

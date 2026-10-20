@@ -42,7 +42,7 @@ README.md, CHANGELOG.md, NOTICE, LICENSE, TRADEMARKS.md, CONTRIBUTING.md, SECURI
 3. **English stays English.** Folder names, file names, `[[links]]` to files, and info block keys and values stay in English in every language. Only `description:` is translated.
 4. **"Your agent", never a product name,** in anything a person sees. File names like `CLAUDE.md` are fine.
 5. **No em dashes,** anywhere. Use periods, commas or colons.
-6. **Plain words.** Short sentences, everyday words. The docs are written so a 10-year-old can follow them.
+6. **Plain words.** Short sentences, everyday words. The docs are written at about an 8th-grade reading level: plain and clear, never childish.
 7. **The agent asks before it creates, moves, renames or deletes** a person's notes. Nothing in a skill or template may weaken that.
 8. **Private things stay private.** `.claudeignore` keeps `Memory/finances/`. No template may copy private details (tax IDs, bank details, birth date) into other notes or replies.
 9. **Upgrades keep what's theirs.** Their notes, their own rules (word for word), their routing rows and their folders survive every upgrade.

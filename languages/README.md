@@ -4,9 +4,9 @@ Everything in this repository is written in English. Your brain can speak any la
 
 ## How it works
 
-- The setup asks which language your brain should speak, first.
+- First, the setup asks which language your brain should speak.
 - Your agent translates what people see in the forms (questions, options, placeholders, buttons) and writes every message and note in that language.
-- Folder names, file names, `[[links]]` to files, and info block keys and values stay in English in every language, so the rules keep working. The one exception is `description:`, a sentence in your language.
+- Folder names, file names, `[[links]]` to files, and info block keys and values (the lines at the top of each note) stay in English in every language, so the rules keep working. The one exception is `description:`, a sentence in your language.
 - Portuguese always means Brazilian Portuguese (pt-BR).
 
 ## Adding a checked translation

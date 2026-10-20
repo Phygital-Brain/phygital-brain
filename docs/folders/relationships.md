@@ -59,6 +59,16 @@ Only made if you sell things.
 
 **Good to know:** when a lead sends a real brief, books a call or asks for a quote, it leaves this list and gets its own note in `Clients/` with `status: prospect`.
 
+```mermaid
+flowchart LR
+    F[First contact] --> N["_Leads.md: New"]
+    N -->|maybe later| K["_Leads.md: Keep warm"]
+    N -->|real brief, call or quote| P["Clients/ note<br>status: prospect"]
+    K -->|they come back| P
+    P -->|first paid job| A[status: active]
+    A -->|12 months, no contact| D[status: dormant]
+```
+
 ### `Collaborators/`: creative partners
 
 **What it's for:** people you make things with, where you swap help and no money changes hands.

@@ -41,9 +41,20 @@ Say "I had a call with Marta, we moved the cover deadline to the 15th." Your age
 
 ## When it saves and when it asks
 
+```mermaid
+flowchart TD
+    S[Something to save] --> Q1{Today's daily note?}
+    Q1 -- yes --> W[Writes it]
+    Q1 -- no --> Q2{Small update to a note<br>that already exists?}
+    Q2 -- yes --> T[Saves it, then tells you in one line]
+    Q2 -- no --> Q3{Move, rename<br>or delete?}
+    Q3 -- yes --> L[Checks what links to it,<br>says what would break, asks]
+    Q3 -- no --> A[New note, new folder,<br>rewrite or rule change: asks first]
+```
+
 | Kind of change | What your agent does |
 |---|---|
-| A line in today's daily note | Just writes it |
+| A line in today's daily note | Writes it |
 | A small update to a note that already exists (a date, a fact, a status) | Saves it, then tells you in one line |
 | A new note or a new folder | Asks first |
 | Rewriting or reorganising a note | Asks first |
@@ -68,7 +79,7 @@ They help your agent sort and find notes. These words stay in English in every l
 
 **Truth at the top.** Pages about you and your people keep the current facts at the top, and a dated history below, newest first. When something changes, the top is rewritten and one line is added below. So the top is always right, and nothing is lost.
 
-**One idea per note.** Each note makes sense on its own, like a Lego block, and links to the others.
+**One idea per note.** Each note makes sense on its own, like a building block, and links to the others.
 
 ## The four forms
 

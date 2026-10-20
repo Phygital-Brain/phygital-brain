@@ -41,7 +41,7 @@ These folders are examples. They only appear when you have a few files of one ki
 
 **What it's for:** how you do things, written down: steps, checklists, methods you trust.
 
-**What goes in:** like `frameworks/sending-files-to-print.md` or `frameworks/how-i-price-a-cover.md`.
+**What goes in:** notes such as `frameworks/sending-files-to-print.md` or `frameworks/how-i-price-a-cover.md`.
 
 **You say:** "Write down my checklist for sending files to print." "How do I usually price a cover?"
 

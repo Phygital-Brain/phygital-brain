@@ -44,5 +44,5 @@ description: "Who {Name} is and how they want their agent to work."
 - These files are the source of truth. Don't copy their content elsewhere: link to them.
 - Compiled-truth format (root rule 17): current truth at the top, dated evidence below.
 - {Name}'s full date of birth lives only in `me.md`. Never copy it or quote it in a reply. The birth year is fine.
-- New file only when a new topic truly needs one. Ask first (root rule 9).
+- Create a new file only when a new topic needs one. Ask first (root rule 9).
 - In a check-up, flag goals in `goals.md` that have no active project.
