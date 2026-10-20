@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 (2026-10-20)
+
+- Install from npm: `npx -y phygital-brain`. The Cursor and VS Code buttons and every connector config use it.
+- Each GitHub release now publishes to npm by itself and attaches the Claude desktop file.
+- A simpler install guide: what you need first, a one-line install for Codex, and one terminal section.
+- A "Yours to keep" section in the README: your notes are yours, they work with any AI, and your agent remembers you.
+
 ## 0.1.0 (2026-10-20)
 
 First version.

@@ -7,7 +7,7 @@
 <p align="center">
 <a href="#open-source-and-credit"><img src="https://img.shields.io/badge/-open%20source-F05AB8" alt="Open source"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="License: Apache-2.0"></a>
-<a href="CHANGELOG.md"><img src="https://img.shields.io/badge/version-0.1.0-5AC8FA" alt="Version 0.1.0"></a>
+<a href="CHANGELOG.md"><img src="https://img.shields.io/badge/version-0.1.1-5AC8FA" alt="Version 0.1.1"></a>
 <a href="#quick-start"><img src="https://img.shields.io/badge/Claude-plugin-D97757?logo=anthropic&logoColor=white" alt="Claude plugin"></a>
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-5AC8FA" alt="Pull requests welcome"></a>
 </p>
@@ -272,7 +272,7 @@ The full list is in [Limits](docs/limits.md).
 - **No app.** There's nothing to run. Your AI agent does the work, following the files in this repository.
 - **No lock.** The rules work only because your agent follows them. Keep truly secret things outside the brain folder.
 - **Not always on, unless you move it to the cloud.** On your computer, the Brain Keeper and the morning brief run only while your agent's app is open. As a cloud routine, they run with the computer off.
-- **An early version.** This is version 0.1.0, and the setup hasn't been tested with many people yet.
+- **An early version.** This is version 0.1.1, and the setup hasn't been tested with many people yet.
 
 ## Updating and leaving
 
