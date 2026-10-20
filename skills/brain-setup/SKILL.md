@@ -60,7 +60,7 @@ Ask one question with click options, in the language of their first message (Eng
 
 `English` (en) · `中文` (zh-CN) · `हिन्दी` (hi) · `Español` (es) · `العربية` (ar) · `Français` (fr) · `Português (Brasil)` (pt-BR) · `Русский` (ru) · `Bahasa Indonesia` (id) · `Deutsch` (de) · `日本語` (ja) · Other
 
-If the click tool takes only 4 options, offer the 3 most likely from their first message plus Other, and accept any of the names above typed in.
+If the click tool takes only 4 options, offer the 3 most likely from their first message plus Other. A ready language typed in counts the same as a click, whether they type its own name, its English name (German, Japanese) or its code (de, ja).
 
 ### A ready language (a folder `i18n/{code}/` exists in this skill)
 
@@ -74,7 +74,12 @@ The brain is built fully in that language, once, from files that are already tra
 
 ### Any other language
 
-Use the English `forms/` and `templates/`, and translate as you go: before showing a form, translate only the text people see (questions, option labels, placeholders, the header and the buttons). Write every message and note in their language. Folder and note names stay in English, and no Folder map is needed. Say once: "Your brain's folders will have English names. To make a full set for your language, say 'translate Phygital Brain into my language'."
+The brain is still built fully in their language, folder and note names included. You translate it yourself, while you build it, following `translating.md` in this skill's folder: read it now. Don't ask anything about the translation; choose every word yourself.
+
+- **Forms, templates and messages:** use the English `forms/` and `templates/`, and translate each one as `translating.md` says.
+- **Brain Keeper:** pass the English `../brain-keeper/templates/` to the Brain Keeper (3.8), and tell it to translate them the same way, with your names.
+- **Folder map:** add it at the end of the root `CLAUDE.md`, as `translating.md` says.
+- **In the finish message** (Step 4), add one line: "Your agent translated your brain during the setup. To make a checked set that others can use too, say 'translate Phygital Brain into my language'."
 
 ### In every language
 
@@ -314,7 +319,7 @@ When Step 0 found an older Phygital Brain and they picked `Upgrade my brain`.
    - Keep their own routing rows, folders and anything else they wrote that isn't in the templates.
    - Never rewrite notes to new info blocks. Old notes get them the next time they're edited.
    - Replace the version line at the top of the root `CLAUDE.md` with this skill's version: `<!-- Phygital Brain, version X, language: {lang} -->`.
-   - **Folder names.** If the root `CLAUDE.md` has a `## Folder map`, use it for every path in the new templates, and the matching `i18n/{code}/` set if one exists. Add map rows for any new folders or notes in this version (from `i18n/{code}/strings.json`, or ask once what to call them).
+   - **Folder names.** If the root `CLAUDE.md` has a `## Folder map`, use it for every path in the new templates, and the matching `i18n/{code}/` set if one exists. Add map rows for any new folders or notes in this version: from `i18n/{code}/strings.json`, or, with no ready set, choose the names yourself following `translating.md`. With no ready set, translate the new parts the same way.
    - **Brain Keeper.** Update it (follow `../brain-keeper/SKILL.md`, its Step 0.4 keeps `queue.md` and the reports). If it isn't installed, install it from its Step 1.
 6. **Check:** the same number of their own rules as in step 2, word for word; every check in 3.9 that applies; nothing deleted.
 7. **Finish:** one line in today's daily note, then 2 or 3 lines on what changed.

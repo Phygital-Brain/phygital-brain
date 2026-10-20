@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- A language that isn't ready is now translated in full during the setup, folder and note names included, without questions. The rules are in `skills/brain-setup/translating.md`.
+- Ready languages also count when typed in English (German) or as a code (de).
+- Add more skills: a guide to editing images with PhotoCraft, an open-source editor similar to Photoshop.
+
 ## 0.1.1 (2026-10-20)
 
 - Install from npm: `npx -y phygital-brain`. The Cursor and VS Code buttons and every connector config use it.

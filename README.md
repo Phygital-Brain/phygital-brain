@@ -239,7 +239,7 @@ Phygital Brain is ready in **11 languages**. Pick yours at the start of the setu
 | Deutsch (German) | Profil, Tagebuch, Projekte |
 | 日本語 (Japanese) | プロフィール, 日記, プロジェクト |
 
-**Your language isn't here?** Any other language still works: your agent translates the forms and messages as it goes, and the folders keep English names. To make a full set for your language, with translated folders, say:
+**Your language isn't here?** Pick Other and type it. Your agent translates the whole brain during the setup, folder names included, without asking you anything. To make a checked set that everyone who speaks your language can use, say:
 
 > Translate Phygital Brain into my language.
 
@@ -334,7 +334,7 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 | [Install](docs/install.md) | One click for Claude desktop, Cursor and VS Code, and steps for Claude Code, Codex, Hermes Agent, OpenClaw and others |
 | [Getting started](docs/getting-started.md) | Every step from nothing to a working brain, with checks and fixes |
 | [Connect your apps](docs/connect-your-apps.md) | Gmail, Calendar, Drive and other services, read only, and running fully online |
-| [Add more skills](docs/add-skills.md) | Adding any skill to your brain, and making videos with HyperFrames and Keyframes |
+| [Add more skills](docs/add-skills.md) | Adding any skill to your brain, making videos with [HyperFrames](https://github.com/heygen-com/hyperframes) and editing images with [PhotoCraft](https://github.com/storytold/photocraft) |
 | [Teams](docs/teams.md) | Sharing one brain through Baalda's cloud |
 | [Bringing in your old notes](docs/importing.md) | Exporting from Notion, Google Docs, Apple Notes and others, and filing it all |
 | [Example brain](docs/example-brain/README.md) | A few made-up notes, so you can see the files before you build yours |

@@ -8,16 +8,18 @@ Phygital Brain is written in English and ready in 10 more languages: Chinese (Si
 flowchart LR
     Q[Setup asks:<br>which language?] --> R{Ready set?}
     R -- yes --> S[Copies the translated set:<br>forms, rules, folder names,<br>Brain Keeper, messages]
-    R -- no --> E[English set, translated<br>as it goes, English folder names]
+    R -- no --> E[Your agent translates<br>everything during the setup,<br>folder names included]
     S --> B[A brain fully in<br>that language]
-    E --> B2[A brain in that language,<br>with English folder names]
+    E --> B
 ```
 
 A ready language is translated **once**, here in the repository. The setup copies it into the brain, and from then on the brain's own files are in that language: its rules, its folder and note names, the Brain Keeper's steps, the headings it writes and the phrases you say to it. Your agent never looks up a translation while it works.
 
+Any other language is translated by your agent during the setup, with the same rules ([translating.md](../skills/brain-setup/translating.md)): the forms, the rules, the folder and note names and the Brain Keeper. It doesn't ask anything about the translation. The result works the same as a ready language, but nobody has checked it yet. To make a checked set to share, use the `add-language` skill below.
+
 What stays English in every language: the file names `CLAUDE.md`, `README.md` and `.claudeignore`, the hidden `.backups/` folder, `Skills/no-ai-slop/`, and the info block words at the top of each note (`status: active`). Those work like switches, so every agent and the Brain Keeper read them the same way.
 
-At the end of the main rules, a ready-language brain has a short **Folder map**: each English folder name next to the brain's name. Only upgrades and Phygital Brain's own skills use it, to know that `Sobre/` is what the templates call `About/`.
+At the end of the main rules, every brain that isn't in English has a short **Folder map**: each English folder name next to the brain's name. Only upgrades and Phygital Brain's own skills use it, to know that `Sobre/` is what the templates call `About/`.
 
 ## What's in this folder
 

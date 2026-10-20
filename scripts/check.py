@@ -7,6 +7,7 @@ No installs needed. It checks:
 - the four forms have balanced HTML tags, and no "--" inside a comment
 - the plugin files are valid JSON with the same version as CHANGELOG.md
 - every language in languages/ is complete and built (scripts/i18n.py check)
+- skills/brain-setup/translating.md lists every folder and note name in languages/en.json
 """
 import glob
 import json
@@ -92,6 +93,11 @@ if len(versions) != 1:
     problems.append(f"versions don't match: {sorted(versions)}")
 
 # 6. Translations
+names = json.load(open("languages/en.json", encoding="utf-8"))["paths"]
+tr = open("skills/brain-setup/translating.md", encoding="utf-8").read().split("## The names", 1)[-1]
+missing = [n for n in names if f"`{n}`" not in tr]
+if missing:
+    problems.append("skills/brain-setup/translating.md: names missing from The names: " + ", ".join(missing))
 import subprocess
 r = subprocess.run([sys.executable, "-I", "scripts/i18n.py", "check"], capture_output=True, text=True)
 if r.returncode != 0:

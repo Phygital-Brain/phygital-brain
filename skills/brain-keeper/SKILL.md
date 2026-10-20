@@ -14,7 +14,7 @@ The Brain Keeper looks after the brain in two ways:
 
 Templates, in this skill's folder: `templates/daily.md`, `templates/check-up.md`, `templates/queue.md`, `templates/root-CLAUDE-section.md`.
 
-**Language:** if the root `CLAUDE.md` has a `## Folder map` and the brain's language has a ready set (`../brain-setup/i18n/{code}/keeper/`, code from the version line), use those templates instead, and the brain's own folder and note names for every path in this file. Otherwise use the English templates and write in the brain's language.
+**Language:** if the root `CLAUDE.md` has a `## Folder map` and the brain's language has a ready set (`../brain-setup/i18n/{code}/keeper/`, code from the version line), use those templates instead, and the brain's own folder and note names for every path in this file. If it has a `## Folder map` but no ready set, translate the English templates as you write them, following `../brain-setup/translating.md`, with the brain's names from the Folder map (choose any missing ones the same way, without asking). With no Folder map, use the English templates and write in the brain's language.
 
 **Called from the brain setup** (`../brain-setup/SKILL.md` 3.8): start at Step 2 with the run time and fix mode the setup gives you, skip Step 1, and skip Step 5 (the setup's finish message covers it).
 

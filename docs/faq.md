@@ -457,9 +457,9 @@ Yes. The setup asks which language your brain should speak first. The forms, mes
 </details>
 
 <details>
-<summary><b>Why are folder names in English?</b></summary>
+<summary><b>Are the folder names in my language?</b></summary>
 
-So the rules work the same in every language. Folder names, file names, links to files and info block words stay in English. Everything you read is in your language.
+Yes. Folders and notes get names in your language, like `Sobre/` instead of `About/`. If your language isn't one of the 11 ready ones, your agent picks the names during the setup. A few things stay in English so every agent reads them the same way: the `CLAUDE.md` and `README.md` file names, and the info block words at the top of each note, like `status: active`.
 </details>
 
 <details>
@@ -483,9 +483,9 @@ Yes. Say "Add a rule: never book calls on Fridays." Your rules live at the botto
 </details>
 
 <details>
-<summary><b>Can I add other skills, like making videos?</b></summary>
+<summary><b>Can I add other skills, like making videos or editing images?</b></summary>
 
-Yes. Install the skill in your agent, then say "Add it to my brain". Your agent writes a short notes file telling the skill what to read in your brain and where to save its work. For videos, HyperFrames and its Keyframes editor work well: see [Add more skills](add-skills.md).
+Yes. Install the skill in your agent, then say "Add it to my brain". Your agent writes a short notes file telling the skill what to read in your brain and where to save its work. For videos, [HyperFrames](https://github.com/heygen-com/hyperframes) and its Keyframes editor work well. For images, [PhotoCraft](https://github.com/storytold/photocraft), an open-source editor similar to Photoshop. Both are in [Add more skills](add-skills.md).
 </details>
 
 <details>
