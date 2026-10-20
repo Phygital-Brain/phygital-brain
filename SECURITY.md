@@ -1,10 +1,10 @@
 # Security policy
 
-Phygital Brain has no program and no server. It's instructions and templates that an AI agent follows to build and look after a folder of notes. So here, "security" means two things: your notes stay private, and your agent keeps following the brain's rules. Reports are welcome.
+Phygital Brain has no online service and no account. It's instructions and templates that an AI agent follows to build and look after a folder of notes. The only program is the connector (`mcp/server.mjs`), a small MCP server that runs on your computer, has no dependencies, and only reads Phygital Brain's own `skills/` folder. It never opens your notes and sends nothing over the internet. So here, "security" means two things: your notes stay private, and your agent keeps following the brain's rules. Reports are welcome.
 
 ## What you share with your AI
 
-Phygital Brain is only files and instructions. It doesn't send your notes anywhere by itself. But your agent reads your notes to help you, so **everything it reads goes to the company that runs your AI** (for example Anthropic for Claude, or OpenAI for Codex), and your files are stored by your cloud drive's provider (for example Google for Google Drive, or whoever runs your Nextcloud).
+Phygital Brain doesn't send your notes anywhere by itself. The one time it looks online is the Brain Keeper's check-up: if your agent can browse, it opens Phygital Brain's public releases page on GitHub to see if a new version is out. It sends nothing from your brain. But your agent reads your notes to help you, so **everything it reads goes to the company that runs your AI** (for example Anthropic for Claude, or OpenAI for Codex), and your files are stored by your cloud drive's provider (for example Google for Google Drive, or whoever runs your Nextcloud).
 
 You choose what goes in your brain, and you're responsible for it. Before you start:
 
@@ -18,11 +18,22 @@ Phygital-Brain doesn't see, collect or store your notes. It isn't responsible fo
 
 ## Supported versions
 
-Only the latest version gets fixes while the project is at 0.x. To get a fix: update the plugin, then say "Upgrade my second brain" in a chat on your brain folder.
+Only the latest version gets fixes while the project is at 0.x. To get a fix, update Phygital Brain in your agent, then say "Upgrade my second brain" in a chat on your brain folder:
+
+- **Connector (npm):** it gets the newest version by itself when your agent starts.
+- **Claude desktop file:** download the new `phygital-brain.mcpb` from the latest release.
+- **Claude Code plugin:** `/plugin marketplace update phygital-brain`.
 
 | Version | Fixes |
 |---|---|
 | 0.1.x | Yes |
+
+## How releases are made
+
+Since 0.1.1, every release is built from this repository by GitHub Actions (`.github/workflows/release.yml`), never from someone's computer. (0.1.0, the first version, was published by hand.) The workflow runs the checks, then publishes:
+
+- **The npm package** `phygital-brain`, through npm trusted publishing: no npm password or token is stored anywhere. Each version carries a signed provenance record that links it to the exact commit and workflow run. You can see it on the [npm page](https://www.npmjs.com/package/phygital-brain), under Provenance, or check an installed copy with `npm audit signatures`.
+- **The GitHub release** `vX.Y.Z`, with `phygital-brain.mcpb` (the Claude desktop file) built in the same run.
 
 ## Reporting a problem
 
@@ -36,8 +47,8 @@ There is no email contact. Use private reporting.
 ## What to include
 
 - The Phygital Brain version (the first line of your brain's root `CLAUDE.md`, or `CHANGELOG.md`).
-- Which agent and app you use (for example Claude desktop app, Claude Code, Codex, Hermes Agent, OpenClaw).
-- What you found, and which file it's in if you know: a skill, a template, a form or a doc.
+- Which agent and app you use (for example Claude desktop app, Claude Code, Codex, Hermes Agent, OpenClaw), and how you installed Phygital Brain (plugin, Claude desktop file, npm connector or the terminal line).
+- What you found, and which file it's in if you know: a skill, a template, a form, a language set, the connector or a doc.
 - Steps to reproduce it, using a **test brain** with made-up notes.
 - What could go wrong for a real person.
 
@@ -61,10 +72,14 @@ In scope:
 - A Brain Keeper step that deletes, moves or rewrites notes, against its hard rules.
 - An upgrade that loses a person's notes or their own rules.
 - A form that sends answers anywhere other than back to the agent.
+- The connector reading or listing a file outside its own `skills/` folder, writing anything, or opening a network connection.
+- An npm package or Claude desktop file whose contents don't match this repository at its release tag.
+- A translated set, or a translation made during the setup, that changes what a safety rule means (asking first, private details, `.claudeignore`, backups).
+- A way to make the check-up's version lookup send anything from the brain.
 
 Out of scope:
 
-- Problems in your AI app, your cloud drive, Baalda or your computer. Please report those to their makers.
+- Problems in your AI app, your cloud drive, Baalda, npm, Node.js or your computer, or in skills you add yourself (like HyperFrames or PhotoCraft). Please report those to their makers.
 - `.claudeignore` not stopping a determined agent. The agent follows it as a rule, and it doesn't lock anything. Truly private things shouldn't be in the brain folder.
 - An AI model that doesn't follow its instructions in general, without a way to make it happen.
 - Reports from automated scanners without a real problem.
