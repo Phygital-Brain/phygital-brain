@@ -18,6 +18,7 @@
 - **Rules your agent follows.** A `CLAUDE.md` file in each folder says where everything goes, so nothing ends up in a pile.
 - **A daily tidy.** The Brain Keeper closes old notes, lists open decisions, fixes small things and tells you what needs you. It never deletes or moves your notes.
 - **A morning brief,** if you want one: your three most important things, every work day.
+- **On your phone.** Your brain lives in Google Drive, so you can ask it things from the Claude phone app, and send it tasks from anywhere. See [Your brain on your phone](docs/phone.md).
 
 It's plain Markdown files, so you can open them in [Baalda](https://github.com/naveedharri/baalda) and they're yours.
 
@@ -60,7 +61,7 @@ More in [How it works](docs/how-it-works.md), and a page for each folder in [The
 |---|---|
 | `skills/brain-setup/` | The setup: instructions for the agent, the four forms, and every file the brain gets |
 | `skills/brain-keeper/` | The Brain Keeper: the daily tidy and the check-up |
-| `docs/` | Getting started, how it works, a page for each folder, other agents, and the logo |
+| `docs/` | Getting started, your brain on your phone, how it works, a page for each folder, other agents, and the logo |
 | `languages/` | How other languages work |
 | `.claude-plugin/` | What makes this a Claude plugin |
 | `scripts/` | The checks to run before a change (`python3 scripts/check.py`) |

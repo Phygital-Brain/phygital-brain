@@ -1,6 +1,6 @@
 # The setup questions, as plain text
 
-Use this file only when you can't show the form window (Step 0.4 in `SKILL.md`). It has the same questions as the four forms, with the same answer names.
+Use this file only when you can't show the form window (Step 0.5 in `SKILL.md`). It has the same questions as the four forms, with the same answer names.
 
 - Click questions (AskUserQuestion, up to 4 per call, 2 to 4 options each; "Other" is added for you) where the tool exists. Otherwise numbered options in chat, answered with a number.
 - Free-text questions go together in one chat message per form. Tell them short answers are fine and they can skip any.

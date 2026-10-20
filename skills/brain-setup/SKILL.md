@@ -48,7 +48,11 @@ If you are another agent and your tool loads a different rule file (for example 
 
    Never delete or overwrite existing notes.
 3. If the folder has other files, don't touch them. Build around them and mention them at the end.
-4. **Form window.** Check whether you can show an HTML form window (in Claude, the `show_widget` tool). Remember the answer. If you can't, use `forms/questions.md` in Step 2: click questions where you have them (AskUserQuestion, up to 4 questions per call), otherwise numbered options in chat.
+4. **Google Drive and Baalda.** Both are part of the brain unless the person says they don't want them. Google Drive is what lets them use the brain from their phone, so it matters most. Check each one, and for anything missing, say in one line why it helps and ask (click options):
+   - **Is the folder inside Google Drive?** Look at the folder's path. On a Mac it's under `~/Library/CloudStorage/GoogleDrive-.../My Drive/`, on Windows usually on the `G:` drive under `My Drive`. If not: `Help me move to Google Drive` (walk them through Getting started step 2: install Google Drive for desktop, make the folder inside it, then pick that folder for a new chat and say "Set up my second brain" again; then stop) · `Continue without Google Drive` (the brain stays on this computer only; add "No Google Drive: this brain is on one computer only." to `About/tools.md` later).
+   - **Is Google Drive connected to your agent?** If you have no Google Drive tools in this chat: `I'll connect it now` (in Claude: Settings, then Connectors, then Google Drive; wait, then go on) · `Later` (mention it again in the finish message).
+   - **Is Baalda installed?** Ask: `Yes` · `Install it now` (give the link https://github.com/naveedharri/baalda, wait, then go on) · `Not now`.
+5. **Form window.** Check whether you can show an HTML form window (in Claude, the `show_widget` tool). Remember the answer. If you can't, use `forms/questions.md` in Step 2: click questions where you have them (AskUserQuestion, up to 4 questions per call), otherwise numbered options in chat.
 
 ## Step 1: Language
 
@@ -240,8 +244,9 @@ One short message, no recap:
 3. **How to use it every day:** open a chat on this folder and talk normally. For example: "I had a call with X, here's what we agreed", "New project: ...", "Write a reply to this email". Your agent files everything in the right place.
 4. **Keep it healthy:** the Brain Keeper tidies every day at {keeper time}. Say "check up my brain" anytime.
 5. **Only if BRIEF = on:** your morning brief comes at {brief time} on work days. Say "morning brief" anytime.
-6. **Instructions for every chat:** "Want your agent to talk like this in every chat, not only in your brain? Copy this into your agent's settings." Then the text in a box they can copy (see below), and where it goes: in Claude, the personal instructions box in Settings; in other agents, their custom instructions.
-7. **Only if they gave old notes in form 4:** "Want me to bring in your old notes now?" If yes, file each one by the routing rules, asking before every new note (root rule 9).
+6. **On your phone** (if the brain is in Google Drive): "Your brain is in Google Drive, so you can use it from your phone." One line on each: ask about your notes in the Claude phone app, and send tasks to your computer with Dispatch. Point to the phone guide: https://github.com/Phygital-Brain/phygital-brain/blob/main/docs/phone.md. If Google Drive isn't connected yet, say how to connect it.
+7. **Instructions for every chat:** "Want your agent to talk like this in every chat, not only in your brain? Copy this into your agent's settings." Then the text in a box they can copy (see below), and where it goes: in Claude, the personal instructions box in Settings; in other agents, their custom instructions.
+8. **Only if they gave old notes in form 4:** "Want me to bring in your old notes now?" If yes, file each one by the routing rules, asking before every new note (root rule 9).
 
 Then stop.
 

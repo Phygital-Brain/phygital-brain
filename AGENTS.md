@@ -19,7 +19,7 @@ skills/brain-setup/forms/         the four forms (HTML for the form window) and 
 skills/brain-setup/templates/     every file a new brain gets, with {placeholders}
 skills/brain-keeper/SKILL.md      installs and updates the Brain Keeper
 skills/brain-keeper/templates/    daily.md, check-up.md, queue.md, the root CLAUDE.md section
-docs/                             for people: getting started, how it works, other agents
+docs/                             for people: getting started, phone, how it works, other agents
 docs/folders/                     one page per brain folder, and the main rules in plain words
 docs/images/                      the README picture and the logo
 languages/                        how other languages work

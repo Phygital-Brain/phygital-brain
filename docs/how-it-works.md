@@ -91,6 +91,10 @@ Open a chat on your brain folder and talk normally:
 - "What's on my plate this week?"
 - "Why did I decide to raise my prices?"
 
+## On your phone
+
+Ask your brain things from the Claude phone app, with Google Drive connected, and send tasks to your computer with Dispatch. See [Your brain on your phone](phone.md).
+
 ## Keeping it healthy
 
 - **Brain Keeper, every day:** runs by itself at your time. It makes tomorrow's daily note, closes old ones, lists open decisions, fixes up to 5 small things and writes a report. Things only you can decide go on a list in `Skills/brain-keeper/queue.md`, and a line in your daily note points to it.

@@ -11,6 +11,8 @@ About 20 minutes the first time: 10 to get the apps ready, 10 for the setup form
 
 You don't need to know any code.
 
+Google Drive and Baalda are part of the setup. Google Drive matters most: it's how you use your brain from your phone. If you don't want one of them, say so and the setup goes on without it.
+
 **Before you start:** your agent reads your notes, so they go to the company that runs your AI. Read [What you share with your AI](../SECURITY.md#what-you-share-with-your-ai) and check your AI's privacy settings.
 
 ## 1. Claude
@@ -46,7 +48,7 @@ You'll pick this same folder every time you want to work with your brain.
 
 In Claude's settings, under connectors, connect **Google Drive**.
 
-**Why:** then you can read your brain from the Claude website and the phone app too, away from your computer.
+**Why:** then you can read your brain from the Claude website and the phone app too, away from your computer. See [Your brain on your phone](phone.md).
 
 The cloud part is done.
 
@@ -54,7 +56,7 @@ The cloud part is done.
 
 Download [Baalda](https://github.com/naveedharri/baalda) and open the same `My Brain` folder. This is where you read and browse your notes: click a `[[link]]` to jump to that note.
 
-You don't have to use Baalda to use your brain. Your agent does the writing. Baalda is for looking around.
+You don't have to use Baalda to use your brain. Your agent does the writing. Baalda is for looking around. Baalda runs on Mac, Windows and Linux. A phone app isn't out yet.
 
 ## 6. Install Phygital Brain
 
@@ -77,13 +79,14 @@ In a chat on your `My Brain` folder, say:
 
 Here's what happens:
 
-1. **Language.** Your agent asks which language your brain should speak. Everything after this is in that language.
-2. **Form 1: About you.** Your name, what you do, your strengths, how you like to work, and more.
-3. **Form 2: Your work.** It starts with 3 questions your agent writes just for your kind of work. Then your customers or interests, your goal, your projects and what's worrying you.
-4. **Form 3: Your days and people.** Work days, morning brief time, the people who matter, your social media, your tools.
-5. **Form 4: Files.** Drop your CV, a bio, a price list or old notes. Or skip it.
-6. **Build.** Your agent makes the folders, the rule files, your first notes and the Brain Keeper. This takes a few minutes. You don't need to do anything.
-7. **Finish.** One short message: what was built, how to open it, how to use it every day, and a short text for your settings (step 8).
+1. **Checks.** Your agent checks that your folder is in Google Drive, that Drive is connected, and that you have Baalda. If something is missing, it helps you, or goes on without it if you say so.
+2. **Language.** Your agent asks which language your brain should speak. Everything after this is in that language.
+3. **Form 1: About you.** Your name, what you do, your strengths, how you like to work, and more.
+4. **Form 2: Your work.** It starts with 3 questions your agent writes just for your kind of work. Then your customers or interests, your goal, your projects and what's worrying you.
+5. **Form 3: Your days and people.** Work days, morning brief time, the people who matter, your social media, your tools.
+6. **Form 4: Files.** Drop your CV, a bio, a price list or old notes. Or skip it.
+7. **Build.** Your agent makes the folders, the rule files, your first notes and the Brain Keeper. This takes a few minutes. You don't need to do anything.
+8. **Finish.** One short message: what was built, how to open it, how to use it every day and on your phone, and a short text for your settings (see "Instructions for every chat" below).
 
 **Tips for the forms:**
 
@@ -107,6 +110,10 @@ Use simple, plain words and no jargon. Keep replies short, no walls of text. Use
 ```
 
 Keep it short, and don't put private details in it. Your brain's rules still win inside your brain folder.
+
+## On your phone
+
+Once the brain is in Google Drive and Drive is connected, you can ask your brain things from the Claude phone app, and send tasks to your computer with Dispatch. Everything is in [Your brain on your phone](phone.md).
 
 ## Your first week
 
