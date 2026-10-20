@@ -85,16 +85,12 @@ You don't have to use Baalda to use your brain. Your agent does the writing, and
 
 ## 6. Install Phygital Brain
 
-In Claude Code:
+One click for most agents:
 
-```
-/plugin marketplace add Phygital-Brain/phygital-brain
-/plugin install phygital-brain@phygital-brain
-```
-
-In the Claude desktop app, add `Phygital-Brain/phygital-brain` as a plugin from GitHub in the plugin settings.
-
-With another agent, there's nothing to install: see [Other agents](other-agents.md).
+- **Claude desktop:** download `phygital-brain.mcpb` from the [latest release](https://github.com/Phygital-Brain/phygital-brain/releases/latest) and double-click it.
+- **Claude Code:** two lines to paste, `/plugin marketplace add Phygital-Brain/phygital-brain` and `/plugin install phygital-brain@phygital-brain`.
+- **Cursor, VS Code:** the **Add to** buttons at the top of [Install](install.md).
+- **Codex, Hermes Agent, OpenClaw and others:** a few lines for their settings, in [Install](install.md).
 
 **Check it worked:** in a chat, ask "Do you have the Phygital Brain setup?" Your agent should say yes.
 

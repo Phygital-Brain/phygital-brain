@@ -29,6 +29,9 @@ docs/folders/                     one page per brain folder, and the main rules 
 docs/images/                      the README picture and the logo
 languages/                        how other languages work
 scripts/check.py                  the checks (no installs needed)
+scripts/build_mcpb.py             builds dist/phygital-brain.mcpb, the Claude desktop extension, for the release
+mcp/server.mjs                    the connector: an MCP server with no dependencies that serves skills/
+package.json                      lets npx run the connector from GitHub (bin: phygital-brain)
 README.md, CHANGELOG.md, NOTICE, LICENSE, TRADEMARKS.md, CONTRIBUTING.md, SECURITY.md, CITATION.cff
 ```
 
@@ -51,7 +54,7 @@ README.md, CHANGELOG.md, NOTICE, LICENSE, TRADEMARKS.md, CONTRIBUTING.md, SECURI
 7. **The agent asks before it creates, moves, renames or deletes** a person's notes. Nothing in a skill or template may weaken that.
 8. **Private things stay private.** `.claudeignore` keeps `Memory/finances/`. No template may copy private details (tax IDs, bank details, birth date) into other notes or replies.
 9. **Upgrades keep what's theirs.** Their notes, their own rules (word for word), their routing rows and their folders survive every upgrade.
-10. **Version line.** A brain's root `CLAUDE.md` starts with `<!-- Phygital Brain, version X, language: xx -->`. A new version updates it, the plugin files, the skills' "Version" lines and the CHANGELOG together.
+10. **Version line.** A brain's root `CLAUDE.md` starts with `<!-- Phygital Brain, version X, language: xx -->`. A new version updates it, the plugin files, `package.json`, the skills' "Version" lines and the CHANGELOG together, then a `vX.Y.Z` release with `dist/phygital-brain.mcpb` attached (run `python3 scripts/build_mcpb.py`).
 11. **Keep the NOTICE credit:** "Created by Phygital-Brain".
 12. **English templates are the source; translations follow.** When you change a template, form or message, run `python3 scripts/i18n.py extract` if form text changed, update `languages/en.json`, and mark the change for every language (translate it, or open an issue). Never edit `skills/brain-setup/i18n/` by hand.
 

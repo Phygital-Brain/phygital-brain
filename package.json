@@ -1,0 +1,27 @@
+{
+  "name": "phygital-brain",
+  "version": "0.1.0",
+  "description": "A second brain that thinks with you. The Phygital Brain connector: an MCP server that gives your agent the setup, forms, templates and Brain Keeper.",
+  "type": "module",
+  "bin": {
+    "phygital-brain": "mcp/server.mjs"
+  },
+  "files": [
+    "mcp/",
+    "skills/",
+    ".claude-plugin/plugin.json",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "Apache-2.0",
+  "author": "Phygital-Brain",
+  "homepage": "https://github.com/Phygital-Brain/phygital-brain",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phygital-Brain/phygital-brain.git"
+  },
+  "keywords": ["second-brain", "notes", "mcp", "markdown", "knowledge-base"]
+}

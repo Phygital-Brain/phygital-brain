@@ -122,7 +122,7 @@ Small updates to notes that already exist happen right away, and your agent tell
 
 <p align="center"><img src="docs/images/rules.png" alt="Careful work, writing that sounds like you. Work habits your agent follows on every task: asks when unsure, saying what it assumes; the simplest way, nothing extra; only what's needed, changing what you asked for and leaving the rest; checks its work before it says it's done. And a Writing Check on everything it writes: it writes in your voice first, from your brand page; finds what sounds like AI, such as hype words, filler and long dashes; and shows you each one with a fix, so you choose before anyone reads it." width="100%"></p>
 
-The work habits are part of every brain's main rules. The Writing Check uses the [no-ai-slop](https://github.com/petergyang/no-ai-slop) skill, which every brain gets in `Skills/no-ai-slop/`. More in [Main rules](docs/folders/main-rules.md).
+The work habits are Andrej Karpathy's guidelines for AI assistants ([andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)), built into every brain's main rules in our own words. The Writing Check uses the [no-ai-slop](https://github.com/petergyang/no-ai-slop) skill, which every brain gets in `Skills/no-ai-slop/`. More in [Main rules](docs/folders/main-rules.md).
 
 ## Inside your brain
 
@@ -156,21 +156,19 @@ You need an AI agent that can work in a folder, a cloud drive your agent can con
 | 3 | In your agent, start a task and choose that folder | 1 min |
 | 4 | Connect the drive to your agent (in Claude: Settings, Connectors), so your phone can reach the brain | 1 min |
 | 5 | Download [Baalda](https://github.com/naveedharri/baalda) and open the same folder | 2 min |
-| 6 | Install Phygital Brain (below) and say **"Set up my second brain."** | 10 min |
+| 6 | Install Phygital Brain (one click, below) and say **"Set up my second brain."** | 10 min |
 
-**Install in Claude Code:**
+**Install:** click the button for your agent.
 
-```
-/plugin marketplace add Phygital-Brain/phygital-brain
-```
+<p align="center">
+<a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="https://img.shields.io/badge/Add%20to-Claude%20desktop-F05AB8?logo=anthropic&logoColor=white&labelColor=0B0D12&style=for-the-badge" alt="Add to Claude desktop"></a>
+<a href="docs/install.md#claude-code"><img src="https://img.shields.io/badge/Install%20in-Claude%20Code-5AC8FA?logo=anthropic&logoColor=white&labelColor=0B0D12&style=for-the-badge" alt="Install in Claude Code"></a>
+<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsImdpdGh1YjpQaHlnaXRhbC1CcmFpbi9waHlnaXRhbC1icmFpbiJdfQ=="><img src="https://img.shields.io/badge/Add%20to-Cursor-F05AB8?logo=cursor&logoColor=white&labelColor=0B0D12&style=for-the-badge" alt="Add to Cursor"></a>
+<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522github%253APhygital-Brain%252Fphygital-brain%2522%255D%257D"><img src="https://img.shields.io/badge/Add%20to-VS%20Code-F05AB8?labelColor=0B0D12&style=for-the-badge" alt="Add to VS Code"></a>
+<a href="docs/install.md#codex"><img src="https://img.shields.io/badge/Other%20agents-Codex%20%C2%B7%20Hermes%20%C2%B7%20OpenClaw-5AC8FA?labelColor=0B0D12&style=for-the-badge" alt="Other agents: Codex, Hermes Agent, OpenClaw"></a>
+</p>
 
-```
-/plugin install phygital-brain@phygital-brain
-```
-
-**In the Claude desktop app:** add `Phygital-Brain/phygital-brain` as a plugin from GitHub in the plugin settings.
-
-**With another agent:** see [Other agents](docs/other-agents.md).
+Every way, step by step, and for other agents: [Install](docs/install.md).
 
 ```mermaid
 flowchart LR
@@ -306,6 +304,7 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 |---|---|
 | [Use cases](docs/use-cases.md) | Five people, what their brain looks like, and what they say on a normal day |
 | [FAQ](docs/faq.md) | 92 questions and answers, grouped by topic |
+| [Install](docs/install.md) | One click for Claude desktop, Cursor and VS Code, and steps for Claude Code, Codex, Hermes Agent, OpenClaw and others |
 | [Getting started](docs/getting-started.md) | Every step from nothing to a working brain, with checks and fixes |
 | [Connect your apps](docs/connect-your-apps.md) | Gmail, Calendar, Drive and other services, read only, and running fully online |
 | [Add more skills](docs/add-skills.md) | Adding any skill to your brain, and making videos with HyperFrames and Keyframes |
@@ -334,6 +333,8 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 | `languages/` | The translations (one file and folder per language) and how to add one |
 | `scripts/` | The checks to run before a change (`python3 scripts/check.py`) |
 | `.claude-plugin/` | The plugin files, for installing it in Claude |
+| `mcp/` | The connector (an MCP server, no dependencies) for agents that take MCP servers |
+| `package.json` | Lets `npx` run the connector straight from GitHub |
 
 ## Help and contributing
 

@@ -21,7 +21,7 @@ os.chdir(ROOT)
 problems = []
 
 text_files = [f for f in glob.glob("**/*", recursive=True)
-              if os.path.isfile(f) and f.endswith((".md", ".html", ".json", ".txt", ".yml", ".cff", ".py"))]
+              if os.path.isfile(f) and f.endswith((".md", ".html", ".json", ".txt", ".yml", ".cff", ".py", ".mjs"))]
 text_files += [".gitignore", ".gitattributes"]
 
 # 1. Links in Markdown files
@@ -78,7 +78,7 @@ for f in glob.glob("skills/brain-setup/forms/*.html"):
 
 # 5. Plugin files and version
 versions = set()
-for f in (".claude-plugin/plugin.json", ".claude-plugin/marketplace.json"):
+for f in (".claude-plugin/plugin.json", ".claude-plugin/marketplace.json", "package.json"):
     try:
         data = json.load(open(f, encoding="utf-8"))
     except Exception as e:
