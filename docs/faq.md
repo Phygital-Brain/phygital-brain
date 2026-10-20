@@ -33,7 +33,7 @@ No. There's nothing to run. Phygital Brain is a set of instructions and template
 <details>
 <summary><b>Who is it for?</b></summary>
 
-Anyone who works with other people, juggles projects or wants their agent to know them: freelancers, small business owners, people with a job, students, and people with personal projects. The setup asks what you do and builds only the parts you need.
+Anyone who works with other people, juggles projects or wants their agent to know them: freelancers, small business owners, people with a job, students, and people with personal projects. The setup asks what you do and builds only the parts you need. See [Use cases](use-cases.md) for five examples.
 </details>
 
 <details>

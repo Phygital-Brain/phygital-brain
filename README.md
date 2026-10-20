@@ -177,6 +177,8 @@ Ana is an illustrator in Lisbon. She sells picture-book work to publishers and s
 - **Thursday.** "I decided to raise my cover price to 400 from January." Her agent asks a little about why, then writes `Memory/decisions/2026-10-23-raise-cover-price.md`.
 - **Every work day, 07:00.** The Brain Keeper makes the next day's note, closes old ones and fixes small things. Each morning it lists the cover-price decision as still open, until she closes it.
 
+More people, from a bakery owner to a student, are in [Use cases](docs/use-cases.md).
+
 ## On your phone
 
 | Way | What it does | Your computer |
@@ -258,6 +260,7 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 
 | Guide | What's in it |
 |---|---|
+| [Use cases](docs/use-cases.md) | Five people, what their brain looks like, and what they say on a normal day |
 | [FAQ](docs/faq.md) | 79 questions and answers, grouped by topic |
 | [Getting started](docs/getting-started.md) | Every step from nothing to a working brain, with checks and fixes |
 | [How it works](docs/how-it-works.md) | What your agent does at each step, when it saves and when it asks |
