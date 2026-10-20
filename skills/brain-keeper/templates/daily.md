@@ -39,7 +39,7 @@ If the run prompt says "dry run": do every step as a check only. Change nothing.
 
 ## 3. Housekeeping sweep
 
-Start with the oldest items under "To fix" in the queue. Then look for new problems in ONE folder per run, in this order: `About`, `Projects`, `Memory`, `Relationships`, `Library`, `Skills`, `Daily` (last 30 days only). The queue says which folder is next. Skip `Skills/brain-keeper/` and anything listed in `.claudeignore`.
+Start with the oldest items under "To fix" in the queue. Then look for new problems in ONE folder per run, in this order: `About`, `Projects`, `Memory`, `Relationships`, `Library`, `Skills`, `Daily` (last 30 days only). The queue says which folder is next. Skip `Skills/brain-keeper/`, `Skills/no-ai-slop/` and anything listed in `.claudeignore`.
 
 Search first, read only what you need.
 

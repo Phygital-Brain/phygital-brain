@@ -106,6 +106,8 @@ Small updates to notes that already exist happen right away, and your agent tell
 - **A morning brief,** if you want one: your three most important things, what you're waiting on, and one decision to make.
 - **Your phone.** Ask your brain things from your agent's phone app through your cloud drive, or send tasks to your computer (in Claude, with Dispatch).
 - **Your language.** The forms, messages and notes are in the language you pick. File and folder names stay in English, so the rules work the same everywhere.
+- **Writing that sounds like you.** Every brain comes with the [no-ai-slop](https://github.com/petergyang/no-ai-slop) skill. Your agent writes in your voice, then checks for AI-sounding patterns before anyone else reads it.
+- **Careful work habits.** The main rules include Andrej Karpathy's guidelines for AI assistants: ask when unsure, pick the simplest way, change only what's needed, check the work.
 - **Your own rules.** When you correct your agent, it saves the correction as a new rule, in your words. Upgrades never change those rules.
 
 ## Inside your brain
@@ -224,7 +226,7 @@ Your notes are read by your AI agent and stored in your cloud drive. Phygital Br
 
 ## FAQ
 
-The most asked questions are below. The full list, with 79 answers grouped by topic, is in the [FAQ](docs/faq.md).
+The most asked questions are below. The full list, with 80 answers grouped by topic, is in the [FAQ](docs/faq.md).
 
 <details>
 <summary><b>Do I need to know how to code?</b></summary>
@@ -261,7 +263,7 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 | Guide | What's in it |
 |---|---|
 | [Use cases](docs/use-cases.md) | Five people, what their brain looks like, and what they say on a normal day |
-| [FAQ](docs/faq.md) | 79 questions and answers, grouped by topic |
+| [FAQ](docs/faq.md) | 80 questions and answers, grouped by topic |
 | [Getting started](docs/getting-started.md) | Every step from nothing to a working brain, with checks and fixes |
 | [How it works](docs/how-it-works.md) | What your agent does at each step, when it saves and when it asks |
 | [The folders in your brain](docs/folders/README.md) | One page per folder and subfolder, with examples and rules |

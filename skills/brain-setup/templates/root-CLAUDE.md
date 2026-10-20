@@ -134,7 +134,7 @@ Standard fields: `type`, `date`, `project`, `status`, `tags`. Always include `st
 21. Before deleting or moving anything, search for notes that link to it, tell {Name} what would break, and wait for a clear yes.
 22. When {Name} asks for a prompt, a quick rewrite or a short message, give it in the chat right away. No files.
 23. Comparisons and rankings are neutral by default: judge each option on its own merits. Only tailor to {Name}'s situation when asked.
-24. Every piece of writing gets the Writing Check below. For writing others will read (emails, posts, proposals, bios, applications): list the patterns found, with the line and a short fix, and let {Name} approve before changing. For internal notes and chat replies: apply it silently.
+24. Every piece of writing gets the Writing Check below, using the no-ai-slop skill in `Skills/no-ai-slop/SKILL.md`. For writing others will read (emails, posts, proposals, bios, applications): run it in detect mode, list the patterns found, with the line and a short fix, and let {Name} approve before changing. For internal notes and chat replies: apply it silently. {Name}'s voice is written first; the check comes second.
 25. Private details stay in their place. Tax IDs, bank details, card numbers, full legal name and date of birth live only in the one note that needs them (`About/me.md` for the date of birth, `Memory/finances/` for money details). Never copy them into other notes. Link to the note instead.
 26. No secrets in notes. Passwords, API keys, tokens and recovery codes never go in a note. They belong in a password manager.
 27. Never repeat private values in a reply, not even to confirm they were read. Say it was found, or show only the last 4 digits.
@@ -159,7 +159,7 @@ Remove these AI-sounding patterns, and the same kinds of words and phrases in {L
 - Too much bold, too many emojis, bullets where a sentence works better
 - Fake-question hooks: "Ever wondered...?"
 
-The person's own voice (see `About/brand.md` and `About/me.md`) always wins over this list, except em dashes.
+The full method is the no-ai-slop skill in `Skills/no-ai-slop/` (by Peter Yang, MIT License). This list is the short version. The person's own voice (see `About/brand.md` and `About/me.md`) always wins over both, except em dashes.
 
 ## Anti-Patterns
 
@@ -175,7 +175,7 @@ Do NOT:
 
 ## Work Guidelines
 
-Adapted from Andrej Karpathy's guidelines for AI assistants (forrestchang/andrej-karpathy-skills). Apply to ANY task: writing, research, notes, planning, building.
+Adapted from Andrej Karpathy's guidelines for AI assistants (github.com/multica-ai/andrej-karpathy-skills). Apply to ANY task: writing, research, notes, planning, building.
 
 ### 1. Think Before Starting
 

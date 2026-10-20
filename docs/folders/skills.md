@@ -15,8 +15,12 @@ Skills/
 │   ├── check-up.md     what the check-up does
 │   ├── queue.md        things only you can decide
 │   └── reports/        one report per day
-└── morning-brief/      only if you wanted a brief
-    └── morning-brief.md
+├── morning-brief/      only if you wanted a brief
+│   └── morning-brief.md
+└── no-ai-slop/         the Writing Check
+    ├── SKILL.md
+    ├── eval.md
+    └── LICENSE
 ```
 
 ## Inside, one by one
@@ -40,6 +44,18 @@ Skills/
 **What goes in:** one file, `morning-brief.md`, with the steps your agent follows. Only made if you wanted a brief in the setup.
 
 **You say:** "morning brief" anytime, or "set up my morning brief" if you didn't have one.
+
+### `no-ai-slop/`: writing that sounds like you
+
+**What it's for:** the Writing Check. Your agent uses it on everything it writes, so emails, posts and notes don't sound like AI wrote them.
+
+**What goes in:** a copy of the [no-ai-slop](https://github.com/petergyang/no-ai-slop) skill by Peter Yang (MIT License): `SKILL.md` with the method, `eval.md` with the checklist, and its `LICENSE`. Every new brain gets it.
+
+**How it works:** for writing other people will read (emails, posts, bios, applications), your agent writes in your voice first, then lists the AI-sounding bits it found, with a fix for each, and lets you choose. For notes and chat replies it applies the check quietly.
+
+**You say:** "Check this email for AI slop." "Does this post sound like AI?"
+
+**Good to know:** these files are never edited, and the Brain Keeper skips them. Your own voice in `About/brand.md` always wins over the check, except for long dashes.
 
 ### Folders for other skills
 

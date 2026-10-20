@@ -17,6 +17,7 @@ Phygital Brain is an OS (operating system) for notes: a folder of Markdown notes
 skills/brain-setup/SKILL.md       the setup: checks, language, four forms, build, finish, upgrade
 skills/brain-setup/forms/         the four forms (HTML for the form window) and questions.md (the same in plain text)
 skills/brain-setup/templates/     every file a new brain gets, with {placeholders}
+skills/brain-setup/bundled/       third-party skills copied unchanged into every brain (no-ai-slop, MIT)
 skills/brain-keeper/SKILL.md      installs and updates the Brain Keeper
 skills/brain-keeper/templates/    daily.md, check-up.md, queue.md, the root CLAUDE.md section
 docs/                             for people: getting started, use cases, FAQ, phone, how it works, other agents

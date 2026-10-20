@@ -48,6 +48,7 @@ It talks the way you chose in the setup (for example "short and plain"), and in 
 - Notes sound like a teammate wrote them: real names, real dates, real next steps, instead of "the project is going well".
 - No long dashes, ever. Periods, commas and colons instead.
 - No AI-sounding words like "delve", "seamless" or "game-changer". Your own voice wins.
+- It uses the no-ai-slop skill in `Skills/no-ai-slop/` for this Writing Check.
 - For writing other people will read (emails, posts, bios), it shows you the AI-sounding bits it found and lets you choose before it changes them.
 
 **Doing only what you asked**
@@ -86,6 +87,9 @@ The file `.claudeignore` lists what your agent must not open unless you ask for 
 You can add your own private folders, like `health/` or `journal/`.
 
 ## Work habits your agent follows
+
+These are adapted from Andrej Karpathy's guidelines for AI assistants ([andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)), in our own words.
+
 
 - If something is unclear, it asks instead of guessing.
 - It picks the simplest way that works.

@@ -123,6 +123,7 @@ Memory/finances/
 Memory/archive/
 Library/
 Skills/brain-keeper/
+Skills/no-ai-slop/
 Relationships/
 ```
 
@@ -156,6 +157,7 @@ Never create empty extra folders "just in case". Project subfolders, `Memory/app
 | `Relationships/{Subfolder}/CLAUDE.md`, one per subfolder | `templates/relationships-subfolder-CLAUDE.md` |
 | `Skills/morning-brief/morning-brief.md` (only if BRIEF = on) | `templates/morning-brief.md` |
 | `.claudeignore` | `templates/claudeignore.txt` |
+| `Skills/no-ai-slop/SKILL.md`, `eval.md`, `LICENSE` | `bundled/no-ai-slop/`, copied unchanged (not a template: no placeholders, no edits) |
 
 Some templates start with an `ADAPTING` comment for you: follow it, then leave it out of the file. In every template:
 
@@ -274,7 +276,7 @@ When Step 0 found an older Phygital Brain and they picked `Upgrade my brain`.
 3. **Make the list.** Compare their files with `templates/`. List what's new for them in plain words, one line each, grouped by file. Use the CHANGELOG entries newer than their version as a guide.
 4. **Ask** (header `Upgrade`): `Upgrade everything` · `Show me each change` · `Cancel`.
 5. **Apply, keeping what's theirs:**
-   - Add missing sections, routing rows, rules and files.
+   - Add missing sections, routing rows, rules and files, including `Skills/no-ai-slop/` (copied unchanged from `bundled/no-ai-slop/`).
    - Replace the numbered base rules with the new list (1 to 32, or 1 to 30 when they don't sell). Their own rules stay under `{Name}'s Rules`, word for word and in the same order, renumbered to follow on. If one of their rules says the same as a new base rule, keep theirs and mention it.
    - Keep their own routing rows, folders and anything else they wrote that isn't in the templates.
    - Never rewrite notes to new info blocks. Old notes get them the next time they're edited.

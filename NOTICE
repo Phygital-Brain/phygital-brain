@@ -13,4 +13,11 @@ The licence does not cover the Phygital Brain name or logo. See TRADEMARKS.md.
 
 The Work Guidelines in the brain's root rule file are adapted from Andrej
 Karpathy's guidelines for AI coding assistants, as collected in
-forrestchang/andrej-karpathy-skills.
+https://github.com/multica-ai/andrej-karpathy-skills. That repository has
+no licence file, so no copy of it is included; the guidelines are written
+in our own words.
+
+skills/brain-setup/bundled/no-ai-slop/ is a copy of the no-ai-slop skill by
+Peter Yang (https://github.com/petergyang/no-ai-slop), Copyright (c) 2026
+Peter Yang, under the MIT License (see the LICENSE file in that folder).
+Every new brain gets a copy at Skills/no-ai-slop/.

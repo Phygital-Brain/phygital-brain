@@ -31,6 +31,12 @@ No. There's nothing to run. Phygital Brain is a set of instructions and template
 </details>
 
 <details>
+<summary><b>Which skills come with it?</b></summary>
+
+Three go into your brain: the Brain Keeper (the daily tidy and the check-up), the morning brief (if you want one), and the [no-ai-slop](https://github.com/petergyang/no-ai-slop) skill by Peter Yang for the Writing Check. The main rules also include work habits adapted from Andrej Karpathy's guidelines for AI assistants ([andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)). You can add more skills in `Skills/`.
+</details>
+
+<details>
 <summary><b>Who is it for?</b></summary>
 
 Anyone who works with other people, juggles projects or wants their agent to know them: freelancers, small business owners, people with a job, students, and people with personal projects. The setup asks what you do and builds only the parts you need. See [Use cases](use-cases.md) for five examples.
@@ -253,7 +259,7 @@ Tasks for a project go on that project's front page. Other tasks go in `Daily/ta
 <details>
 <summary><b>Can it write emails and posts for me?</b></summary>
 
-Yes, if you picked "Write for me" in the setup. It writes in the voice saved in `About/brand.md`. For writing other people will read, it shows you the AI-sounding bits it found and lets you choose before changing them. It drafts. You send.
+Yes, if you picked "Write for me" in the setup. It writes in the voice saved in `About/brand.md`. For writing other people will read, it shows you the AI-sounding bits it found and lets you choose before changing them. It drafts. You send. The check uses the no-ai-slop skill, which every brain gets in `Skills/no-ai-slop/`.
 </details>
 
 ## The Brain Keeper and the morning brief
