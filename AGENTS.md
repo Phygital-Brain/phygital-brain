@@ -32,7 +32,7 @@ scripts/check.py                  the checks (no installs needed)
 scripts/build_mcpb.py             builds dist/phygital-brain.mcpb, the Claude desktop extension, for the release
 mcp/server.mjs                    the connector: an MCP server with no dependencies that serves skills/
 package.json                      the npm package: npx -y phygital-brain runs the connector
-.github/workflows/release.yml     on each published release: checks, npm publish, attaches the .mcpb
+.github/workflows/release.yml     on a push to main with a new version: checks, npm publish, the release with the .mcpb
 README.md, CHANGELOG.md, NOTICE, LICENSE, TRADEMARKS.md, CONTRIBUTING.md, SECURITY.md, CITATION.cff
 ```
 
@@ -55,7 +55,7 @@ README.md, CHANGELOG.md, NOTICE, LICENSE, TRADEMARKS.md, CONTRIBUTING.md, SECURI
 7. **The agent asks before it creates, moves, renames or deletes** a person's notes. Nothing in a skill or template may weaken that.
 8. **Private things stay private.** `.claudeignore` keeps `Memory/finances/`. No template may copy private details (tax IDs, bank details, birth date) into other notes or replies.
 9. **Upgrades keep what's theirs.** Their notes, their own rules (word for word), their routing rows and their folders survive every upgrade.
-10. **Version line.** A brain's root `CLAUDE.md` starts with `<!-- Phygital Brain, version X, language: xx -->`. A new version updates it, the plugin files, `package.json`, the skills' "Version" lines and the CHANGELOG together, then a `vX.Y.Z` GitHub release. Publishing the release runs `.github/workflows/release.yml`, which publishes to npm and attaches `dist/phygital-brain.mcpb`.
+10. **Version line.** A brain's root `CLAUDE.md` starts with `<!-- Phygital Brain, version X, language: xx -->`. A new version updates it, the plugin files, `package.json`, the skills' "Version" lines and the CHANGELOG together, with a `## X.Y.Z (date)` CHANGELOG entry. Pushing that to main runs `.github/workflows/release.yml`: it publishes to npm and creates the `vX.Y.Z` release with `dist/phygital-brain.mcpb` attached. Don't create releases by hand.
 11. **Keep the NOTICE credit:** "Created by Phygital-Brain".
 12. **English templates are the source; translations follow.** When you change a template, form or message, run `python3 scripts/i18n.py extract` if form text changed, update `languages/en.json`, and mark the change for every language (translate it, or open an issue). Never edit `skills/brain-setup/i18n/` by hand.
 

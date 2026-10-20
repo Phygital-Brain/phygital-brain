@@ -273,7 +273,7 @@ The full list is in [Limits](docs/limits.md).
 - **No app.** There's nothing to run. Your AI agent does the work, following the files in this repository.
 - **No lock yet.** The rules work only because your agent follows them. Keep truly secret things outside the brain folder. Locked folders are on the [roadmap](#roadmap).
 - **Not always on, unless you move it to the cloud.** On your computer, the Brain Keeper and the morning brief run only while your agent's app is open. As a cloud routine, they run with the computer off.
-- **An early version.** This is version 0.1.1, and the setup hasn't been tested with many people yet.
+- **An early version.** This is version 0.1.2, and the setup hasn't been tested with many people yet.
 
 ## Roadmap
 
@@ -362,7 +362,7 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 | `.claude-plugin/` | The plugin files, for installing it in Claude |
 | `mcp/` | The connector (an MCP server, no dependencies) for agents that take MCP servers |
 | `package.json` | The npm package, so `npx -y phygital-brain` runs the connector |
-| `.github/workflows/` | Publishes each new release to npm and attaches the Claude desktop file |
+| `.github/workflows/` | Releases each new version: npm, and the GitHub release with the Claude desktop file |
 
 <p align="center"><img src="docs/images/ownership.png" alt="Your notes. Any AI. It remembers you. Your brain folder in your drive, plain text and yours, sits in the middle, linked to Claude, Codex, Hermes Agent, OpenClaw, Cursor and the next AI you pick. Switch to another AI any time: it reads the same notes, so you never start over. Free and open source." width="100%"></p>
 

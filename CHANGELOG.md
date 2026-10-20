@@ -1,10 +1,11 @@
 # Changelog
 
-## Unreleased
+## 0.1.2 (2026-10-20)
 
 - A language that isn't ready is now translated in full during the setup, folder and note names included, without questions. The rules are in `skills/brain-setup/translating.md`.
 - Ready languages also count when typed in English (German) or as a code (de).
 - Add more skills: a guide to editing images with PhotoCraft, an open-source editor similar to Photoshop.
+- A push to main that raises the version now releases it by itself: npm, and the GitHub release with the Claude desktop file.
 
 ## 0.1.1 (2026-10-20)
 

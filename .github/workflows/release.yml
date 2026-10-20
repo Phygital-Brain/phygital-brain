@@ -1,47 +1,74 @@
-# Publishes Phygital Brain when a GitHub release is published (tag vX.Y.Z):
-# the npm package (npx -y phygital-brain) and the Claude desktop extension (.mcpb).
+# Releases Phygital Brain when a push to main raises the version in package.json.
+# If there's no GitHub release for that version yet, it runs the checks, publishes
+# to npm (npx -y phygital-brain), then creates the vX.Y.Z release with the Claude
+# desktop extension (.mcpb) attached and the CHANGELOG entry as its notes.
 # npm trusts this workflow through trusted publishing, so no token is stored anywhere.
 name: Release
 
 on:
-  release:
-    types: [published]
+  push:
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
-  contents: write # attach the .mcpb to the release
+  contents: write # create the release and attach the .mcpb
   id-token: write # npm trusted publishing
 
+concurrency:
+  group: release
+  cancel-in-progress: false
+
 jobs:
-  publish:
+  release:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v5
 
+      - name: Is this a new version?
+        id: version
+        run: |
+          version="$(node -p "require('./package.json').version")"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          if gh release view "v$version" >/dev/null 2>&1; then
+            echo "v$version is already released. Nothing to do."
+            echo "new=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "new=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-node@v5
+        if: steps.version.outputs.new == 'true'
         with:
           node-version: 24
           registry-url: https://registry.npmjs.org
 
       - name: Use the newest npm (trusted publishing needs 11.5.1 or newer)
+        if: steps.version.outputs.new == 'true'
         run: npm install -g npm@latest
 
-      - name: Check the tag matches the version
+      - name: Run the checks
+        if: steps.version.outputs.new == 'true'
+        run: python3 scripts/check.py
+
+      - name: Get the release notes from CHANGELOG.md
+        if: steps.version.outputs.new == 'true'
         run: |
-          version="v$(node -p "require('./package.json').version")"
-          if [ "$version" != "$GITHUB_REF_NAME" ]; then
-            echo "The tag is $GITHUB_REF_NAME but package.json says $version."
+          v="${{ steps.version.outputs.version }}"
+          awk -v v="$v" '$0 ~ "^## "v"( |$)" {f=1; next} /^## / {f=0} f' CHANGELOG.md > notes.md
+          if [ ! -s notes.md ]; then
+            echo "CHANGELOG.md has no '## $v' entry."
             exit 1
           fi
 
-      - name: Run the checks
-        run: python3 scripts/check.py
-
       - name: Publish to npm
+        if: steps.version.outputs.new == 'true'
         run: npm publish --access public
 
-      - name: Build and attach the Claude desktop extension
+      - name: Create the release with the Claude desktop extension
+        if: steps.version.outputs.new == 'true'
         run: |
+          v="${{ steps.version.outputs.version }}"
           python3 scripts/build_mcpb.py
-          gh release upload "$GITHUB_REF_NAME" dist/phygital-brain.mcpb --clobber
-        env:
-          GH_TOKEN: ${{ github.token }}
+          gh release create "v$v" dist/phygital-brain.mcpb --title "$v" --notes-file notes.md --target "$GITHUB_SHA"
