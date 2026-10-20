@@ -1,6 +1,6 @@
 # FAQ
 
-Questions people ask about Phygital Brain, grouped by topic. Click a question to see the answer. If yours isn't here, open an issue with the **Question** form.
+Questions people ask about Phygital Brain, grouped by topic. Click a question to see the answer. If yours isn't here, open an issue with the **Question** form. For a word you don't know, see the [Glossary](glossary.md).
 
 **On this page:** [The basics](#the-basics) · [Before you start](#before-you-start) · [Agents](#agents) · [Cloud drives](#cloud-drives) · [The setup](#the-setup) · [Every day](#every-day) · [The Brain Keeper and the morning brief](#the-brain-keeper-and-the-morning-brief) · [Your phone](#your-phone) · [Privacy and safety](#privacy-and-safety) · [Languages](#languages) · [Changing it](#changing-it) · [Updating and leaving](#updating-and-leaving) · [Cost and licence](#cost-and-licence) · [Problems](#problems)
 
@@ -40,6 +40,18 @@ Three go into your brain: the Brain Keeper (the daily tidy and the check-up), th
 <summary><b>Who is it for?</b></summary>
 
 Anyone who works with other people, juggles projects or wants their agent to know them: freelancers, small business owners, people with a job, students, and people with personal projects. The setup asks what you do and builds only the parts you need. See [Use cases](use-cases.md) for five examples.
+</details>
+
+<details>
+<summary><b>Will it replace Notion?</b></summary>
+
+For knowledge in words, it can: notes about people, projects, decisions and how you work. For structured data you sort and filter, like a sales pipeline or a content calendar with many fields, keep Notion or a spreadsheet. Many people use both.
+</details>
+
+<details>
+<summary><b>Is there a demo?</b></summary>
+
+There's an [example brain](example-brain/README.md) in this repository: a few made-up notes for Ana, the illustrator from the use cases, so you can see what the files look like before you set one up.
 </details>
 
 <details>
@@ -83,7 +95,7 @@ It can, if your agent and your cloud drive run on Linux. We haven't tested it th
 <details>
 <summary><b>Can I use a folder I already have, full of notes?</b></summary>
 
-The setup needs an empty folder, or one without its own rule file. If the folder has other files, the setup leaves them alone and builds around them. To bring old notes in, drop them in form 4, and your agent offers to file them after the build.
+The setup needs an empty folder, or one without its own rule file. If the folder has other files, the setup leaves them alone and builds around them. To bring old notes in, drop them in form 4, and your agent offers to file them after the build. Or do it any time later: see [Bringing in your old notes](importing.md).
 </details>
 
 ## Agents
@@ -116,6 +128,12 @@ The questions come in chat instead of form windows, and the Brain Keeper runs on
 <summary><b>Why are the rule files called CLAUDE.md?</b></summary>
 
 Because most people use Claude. Agents that look for another name, like `AGENTS.md` in Codex or `GEMINI.md` in Gemini CLI, get a one-line file next to each `CLAUDE.md` that points to it. There's still only one set of rules.
+</details>
+
+<details>
+<summary><b>Can I use another notes app instead of Baalda?</b></summary>
+
+Yes. Your notes are plain Markdown files, so any app that opens a folder of Markdown works, like Obsidian or a plain text editor. Baalda is the one the setup suggests.
 </details>
 
 <details>
@@ -174,6 +192,12 @@ Yes. Move the whole folder, then open it in your agent from the new place. Links
 <summary><b>What does the setup ask?</b></summary>
 
 Four forms. About you: your name, what you do, strengths, values, how you like to work. Your work: three questions written for your job, then customers or interests, your goal, projects and what's worrying you. Your days and people: work days, morning brief time, key people, social media and tools. Files: anything your agent should read first.
+</details>
+
+<details>
+<summary><b>Does the setup use a lot of my AI plan?</b></summary>
+
+More than a normal chat, because it writes your whole brain in one go. Do it when you're not close to your plan's limit. After the setup, daily use is like any other chat.
 </details>
 
 <details>
@@ -289,6 +313,12 @@ Scheduled tasks run only while your agent's app is open and your computer is awa
 </details>
 
 <details>
+<summary><b>Can it run while my laptop is closed?</b></summary>
+
+Not yet. Scheduled tasks run on your computer, while your agent's app is open and the computer is awake. If a run is missed, say "run the brain keeper". See [Limits](limits.md).
+</details>
+
+<details>
 <summary><b>What's the check-up?</b></summary>
 
 The Brain Keeper's other mode. Say "check up my brain" and your agent looks at the whole brain, lists every problem with a suggested fix, and changes nothing until you say yes.
@@ -362,6 +392,12 @@ Tax IDs, bank details, card numbers, your full legal name and your birth date li
 <summary><b>What's .claudeignore?</b></summary>
 
 A list of files and folders your agent must not open unless you ask for that exact file: password and key files, and `Memory/finances/`. You can add your own private folders. It's a rule your agent follows, so it doesn't lock anything. Keep truly secret things outside the brain folder.
+</details>
+
+<details>
+<summary><b>Can my team use one brain?</b></summary>
+
+It's built for one person. Two people can share a folder, but there are no per-person permissions, and writing at the same time can make duplicate copies. A shared team version isn't part of Phygital Brain yet. See [Limits](limits.md#one-person-one-brain).
 </details>
 
 <details>
@@ -459,7 +495,16 @@ They're already plain files. Copy the folder anywhere.
 <details>
 <summary><b>What does it cost?</b></summary>
 
-Phygital Brain is free and open source. You pay for your AI agent (we recommend a paid Claude plan) and, if you need more than the free space, your cloud drive.
+Phygital Brain is free and open source. What you might pay for:
+
+| Part | Cost |
+|---|---|
+| Phygital Brain | Free |
+| Your AI agent | A paid plan. Claude's paid plans start at about $20 a month; check the current price on their site |
+| Your cloud drive | Most have a free tier, which is enough for a brain of text notes. Nextcloud can run on your own server |
+| Baalda | Check the current terms on [its repository](https://github.com/naveedharri/baalda) |
+
+The first setup uses more of your AI plan's usage than a normal chat, because it writes many files at once. After that, daily use is like any other chat, plus a little for the Brain Keeper's daily run.
 </details>
 
 <details>

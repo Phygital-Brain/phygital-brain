@@ -138,17 +138,41 @@ Use simple, plain words and no jargon. Keep replies short, no walls of text. Use
 
 Keep it short, and don't put private details in it. Your brain's rules still win inside your brain folder.
 
+## Your first chat
+
+Open a new chat on your brain folder and try these four. They test that your agent can find and use what the setup built.
+
+| Say | A good answer |
+|---|---|
+| "Who am I?" | Your name, what you do and how you like to work, from `About/me.md` |
+| "What am I working on?" | Your projects from the setup, with their next steps |
+| "Add a task: call the printer on Thursday." | It adds the task and tells you where |
+| "Write a short bio for my website." | It sounds like you, and uses facts from your About pages |
+
+If an answer is vague or wrong, tell your agent what's missing: "I also make book covers." It saves the fact in the right page.
+
+**Day-one checklist:**
+
+- [ ] The seven folders exist: `About`, `Daily`, `Projects`, `Relationships`, `Memory`, `Library`, `Skills`
+- [ ] `CLAUDE.md` is at the top of the folder
+- [ ] `About/me.md` has your real details, not blanks
+- [ ] Today's daily note exists in `Daily/`
+- [ ] The Brain Keeper is scheduled (ask: "When does the Brain Keeper run?")
+- [ ] Your agent answered "Who am I?" correctly
+
 ## On your phone
 
 Once the brain is in a cloud drive and the drive is connected to your agent, you can ask your brain things from your agent's phone app, and with Claude you can send tasks to your computer with Dispatch. Everything is in [Your brain on your phone](phone.md).
 
 ## Your first week
 
+- **Start small.** A brain with a few real notes beats one full of old imports. Bring in only the old notes you used in the last six months: see [Bringing in your old notes](importing.md).
 - **Talk to it every day,** even small things: "Had a call with Marta", "Sent the invoice". The more it knows, the more it helps.
 - **Drop things in:** an email you got, a brief, a photo of notes. Ask "Where should this go?"
 - **Correct it** when it gets something wrong: "Don't do that, do this." It saves your correction as a rule.
 - **Look in Baalda** once or twice, to see how your notes link up.
-- **Read the Brain Keeper's line** in your daily note when it says something needs you.
+- **Tell it to save what matters:** "Save this as a decision", "Remember this about Marta". It saves a lot on its own, but a decision or a lesson you name is never missed.
+- **Read the Brain Keeper's reports** for the first two weeks, in `Skills/brain-keeper/reports/`. Once its fixes look right, read only the line in your daily note when something needs you.
 
 ## Keeping it up to date
 

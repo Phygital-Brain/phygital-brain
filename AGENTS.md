@@ -20,7 +20,7 @@ skills/brain-setup/templates/     every file a new brain gets, with {placeholder
 skills/brain-setup/bundled/       third-party skills copied unchanged into every brain (no-ai-slop, MIT)
 skills/brain-keeper/SKILL.md      installs and updates the Brain Keeper
 skills/brain-keeper/templates/    daily.md, check-up.md, queue.md, the root CLAUDE.md section
-docs/                             for people: getting started, use cases, FAQ, phone, how it works, other agents
+docs/                             for people: getting started, use cases, FAQ, glossary, importing, limits, example brain, phone, how it works, other agents
 docs/folders/                     one page per brain folder, and the main rules in plain words
 docs/images/                      the README picture and the logo
 languages/                        how other languages work

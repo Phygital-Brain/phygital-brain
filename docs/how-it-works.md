@@ -102,6 +102,17 @@ Open a chat on your brain folder and talk normally:
 - "What's on my plate this week?"
 - "Why did I decide to raise my prices?"
 
+## Your brain over time
+
+| When | What it looks like |
+|---|---|
+| **Day one** | About pages from your answers, your current projects, your key people, one daily note, and the Brain Keeper scheduled |
+| **After a week** | A daily note for each day you talked to it, new people and leads, your first decisions, and the first Brain Keeper reports |
+| **After a month** | Projects with real histories, people pages that show when you last talked, decisions with their reasons, and a short queue as the Brain Keeper settles in |
+| **After six months** | About pages with long dated histories, so you can ask "what did I charge last spring?" or "when did I start working with Marta?" and get an answer from your own notes |
+
+The setup is the start. The brain grows from what you tell it, so a few lines a day do more than a big import once.
+
 ## On your phone
 
 Ask your brain things from your agent's phone app, with your cloud drive connected, and send tasks to your computer (in Claude, with Dispatch). See [Your brain on your phone](phone.md).

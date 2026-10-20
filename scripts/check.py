@@ -12,6 +12,7 @@ import json
 import os
 import re
 import sys
+from urllib.parse import unquote
 from html.parser import HTMLParser
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -27,7 +28,7 @@ for f in glob.glob("**/*.md", recursive=True):
     if "/templates/" in f:
         continue  # templates show link examples on purpose
     for target in re.findall(r"\]\(([^)\s]+)\)", open(f, encoding="utf-8").read()):
-        path = target.split("#")[0]
+        path = unquote(target.split("#")[0])
         if not path or path.startswith(("http://", "https://", "mailto:")):
             continue
         if not os.path.exists(os.path.normpath(os.path.join(os.path.dirname(f), path))):

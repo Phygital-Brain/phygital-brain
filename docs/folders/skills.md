@@ -128,6 +128,16 @@ The easy, safe fixes come first. Then you pick: **Fix all safe ones**, **Go one 
 - `queue.md` has three parts: **Needs you**, **To fix** and **Next folder**. When something new needs you, today's daily note gets one line pointing to it.
 - Each report says what changed, what was fixed, what was put on the list, and any errors.
 
+### Trusting the Brain Keeper
+
+Give it two weeks before you stop checking:
+
+1. **Week 1 and 2:** read each morning's report. Check that the fixes are ones you'd make.
+2. **If a fix is wrong:** say so, for example "Don't change tags in my research notes." It saves that as a rule.
+3. **After that:** read only the line in your daily note that says something needs you, and the queue.
+
+If you'd rather it change nothing on its own, say "Brain Keeper, report only." Every fix then goes on the list for you.
+
 ### Talking to the Brain Keeper
 
 | Say | What happens |

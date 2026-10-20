@@ -211,6 +211,9 @@ Your notes are read by your AI agent and stored in your cloud drive. Phygital Br
 
 ## What it isn't
 
+The full list is in [Limits](docs/limits.md).
+
+
 - **No app.** There's nothing to run. Your AI agent does the work, following the files in this repository.
 - **No lock.** The rules work only because your agent follows them. Keep truly secret things outside the brain folder.
 - **Not always on.** The Brain Keeper and the morning brief run only while your agent's app is open and your computer is awake.
@@ -226,7 +229,7 @@ Your notes are read by your AI agent and stored in your cloud drive. Phygital Br
 
 ## FAQ
 
-The most asked questions are below. The full list, with 80 answers grouped by topic, is in the [FAQ](docs/faq.md).
+The most asked questions are below. The full list, with 86 answers grouped by topic, is in the [FAQ](docs/faq.md).
 
 <details>
 <summary><b>Do I need to know how to code?</b></summary>
@@ -263,14 +266,18 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 | Guide | What's in it |
 |---|---|
 | [Use cases](docs/use-cases.md) | Five people, what their brain looks like, and what they say on a normal day |
-| [FAQ](docs/faq.md) | 80 questions and answers, grouped by topic |
+| [FAQ](docs/faq.md) | 86 questions and answers, grouped by topic |
 | [Getting started](docs/getting-started.md) | Every step from nothing to a working brain, with checks and fixes |
+| [Bringing in your old notes](docs/importing.md) | Exporting from Notion, Google Docs, Apple Notes and others, and filing it all |
+| [Example brain](docs/example-brain/README.md) | A few made-up notes, so you can see the files before you build yours |
 | [How it works](docs/how-it-works.md) | What your agent does at each step, when it saves and when it asks |
 | [The folders in your brain](docs/folders/README.md) | One page per folder and subfolder, with examples and rules |
 | [Main rules](docs/folders/main-rules.md) | The main `CLAUDE.md`, in plain words |
 | [Your brain on your phone](docs/phone.md) | Ask from your agent's phone app, send tasks to your computer |
 | [Other agents](docs/other-agents.md) | Using Codex or another agent, rule file names, two agents on one brain |
 | [Languages](languages/README.md) | How other languages work |
+| [Limits](docs/limits.md) | What it does badly, or not yet |
+| [Glossary](docs/glossary.md) | Every term, in plain words |
 | [Security and privacy](SECURITY.md) | What you share with your AI, and how to report a problem |
 
 ## This repository
