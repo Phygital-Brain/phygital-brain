@@ -91,6 +91,7 @@ One click for most agents:
 - **Claude Code:** two lines to paste, `/plugin marketplace add Phygital-Brain/phygital-brain` and `/plugin install phygital-brain@phygital-brain`.
 - **Cursor, VS Code:** the **Add to** buttons at the top of [Install](install.md).
 - **Codex, Hermes Agent, OpenClaw and others:** a few lines for their settings, in [Install](install.md).
+- **Any agent that uses skills, from a terminal:** `npx skills add Phygital-Brain/phygital-brain`.
 
 **Check it worked:** in a chat, ask "Do you have the Phygital Brain setup?" Your agent should say yes.
 

@@ -161,12 +161,22 @@ You need an AI agent that can work in a folder, a cloud drive your agent can con
 **Install:** click the button for your agent.
 
 <p align="center">
-<a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="https://img.shields.io/badge/Add%20to-Claude%20desktop-F05AB8?logo=anthropic&logoColor=white&labelColor=0B0D12&style=for-the-badge" alt="Add to Claude desktop"></a>
-<a href="docs/install.md#claude-code"><img src="https://img.shields.io/badge/Install%20in-Claude%20Code-5AC8FA?logo=anthropic&logoColor=white&labelColor=0B0D12&style=for-the-badge" alt="Install in Claude Code"></a>
-<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsImdpdGh1YjpQaHlnaXRhbC1CcmFpbi9waHlnaXRhbC1icmFpbiJdfQ=="><img src="https://img.shields.io/badge/Add%20to-Cursor-F05AB8?logo=cursor&logoColor=white&labelColor=0B0D12&style=for-the-badge" alt="Add to Cursor"></a>
-<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522github%253APhygital-Brain%252Fphygital-brain%2522%255D%257D"><img src="https://img.shields.io/badge/Add%20to-VS%20Code-F05AB8?labelColor=0B0D12&style=for-the-badge" alt="Add to VS Code"></a>
-<a href="docs/install.md#codex"><img src="https://img.shields.io/badge/Other%20agents-Codex%20%C2%B7%20Hermes%20%C2%B7%20OpenClaw-5AC8FA?labelColor=0B0D12&style=for-the-badge" alt="Other agents: Codex, Hermes Agent, OpenClaw"></a>
+<a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="docs/images/buttons/claude-desktop.png" width="240" alt="Add to Claude desktop"></a>
+<a href="docs/install.md#claude-code"><img src="docs/images/buttons/claude-code.png" width="240" alt="Install in Claude Code"></a>
+<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsImdpdGh1YjpQaHlnaXRhbC1CcmFpbi9waHlnaXRhbC1icmFpbiJdfQ=="><img src="docs/images/buttons/cursor.png" width="240" alt="Add to Cursor"></a>
+<br>
+<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522github%253APhygital-Brain%252Fphygital-brain%2522%255D%257D"><img src="docs/images/buttons/vscode.png" width="240" alt="Add to VS Code"></a>
+<a href="docs/install.md#codex"><img src="docs/images/buttons/codex.png" width="240" alt="Set up in Codex"></a>
+<a href="docs/install.md#hermes-agent-and-openclaw"><img src="docs/images/buttons/other-agents.png" width="240" alt="Set up in Hermes Agent or OpenClaw"></a>
 </p>
+
+**Or in a terminal, for any agent that uses skills** (Claude Code, Codex, Cursor, Gemini CLI and others):
+
+```bash
+npx skills add Phygital-Brain/phygital-brain
+```
+
+It asks which of your agents to add it to. Needs Node.js.
 
 Every way, step by step, and for other agents: [Install](docs/install.md).
 
