@@ -2,6 +2,52 @@
 
 Phygital Brain is written in English and ready in 40 more languages: Chinese (Simplified), Chinese (Traditional), Hindi, Spanish, Arabic, French, Bengali, Portuguese (Brazil), Portuguese (Portugal), Russian, Urdu, Indonesian, German, Japanese, Vietnamese, Turkish, Korean, Italian, Polish, Dutch, Persian, Thai, Ukrainian, Swahili, Tamil, Telugu, Marathi, Gujarati, Punjabi (Gurmukhi), Malay, Filipino, Hebrew, Greek, Czech, Romanian, Hungarian, Swedish, Danish, Norwegian (Bokmål) and Finnish.
 
+## Ready languages
+
+| Language | Folders, for example |
+|---|---|
+| English | About, Daily, Projects |
+| 中文 (Chinese, Simplified) | 关于我, 日记, 项目 |
+| 繁體中文 (Chinese, Traditional) | 關於我, 日記, 專案 |
+| हिन्दी (Hindi) | परिचय, रोज़ाना, प्रोजेक्ट |
+| Español (Spanish) | Perfil, Diario, Proyectos |
+| العربية (Arabic, right to left) | عني, اليوميات, المشاريع |
+| Français (French) | Profil, Journal, Projets |
+| বাংলা (Bengali) | পরিচয়, দৈনিক, প্রজেক্ট |
+| Português (Brasil) | Sobre, Diário, Projetos |
+| Português (Portugal) | Perfil, Diário, Projetos |
+| Русский (Russian) | Профиль, Дневник, Проекты |
+| اردو (Urdu, right to left) | تعارف, روزنامچہ, پروجیکٹس |
+| Bahasa Indonesia | Tentang, Harian, Proyek |
+| Deutsch (German) | Profil, Tagebuch, Projekte |
+| 日本語 (Japanese) | プロフィール, 日記, プロジェクト |
+| Tiếng Việt (Vietnamese) | Hồ sơ, Nhật ký, Dự án |
+| Türkçe (Turkish) | Profil, Günlük, Projeler |
+| 한국어 (Korean) | 프로필, 일지, 프로젝트 |
+| Italiano (Italian) | Profilo, Diario, Progetti |
+| Polski (Polish) | Profil, Dziennik, Projekty |
+| Nederlands (Dutch) | Profiel, Dagboek, Projecten |
+| فارسی (Persian, right to left) | پروفایل, روزانه, پروژه‌ها |
+| ไทย (Thai) | โปรไฟล์, บันทึกรายวัน, โปรเจกต์ |
+| Українська (Ukrainian) | Профіль, Щоденник, Проєкти |
+| Kiswahili (Swahili) | Kuhusu, Shajara, Miradi |
+| தமிழ் (Tamil) | அறிமுகம், தினசரி, திட்டங்கள் |
+| తెలుగు (Telugu) | పరిచయం, రోజువారీ, ప్రాజెక్టులు |
+| मराठी (Marathi) | ओळख, रोजनिशी, प्रकल्प |
+| ગુજરાતી (Gujarati) | પરિચય, રોજનીશી, પ્રોજેક્ટ |
+| ਪੰਜਾਬੀ (Punjabi (Gurmukhi)) | ਜਾਣ-ਪਛਾਣ, ਰੋਜ਼ਾਨਾ, ਪ੍ਰੋਜੈਕਟ |
+| Bahasa Melayu (Malay) | Profil, Harian, Projek |
+| Filipino | Tungkol-sa-Akin, Araw-araw, Proyekto |
+| עברית (Hebrew, right to left) | עליי, יומי, פרויקטים |
+| Ελληνικά (Greek) | Προφίλ, Μέρες, Έργα |
+| Čeština (Czech) | Profil, Deník, Projekty |
+| Română (Romanian) | Profil, Jurnal, Proiecte |
+| Magyar (Hungarian) | Rólam, Napló, Projektek |
+| Svenska (Swedish) | Profil, Dagbok, Projekt |
+| Dansk (Danish) | Profil, Dagbog, Projekter |
+| Norsk (bokmål) (Norwegian (Bokmål)) | Profil, Dagbok, Prosjekter |
+| Suomi (Finnish) | Profiili, Päiväkirja, Projektit |
+
 ## How a brain gets its language
 
 ```mermaid
