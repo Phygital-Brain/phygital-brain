@@ -184,9 +184,9 @@ You need an AI agent that can work in a folder, a cloud drive your agent can con
 npx skills add Phygital-Brain/phygital-brain
 ```
 
-It asks which of your agents to add it to. Needs Node.js.
+It asks which of your agents to add it to. Claude desktop and Claude Code need nothing more. The other ways need [Node.js](https://nodejs.org), a free one-time install.
 
-Every way, step by step, and for other agents: [Install](docs/install.md).
+Every way, step by step: [Install](docs/install.md).
 
 ```mermaid
 flowchart LR

@@ -1,6 +1,8 @@
 # Install
 
-Pick your agent and click. Every way gives your agent the same thing: Phygital Brain's setup, forms, templates, 11 languages, the Brain Keeper and the add-language skill. Your agent still writes your notes itself, in the folder you choose.
+Pick your agent and click. Then open a chat on your brain folder and say **"Set up my second brain."**
+
+Every way gives your agent the same setup, forms, 11 languages and Brain Keeper. Your agent writes your notes itself, in the folder you choose.
 
 <p align="center">
 <a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="images/buttons/claude-desktop.png" width="240" alt="Add to Claude desktop"></a>
@@ -12,16 +14,6 @@ Pick your agent and click. Every way gives your agent the same thing: Phygital B
 <a href="#hermes-agent-and-openclaw"><img src="images/buttons/other-agents.png" width="240" alt="Set up in Hermes Agent or OpenClaw"></a>
 </p>
 
-**Or in a terminal, for any agent that uses skills** (Claude Code, Codex, Cursor, Gemini CLI and others):
-
-```bash
-npx skills add Phygital-Brain/phygital-brain
-```
-
-It asks which of your agents to add it to. Needs Node.js.
-
-Then open a chat on your brain folder and say **"Set up my second brain."**
-
 ```mermaid
 flowchart LR
     C[Click the button<br>for your agent] --> A[Your agent installs<br>Phygital Brain]
@@ -29,26 +21,12 @@ flowchart LR
     F --> S["Say: Set up my<br>second brain"]
 ```
 
-**On this page:** [Terminal, any agent](#terminal-any-agent) · [Claude desktop](#claude-desktop) · [Claude Code](#claude-code) · [Cursor](#cursor) · [VS Code](#vs-code) · [Codex](#codex) · [Hermes Agent and OpenClaw](#hermes-agent-and-openclaw) · [Any other agent](#any-other-agent) · [Updating](#updating) · [Removing](#removing)
+## What you need
 
-## Two ways it installs
+- **Claude desktop, or the plugin in Claude Code:** nothing more.
+- **Every other way:** [Node.js](https://nodejs.org) on your computer. Download the version marked LTS and install it like any app. You only do this once.
 
-| Way | What it is | Used for |
-|---|---|---|
-| **Plugin** | Phygital Brain's skills, loaded straight into the agent | Claude Code (recommended there) |
-| **Connector** | A small program, an MCP server, that runs on your computer and hands your agent Phygital Brain's files | Claude desktop, Cursor, VS Code, Codex, Hermes Agent, OpenClaw and other agents that take MCP servers |
-
-The connector only reads its own files. It never opens your notes, and it sends nothing anywhere. It runs with `npx -y phygital-brain`, from npm, so it needs **Node.js 18 or newer** on your computer. The Claude desktop file is the exception: the Claude app brings its own Node.js.
-
-## Terminal, any agent
-
-The [skills](https://github.com/vercel-labs/skills) installer adds Phygital Brain's skills to the agents on your computer that use skills, like Claude Code, Codex, Cursor and Gemini CLI:
-
-```bash
-npx skills add Phygital-Brain/phygital-brain
-```
-
-It asks which agents to add it to. To update later: `npx skills update`.
+**On this page:** [Claude desktop](#claude-desktop) · [Claude Code](#claude-code) · [Cursor](#cursor) · [VS Code](#vs-code) · [Codex](#codex) · [Hermes Agent and OpenClaw](#hermes-agent-and-openclaw) · [Any other agent](#any-other-agent) · [Terminal, any agent](#terminal-any-agent) · [What the connector does](#what-the-connector-does) · [Updating](#updating) · [Removing](#removing)
 
 ## Claude desktop
 
@@ -101,7 +79,13 @@ By hand: run **MCP: Add Server** from the Command Palette, choose **Command (std
 
 ## Codex
 
-Add this to Codex's config file, `~/.codex/config.toml`:
+In a terminal:
+
+```bash
+codex mcp add phygital-brain -- npx -y phygital-brain
+```
+
+Or add this to Codex's config file, `~/.codex/config.toml`:
 
 ```toml
 [mcp_servers.phygital-brain]
@@ -137,9 +121,24 @@ Any agent that takes MCP servers works the same way: a stdio server with the com
 
 No MCP? Download this repository, open your agent on your brain folder, and say: "Set up my second brain. Follow skills/brain-setup/SKILL.md in {where you put it}."
 
+## Terminal, any agent
+
+For agents that use skills, like Claude Code, Codex, Cursor and Gemini CLI, one line in a terminal adds Phygital Brain to the ones you pick:
+
+```bash
+npx skills add Phygital-Brain/phygital-brain
+```
+
+It uses the [skills](https://github.com/vercel-labs/skills) installer, which asks which agents to add it to.
+
+## What the connector does
+
+Most buttons above add a connector: a small program (an MCP server) that runs on your computer and hands your agent Phygital Brain's files. It only reads its own files. It never opens your notes, and it sends nothing anywhere. In Claude Code, the plugin does the same job by loading the skills straight into the agent.
+
 ## Updating
 
-- **Connector with npx:** it runs the newest version from npm each time it starts.
+- **Connector (Cursor, VS Code, Codex, Hermes Agent, OpenClaw):** nothing to do. It gets the newest version by itself when your agent starts.
+- **Terminal line:** `npx skills update`.
 - **Claude desktop file:** download the new `phygital-brain.mcpb` from the latest release and install it over the old one.
 - **Claude Code plugin:** `/plugin marketplace update phygital-brain`.
 
