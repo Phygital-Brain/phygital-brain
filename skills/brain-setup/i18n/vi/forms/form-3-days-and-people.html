@@ -1,0 +1,95 @@
+<h2 class="sr-only">Biểu mẫu thiết lập 3/4: lịch làm việc và những người quanh bạn.</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>Thông tin bộ não: lịch làm việc và mọi người (3/4)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">Bạn làm việc những ngày nào?</label>
+      <div class="elicit-pills" data-name="work_days" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Mon">T2</button>
+        <button type="button" class="elicit-pill" data-value="Tue">T3</button>
+        <button type="button" class="elicit-pill" data-value="Wed">T4</button>
+        <button type="button" class="elicit-pill" data-value="Thu">T5</button>
+        <button type="button" class="elicit-pill" data-value="Fri">T6</button>
+        <button type="button" class="elicit-pill" data-value="Sat">T7</button>
+        <button type="button" class="elicit-pill" data-value="Sun">CN</button>
+      </div>
+    </div>
+    <!-- BRIEF: keep this block only if BRIEF = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">Bạn muốn nhận bản tin sáng lúc mấy giờ?</label>
+      <div class="elicit-pills" data-name="brief_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="7:00">7:00</button>
+        <button type="button" class="elicit-pill" data-value="8:00">8:00</button>
+        <button type="button" class="elicit-pill" data-value="9:00">9:00</button>
+        <button type="button" class="elicit-pill" data-value="No brief">Không cần bản tin</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Khác</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="brief_time" placeholder="10:30" hidden>
+    </div>
+    <!-- END BRIEF -->
+    <div class="elicit-group">
+      <label class="elicit-question">Lúc này ai quan trọng nhất trong công việc của bạn? Tối đa 3 người, mỗi người một dòng.</label>
+      <textarea class="elicit-textarea" data-name="key_people" placeholder="Mai, biên tập viên ở nhà xuất bản&#10;Tuấn, cộng sự ở xưởng vẽ&#10;Linh, người đại diện của mình"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Bạn làm việc với ai?</label>
+      <div class="elicit-pills" data-name="people" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Clients">Khách hàng</button>
+        <button type="button" class="elicit-pill" data-value="Collaborators">Cộng sự</button>
+        <button type="button" class="elicit-pill" data-value="Team or freelancers">Nhóm hoặc freelancer</button>
+        <button type="button" class="elicit-pill" data-value="Partners, press or venues">Đối tác, báo chí hoặc địa điểm tổ chức</button>
+        <button type="button" class="elicit-pill" data-value="Just me">Mình làm một mình</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Khác</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="people" placeholder="Học sinh, sinh viên" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Liệt kê các tài khoản mạng xã hội của bạn, cho công việc hoặc dự án cá nhân.</label>
+      <textarea class="elicit-textarea" data-name="social" placeholder="instagram.com/lan.draws (công việc)&#10;linkedin.com/in/lannguyen&#10;tiktok.com/@lansketchbook (cá nhân)"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Bạn thường trò chuyện với mọi người ở đâu?</label>
+      <div class="elicit-pills" data-name="comms" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Gmail or Google Workspace">Gmail hoặc Google Workspace</button>
+        <button type="button" class="elicit-pill" data-value="Outlook or Microsoft 365">Outlook hoặc Microsoft 365</button>
+        <button type="button" class="elicit-pill" data-value="WhatsApp">WhatsApp</button>
+        <button type="button" class="elicit-pill" data-value="Slack or Teams">Slack hoặc Teams</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Khác</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="comms" placeholder="Telegram" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Hiện giờ ghi chú và công việc của bạn nằm ở đâu?</label>
+      <div class="elicit-pills" data-name="notes_now" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Google Drive or Docs">Google Drive hoặc Docs</button>
+        <button type="button" class="elicit-pill" data-value="Notion">Notion</button>
+        <button type="button" class="elicit-pill" data-value="Apple Notes">Apple Notes</button>
+        <button type="button" class="elicit-pill" data-value="Canva or Figma">Canva hoặc Figma</button>
+        <button type="button" class="elicit-pill" data-value="Spreadsheets">Bảng tính</button>
+        <button type="button" class="elicit-pill" data-value="Paper notebooks">Sổ tay giấy</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Khác</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="notes_now" placeholder="Evernote" hidden>
+    </div>
+    <!-- VOICE: keep this block only if BUSINESS = on and WRITE = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">Bạn muốn giọng văn của mình nghe thế nào?</label>
+      <div class="elicit-pills" data-name="voice" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Warm and personal">Ấm áp, gần gũi</button>
+        <button type="button" class="elicit-pill" data-value="Direct and confident">Thẳng thắn, tự tin</button>
+        <button type="button" class="elicit-pill" data-value="Humble and honest">Khiêm tốn, chân thành</button>
+        <button type="button" class="elicit-pill" data-value="Playful">Vui vẻ, tinh nghịch</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Khác</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="voice" placeholder="Như nói chuyện với bạn bè" hidden>
+    </div>
+    <!-- END VOICE -->
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">Bỏ qua</button>
+    <button type="button" class="elicit-submit">Tiếp tục</button>
+  </div>
+</form>

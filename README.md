@@ -16,7 +16,7 @@
 <a href="docs/other-agents.md"><img src="https://img.shields.io/badge/agents-Claude%20%C2%B7%20Codex%20%C2%B7%20Hermes%20%C2%B7%20OpenClaw-0B0D12?labelColor=F05AB8" alt="Agents: Claude, Codex, Hermes Agent, OpenClaw and others"></a>
 <a href="docs/getting-started.md#2-a-cloud-drive-folder"><img src="https://img.shields.io/badge/cloud-Google%20Drive%20%C2%B7%20Nextcloud%20%C2%B7%20Dropbox-0B0D12?labelColor=5AC8FA" alt="Cloud drives: Google Drive, Nextcloud, Dropbox and others"></a>
 <a href="docs/how-it-works.md"><img src="https://img.shields.io/badge/notes-Markdown-0B0D12?logo=markdown&labelColor=F05AB8" alt="Notes: plain Markdown"></a>
-<a href="#languages"><img src="https://img.shields.io/badge/languages-11%20ready%20%C2%B7%20add%20yours-0B0D12?labelColor=5AC8FA" alt="11 languages ready, add yours"></a>
+<a href="#languages"><img src="https://img.shields.io/badge/languages-21%20ready%20%C2%B7%20add%20yours-0B0D12?labelColor=5AC8FA" alt="21 languages ready, add yours"></a>
 <a href="SECURITY.md#what-you-share-with-your-ai"><img src="https://img.shields.io/badge/telemetry-none-0B0D12?labelColor=F05AB8" alt="No telemetry"></a>
 </p>
 <p align="center">
@@ -223,21 +223,31 @@ Setup, what to say, and fixes for common problems: [Your brain on your phone](do
 
 ## Languages
 
-Phygital Brain is ready in **11 languages**. Pick yours at the start of the setup, and the whole brain is built in it: the forms, the rules, the folder and note names, the Brain Keeper and every message.
+Phygital Brain is ready in **21 languages**. Pick yours at the start of the setup, and the whole brain is built in it: the forms, the rules, the folder and note names, the Brain Keeper and every message.
 
 | Language | Folders, for example |
 |---|---|
 | English | About, Daily, Projects |
 | 中文 (Chinese, Simplified) | 关于我, 日记, 项目 |
+| 繁體中文 (Chinese, Traditional) | 關於我, 日記, 專案 |
 | हिन्दी (Hindi) | परिचय, रोज़ाना, प्रोजेक्ट |
 | Español (Spanish) | Perfil, Diario, Proyectos |
 | العربية (Arabic, right to left) | عني, اليوميات, المشاريع |
 | Français (French) | Profil, Journal, Projets |
+| বাংলা (Bengali) | পরিচয়, দৈনিক, প্রজেক্ট |
 | Português (Brasil) | Sobre, Diário, Projetos |
+| Português (Portugal) | Perfil, Diário, Projetos |
 | Русский (Russian) | Профиль, Дневник, Проекты |
+| اردو (Urdu, right to left) | تعارف, روزنامچہ, پروجیکٹس |
 | Bahasa Indonesia | Tentang, Harian, Proyek |
 | Deutsch (German) | Profil, Tagebuch, Projekte |
 | 日本語 (Japanese) | プロフィール, 日記, プロジェクト |
+| Tiếng Việt (Vietnamese) | Hồ sơ, Nhật ký, Dự án |
+| Türkçe (Turkish) | Profil, Günlük, Projeler |
+| 한국어 (Korean) | 프로필, 일지, 프로젝트 |
+| Italiano (Italian) | Profilo, Diario, Progetti |
+| Polski (Polish) | Profil, Dziennik, Projekty |
+| Nederlands (Dutch) | Profiel, Dagboek, Projecten |
 
 **Your language isn't here?** Pick Other and type it. Your agent translates the whole brain during the setup, folder names included, without asking you anything. To make a checked set that everyone who speaks your language can use, say:
 
@@ -273,7 +283,7 @@ The full list is in [Limits](docs/limits.md).
 - **No app.** There's nothing to run. Your AI agent does the work, following the files in this repository.
 - **No lock yet.** The rules work only because your agent follows them. Keep truly secret things outside the brain folder. Locked folders are on the [roadmap](#roadmap).
 - **Not always on, unless you move it to the cloud.** On your computer, the Brain Keeper and the morning brief run only while your agent's app is open. As a cloud routine, they run with the computer off.
-- **An early version.** This is version 0.1.3, and the setup hasn't been tested with many people yet.
+- **An early version.** This is version 0.1.4, and the setup hasn't been tested with many people yet.
 
 ## Roadmap
 

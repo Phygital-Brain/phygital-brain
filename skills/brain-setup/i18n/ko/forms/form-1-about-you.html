@@ -1,0 +1,97 @@
+<h2 class="sr-only">설정 양식 1/4: 나에 대해.</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>브레인 정보: 나에 대해 (1/4)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">이름이 뭐예요? 하는 일을 한 줄로 알려 주세요.</label>
+      <input type="text" data-name="name" placeholder="김하은, 그림책 일러스트레이터">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">어떤 쪽에 가장 가까워요?</label>
+      <div class="elicit-pills" data-name="you" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Freelancer or creator" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-brush" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">프리랜서 또는 크리에이터</span><br><span style="font-size:11px; color:var(--text-muted)">혼자서 일해요</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Small business owner" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-building-store" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">소상공인, 작은 회사 대표</span><br><span style="font-size:11px; color:var(--text-muted)">1인 회사 또는 아주 작은 회사</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Employee or professional" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-briefcase" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">직장인 또는 전문직</span><br><span style="font-size:11px; color:var(--text-muted)">회사에 다녀요</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Personal projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-plant" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">개인 프로젝트</span><br><span style="font-size:11px; color:var(--text-muted)">공부, 취미, 사이드 프로젝트</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">기타</span><br><span style="font-size:11px; color:var(--text-muted)">직접 적어 주세요</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="you" placeholder="부업으로 온라인 강의를 파는 선생님" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">파는 게 있거나 클라이언트가 있나요?</label>
+      <div class="elicit-pills" data-name="selling" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Yes, services or clients">네, 서비스나 클라이언트가 있어요</button>
+        <button type="button" class="elicit-pill" data-value="Yes, products">네, 제품을 팔아요</button>
+        <button type="button" class="elicit-pill" data-value="Not yet, planning to">아직은 아니지만 계획 중이에요</button>
+        <button type="button" class="elicit-pill" data-value="No">아니요</button>
+      </div>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">세컨드 브레인이 무엇을 도와주면 좋을까요?</label>
+      <div class="elicit-pills" data-name="help" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Organise projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-layout-kanban" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">프로젝트 정리</span><br><span style="font-size:11px; color:var(--text-muted)">계획, 진행 상황, 다음 할 일</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Remember people" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-users" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">사람 기억하기</span><br><span style="font-size:11px; color:var(--text-muted)">클라이언트, 협업자, 연락처</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Write for me" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">글 대신 써 주기</span><br><span style="font-size:11px; color:var(--text-muted)">내 말투로 쓰는 이메일과 게시물</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Goals and decisions" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-target" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">목표와 결정</span><br><span style="font-size:11px; color:var(--text-muted)">무엇을 목표로 하고, 왜 그런지</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">기타</span><br><span style="font-size:11px; color:var(--text-muted)">직접 적어 주세요</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="help" placeholder="읽은 책 기록하기" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">잘하는 게 뭐예요? 기술, 강점, 사람들이 나를 찾는 이유를 알려 주세요.</label>
+      <textarea class="elicit-textarea" data-name="strengths" placeholder="동물 그리기, 어려운 내용을 쉽게 설명하기, 마감 앞에서 빠르게 일하기"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">일할 때 중요하게 여기는 건 뭐예요? 거절하는 일은 어떤 거예요?</label>
+      <textarea class="elicit-textarea" data-name="values" placeholder="정직한 일, 정당한 대가. 도박이나 담배 회사 일은 안 해요."></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">어떤 방식이 가장 잘 이해돼요?</label>
+      <div class="elicit-pills" data-name="learning" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Short lists">짧은 목록</button>
+        <button type="button" class="elicit-pill" data-value="Examples">예시</button>
+        <button type="button" class="elicit-pill" data-value="Step by step">한 단계씩</button>
+        <button type="button" class="elicit-pill" data-value="Pictures and diagrams">그림과 도표</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>기타</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="learning" placeholder="들을 수 있는 음성 메모" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">언제 가장 집중이 잘돼요?</label>
+      <div class="elicit-pills" data-name="focus_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Early morning">이른 아침</button>
+        <button type="button" class="elicit-pill" data-value="Late morning">오전</button>
+        <button type="button" class="elicit-pill" data-value="Afternoon">오후</button>
+        <button type="button" class="elicit-pill" data-value="Night">밤</button>
+        <button type="button" class="elicit-pill" data-value="It changes">그때그때 달라요</button>
+      </div>
+      <textarea class="elicit-textarea" data-name="energy" placeholder="기운 빠지는 일은요? 긴 통화, 너무 많은 메시지, 금요일마다 하는 행정 업무"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">에이전트가 어떤 말투로 말하면 좋을까요?</label>
+      <div class="elicit-pills" data-name="style" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Short and plain">짧고 쉽게</button>
+        <button type="button" class="elicit-pill" data-value="Detailed">자세하게</button>
+        <button type="button" class="elicit-pill" data-value="Friendly and casual">친근하고 편하게</button>
+        <button type="button" class="elicit-pill" data-value="Formal and professional">격식 있고 전문적으로</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>기타</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="style" placeholder="솔직하게, 유머도 조금 섞어서" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">어디에 살아요? 선택 사항이에요. 시간대를 맞추는 데 써요.</label>
+      <input type="text" data-name="city" placeholder="서울, 대한민국">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">나를 소개하는 링크가 있나요? 에이전트가 읽어서 입력할 게 줄어들어요.</label>
+      <input type="text" data-name="link" placeholder="https://mysite.kr">
+    </div>
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">건너뛰기</button>
+    <button type="button" class="elicit-submit">계속</button>
+  </div>
+</form>

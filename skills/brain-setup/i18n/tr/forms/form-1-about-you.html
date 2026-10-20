@@ -1,0 +1,97 @@
+<h2 class="sr-only">Kurulum formu 1/4: seni tanıyalım.</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>Beyin bilgileri: seni tanıyalım (1/4)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">Adın ne, ne iş yapıyorsun? Tek satırda yaz.</label>
+      <input type="text" data-name="name" placeholder="Ana Costa, çocuk kitapları illüstratörü">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Seni en iyi hangisi anlatıyor?</label>
+      <div class="elicit-pills" data-name="you" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Freelancer or creator" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-brush" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Serbest çalışan ya da içerik üreticisi</span><br><span style="font-size:11px; color:var(--text-muted)">Kendi hesabına çalışıyor</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Small business owner" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-building-store" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Küçük işletme sahibi</span><br><span style="font-size:11px; color:var(--text-muted)">Tek kişilik ya da çok küçük şirket</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Employee or professional" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-briefcase" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Çalışan ya da uzman</span><br><span style="font-size:11px; color:var(--text-muted)">Bir şirkette çalışıyor</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Personal projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-plant" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Kişisel projeler</span><br><span style="font-size:11px; color:var(--text-muted)">Okul, hobiler, yan projeler</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Diğer</span><br><span style="font-size:11px; color:var(--text-muted)">Kendi cümlelerinle yaz</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="you" placeholder="Yan iş olarak kurs satan öğretmen" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Bir şey satıyor musun ya da müşterilerin var mı?</label>
+      <div class="elicit-pills" data-name="selling" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Yes, services or clients">Evet, hizmet veriyorum ya da müşterilerim var</button>
+        <button type="button" class="elicit-pill" data-value="Yes, products">Evet, ürün satıyorum</button>
+        <button type="button" class="elicit-pill" data-value="Not yet, planning to">Henüz değil ama planlıyorum</button>
+        <button type="button" class="elicit-pill" data-value="No">Hayır</button>
+      </div>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">İkinci beynin sana hangi konularda yardım etsin?</label>
+      <div class="elicit-pills" data-name="help" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Organise projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-layout-kanban" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Projeleri düzenlemek</span><br><span style="font-size:11px; color:var(--text-muted)">Planlar, durum, sıradaki adımlar</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Remember people" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-users" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">İnsanları hatırlamak</span><br><span style="font-size:11px; color:var(--text-muted)">Müşteriler, ortaklar, tanıdıklar</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Write for me" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Benim yerime yazmak</span><br><span style="font-size:11px; color:var(--text-muted)">Benim tarzımda e-postalar ve gönderiler</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Goals and decisions" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-target" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Hedefler ve kararlar</span><br><span style="font-size:11px; color:var(--text-muted)">Neyi hedeflediğim ve neden</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Diğer</span><br><span style="font-size:11px; color:var(--text-muted)">Kendi cümlelerinle yaz</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="help" placeholder="Okuduklarımı takip etmek" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Neyde iyisin? Becerilerin, güçlü yanların, insanların sana hangi konularda başvurduğu.</label>
+      <textarea class="elicit-textarea" data-name="strengths" placeholder="Hayvan çizmek, fikirleri basitçe anlatmak, teslim tarihi yaklaşırken hızlı çalışmak"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Neyi önemsiyorsun, hangi işlere hayır diyorsun?</label>
+      <textarea class="elicit-textarea" data-name="values" placeholder="Dürüst iş, adil ücret. Kumar ya da tütün işi almam."></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Bilgiyi en iyi nasıl anlıyorsun?</label>
+      <div class="elicit-pills" data-name="learning" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Short lists">Kısa listeler</button>
+        <button type="button" class="elicit-pill" data-value="Examples">Örnekler</button>
+        <button type="button" class="elicit-pill" data-value="Step by step">Adım adım</button>
+        <button type="button" class="elicit-pill" data-value="Pictures and diagrams">Resimler ve şemalar</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Diğer</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="learning" placeholder="Dinleyebileceğim sesli notlar" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">En iyi ne zaman odaklanıyorsun?</label>
+      <div class="elicit-pills" data-name="focus_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Early morning">Sabah erken</button>
+        <button type="button" class="elicit-pill" data-value="Late morning">Öğleye doğru</button>
+        <button type="button" class="elicit-pill" data-value="Afternoon">Öğleden sonra</button>
+        <button type="button" class="elicit-pill" data-value="Night">Gece</button>
+        <button type="button" class="elicit-pill" data-value="It changes">Değişiyor</button>
+      </div>
+      <textarea class="elicit-textarea" data-name="energy" placeholder="Seni ne yoruyor? Uzun görüşmeler, çok fazla mesaj, cuma günleri evrak işi"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Asistanın seninle nasıl konuşsun?</label>
+      <div class="elicit-pills" data-name="style" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Short and plain">Kısa ve sade</button>
+        <button type="button" class="elicit-pill" data-value="Detailed">Detaylı</button>
+        <button type="button" class="elicit-pill" data-value="Friendly and casual">Samimi ve rahat</button>
+        <button type="button" class="elicit-pill" data-value="Formal and professional">Resmi ve profesyonel</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Diğer</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="style" placeholder="Açık sözlü, biraz da esprili" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Nerede yaşıyorsun? İstersen yaz, saat dilimini buna göre ayarlarız.</label>
+      <input type="text" data-name="city" placeholder="İstanbul, Türkiye">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Seni anlatan bir bağlantın var mı? Asistanın onu okur, sen de daha az yazarsın.</label>
+      <input type="text" data-name="link" placeholder="https://siten.com">
+    </div>
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">Atla</button>
+    <button type="button" class="elicit-submit">Devam</button>
+  </div>
+</form>

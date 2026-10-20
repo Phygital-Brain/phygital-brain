@@ -1,0 +1,97 @@
+<h2 class="sr-only">設定表單 1/4：關於你。</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>大腦資料：關於你（1/4）</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">你叫什麼名字？用一句話說說你是做什麼的。</label>
+      <input type="text" data-name="name" placeholder="林安娜，童書插畫家">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">哪一個最像你？</label>
+      <div class="elicit-pills" data-name="you" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Freelancer or creator" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-brush" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">接案者或創作者</span><br><span style="font-size:11px; color:var(--text-muted)">替自己工作</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Small business owner" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-building-store" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">小公司老闆</span><br><span style="font-size:11px; color:var(--text-muted)">一人公司或很小的公司</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Employee or professional" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-briefcase" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">上班族或專業人士</span><br><span style="font-size:11px; color:var(--text-muted)">在公司上班</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Personal projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-plant" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">個人專案</span><br><span style="font-size:11px; color:var(--text-muted)">讀書、興趣、斜槓專案</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">其他</span><br><span style="font-size:11px; color:var(--text-muted)">用你自己的話寫</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="you" placeholder="老師，下班後也賣線上課程" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">你有在賣東西或接客戶嗎？</label>
+      <div class="elicit-pills" data-name="selling" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Yes, services or clients">有，提供服務或有客戶</button>
+        <button type="button" class="elicit-pill" data-value="Yes, products">有，賣產品</button>
+        <button type="button" class="elicit-pill" data-value="Not yet, planning to">還沒有，正在計畫</button>
+        <button type="button" class="elicit-pill" data-value="No">沒有</button>
+      </div>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">你希望第二大腦幫你做什麼？</label>
+      <div class="elicit-pills" data-name="help" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Organise projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-layout-kanban" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">整理專案</span><br><span style="font-size:11px; color:var(--text-muted)">計畫、進度、下一步</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Remember people" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-users" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">記得身邊的人</span><br><span style="font-size:11px; color:var(--text-muted)">客戶、合作夥伴、聯絡人</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Write for me" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">幫我寫東西</span><br><span style="font-size:11px; color:var(--text-muted)">用我的語氣寫信和貼文</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Goals and decisions" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-target" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">目標和決定</span><br><span style="font-size:11px; color:var(--text-muted)">我想達成什麼，還有為什麼</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">其他</span><br><span style="font-size:11px; color:var(--text-muted)">用你自己的話寫</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="help" placeholder="記錄我讀過的書" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">你擅長什麼？技能、強項，還有大家都找你幫什麼忙。</label>
+      <textarea class="elicit-textarea" data-name="strengths" placeholder="畫動物、把想法講得簡單好懂、趕截稿時也能做得又快又好"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">你重視什麼？哪些工作你不接？</label>
+      <textarea class="elicit-textarea" data-name="values" placeholder="做事誠實，價錢公道。不接博弈和菸草業的客戶。"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">你用什麼方式最容易吸收資訊？</label>
+      <div class="elicit-pills" data-name="learning" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Short lists">簡短的清單</button>
+        <button type="button" class="elicit-pill" data-value="Examples">舉例</button>
+        <button type="button" class="elicit-pill" data-value="Step by step">一步一步來</button>
+        <button type="button" class="elicit-pill" data-value="Pictures and diagrams">圖片和圖表</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>其他</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="learning" placeholder="可以用聽的語音訊息" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">你什麼時候最專心？</label>
+      <div class="elicit-pills" data-name="focus_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Early morning">一大早</button>
+        <button type="button" class="elicit-pill" data-value="Late morning">接近中午</button>
+        <button type="button" class="elicit-pill" data-value="Afternoon">下午</button>
+        <button type="button" class="elicit-pill" data-value="Night">晚上</button>
+        <button type="button" class="elicit-pill" data-value="It changes">不一定</button>
+      </div>
+      <textarea class="elicit-textarea" data-name="energy" placeholder="什麼事最耗你的精神？講很久的電話、太多訊息、星期五的行政雜事"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">你希望 AI 代理怎麼跟你說話？</label>
+      <div class="elicit-pills" data-name="style" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Short and plain">簡短直白</button>
+        <button type="button" class="elicit-pill" data-value="Detailed">詳細</button>
+        <button type="button" class="elicit-pill" data-value="Friendly and casual">親切輕鬆</button>
+        <button type="button" class="elicit-pill" data-value="Formal and professional">正式專業</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>其他</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="style" placeholder="直接，帶一點幽默" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">你住在哪裡？可以不填，這是用來設定時區的。</label>
+      <input type="text" data-name="city" placeholder="台北，台灣">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">有介紹你的網址嗎？AI 代理會先讀過，你就不用打那麼多字。</label>
+      <input type="text" data-name="link" placeholder="https://yoursite.tw">
+    </div>
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">跳過</button>
+    <button type="button" class="elicit-submit">繼續</button>
+  </div>
+</form>

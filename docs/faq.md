@@ -459,7 +459,7 @@ Yes. The setup asks which language your brain should speak first. The forms, mes
 <details>
 <summary><b>Are the folder names in my language?</b></summary>
 
-Yes. Folders and notes get names in your language, like `Sobre/` instead of `About/`. If your language isn't one of the 11 ready ones, your agent picks the names during the setup. A few things stay in English so every agent reads them the same way: the `CLAUDE.md` and `README.md` file names, and the info block words at the top of each note, like `status: active`.
+Yes. Folders and notes get names in your language, like `Sobre/` instead of `About/`. If your language isn't one of the 21 ready ones, your agent picks the names during the setup. A few things stay in English so every agent reads them the same way: the `CLAUDE.md` and `README.md` file names, and the info block words at the top of each note, like `status: active`.
 </details>
 
 <details>

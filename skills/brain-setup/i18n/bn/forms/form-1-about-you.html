@@ -1,0 +1,97 @@
+<h2 class="sr-only">সেটআপ ফর্ম, 4টির মধ্যে 1: আপনার কথা।</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>ব্রেনের তথ্য: আপনার কথা (4টির মধ্যে 1)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">আপনার নাম কী, আর এক লাইনে বললে আপনি কী করেন?</label>
+      <input type="text" data-name="name" placeholder="অনন্যা রায়, ছোটদের বইয়ের ইলাস্ট্রেটর">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">কোনটা আপনার সঙ্গে সবচেয়ে বেশি মেলে?</label>
+      <div class="elicit-pills" data-name="you" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Freelancer or creator" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-brush" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">ফ্রিল্যান্সার বা ক্রিয়েটর</span><br><span style="font-size:11px; color:var(--text-muted)">স্বাধীনভাবে নিজের কাজ করেন</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Small business owner" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-building-store" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">ছোট ব্যবসার মালিক</span><br><span style="font-size:11px; color:var(--text-muted)">এক জনের বা খুব ছোট কোম্পানি</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Employee or professional" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-briefcase" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">চাকরিজীবী বা পেশাজীবী</span><br><span style="font-size:11px; color:var(--text-muted)">কোনো কোম্পানিতে কাজ করেন</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Personal projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-plant" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">নিজের প্রজেক্ট</span><br><span style="font-size:11px; color:var(--text-muted)">পড়াশোনা, শখ, সাইড প্রজেক্ট</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">অন্য কিছু</span><br><span style="font-size:11px; color:var(--text-muted)">নিজের ভাষায় লিখুন</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="you" placeholder="শিক্ষক, পাশাপাশি কোর্স বিক্রি করি" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">আপনি কি কিছু বিক্রি করেন, বা আপনার ক্লায়েন্ট আছে?</label>
+      <div class="elicit-pills" data-name="selling" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Yes, services or clients">হ্যাঁ, সেবা বা ক্লায়েন্ট</button>
+        <button type="button" class="elicit-pill" data-value="Yes, products">হ্যাঁ, পণ্য</button>
+        <button type="button" class="elicit-pill" data-value="Not yet, planning to">এখনো না, তবে ইচ্ছে আছে</button>
+        <button type="button" class="elicit-pill" data-value="No">না</button>
+      </div>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">আপনার সেকেন্ড ব্রেন কোন কোন কাজে সাহায্য করবে?</label>
+      <div class="elicit-pills" data-name="help" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Organise projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-layout-kanban" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">প্রজেক্ট গুছিয়ে রাখা</span><br><span style="font-size:11px; color:var(--text-muted)">পরিকল্পনা, অবস্থা, পরের ধাপ</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Remember people" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-users" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">মানুষের কথা মনে রাখা</span><br><span style="font-size:11px; color:var(--text-muted)">ক্লায়েন্ট, সহযোগী, পরিচিতজন</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Write for me" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">আমার হয়ে লেখা</span><br><span style="font-size:11px; color:var(--text-muted)">আমার নিজের ঢঙে ইমেইল আর পোস্ট</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Goals and decisions" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-target" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">লক্ষ্য আর সিদ্ধান্ত</span><br><span style="font-size:11px; color:var(--text-muted)">আমি কী চাই, আর কেন চাই</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">অন্য কিছু</span><br><span style="font-size:11px; color:var(--text-muted)">নিজের ভাষায় লিখুন</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="help" placeholder="কী কী পড়ছি তার হিসাব রাখা" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">আপনি কোন কাজে ভালো? দক্ষতা, আপনার শক্তির জায়গা, লোকে কী কাজে আপনার কাছে আসে।</label>
+      <textarea class="elicit-textarea" data-name="strengths" placeholder="জীবজন্তু আঁকা, কঠিন কথা সহজ করে বোঝানো, ডেডলাইনের চাপে দ্রুত কাজ করা"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">আপনি কোন নীতিতে চলেন, আর কোন কাজে না বলেন?</label>
+      <textarea class="elicit-textarea" data-name="values" placeholder="সৎ কাজ, ন্যায্য পারিশ্রমিক। জুয়া বা তামাকের কোনো ক্লায়েন্ট নয়।"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">কীভাবে বোঝালে আপনি সবচেয়ে ভালো বোঝেন?</label>
+      <div class="elicit-pills" data-name="learning" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Short lists">ছোট তালিকা</button>
+        <button type="button" class="elicit-pill" data-value="Examples">উদাহরণ</button>
+        <button type="button" class="elicit-pill" data-value="Step by step">ধাপে ধাপে</button>
+        <button type="button" class="elicit-pill" data-value="Pictures and diagrams">ছবি আর ডায়াগ্রাম</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>অন্য কিছু</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="learning" placeholder="শুনে নেওয়া যায় এমন ভয়েস নোট" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">কখন আপনার মন সবচেয়ে ভালো বসে?</label>
+      <div class="elicit-pills" data-name="focus_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Early morning">ভোরবেলা</button>
+        <button type="button" class="elicit-pill" data-value="Late morning">দুপুরের আগে</button>
+        <button type="button" class="elicit-pill" data-value="Afternoon">দুপুর থেকে বিকেল</button>
+        <button type="button" class="elicit-pill" data-value="Night">রাত</button>
+        <button type="button" class="elicit-pill" data-value="It changes">একেক দিন একেক রকম</button>
+      </div>
+      <textarea class="elicit-textarea" data-name="energy" placeholder="কীসে আপনার এনার্জি শেষ হয়? লম্বা কল, অনেক মেসেজ, মাসের শেষে কাগজপত্রের কাজ"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">আপনার এজেন্ট আপনার সঙ্গে কীভাবে কথা বলবে?</label>
+      <div class="elicit-pills" data-name="style" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Short and plain">ছোট আর সহজ</button>
+        <button type="button" class="elicit-pill" data-value="Detailed">বিস্তারিত</button>
+        <button type="button" class="elicit-pill" data-value="Friendly and casual">বন্ধুর মতো, হালকা মেজাজে</button>
+        <button type="button" class="elicit-pill" data-value="Formal and professional">ফর্মাল আর পেশাদার</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>অন্য কিছু</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="style" placeholder="সোজাসাপ্টা, একটু রসিকতা মিশিয়ে" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">আপনি কোথায় থাকেন? না দিলেও চলবে, এটা দিয়ে আপনার টাইম জোন ঠিক হয়।</label>
+      <input type="text" data-name="city" placeholder="ঢাকা, বাংলাদেশ">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">আপনার পরিচয় দেয় এমন কোনো লিংক আছে? আপনার এজেন্ট সেটা পড়ে নেবে, আপনাকে কম লিখতে হবে।</label>
+      <input type="text" data-name="link" placeholder="https://yoursite.com">
+    </div>
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">বাদ দিন</button>
+    <button type="button" class="elicit-submit">এগিয়ে যান</button>
+  </div>
+</form>

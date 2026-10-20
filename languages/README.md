@@ -1,6 +1,6 @@
 # Languages
 
-Phygital Brain is written in English and ready in 10 more languages: Chinese (Simplified), Hindi, Spanish, Arabic, French, Portuguese (Brazil), Russian, Indonesian, German and Japanese.
+Phygital Brain is written in English and ready in 20 more languages: Chinese (Simplified), Chinese (Traditional), Hindi, Spanish, Arabic, French, Bengali, Portuguese (Brazil), Portuguese (Portugal), Russian, Urdu, Indonesian, German, Japanese, Vietnamese, Turkish, Korean, Italian, Polish and Dutch.
 
 ## How a brain gets its language
 

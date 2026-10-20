@@ -1,0 +1,97 @@
+<h2 class="sr-only">Instelformulier 1 van 4: over jou.</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>Je brein: over jou (1 van 4)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">Hoe heet je, en wat doe je? In één zin.</label>
+      <input type="text" data-name="name" placeholder="Ana Costa, illustrator van kinderboeken">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Wat past het best bij jou?</label>
+      <div class="elicit-pills" data-name="you" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Freelancer or creator" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-brush" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Freelancer of creator</span><br><span style="font-size:11px; color:var(--text-muted)">Werkt voor zichzelf</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Small business owner" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-building-store" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Eigenaar van een klein bedrijf</span><br><span style="font-size:11px; color:var(--text-muted)">Eenmanszaak of heel klein bedrijf</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Employee or professional" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-briefcase" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Werknemer of professional</span><br><span style="font-size:11px; color:var(--text-muted)">Werkt bij een bedrijf</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Personal projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-plant" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Persoonlijke projecten</span><br><span style="font-size:11px; color:var(--text-muted)">Studie, hobby's, zijprojecten</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Iets anders</span><br><span style="font-size:11px; color:var(--text-muted)">Zeg het in je eigen woorden</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="you" placeholder="Docent die ernaast cursussen verkoopt" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Verkoop je iets of heb je klanten?</label>
+      <div class="elicit-pills" data-name="selling" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Yes, services or clients">Ja, diensten of klanten</button>
+        <button type="button" class="elicit-pill" data-value="Yes, products">Ja, producten</button>
+        <button type="button" class="elicit-pill" data-value="Not yet, planning to">Nog niet, maar dat ben ik wel van plan</button>
+        <button type="button" class="elicit-pill" data-value="No">Nee</button>
+      </div>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Waarmee moet je tweede brein je helpen?</label>
+      <div class="elicit-pills" data-name="help" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Organise projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-layout-kanban" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Projecten organiseren</span><br><span style="font-size:11px; color:var(--text-muted)">Plannen, stand van zaken, volgende stappen</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Remember people" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-users" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Mensen onthouden</span><br><span style="font-size:11px; color:var(--text-muted)">Klanten, samenwerkingspartners, contacten</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Write for me" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Voor mij schrijven</span><br><span style="font-size:11px; color:var(--text-muted)">Mails en posts in mijn eigen stijl</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Goals and decisions" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-target" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Doelen en beslissingen</span><br><span style="font-size:11px; color:var(--text-muted)">Waar ik naartoe werk en waarom</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Iets anders</span><br><span style="font-size:11px; color:var(--text-muted)">Zeg het in je eigen woorden</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="help" placeholder="Bijhouden wat ik lees" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Waar ben je goed in? Vaardigheden, sterke punten, waarvoor mensen bij jou aankloppen.</label>
+      <textarea class="elicit-textarea" data-name="strengths" placeholder="Dieren tekenen, ideeën simpel uitleggen, snel werken als de deadline nadert"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Waar sta je voor, en tegen welk werk zeg je nee?</label>
+      <textarea class="elicit-textarea" data-name="values" placeholder="Eerlijk werk, eerlijk loon. Geen klanten uit de gok- of tabakswereld."></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Hoe neem je informatie het best op?</label>
+      <div class="elicit-pills" data-name="learning" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Short lists">Korte lijstjes</button>
+        <button type="button" class="elicit-pill" data-value="Examples">Voorbeelden</button>
+        <button type="button" class="elicit-pill" data-value="Step by step">Stap voor stap</button>
+        <button type="button" class="elicit-pill" data-value="Pictures and diagrams">Plaatjes en schema's</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Iets anders</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="learning" placeholder="Spraakberichten die ik kan afluisteren" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Wanneer kun je je het best concentreren?</label>
+      <div class="elicit-pills" data-name="focus_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Early morning">Vroeg in de ochtend</button>
+        <button type="button" class="elicit-pill" data-value="Late morning">Later in de ochtend</button>
+        <button type="button" class="elicit-pill" data-value="Afternoon">'s Middags</button>
+        <button type="button" class="elicit-pill" data-value="Night">'s Avonds laat</button>
+        <button type="button" class="elicit-pill" data-value="It changes">Dat wisselt</button>
+      </div>
+      <textarea class="elicit-textarea" data-name="energy" placeholder="Waar word je moe van? Lange calls, te veel berichten, administratie op vrijdag"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Hoe moet je agent met je praten?</label>
+      <div class="elicit-pills" data-name="style" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Short and plain">Kort en simpel</button>
+        <button type="button" class="elicit-pill" data-value="Detailed">Uitgebreid</button>
+        <button type="button" class="elicit-pill" data-value="Friendly and casual">Vriendelijk en losjes</button>
+        <button type="button" class="elicit-pill" data-value="Formal and professional">Formeel en zakelijk</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Iets anders</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="style" placeholder="Direct, met een beetje humor" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Waar woon je? Mag je overslaan, het bepaalt je tijdzone.</label>
+      <input type="text" data-name="city" placeholder="Utrecht, Nederland">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Heb je een link die over jou vertelt? Je agent leest hem, dan hoef je minder te typen.</label>
+      <input type="text" data-name="link" placeholder="https://jouwsite.nl">
+    </div>
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">Overslaan</button>
+    <button type="button" class="elicit-submit">Verder</button>
+  </div>
+</form>

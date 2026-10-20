@@ -1,0 +1,95 @@
+<h2 class="sr-only">সেটআপ ফর্ম, 4টির মধ্যে 3: আপনার দিন আর মানুষজন।</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>ব্রেনের তথ্য: আপনার দিন আর মানুষজন (4টির মধ্যে 3)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">কোন কোন দিন কাজ করেন?</label>
+      <div class="elicit-pills" data-name="work_days" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Mon">সোম</button>
+        <button type="button" class="elicit-pill" data-value="Tue">মঙ্গল</button>
+        <button type="button" class="elicit-pill" data-value="Wed">বুধ</button>
+        <button type="button" class="elicit-pill" data-value="Thu">বৃহস্পতি</button>
+        <button type="button" class="elicit-pill" data-value="Fri">শুক্র</button>
+        <button type="button" class="elicit-pill" data-value="Sat">শনি</button>
+        <button type="button" class="elicit-pill" data-value="Sun">রবি</button>
+      </div>
+    </div>
+    <!-- BRIEF: keep this block only if BRIEF = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">আপনার সকালের ব্রিফিং কখন তৈরি থাকবে?</label>
+      <div class="elicit-pills" data-name="brief_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="7:00">7:00</button>
+        <button type="button" class="elicit-pill" data-value="8:00">8:00</button>
+        <button type="button" class="elicit-pill" data-value="9:00">9:00</button>
+        <button type="button" class="elicit-pill" data-value="No brief">ব্রিফিং লাগবে না</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>অন্য কিছু</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="brief_time" placeholder="10:30" hidden>
+    </div>
+    <!-- END BRIEF -->
+    <div class="elicit-group">
+      <label class="elicit-question">এই মুহূর্তে আপনার কাজে সবচেয়ে গুরুত্বপূর্ণ কারা? সর্বোচ্চ 3টি নাম, প্রতিটি আলাদা লাইনে।</label>
+      <textarea class="elicit-textarea" data-name="key_people" placeholder="মৌমিতা, প্রকাশনীতে আমার এডিটর&#10;অর্ক, স্টুডিওর পার্টনার&#10;লিপি, আমার বইয়ের এজেন্ট"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">কাদের সঙ্গে কাজ করেন?</label>
+      <div class="elicit-pills" data-name="people" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Clients">ক্লায়েন্ট</button>
+        <button type="button" class="elicit-pill" data-value="Collaborators">সহযোগী</button>
+        <button type="button" class="elicit-pill" data-value="Team or freelancers">টিম বা ফ্রিল্যান্সার</button>
+        <button type="button" class="elicit-pill" data-value="Partners, press or venues">পার্টনার, সংবাদমাধ্যম বা ভেন্যু</button>
+        <button type="button" class="elicit-pill" data-value="Just me">শুধু আমি</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>অন্য কিছু</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="people" placeholder="ছাত্রছাত্রী" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">আপনার সোশ্যাল মিডিয়াগুলো লিখুন, কাজের হোক বা নিজের প্রজেক্টের।</label>
+      <textarea class="elicit-textarea" data-name="social" placeholder="instagram.com/ananya.draws (কাজের)&#10;linkedin.com/in/ananyaroy&#10;youtube.com/@ananyasketchbook (নিজের)"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">মানুষের সঙ্গে কোথায় কথা বলেন?</label>
+      <div class="elicit-pills" data-name="comms" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Gmail or Google Workspace">Gmail বা Google Workspace</button>
+        <button type="button" class="elicit-pill" data-value="Outlook or Microsoft 365">Outlook বা Microsoft 365</button>
+        <button type="button" class="elicit-pill" data-value="WhatsApp">WhatsApp</button>
+        <button type="button" class="elicit-pill" data-value="Slack or Teams">Slack বা Teams</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>অন্য কিছু</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="comms" placeholder="Telegram" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">এখন আপনার নোট আর কাজ কোথায় থাকে?</label>
+      <div class="elicit-pills" data-name="notes_now" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Google Drive or Docs">Google Drive বা Docs</button>
+        <button type="button" class="elicit-pill" data-value="Notion">Notion</button>
+        <button type="button" class="elicit-pill" data-value="Apple Notes">Apple Notes</button>
+        <button type="button" class="elicit-pill" data-value="Canva or Figma">Canva বা Figma</button>
+        <button type="button" class="elicit-pill" data-value="Spreadsheets">স্প্রেডশিট</button>
+        <button type="button" class="elicit-pill" data-value="Paper notebooks">কাগজের খাতা</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>অন্য কিছু</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="notes_now" placeholder="Evernote" hidden>
+    </div>
+    <!-- VOICE: keep this block only if BUSINESS = on and WRITE = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">লেখায় আপনি কেমন শোনাতে চান?</label>
+      <div class="elicit-pills" data-name="voice" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Warm and personal">আন্তরিক আর আপন</button>
+        <button type="button" class="elicit-pill" data-value="Direct and confident">সোজাসাপ্টা আর আত্মবিশ্বাসী</button>
+        <button type="button" class="elicit-pill" data-value="Humble and honest">বিনয়ী আর সৎ</button>
+        <button type="button" class="elicit-pill" data-value="Playful">মজার, হাসিখুশি</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>অন্য কিছু</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="voice" placeholder="বন্ধুর সঙ্গে যেভাবে কথা বলি" hidden>
+    </div>
+    <!-- END VOICE -->
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">বাদ দিন</button>
+    <button type="button" class="elicit-submit">এগিয়ে যান</button>
+  </div>
+</form>
