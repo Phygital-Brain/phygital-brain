@@ -11,6 +11,8 @@ About 20 minutes the first time: 10 to get the apps ready, 10 for the setup form
 
 You don't need to know any code.
 
+**Before you start:** your agent reads your notes, so they go to the company that runs your AI. Read [What you share with your AI](../SECURITY.md#what-you-share-with-your-ai) and check your AI's privacy settings.
+
 ## 1. Claude
 
 1. Download the Claude desktop app from claude.ai/download.

@@ -2,6 +2,20 @@
 
 Phygital Brain has no program and no server. It's instructions and templates that an AI agent follows to build and look after a folder of notes. So "security" here means: **your notes stay private, and your agent keeps following the brain's rules.** Reports are welcome.
 
+## What you share with your AI
+
+Phygital Brain is only files and instructions. It doesn't send your notes anywhere by itself. But your agent reads your notes to help you, so **everything it reads goes to the company that runs your AI** (for example Anthropic for Claude, or OpenAI for Codex), and your files are stored by Google in Google Drive.
+
+You choose what goes in your brain, and you're responsible for it. Before you start:
+
+- **Check your AI's privacy settings.** Some AI companies may use your chats to train their models, depending on your plan and your settings. Look for a setting about using your data to improve their models, and choose what you're comfortable with.
+- **Read their privacy policy** if your work is sensitive: how long they keep your chats, and who can see them.
+- **Other people's details are your responsibility too.** Notes about clients, friends or your team hold their names, emails and history. Only keep what you need, and follow the privacy laws where you live and work.
+- **Some things should never go in.** Passwords, keys, health records, other people's ID numbers, and anything you've promised to keep secret. `.claudeignore` asks your agent not to read some folders, but it's a rule, not a lock.
+- **Work for a company?** Check its rules before you put work information in a personal AI or a personal Google Drive.
+
+Phygital-Brain doesn't see, collect or store your notes. It isn't responsible for what you share with your AI provider, Google or anyone else.
+
 ## Supported versions
 
 Only the latest version gets fixes while the project is at 0.x. To get a fix: update the plugin, then say "Upgrade my second brain" in a chat on your brain folder.
