@@ -22,9 +22,7 @@
 <p align="center">
 <a href="https://github.com/Phygital-Brain/phygital-brain/stargazers"><img src="https://img.shields.io/github/stars/Phygital-Brain/phygital-brain?style=flat" alt="GitHub stars"></a>
 <a href="https://github.com/Phygital-Brain/phygital-brain/commits/main"><img src="https://img.shields.io/github/last-commit/Phygital-Brain/phygital-brain" alt="Last commit"></a>
-<a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest"><img src="https://img.shields.io/github/v/release/Phygital-Brain/phygital-brain" alt="Latest release"></a>
 <a href="https://www.npmjs.com/package/phygital-brain"><img src="https://img.shields.io/npm/dm/phygital-brain" alt="npm downloads per month"></a>
-<a href="https://github.com/Phygital-Brain/phygital-brain/actions/workflows/release.yml"><img src="https://img.shields.io/github/actions/workflow/status/Phygital-Brain/phygital-brain/release.yml?label=release" alt="Release status"></a>
 </p>
 
 <p align="center">
