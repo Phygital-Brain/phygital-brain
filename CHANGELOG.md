@@ -18,5 +18,6 @@ First version.
 - Questions say "your agent", so the brain works with Claude, Codex and other agents. Rule files are `CLAUDE.md`; other agents point their own file at them.
 - [Baalda](https://github.com/naveedharri/baalda) is the notes app.
 - A cloud drive (Google Drive, Nextcloud, Dropbox or any drive your agent can connect to) and Baalda are part of the setup unless you say no. The setup checks for them and helps you set them up, so you can use your brain from your phone ([phone guide](docs/phone.md)).
-- Works in any language: your agent translates the forms and messages, and file and folder names stay in English.
+- Ready in 11 languages (English, Chinese, Hindi, Spanish, Arabic, French, Portuguese (Brazil), Russian, Indonesian, German, Japanese): forms, rules, folder and note names, the Brain Keeper and messages, translated once and built by `scripts/i18n.py`. Any other language works with live translation and English folder names.
+- The `add-language` skill makes a full set for a new language, or switches a brain to another language.
 - At the end, your agent writes a short text for your agent's settings, so it talks the same way in every chat.

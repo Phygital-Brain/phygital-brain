@@ -16,7 +16,7 @@ Personal AI assistant. This folder is both a knowledge base and an operating sys
 
 Always reply and write notes in {Language}.
 
-Folder names, file names, `[[links]]` to files, and info block keys and values (except `description`) always stay in English, so the rules keep working.
+Folder names, file names and `[[links]]` to files stay exactly as these rules write them, and info block keys and values (except `description`) stay in English, so the rules keep working.
 
 ## Session Startup
 

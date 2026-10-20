@@ -15,7 +15,7 @@
 <a href="docs/other-agents.md"><img src="https://img.shields.io/badge/agents-Claude%20%C2%B7%20Codex%20%C2%B7%20others-555" alt="Agents: Claude, Codex and others"></a>
 <a href="docs/getting-started.md#2-a-cloud-drive-folder"><img src="https://img.shields.io/badge/cloud-Google%20Drive%20%C2%B7%20Nextcloud%20%C2%B7%20Dropbox-555" alt="Cloud drives: Google Drive, Nextcloud, Dropbox and others"></a>
 <a href="docs/how-it-works.md"><img src="https://img.shields.io/badge/notes-Markdown-555?logo=markdown" alt="Notes: plain Markdown"></a>
-<a href="languages/README.md"><img src="https://img.shields.io/badge/languages-any-555" alt="Any language"></a>
+<a href="#languages"><img src="https://img.shields.io/badge/languages-11%20ready%20%C2%B7%20add%20yours-555" alt="11 languages ready, add yours"></a>
 <a href="SECURITY.md#what-you-share-with-your-ai"><img src="https://img.shields.io/badge/telemetry-none-555" alt="No telemetry"></a>
 </p>
 <!-- Turn these on when the repository is public (GitHub can't show them for a private repository):
@@ -30,6 +30,7 @@
 <a href="#quick-start">Quick start</a> ·
 <a href="#a-week-with-your-brain">A week with it</a> ·
 <a href="#on-your-phone">Phone</a> ·
+<a href="#languages">Languages</a> ·
 <a href="#privacy">Privacy</a> ·
 <a href="docs/faq.md">FAQ</a> ·
 <a href="#all-the-guides">Guides</a>
@@ -197,6 +198,34 @@ More people, from a bakery owner to a student, are in [Use cases](docs/use-cases
 
 Setup, what to say, and fixes for common problems: [Your brain on your phone](docs/phone.md).
 
+## Languages
+
+Phygital Brain is ready in **11 languages**. Pick yours at the start of the setup, and the whole brain is built in it: the forms, the rules, the folder and note names, the Brain Keeper and every message.
+
+| Language | Folders, for example | Status |
+|---|---|---|
+| English | About, Daily, Projects | Source |
+| 中文 (Chinese, Simplified) | 关于我, 日记, 项目 | Reviewed by AI |
+| हिन्दी (Hindi) | परिचय, रोज़ाना, प्रोजेक्ट | Reviewed by AI |
+| Español (Spanish) | Perfil, Diario, Proyectos | Reviewed by AI |
+| العربية (Arabic, right to left) | عني, اليوميات, المشاريع | Reviewed by AI |
+| Français (French) | Profil, Journal, Projets | Reviewed by AI |
+| Português (Brasil) | Sobre, Diário, Projetos | Reviewed by AI |
+| Русский (Russian) | Профиль, Дневник, Проекты | Reviewed by AI |
+| Bahasa Indonesia | Tentang, Harian, Proyek | Reviewed by AI |
+| Deutsch (German) | Profil, Tagebuch, Projekte | Reviewed by AI |
+| 日本語 (Japanese) | プロフィール, 日記, プロジェクト | Reviewed by AI |
+
+"Reviewed by AI" means a second, separate AI read each language as a native speaker would and fixed anything stiff or wrong. A native speaker's review is welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+**Your language isn't here?** Any other language still works: your agent translates the forms and messages as it goes, and the folders keep English names. To make a full set for your language, with translated folders, say:
+
+> Translate Phygital Brain into my language.
+
+The `add-language` skill asks you three things (formal or informal "you", the main folder names, and the names for the Brain Keeper and the morning brief), translates everything, checks it, and shows you how to use it and share it. How it works, step by step: [Languages](languages/README.md).
+
+**Switching later:** say "Switch my brain to Spanish". Your agent renames the folders and swaps the rules, with a backup first and your yes.
+
 ## Works with your agent
 
 | | Claude desktop app | Agents that work in a folder (Codex, Claude Code) | Chat apps that can't save files |
@@ -294,8 +323,10 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 |---|---|
 | `skills/brain-setup/` | The setup: the agent's instructions, the four forms, and every file a new brain gets |
 | `skills/brain-keeper/` | The Brain Keeper: the daily tidy and the check-up |
+| `skills/add-language/` | Making a full set in a new language, or switching a brain's language |
+| `skills/brain-setup/i18n/` | The built language sets the setup copies |
 | `docs/` | The guides above, and the images |
-| `languages/` | How other languages work |
+| `languages/` | The translations (one file and folder per language) and how to add one |
 | `scripts/` | The checks to run before a change (`python3 scripts/check.py`) |
 | `.claude-plugin/` | The plugin files, for installing it in Claude |
 

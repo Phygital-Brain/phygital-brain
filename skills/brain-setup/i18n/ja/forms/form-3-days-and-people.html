@@ -1,0 +1,95 @@
+<h2 class="sr-only">セットアップ 3/4：毎日の過ごし方と人</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>ブレインの設定：毎日の過ごし方と人（3/4）</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">仕事をするのは何曜日ですか？</label>
+      <div class="elicit-pills" data-name="work_days" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Mon">月</button>
+        <button type="button" class="elicit-pill" data-value="Tue">火</button>
+        <button type="button" class="elicit-pill" data-value="Wed">水</button>
+        <button type="button" class="elicit-pill" data-value="Thu">木</button>
+        <button type="button" class="elicit-pill" data-value="Fri">金</button>
+        <button type="button" class="elicit-pill" data-value="Sat">土</button>
+        <button type="button" class="elicit-pill" data-value="Sun">日</button>
+      </div>
+    </div>
+    <!-- BRIEF: keep this block only if BRIEF = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">朝のまとめは何時に用意しますか？</label>
+      <div class="elicit-pills" data-name="brief_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="7:00">7:00</button>
+        <button type="button" class="elicit-pill" data-value="8:00">8:00</button>
+        <button type="button" class="elicit-pill" data-value="9:00">9:00</button>
+        <button type="button" class="elicit-pill" data-value="No brief">いらない</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>その他</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="brief_time" placeholder="10:30" hidden>
+    </div>
+    <!-- END BRIEF -->
+    <div class="elicit-group">
+      <label class="elicit-question">今の仕事でいちばん大事な人は誰ですか？3人まで、1行に1人ずつ。</label>
+      <textarea class="elicit-textarea" data-name="key_people" placeholder="森さん、出版社の担当編集者&#10;健太、アトリエの共同経営者&#10;中村さん、マネージャー"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">誰と仕事をしていますか？</label>
+      <div class="elicit-pills" data-name="people" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Clients">クライアント</button>
+        <button type="button" class="elicit-pill" data-value="Collaborators">協力者</button>
+        <button type="button" class="elicit-pill" data-value="Team or freelancers">チームやフリーランスの仲間</button>
+        <button type="button" class="elicit-pill" data-value="Partners, press or venues">パートナー、メディア、会場</button>
+        <button type="button" class="elicit-pill" data-value="Just me">自分ひとり</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>その他</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="people" placeholder="生徒・学生" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">仕事用や個人の活動で使っているSNSを書いてください。</label>
+      <textarea class="elicit-textarea" data-name="social" placeholder="instagram.com/hana.draws（仕事用）&#10;linkedin.com/in/hanasato&#10;tiktok.com/@hanasketchbook（個人用）"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">人とのやりとりには何を使っていますか？</label>
+      <div class="elicit-pills" data-name="comms" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Gmail or Google Workspace">GmailやGoogle Workspace</button>
+        <button type="button" class="elicit-pill" data-value="Outlook or Microsoft 365">OutlookやMicrosoft 365</button>
+        <button type="button" class="elicit-pill" data-value="WhatsApp">WhatsApp</button>
+        <button type="button" class="elicit-pill" data-value="Slack or Teams">SlackやTeams</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>その他</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="comms" placeholder="Telegram" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">今、メモや仕事のファイルはどこにありますか？</label>
+      <div class="elicit-pills" data-name="notes_now" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Google Drive or Docs">GoogleドライブやGoogleドキュメント</button>
+        <button type="button" class="elicit-pill" data-value="Notion">Notion</button>
+        <button type="button" class="elicit-pill" data-value="Apple Notes">Appleのメモ</button>
+        <button type="button" class="elicit-pill" data-value="Canva or Figma">CanvaやFigma</button>
+        <button type="button" class="elicit-pill" data-value="Spreadsheets">スプレッドシート</button>
+        <button type="button" class="elicit-pill" data-value="Paper notebooks">紙のノート</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>その他</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="notes_now" placeholder="Evernote" hidden>
+    </div>
+    <!-- VOICE: keep this block only if BUSINESS = on and WRITE = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">文章ではどんな印象にしたいですか？</label>
+      <div class="elicit-pills" data-name="voice" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Warm and personal">あたたかく、親しみやすく</button>
+        <button type="button" class="elicit-pill" data-value="Direct and confident">はっきりと、自信をもって</button>
+        <button type="button" class="elicit-pill" data-value="Humble and honest">謙虚に、正直に</button>
+        <button type="button" class="elicit-pill" data-value="Playful">遊び心をもって</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>その他</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="voice" placeholder="友だちと話すように" hidden>
+    </div>
+    <!-- END VOICE -->
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">スキップ</button>
+    <button type="button" class="elicit-submit">次へ</button>
+  </div>
+</form>

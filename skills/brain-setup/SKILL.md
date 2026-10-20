@@ -56,17 +56,35 @@ If you are another agent and your tool loads a different rule file (for example 
 
 ## Step 1: Language
 
-Ask one question with click options, in the language of their first message (English if unclear): **"Which language should your brain speak?"** `English` · `Português (Brasil)` · `Español` · Other.
+Ask one question with click options, in the language of their first message (English if unclear): **"Which language should your brain speak?"** The ready languages, each with its code:
 
-From here on, write every form, message and note in that language. The forms are written in English: before showing one, translate only the text people see (questions, option labels, placeholders, the header and the buttons). Keep every `data-name` and `data-value` exactly as it is, so the answers come back the same in every language. Portuguese always means Brazilian Portuguese (pt-BR): "você", "arquivo", "celular", "equipe".
+`English` (en) · `中文` (zh-CN) · `हिन्दी` (hi) · `Español` (es) · `العربية` (ar) · `Français` (fr) · `Português (Brasil)` (pt-BR) · `Русский` (ru) · `Bahasa Indonesia` (id) · `Deutsch` (de) · `日本語` (ja) · Other
 
-**Always stays in English, in every language,** so the rules keep working:
+If the click tool takes only 4 options, offer the 3 most likely from their first message plus Other, and accept any of the names above typed in.
 
-- Folder and file names (`About`, `Projects`, `me.md`, `tasks.md`...).
-- `[[wikilinks]]` to those files (`[[me]]`, `[[goals]]`, never `[[eu]]` or `[[metas]]`).
+### A ready language (a folder `i18n/{code}/` exists in this skill)
+
+The brain is built fully in that language, once, from files that are already translated. Don't translate anything yourself.
+
+- **Forms:** use `i18n/{code}/forms/` instead of `forms/`.
+- **Templates:** use `i18n/{code}/templates/` instead of `templates/`, and pass `i18n/{code}/keeper/` to the Brain Keeper (3.8) as its templates.
+- **Messages:** say the setup's messages from `i18n/{code}/strings.json` (`messages`), and use its `features` names for the Brain Keeper, morning brief and the rest.
+- **Folder and note names:** `i18n/{code}/strings.json` (`paths`) maps every English name to its name in that language. Wherever this file names a brain path in English (`About/me.md`, `Skills/brain-keeper/`, `[[goals]]`), use the mapped names. The templates in `i18n/{code}/` already use them.
+- **Folder map:** at the end of the root `CLAUDE.md`, add a `## Folder map` section: a two-column table, English name and the brain's name, for every entry in `paths`, with one line above it: "For Phygital Brain upgrades and skills only. Daily work uses the names in this brain." This is the only place the English names appear in the brain.
+
+### Any other language
+
+Use the English `forms/` and `templates/`, and translate as you go: before showing a form, translate only the text people see (questions, option labels, placeholders, the header and the buttons). Write every message and note in their language. Folder and note names stay in English, and no Folder map is needed. Say once: "Your brain's folders will have English names. To make a full set for your language, say 'translate Phygital Brain into my language'."
+
+### In every language
+
+These stay in English, so the rules and the Brain Keeper work the same everywhere:
+
+- The file names `CLAUDE.md`, `README.md` and `.claudeignore`, and the `.backups/` and `Skills/no-ai-slop/` folders.
 - Info block (frontmatter) keys and values: `type: daily`, `status: active`, `day: Monday`, every tag. The one exception is `description:`, a sentence in their language.
+- Every `data-name` and `data-value` in the forms, so the answers come back the same in every language.
 
-Names they give (their projects, people, companies) stay exactly as they wrote them.
+Portuguese always means Brazilian Portuguese (pt-BR). Names they give (their projects, people, companies) stay exactly as they wrote them.
 
 ## Step 2: The forms
 
@@ -286,7 +304,7 @@ Use simple, plain words and no jargon. Keep replies short, no walls of text. Use
 When Step 0 found an older Phygital Brain and they picked `Upgrade my brain`.
 
 1. **Read first, change nothing.** Read every `CLAUDE.md`, `.claudeignore`, `About/me.md`, and the files in `Skills/brain-keeper/`. Note their name, their language (the Language section, or the language their notes are in) and their time zone (from `me.md` or their city; ask once if neither exists).
-2. **Count their own rules** under `{Name}'s Rules` in the root `CLAUDE.md`. Write the number down. You check it again at the end.
+2. **Count their own rules** under `{Name}'s Rules` in the root `CLAUDE.md` (in a translated brain, the same heading in its language: the last section of the file). Write the number down. You check it again at the end.
 3. **Make the list.** Compare their files with `templates/`. List what's new for them in plain words, one line each, grouped by file. Use the CHANGELOG entries newer than their version as a guide.
 4. **Ask** (header `Upgrade`): `Upgrade everything` · `Show me each change` · `Cancel`.
 5. **Apply, keeping what's theirs:**
@@ -296,6 +314,7 @@ When Step 0 found an older Phygital Brain and they picked `Upgrade my brain`.
    - Keep their own routing rows, folders and anything else they wrote that isn't in the templates.
    - Never rewrite notes to new info blocks. Old notes get them the next time they're edited.
    - Replace the version line at the top of the root `CLAUDE.md` with this skill's version: `<!-- Phygital Brain, version X, language: {lang} -->`.
+   - **Folder names.** If the root `CLAUDE.md` has a `## Folder map`, use it for every path in the new templates, and the matching `i18n/{code}/` set if one exists. Add map rows for any new folders or notes in this version (from `i18n/{code}/strings.json`, or ask once what to call them).
    - **Brain Keeper.** Update it (follow `../brain-keeper/SKILL.md`, its Step 0.4 keeps `queue.md` and the reports). If it isn't installed, install it from its Step 1.
 6. **Check:** the same number of their own rules as in step 2, word for word; every check in 3.9 that applies; nothing deleted.
 7. **Finish:** one line in today's daily note, then 2 or 3 lines on what changed.

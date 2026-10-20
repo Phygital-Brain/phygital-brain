@@ -1,0 +1,97 @@
+<h2 class="sr-only">Formulário de configuração 1 de 4: sobre você.</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>Detalhes do cérebro: sobre você (1 de 4)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">Qual é o seu nome e o que você faz, em uma linha?</label>
+      <input type="text" data-name="name" placeholder="Ana Costa, ilustradora de livros infantis">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">O que mais combina com você?</label>
+      <div class="elicit-pills" data-name="you" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Freelancer or creator" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-brush" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Freelancer ou criador de conteúdo</span><br><span style="font-size:11px; color:var(--text-muted)">Trabalha por conta própria</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Small business owner" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-building-store" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Dono de pequena empresa</span><br><span style="font-size:11px; color:var(--text-muted)">Empresa de uma pessoa ou bem pequena</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Employee or professional" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-briefcase" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Funcionário ou profissional</span><br><span style="font-size:11px; color:var(--text-muted)">Trabalha para uma empresa</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Personal projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-plant" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Projetos pessoais</span><br><span style="font-size:11px; color:var(--text-muted)">Estudos, hobbies, projetos paralelos</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Outro</span><br><span style="font-size:11px; color:var(--text-muted)">Escreva do seu jeito</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="you" placeholder="Professora que vende cursos por fora" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Você vende alguma coisa ou tem clientes?</label>
+      <div class="elicit-pills" data-name="selling" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Yes, services or clients">Sim, serviços ou clientes</button>
+        <button type="button" class="elicit-pill" data-value="Yes, products">Sim, produtos</button>
+        <button type="button" class="elicit-pill" data-value="Not yet, planning to">Ainda não, mas pretendo</button>
+        <button type="button" class="elicit-pill" data-value="No">Não</button>
+      </div>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Em que seu segundo cérebro deve ajudar?</label>
+      <div class="elicit-pills" data-name="help" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Organise projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-layout-kanban" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Organizar projetos</span><br><span style="font-size:11px; color:var(--text-muted)">Planos, andamento, próximos passos</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Remember people" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-users" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Lembrar das pessoas</span><br><span style="font-size:11px; color:var(--text-muted)">Clientes, colaboradores, contatos</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Write for me" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Escrever por mim</span><br><span style="font-size:11px; color:var(--text-muted)">E-mails e posts com o meu jeito de escrever</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Goals and decisions" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-target" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Metas e decisões</span><br><span style="font-size:11px; color:var(--text-muted)">Aonde quero chegar e por quê</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Outro</span><br><span style="font-size:11px; color:var(--text-muted)">Escreva do seu jeito</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="help" placeholder="Acompanhar minhas leituras" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Em que você é bom? Habilidades, pontos fortes, o que as pessoas procuram em você.</label>
+      <textarea class="elicit-textarea" data-name="strengths" placeholder="Desenhar bichos, explicar ideias de um jeito simples, trabalhar rápido com prazo apertado"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">No que você acredita e que tipo de trabalho você recusa?</label>
+      <textarea class="elicit-textarea" data-name="values" placeholder="Trabalho honesto, pagamento justo. Nada de clientes de apostas ou cigarro."></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Como você entende melhor as coisas?</label>
+      <div class="elicit-pills" data-name="learning" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Short lists">Listas curtas</button>
+        <button type="button" class="elicit-pill" data-value="Examples">Exemplos</button>
+        <button type="button" class="elicit-pill" data-value="Step by step">Passo a passo</button>
+        <button type="button" class="elicit-pill" data-value="Pictures and diagrams">Imagens e diagramas</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Outro</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="learning" placeholder="Áudios que eu possa ouvir" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Quando você se concentra melhor?</label>
+      <div class="elicit-pills" data-name="focus_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Early morning">Bem cedo</button>
+        <button type="button" class="elicit-pill" data-value="Late morning">No fim da manhã</button>
+        <button type="button" class="elicit-pill" data-value="Afternoon">À tarde</button>
+        <button type="button" class="elicit-pill" data-value="Night">À noite</button>
+        <button type="button" class="elicit-pill" data-value="It changes">Depende do dia</button>
+      </div>
+      <textarea class="elicit-textarea" data-name="energy" placeholder="O que te cansa? Reuniões longas, mensagens demais, burocracia na sexta"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Como seu agente deve falar com você?</label>
+      <div class="elicit-pills" data-name="style" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Short and plain">Curto e simples</button>
+        <button type="button" class="elicit-pill" data-value="Detailed">Detalhado</button>
+        <button type="button" class="elicit-pill" data-value="Friendly and casual">Amigável e descontraído</button>
+        <button type="button" class="elicit-pill" data-value="Formal and professional">Formal e profissional</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Outro</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="style" placeholder="Direto, com um pouco de humor" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Onde você mora? Opcional, serve para definir seu fuso horário.</label>
+      <input type="text" data-name="city" placeholder="São Paulo, Brasil">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Tem um link que fale de você? Seu agente lê, assim você digita menos.</label>
+      <input type="text" data-name="link" placeholder="https://seusite.com.br">
+    </div>
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">Pular</button>
+    <button type="button" class="elicit-submit">Continuar</button>
+  </div>
+</form>

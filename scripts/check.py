@@ -6,6 +6,7 @@ No installs needed. It checks:
 - no long dashes (em dashes) anywhere in the text files
 - the four forms have balanced HTML tags, and no "--" inside a comment
 - the plugin files are valid JSON with the same version as CHANGELOG.md
+- every language in languages/ is complete and built (scripts/i18n.py check)
 """
 import glob
 import json
@@ -89,6 +90,12 @@ if changelog:
     versions.add(changelog.group(1))
 if len(versions) != 1:
     problems.append(f"versions don't match: {sorted(versions)}")
+
+# 6. Translations
+import subprocess
+r = subprocess.run([sys.executable, "-I", "scripts/i18n.py", "check"], capture_output=True, text=True)
+if r.returncode != 0:
+    problems.append("translations:\n" + r.stdout.strip())
 
 if problems:
     print("\n".join(problems))

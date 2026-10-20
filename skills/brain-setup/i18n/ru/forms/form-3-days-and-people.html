@@ -1,0 +1,95 @@
+<h2 class="sr-only">Настройка, анкета 3 из 4: ваши дни и люди.</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>Данные для мозга: ваши дни и люди (3 из 4)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">В какие дни вы работаете?</label>
+      <div class="elicit-pills" data-name="work_days" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Mon">Пн</button>
+        <button type="button" class="elicit-pill" data-value="Tue">Вт</button>
+        <button type="button" class="elicit-pill" data-value="Wed">Ср</button>
+        <button type="button" class="elicit-pill" data-value="Thu">Чт</button>
+        <button type="button" class="elicit-pill" data-value="Fri">Пт</button>
+        <button type="button" class="elicit-pill" data-value="Sat">Сб</button>
+        <button type="button" class="elicit-pill" data-value="Sun">Вс</button>
+      </div>
+    </div>
+    <!-- BRIEF: keep this block only if BRIEF = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">Когда должна быть готова утренняя сводка?</label>
+      <div class="elicit-pills" data-name="brief_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="7:00">7:00</button>
+        <button type="button" class="elicit-pill" data-value="8:00">8:00</button>
+        <button type="button" class="elicit-pill" data-value="9:00">9:00</button>
+        <button type="button" class="elicit-pill" data-value="No brief">Без сводки</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Другое</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="brief_time" placeholder="10:30" hidden>
+    </div>
+    <!-- END BRIEF -->
+    <div class="elicit-group">
+      <label class="elicit-question">Кто сейчас важнее всего в вашей работе? До 3 имен, по одному в строке.</label>
+      <textarea class="elicit-textarea" data-name="key_people" placeholder="Марина, мой редактор в издательстве&#10;Илья, партнер по студии&#10;Лиза, мой агент"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">С кем вы работаете?</label>
+      <div class="elicit-pills" data-name="people" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Clients">Клиенты</button>
+        <button type="button" class="elicit-pill" data-value="Collaborators">Соавторы</button>
+        <button type="button" class="elicit-pill" data-value="Team or freelancers">Команда или фрилансеры</button>
+        <button type="button" class="elicit-pill" data-value="Partners, press or venues">Партнеры, СМИ или площадки</button>
+        <button type="button" class="elicit-pill" data-value="Just me">Только я</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Другое</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="people" placeholder="Студенты" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Перечислите ваши соцсети, рабочие или для личных проектов.</label>
+      <textarea class="elicit-textarea" data-name="social" placeholder="vk.com/anna.risuet (работа)&#10;t.me/anna_sokolova&#10;instagram.com/anna.sketchbook (личное)"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Где вы общаетесь с людьми?</label>
+      <div class="elicit-pills" data-name="comms" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Gmail or Google Workspace">Gmail или Google Workspace</button>
+        <button type="button" class="elicit-pill" data-value="Outlook or Microsoft 365">Outlook или Microsoft 365</button>
+        <button type="button" class="elicit-pill" data-value="WhatsApp">WhatsApp</button>
+        <button type="button" class="elicit-pill" data-value="Slack or Teams">Slack или Teams</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Другое</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="comms" placeholder="Telegram" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Где сейчас хранятся ваши заметки и рабочие файлы?</label>
+      <div class="elicit-pills" data-name="notes_now" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Google Drive or Docs">Google Диск или Документы</button>
+        <button type="button" class="elicit-pill" data-value="Notion">Notion</button>
+        <button type="button" class="elicit-pill" data-value="Apple Notes">Заметки Apple</button>
+        <button type="button" class="elicit-pill" data-value="Canva or Figma">Canva или Figma</button>
+        <button type="button" class="elicit-pill" data-value="Spreadsheets">Таблицы</button>
+        <button type="button" class="elicit-pill" data-value="Paper notebooks">Бумажные блокноты</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Другое</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="notes_now" placeholder="Evernote" hidden>
+    </div>
+    <!-- VOICE: keep this block only if BUSINESS = on and WRITE = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">Как вы хотите звучать в текстах?</label>
+      <div class="elicit-pills" data-name="voice" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Warm and personal">Тепло и по-человечески</button>
+        <button type="button" class="elicit-pill" data-value="Direct and confident">Прямо и уверенно</button>
+        <button type="button" class="elicit-pill" data-value="Humble and honest">Скромно и честно</button>
+        <button type="button" class="elicit-pill" data-value="Playful">С игривой ноткой</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Другое</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="voice" placeholder="Как будто говорю с другом" hidden>
+    </div>
+    <!-- END VOICE -->
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">Пропустить</button>
+    <button type="button" class="elicit-submit">Дальше</button>
+  </div>
+</form>

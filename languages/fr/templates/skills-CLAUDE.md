@@ -1,0 +1,33 @@
+<!-- ADAPTING (for the agent, leave this comment out of the file):
+Remove the Morning Brief row if BRIEF = off.
+-->
+
+Les notes et préférences pour les compétences qu'utilise l'agent, plus le Gardien du cerveau.
+
+## Structure
+
+```
+Skills/{skill-name}/
+  {skill-name}.md ou SKILL.md   ce que fait la compétence
+  notes.md                      le style et les préférences de {Name} pour cette compétence
+  references/                   exemples et documents plus longs
+```
+
+## Installées
+
+| Compétence | Dossier | Ce qu'elle fait |
+|---|---|---|
+| Gardien du cerveau | `brain-keeper/` | Range le cerveau chaque jour tout seul, et fait un bilan quand {Name} le demande |
+| Point du matin | `morning-brief/` | Un petit plan de la journée, à la demande ou chaque jour travaillé |
+| Import | `import/` | Importe des notes venant d'autres apps, avec un plan que {Name} valide d'abord |
+| Préparation de réunion | `meeting-prep/` | Un petit brief avant un appel, à partir des notes du cerveau |
+| Outils de réflexion | `thinking/` | Challenger une idée, repérer des tendances, trouver les notes qui se contredisent |
+| Apps connectées | `connected-apps/` | Les apps que le cerveau consulte, et les règles qui vont avec |
+| No AI Slop | `no-ai-slop/` | Le Contrôle d'écriture : retouche un texte pour qu'il sonne humain, ou signale les tics d'IA (par Peter Yang, licence MIT, jamais modifié) |
+
+## Règles
+
+- Un dossier par compétence, nommé en kebab-case (minuscules et tirets).
+- Quand une nouvelle compétence est ajoutée, ajoutez une ligne au tableau ci-dessus.
+- Un `SKILL.md` venu de quelqu'un d'autre n'est jamais modifié. Pour adapter une compétence, ajoutez un `notes.md` dans son dossier.
+- `brain-keeper/daily.md` est lu par une tâche programmée. Modifiez-le seulement pour changer ce que fait le passage quotidien, et gardez-le simple : pas de liens, pas d'encadrés.

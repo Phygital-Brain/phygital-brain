@@ -20,6 +20,10 @@ skills/brain-setup/templates/     every file a new brain gets, with {placeholder
 skills/brain-setup/bundled/       third-party skills copied unchanged into every brain (no-ai-slop, MIT)
 skills/brain-keeper/SKILL.md      installs and updates the Brain Keeper
 skills/brain-keeper/templates/    daily.md, check-up.md, queue.md, the root CLAUDE.md section
+skills/add-language/SKILL.md      makes a full set in a new language, or switches a brain's language
+skills/brain-setup/i18n/{code}/   built language sets (don't edit: run scripts/i18n.py build)
+languages/                        en.json source strings, {code}.json and {code}/ translations, TRANSLATING.md
+scripts/i18n.py                   extract, build and check translations
 docs/                             for people: getting started, use cases, FAQ, glossary, importing, connect your apps, teams, limits, example brain, phone, how it works, other agents
 docs/folders/                     one page per brain folder, and the main rules in plain words
 docs/images/                      the README picture and the logo
@@ -49,6 +53,7 @@ README.md, CHANGELOG.md, NOTICE, LICENSE, TRADEMARKS.md, CONTRIBUTING.md, SECURI
 9. **Upgrades keep what's theirs.** Their notes, their own rules (word for word), their routing rows and their folders survive every upgrade.
 10. **Version line.** A brain's root `CLAUDE.md` starts with `<!-- Phygital Brain, version X, language: xx -->`. A new version updates it, the plugin files, the skills' "Version" lines and the CHANGELOG together.
 11. **Keep the NOTICE credit:** "Created by Phygital-Brain".
+12. **English templates are the source; translations follow.** When you change a template, form or message, run `python3 scripts/i18n.py extract` if form text changed, update `languages/en.json`, and mark the change for every language (translate it, or open an issue). Never edit `skills/brain-setup/i18n/` by hand.
 
 ## Placeholders
 
