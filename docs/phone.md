@@ -11,6 +11,8 @@ There are two ways, and they do different things:
 
 You can use both: **Ask** to look things up, **Do** to add things.
 
+No computer at all? See [Phone only](phone-only.md): your agent builds the brain straight into your Google Drive from your phone.
+
 ```mermaid
 flowchart LR
     P[Your phone] --> Q{Look something up,<br>or add something?}

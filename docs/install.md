@@ -25,6 +25,7 @@ flowchart LR
 
 - **Claude desktop, or the plugin in Claude Code:** nothing more.
 - **Every other way:** [Node.js](https://nodejs.org) on your computer. Download the version marked LTS and install it like any app. You only do this once.
+- **Only a phone, no computer:** nothing to install. Follow [Phone only](phone-only.md). The setup is quicker and easier on a computer, but your phone can do it too (tested with Claude).
 
 **On this page:** [Claude desktop](#claude-desktop) · [Claude Code](#claude-code) · [Cursor](#cursor) · [VS Code](#vs-code) · [Codex](#codex) · [Hermes Agent and OpenClaw](#hermes-agent-and-openclaw) · [Any other agent](#any-other-agent) · [Terminal, any agent](#terminal-any-agent) · [What the connector does](#what-the-connector-does) · [Updating](#updating) · [Removing](#removing)
 
