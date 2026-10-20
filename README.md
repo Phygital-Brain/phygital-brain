@@ -26,6 +26,7 @@
 
 <p align="center">
 <a href="#what-it-is">What it is</a> ·
+<a href="#yours-to-keep">Yours to keep</a> ·
 <a href="#how-it-works">How it works</a> ·
 <a href="#quick-start">Quick start</a> ·
 <a href="#a-week-with-your-brain">A week with it</a> ·
@@ -47,6 +48,13 @@ Phygital Brain is an OS (operating system) for your notes and your AI agent. It 
 Every chat on that folder starts with your agent reading the rules and the latest notes. So it already knows your name, your clients, your goals and what you did yesterday. You can read and browse the same notes in [Baalda](https://github.com/naveedharri/baalda), or from your phone through your drive.
 
 It comes as two skills (sets of instructions your agent follows): one builds the brain, one keeps it tidy. They're packaged as a Claude plugin, because Claude is what we use and recommend, but any agent that can work in a folder can follow them. See [Other agents](docs/other-agents.md).
+
+## Yours to keep
+
+- **You own it.** Your brain is a folder of plain text files in your own cloud drive. There's no account with us and nothing to export.
+- **Take it to any AI.** Switch to another agent and open the same folder. The new one reads the same notes.
+- **It remembers you.** What you tell your agent is saved as notes, so the next chat, or the next AI, starts where you left off.
+- **Free and open source.** Anyone can check how it works. Your notes stay private, in your drive: Phygital Brain collects nothing, and your notes go only to the AI you choose.
 
 ## Why it exists
 
@@ -345,6 +353,8 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 | `.claude-plugin/` | The plugin files, for installing it in Claude |
 | `mcp/` | The connector (an MCP server, no dependencies) for agents that take MCP servers |
 | `package.json` | Lets `npx` run the connector straight from GitHub |
+
+<p align="center"><img src="docs/images/ownership.png" alt="Your notes. Any AI. It remembers you. Your brain folder in your drive, plain text and yours, sits in the middle, linked to Claude, Codex, Hermes Agent, OpenClaw, Cursor and the next AI you pick. Switch to another AI any time: it reads the same notes, so you never start over. Free and open source." width="100%"></p>
 
 ## Help and contributing
 
