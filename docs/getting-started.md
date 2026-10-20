@@ -56,7 +56,7 @@ The cloud part is done.
 
 Download [Baalda](https://github.com/naveedharri/baalda) and open the same `My Brain` folder. This is where you read and browse your notes: click a `[[link]]` to jump to that note.
 
-You don't have to use Baalda to use your brain. Your agent does the writing. Baalda is for looking around. Baalda runs on Mac, Windows and Linux. A phone app isn't out yet.
+You don't have to use Baalda to use your brain. Your agent does the writing. Baalda is for looking around. Baalda is for your computer. You don't need it on your phone.
 
 ## 6. Install Phygital Brain
 

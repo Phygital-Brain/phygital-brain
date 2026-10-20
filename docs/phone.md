@@ -72,7 +72,7 @@ No signal, or the computer is off? Write it down anywhere (your phone's notes ap
 ## Reading your notes without asking
 
 - **Google Drive app:** open your brain folder and tap a note. Notes are plain text files, so they open as text. Links won't be clickable.
-- **Baalda:** there's no phone app yet. An iPhone app is planned.
+- **Baalda:** you don't need it on your phone. It's for browsing on your computer.
 
 ## Safety on your phone
 
