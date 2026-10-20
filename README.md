@@ -118,6 +118,12 @@ Small updates to notes that already exist happen right away, and your agent tell
 - **Careful work habits.** The main rules include Andrej Karpathy's guidelines for AI assistants: ask when unsure, pick the simplest way, change only what's needed, check the work.
 - **Your own rules.** When you correct your agent, it saves the correction as a new rule, in your words. Upgrades never change those rules.
 
+## How your agent works
+
+<p align="center"><img src="docs/images/rules.png" alt="Careful work, writing that sounds like you. Work habits your agent follows on every task: asks when unsure, saying what it assumes; the simplest way, nothing extra; only what's needed, changing what you asked for and leaving the rest; checks its work before it says it's done. And a Writing Check on everything it writes: it writes in your voice first, from your brand page; finds what sounds like AI, such as hype words, filler and long dashes; and shows you each one with a fix, so you choose before anyone reads it." width="100%"></p>
+
+The work habits are part of every brain's main rules. The Writing Check uses the [no-ai-slop](https://github.com/petergyang/no-ai-slop) skill, which every brain gets in `Skills/no-ai-slop/`. More in [Main rules](docs/folders/main-rules.md).
+
 ## Inside your brain
 
 <p align="center"><img src="docs/images/folders.png" alt="Seven folders, one home for everything: About for you, your goals, your work and your voice; Daily for one note per day and your open tasks; Projects for one folder per project with a front page; Relationships for one note per person or company; Memory for decisions and why, research, money and the archive; Library for prompts, templates and checklists; Skills for the Brain Keeper and the morning brief; and CLAUDE.md, the main rules at the top of the brain." width="100%"></p>
