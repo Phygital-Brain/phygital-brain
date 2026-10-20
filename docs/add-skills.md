@@ -1,6 +1,6 @@
 # Add more skills
 
-A skill is a set of instructions your agent follows for one kind of job. Your brain comes with the Brain Keeper, meeting prep, thinking tools, import and the Writing Check. You can add others, like one that makes videos, and point them at what your brain already knows.
+A skill is a set of instructions your agent follows for one kind of job. Your brain comes with the Brain Keeper, meeting prep, thinking tools, import and the Writing Check. You can add others, like one that makes videos or one that edits images, and point them at what your brain already knows.
 
 ```mermaid
 flowchart LR
@@ -93,3 +93,80 @@ Your agent reads your brand and the script, builds the video, renders a preview,
 - Big video files make your cloud drive slow to sync. Keep renders outside the brain folder when they're large, and link to them.
 - Music, voice and images the video uses need the right licences. HyperFrames' own media skill can help find them.
 - Problems with HyperFrames itself go to [its repository](https://github.com/heygen-com/hyperframes), not to Phygital Brain.
+
+## Edit images with PhotoCraft
+
+[PhotoCraft](https://github.com/storytold/photocraft) is an open-source photo editor by the ArtCraft team (MIT or Apache 2.0), similar to Photoshop: layers, masks, adjustments, filters and export. Its command-line tool, `photocraft-cli`, works as an MCP server, so your agent can edit images for you: crop, resize, fix colours, add text and export for the web. PhotoCraft isn't part of Phygital Brain; this is how to use the two together.
+
+### What you need
+
+- An agent that takes MCP servers, like Claude desktop, Claude Code, Cursor or Codex.
+- PhotoCraft's command-line tool, from its [releases page](https://github.com/storytold/photocraft/releases). Your agent can help with this step.
+  - **Mac:** the `photocraft-cli-...-macos-universal.zip` file. Unzip it and move `photocraft-cli` to a folder your terminal knows, like `/usr/local/bin`.
+  - **Windows:** it comes with the PhotoCraft installer, in `C:\Program Files\PhotoCraft\`.
+  - **Linux:** the `.deb` or `.rpm` package puts it in `/usr/bin/`.
+- The PhotoCraft app, if you want to see the images and change them by hand. It's on the [PhotoCraft page](https://getartcraft.com/apps/photocraft).
+
+### Install it
+
+PhotoCraft can only open and save files inside the folder you give it. Give it your brain's `Projects/` folder, so it can work on any project's images but never sees your About pages, your Memory or your finances.
+
+In Claude Code, on a Mac or Linux (put your own path to the brain folder):
+
+```
+claude mcp add photocraft -- photocraft-cli mcp --automation-read-root "/path/to/brain/Projects" --automation-write-root "/path/to/brain/Projects"
+```
+
+On Windows, use the full path, `"C:\Program Files\PhotoCraft\photocraft-cli.exe"`, in place of `photocraft-cli`. Other agents take the same thing in their MCP settings:
+
+```json
+{
+  "mcpServers": {
+    "photocraft": {
+      "command": "photocraft-cli",
+      "args": ["mcp", "--automation-read-root", "/path/to/brain/Projects", "--automation-write-root", "/path/to/brain/Projects"]
+    }
+  }
+}
+```
+
+More in [PhotoCraft's MCP guide](https://github.com/storytold/photocraft/blob/main/docs/mcp.md). Then, in a chat on your brain folder, say **"Add PhotoCraft to my brain."**
+
+### Connect it to your brain
+
+Your agent writes `Skills/photocraft/notes.md`. A good one looks like this:
+
+```
+Before an edit, read:
+- About/brand.md: colours, fonts and the look I like
+- the project's README.md: where the images are used, and their sizes
+
+Save:
+- never change the original: save each edit as a new file
+  in Projects/{project}/assets/, with what changed in the name
+- the PhotoCraft working file next to it, so I can open it later
+
+Style:
+- PNG for graphics, JPG for photos, under 1 MB for the web
+```
+
+### Edit an image
+
+In a chat on your brain folder:
+
+- "Resize the picture book cover to 1080 by 1350 for Instagram."
+- "Make the photos in the shoot's assets brighter and warmer, all the same way."
+- "Add the title to the cover, in my brand font and colour."
+
+Your agent reads your brand and the project, makes the edit, shows you a preview, and saves it in the project. It logs one line in today's daily note.
+
+### Change it yourself
+
+1. Open the working file in the **PhotoCraft** app and change what you like.
+2. Back in the chat: "I changed the cover in PhotoCraft. Export it again for the web."
+
+### Good to know
+
+- Big image files make your cloud drive slow to sync. Keep large working files outside the brain folder when you can, and link to them.
+- Fonts and images you use need the right licences.
+- Problems with PhotoCraft itself go to [its repository](https://github.com/storytold/photocraft), not to Phygital Brain.
