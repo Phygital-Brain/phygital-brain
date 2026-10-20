@@ -202,21 +202,19 @@ Setup, what to say, and fixes for common problems: [Your brain on your phone](do
 
 Phygital Brain is ready in **11 languages**. Pick yours at the start of the setup, and the whole brain is built in it: the forms, the rules, the folder and note names, the Brain Keeper and every message.
 
-| Language | Folders, for example | Status |
-|---|---|---|
-| English | About, Daily, Projects | Source |
-| 中文 (Chinese, Simplified) | 关于我, 日记, 项目 | Reviewed by AI |
-| हिन्दी (Hindi) | परिचय, रोज़ाना, प्रोजेक्ट | Reviewed by AI |
-| Español (Spanish) | Perfil, Diario, Proyectos | Reviewed by AI |
-| العربية (Arabic, right to left) | عني, اليوميات, المشاريع | Reviewed by AI |
-| Français (French) | Profil, Journal, Projets | Reviewed by AI |
-| Português (Brasil) | Sobre, Diário, Projetos | Reviewed by AI |
-| Русский (Russian) | Профиль, Дневник, Проекты | Reviewed by AI |
-| Bahasa Indonesia | Tentang, Harian, Proyek | Reviewed by AI |
-| Deutsch (German) | Profil, Tagebuch, Projekte | Reviewed by AI |
-| 日本語 (Japanese) | プロフィール, 日記, プロジェクト | Reviewed by AI |
-
-"Reviewed by AI" means a second, separate AI read each language as a native speaker would and fixed anything stiff or wrong. A native speaker's review is welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
+| Language | Folders, for example |
+|---|---|
+| English | About, Daily, Projects |
+| 中文 (Chinese, Simplified) | 关于我, 日记, 项目 |
+| हिन्दी (Hindi) | परिचय, रोज़ाना, प्रोजेक्ट |
+| Español (Spanish) | Perfil, Diario, Proyectos |
+| العربية (Arabic, right to left) | عني, اليوميات, المشاريع |
+| Français (French) | Profil, Journal, Projets |
+| Português (Brasil) | Sobre, Diário, Projetos |
+| Русский (Russian) | Профиль, Дневник, Проекты |
+| Bahasa Indonesia | Tentang, Harian, Proyek |
+| Deutsch (German) | Profil, Tagebuch, Projekte |
+| 日本語 (Japanese) | プロフィール, 日記, プロジェクト |
 
 **Your language isn't here?** Any other language still works: your agent translates the forms and messages as it goes, and the folders keep English names. To make a full set for your language, with translated folders, say:
 
