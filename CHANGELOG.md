@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.4 (2026-10-20)
+## 0.1.5 (2026-10-20)
 
 - The Brain Keeper's check-up says when a new version of Phygital Brain is out, and how to get it.
 

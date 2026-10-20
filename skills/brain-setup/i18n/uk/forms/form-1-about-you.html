@@ -1,0 +1,97 @@
+<h2 class="sr-only">Налаштування, анкета 1 з 4: про вас.</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>Дані для мозку: про вас (1 з 4)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">Як вас звати і чим ви займаєтеся? Одним рядком.</label>
+      <input type="text" data-name="name" placeholder="Олена Коваленко, ілюстраторка дитячих книжок">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Що найкраще вас описує?</label>
+      <div class="elicit-pills" data-name="you" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Freelancer or creator" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-brush" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Фрилансер або автор</span><br><span style="font-size:11px; color:var(--text-muted)">Працюю на себе</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Small business owner" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-building-store" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Власник малого бізнесу</span><br><span style="font-size:11px; color:var(--text-muted)">Компанія з однієї чи кількох людей</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Employee or professional" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-briefcase" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Працівник або фахівець</span><br><span style="font-size:11px; color:var(--text-muted)">Працюю в компанії</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Personal projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-plant" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Особисті проєкти</span><br><span style="font-size:11px; color:var(--text-muted)">Навчання, хобі, проєкти для себе</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Інше</span><br><span style="font-size:11px; color:var(--text-muted)">Напишіть своїми словами</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="you" placeholder="Вчителька, яка паралельно продає свої курси" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Ви щось продаєте або працюєте з клієнтами?</label>
+      <div class="elicit-pills" data-name="selling" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Yes, services or clients">Так, послуги або клієнти</button>
+        <button type="button" class="elicit-pill" data-value="Yes, products">Так, товари</button>
+        <button type="button" class="elicit-pill" data-value="Not yet, planning to">Поки ні, але планую</button>
+        <button type="button" class="elicit-pill" data-value="No">Ні</button>
+      </div>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">З чим має допомагати ваш другий мозок?</label>
+      <div class="elicit-pills" data-name="help" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Organise projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-layout-kanban" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Тримати проєкти в порядку</span><br><span style="font-size:11px; color:var(--text-muted)">Плани, статус, наступні кроки</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Remember people" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-users" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Пам'ятати людей</span><br><span style="font-size:11px; color:var(--text-muted)">Клієнти, співавтори, контакти</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Write for me" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Писати за мене</span><br><span style="font-size:11px; color:var(--text-muted)">Листи й дописи в моєму стилі</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Goals and decisions" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-target" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Цілі та рішення</span><br><span style="font-size:11px; color:var(--text-muted)">До чого я йду і навіщо</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Інше</span><br><span style="font-size:11px; color:var(--text-muted)">Напишіть своїми словами</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="help" placeholder="Стежити за тим, що я читаю" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">У чому ви сильні? Навички, сильні сторони, з чим до вас зазвичай звертаються.</label>
+      <textarea class="elicit-textarea" data-name="strengths" placeholder="Малюю тварин, просто пояснюю складне, швидко працюю під дедлайн"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Що для вас важливо і від якої роботи ви відмовляєтеся?</label>
+      <textarea class="elicit-textarea" data-name="values" placeholder="Чесна робота, чесна оплата. Не беру клієнтів зі сфери азартних ігор і тютюну."></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Як вам найлегше сприймати інформацію?</label>
+      <div class="elicit-pills" data-name="learning" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Short lists">Короткі списки</button>
+        <button type="button" class="elicit-pill" data-value="Examples">Приклади</button>
+        <button type="button" class="elicit-pill" data-value="Step by step">Крок за кроком</button>
+        <button type="button" class="elicit-pill" data-value="Pictures and diagrams">Картинки й схеми</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Інше</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="learning" placeholder="Голосові, які можна послухати" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Коли вам найкраще працюється?</label>
+      <div class="elicit-pills" data-name="focus_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Early morning">Рано-вранці</button>
+        <button type="button" class="elicit-pill" data-value="Late morning">Ближче до обіду</button>
+        <button type="button" class="elicit-pill" data-value="Afternoon">Після обіду</button>
+        <button type="button" class="elicit-pill" data-value="Night">Уночі</button>
+        <button type="button" class="elicit-pill" data-value="It changes">По-різному</button>
+      </div>
+      <textarea class="elicit-textarea" data-name="energy" placeholder="Що вас виснажує? Довгі дзвінки, купа повідомлень, паперова робота по п'ятницях"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Як ваш агент має з вами спілкуватися?</label>
+      <div class="elicit-pills" data-name="style" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Short and plain">Коротко й просто</button>
+        <button type="button" class="elicit-pill" data-value="Detailed">Детально</button>
+        <button type="button" class="elicit-pill" data-value="Friendly and casual">Дружньо й невимушено</button>
+        <button type="button" class="elicit-pill" data-value="Formal and professional">Офіційно й по-діловому</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Інше</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="style" placeholder="Прямо, з дрібкою гумору" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Де ви живете? Необов'язково, це потрібно для часового поясу.</label>
+      <input type="text" data-name="city" placeholder="Львів, Україна">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Є посилання, де розказано про вас? Ваш агент прочитає його, і вам доведеться менше друкувати.</label>
+      <input type="text" data-name="link" placeholder="https://вашсайт.укр">
+    </div>
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">Пропустити</button>
+    <button type="button" class="elicit-submit">Далі</button>
+  </div>
+</form>

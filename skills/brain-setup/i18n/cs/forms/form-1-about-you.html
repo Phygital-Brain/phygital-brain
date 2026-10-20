@@ -1,0 +1,97 @@
+<h2 class="sr-only">Formulář nastavení 1 ze 4: o tobě.</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>Tvůj druhý mozek: o tobě (1 ze 4)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">Jak se jmenuješ a čím se zabýváš? Stačí jedna věta.</label>
+      <input type="text" data-name="name" placeholder="Anna Svobodová, ilustrátorka dětských knih">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Co tě nejlíp vystihuje?</label>
+      <div class="elicit-pills" data-name="you" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Freelancer or creator" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-brush" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Volná noha nebo tvorba obsahu</span><br><span style="font-size:11px; color:var(--text-muted)">Práce na vlastní pěst</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Small business owner" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-building-store" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Vlastní malá firma</span><br><span style="font-size:11px; color:var(--text-muted)">Firma o jednom nebo pár lidech</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Employee or professional" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-briefcase" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Zaměstnání nebo odborná práce</span><br><span style="font-size:11px; color:var(--text-muted)">Práce pro firmu</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Personal projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-plant" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Osobní projekty</span><br><span style="font-size:11px; color:var(--text-muted)">Studium, koníčky, vedlejší projekty</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Něco jiného</span><br><span style="font-size:11px; color:var(--text-muted)">Napiš to po svém</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="you" placeholder="Učitelka, která bokem prodává kurzy" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Prodáváš něco nebo máš klienty?</label>
+      <div class="elicit-pills" data-name="selling" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Yes, services or clients">Ano, služby nebo klienty</button>
+        <button type="button" class="elicit-pill" data-value="Yes, products">Ano, produkty</button>
+        <button type="button" class="elicit-pill" data-value="Not yet, planning to">Zatím ne, ale chystám se</button>
+        <button type="button" class="elicit-pill" data-value="No">Ne</button>
+      </div>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">S čím ti má tvůj druhý mozek pomáhat?</label>
+      <div class="elicit-pills" data-name="help" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Organise projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-layout-kanban" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Pořádek v projektech</span><br><span style="font-size:11px; color:var(--text-muted)">Plány, stav, další kroky</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Remember people" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-users" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Pamatovat si lidi</span><br><span style="font-size:11px; color:var(--text-muted)">Klienti, spolutvůrci, kontakty</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Write for me" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Psát za mě</span><br><span style="font-size:11px; color:var(--text-muted)">E-maily a příspěvky mým stylem</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Goals and decisions" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-target" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Cíle a rozhodnutí</span><br><span style="font-size:11px; color:var(--text-muted)">Kam mířím a proč</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Něco jiného</span><br><span style="font-size:11px; color:var(--text-muted)">Napiš to po svém</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="help" placeholder="Přehled o tom, co čtu" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Co ti jde dobře? Dovednosti, silné stránky, s čím za tebou lidi chodí.</label>
+      <textarea class="elicit-textarea" data-name="strengths" placeholder="Kreslení zvířat, jednoduché vysvětlování, rychlá práce pod tlakem termínů"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Na čem ti záleží a jakou práci nebereš?</label>
+      <textarea class="elicit-textarea" data-name="values" placeholder="Poctivá práce, férová odměna. Žádní klienti z hazardu ani tabákového byznysu."></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Jak nejlíp vstřebáváš informace?</label>
+      <div class="elicit-pills" data-name="learning" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Short lists">Krátké seznamy</button>
+        <button type="button" class="elicit-pill" data-value="Examples">Příklady</button>
+        <button type="button" class="elicit-pill" data-value="Step by step">Krok za krokem</button>
+        <button type="button" class="elicit-pill" data-value="Pictures and diagrams">Obrázky a schémata</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Něco jiného</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="learning" placeholder="Hlasové poznámky, které si můžu pustit" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Kdy se nejlíp soustředíš?</label>
+      <div class="elicit-pills" data-name="focus_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Early morning">Brzy ráno</button>
+        <button type="button" class="elicit-pill" data-value="Late morning">Dopoledne</button>
+        <button type="button" class="elicit-pill" data-value="Afternoon">Odpoledne</button>
+        <button type="button" class="elicit-pill" data-value="Night">V noci</button>
+        <button type="button" class="elicit-pill" data-value="It changes">Jak kdy</button>
+      </div>
+      <textarea class="elicit-textarea" data-name="energy" placeholder="Co tě vyčerpává? Dlouhé hovory, moc zpráv, papírování v pátek"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Jak s tebou má tvůj agent mluvit?</label>
+      <div class="elicit-pills" data-name="style" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Short and plain">Krátce a jednoduše</button>
+        <button type="button" class="elicit-pill" data-value="Detailed">Podrobně</button>
+        <button type="button" class="elicit-pill" data-value="Friendly and casual">Přátelsky a uvolněně</button>
+        <button type="button" class="elicit-pill" data-value="Formal and professional">Formálně a profesionálně</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Něco jiného</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="style" placeholder="Přímo, s trochou humoru" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Kde žiješ? Nepovinné, podle toho se nastaví časové pásmo.</label>
+      <input type="text" data-name="city" placeholder="Brno, Česko">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Máš odkaz, který o tobě něco říká? Tvůj agent si ho přečte a ty toho napíšeš míň.</label>
+      <input type="text" data-name="link" placeholder="https://tvujweb.cz">
+    </div>
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">Přeskočit</button>
+    <button type="button" class="elicit-submit">Pokračovat</button>
+  </div>
+</form>

@@ -1,0 +1,97 @@
+<h2 class="sr-only">Formularul de configurare 1 din 4: despre tine.</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>Creierul tău: despre tine (1 din 4)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">Cum te cheamă și ce faci, într-un rând?</label>
+      <input type="text" data-name="name" placeholder="Ana Costa, ilustratoare de cărți pentru copii">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Ce ți se potrivește cel mai bine?</label>
+      <div class="elicit-pills" data-name="you" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Freelancer or creator" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-brush" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Freelancer sau creator de conținut</span><br><span style="font-size:11px; color:var(--text-muted)">Lucrezi pe cont propriu</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Small business owner" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-building-store" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Am o afacere mică</span><br><span style="font-size:11px; color:var(--text-muted)">Firmă de o persoană sau foarte mică</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Employee or professional" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-briefcase" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Am un loc de muncă</span><br><span style="font-size:11px; color:var(--text-muted)">Lucrezi pentru o firmă</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Personal projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-plant" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Proiecte personale</span><br><span style="font-size:11px; color:var(--text-muted)">Studii, hobby-uri, proiecte de suflet</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Altceva</span><br><span style="font-size:11px; color:var(--text-muted)">Scrie cu cuvintele tale</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="you" placeholder="Profesoară care vinde și cursuri, pe lângă" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Vinzi ceva sau ai clienți?</label>
+      <div class="elicit-pills" data-name="selling" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Yes, services or clients">Da, servicii sau clienți</button>
+        <button type="button" class="elicit-pill" data-value="Yes, products">Da, produse</button>
+        <button type="button" class="elicit-pill" data-value="Not yet, planning to">Încă nu, dar am de gând</button>
+        <button type="button" class="elicit-pill" data-value="No">Nu</button>
+      </div>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">La ce să te ajute al doilea creier?</label>
+      <div class="elicit-pills" data-name="help" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Organise projects" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-layout-kanban" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Să-mi organizez proiectele</span><br><span style="font-size:11px; color:var(--text-muted)">Planuri, stadiu, pașii următori</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Remember people" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-users" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Să-mi amintesc de oameni</span><br><span style="font-size:11px; color:var(--text-muted)">Clienți, colaboratori, contacte</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Write for me" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Să scrie în locul meu</span><br><span style="font-size:11px; color:var(--text-muted)">Emailuri și postări în stilul meu</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Goals and decisions" style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-target" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Obiective și decizii</span><br><span style="font-size:11px; color:var(--text-muted)">Ce urmăresc și de ce</span></span></button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other style="border-radius:12px; padding:14px 16px; display:flex; gap:12px; align-items:flex-start; text-align:left; min-width:180px; box-shadow:0 1px 2px rgba(0,0,0,0.04)"><i class="ti ti-pencil" style="font-size:20px" aria-hidden="true"></i><span><span style="font-size:13px; font-weight:500">Altceva</span><br><span style="font-size:11px; color:var(--text-muted)">Scrie cu cuvintele tale</span></span></button>
+      </div>
+      <input type="text" class="elicit-other" data-for="help" placeholder="Să țin evidența cărților pe care le citesc" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">La ce te pricepi? Abilități, puncte forte, lucrurile pentru care vin oamenii la tine.</label>
+      <textarea class="elicit-textarea" data-name="strengths" placeholder="Desenez animale, explic ideile simplu, lucrez repede când e termenul aproape"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">În ce crezi și ce proiecte refuzi?</label>
+      <textarea class="elicit-textarea" data-name="values" placeholder="Muncă cinstită, plată corectă. Fără clienți din jocuri de noroc sau tutun."></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Cum înțelegi cel mai ușor lucrurile?</label>
+      <div class="elicit-pills" data-name="learning" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Short lists">Liste scurte</button>
+        <button type="button" class="elicit-pill" data-value="Examples">Exemple</button>
+        <button type="button" class="elicit-pill" data-value="Step by step">Pas cu pas</button>
+        <button type="button" class="elicit-pill" data-value="Pictures and diagrams">Imagini și scheme</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Altceva</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="learning" placeholder="Mesaje vocale pe care să le ascult" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Când te concentrezi cel mai bine?</label>
+      <div class="elicit-pills" data-name="focus_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Early morning">Dis-de-dimineață</button>
+        <button type="button" class="elicit-pill" data-value="Late morning">Spre prânz</button>
+        <button type="button" class="elicit-pill" data-value="Afternoon">După-amiaza</button>
+        <button type="button" class="elicit-pill" data-value="Night">Noaptea</button>
+        <button type="button" class="elicit-pill" data-value="It changes">Depinde</button>
+      </div>
+      <textarea class="elicit-textarea" data-name="energy" placeholder="Ce te stoarce de energie? Apeluri lungi, prea multe mesaje, hârțogăria de vineri"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Cum să-ți vorbească agentul tău?</label>
+      <div class="elicit-pills" data-name="style" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="Short and plain">Scurt și simplu</button>
+        <button type="button" class="elicit-pill" data-value="Detailed">Cu multe detalii</button>
+        <button type="button" class="elicit-pill" data-value="Friendly and casual">Prietenos și relaxat</button>
+        <button type="button" class="elicit-pill" data-value="Formal and professional">Formal și profesionist</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Altceva</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="style" placeholder="Direct, cu puțin umor" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Unde locuiești? Opțional, așa îți setăm fusul orar.</label>
+      <input type="text" data-name="city" placeholder="Cluj-Napoca, România">
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Ai un link care vorbește despre tine? Agentul tău îl citește, ca să scrii mai puțin.</label>
+      <input type="text" data-name="link" placeholder="https://siteultau.ro">
+    </div>
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">Sari peste</button>
+    <button type="button" class="elicit-submit">Continuă</button>
+  </div>
+</form>

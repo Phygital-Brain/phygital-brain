@@ -1,0 +1,95 @@
+<h2 class="sr-only">Formulář nastavení 3 ze 4: tvoje dny a lidi.</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>Tvůj druhý mozek: tvoje dny a lidi (3 ze 4)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">Které dny pracuješ?</label>
+      <div class="elicit-pills" data-name="work_days" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Mon">Po</button>
+        <button type="button" class="elicit-pill" data-value="Tue">Út</button>
+        <button type="button" class="elicit-pill" data-value="Wed">St</button>
+        <button type="button" class="elicit-pill" data-value="Thu">Čt</button>
+        <button type="button" class="elicit-pill" data-value="Fri">Pá</button>
+        <button type="button" class="elicit-pill" data-value="Sat">So</button>
+        <button type="button" class="elicit-pill" data-value="Sun">Ne</button>
+      </div>
+    </div>
+    <!-- BRIEF: keep this block only if BRIEF = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">Na kdy má být tvůj ranní přehled hotový?</label>
+      <div class="elicit-pills" data-name="brief_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="7:00">7:00</button>
+        <button type="button" class="elicit-pill" data-value="8:00">8:00</button>
+        <button type="button" class="elicit-pill" data-value="9:00">9:00</button>
+        <button type="button" class="elicit-pill" data-value="No brief">Bez přehledu</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Něco jiného</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="brief_time" placeholder="10:30" hidden>
+    </div>
+    <!-- END BRIEF -->
+    <div class="elicit-group">
+      <label class="elicit-question">Kdo je teď ve tvé práci nejdůležitější? Nejvýš 3 jména, každé na nový řádek.</label>
+      <textarea class="elicit-textarea" data-name="key_people" placeholder="Marta, moje redaktorka v nakladatelství&#10;Tomáš, společník v ateliéru&#10;Lucie, moje agentka"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">S kým pracuješ?</label>
+      <div class="elicit-pills" data-name="people" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Clients">Klienti</button>
+        <button type="button" class="elicit-pill" data-value="Collaborators">Spolutvůrci</button>
+        <button type="button" class="elicit-pill" data-value="Team or freelancers">Tým nebo lidi na volné noze</button>
+        <button type="button" class="elicit-pill" data-value="Partners, press or venues">Partneři, média nebo místa akcí</button>
+        <button type="button" class="elicit-pill" data-value="Just me">Jen já</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Něco jiného</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="people" placeholder="Studenti" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Vypiš svoje sociální sítě, pracovní i pro osobní projekty.</label>
+      <textarea class="elicit-textarea" data-name="social" placeholder="instagram.com/anna.kresli (práce)&#10;linkedin.com/in/annasvobodova&#10;tiktok.com/@annin.skicak (osobní)"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Kde si s lidmi píšeš a mluvíš?</label>
+      <div class="elicit-pills" data-name="comms" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Gmail or Google Workspace">Gmail nebo Google Workspace</button>
+        <button type="button" class="elicit-pill" data-value="Outlook or Microsoft 365">Outlook nebo Microsoft 365</button>
+        <button type="button" class="elicit-pill" data-value="WhatsApp">WhatsApp</button>
+        <button type="button" class="elicit-pill" data-value="Slack or Teams">Slack nebo Teams</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Něco jiného</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="comms" placeholder="Telegram" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Kde teď máš poznámky a práci?</label>
+      <div class="elicit-pills" data-name="notes_now" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Google Drive or Docs">Disk Google nebo Dokumenty Google</button>
+        <button type="button" class="elicit-pill" data-value="Notion">Notion</button>
+        <button type="button" class="elicit-pill" data-value="Apple Notes">Poznámky od Applu</button>
+        <button type="button" class="elicit-pill" data-value="Canva or Figma">Canva nebo Figma</button>
+        <button type="button" class="elicit-pill" data-value="Spreadsheets">Tabulky</button>
+        <button type="button" class="elicit-pill" data-value="Paper notebooks">Papírové sešity a bloky</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Něco jiného</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="notes_now" placeholder="Evernote" hidden>
+    </div>
+    <!-- VOICE: keep this block only if BUSINESS = on and WRITE = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">Jak chceš znít, když píšeš?</label>
+      <div class="elicit-pills" data-name="voice" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Warm and personal">Vřele a osobně</button>
+        <button type="button" class="elicit-pill" data-value="Direct and confident">Přímo a sebejistě</button>
+        <button type="button" class="elicit-pill" data-value="Humble and honest">Skromně a upřímně</button>
+        <button type="button" class="elicit-pill" data-value="Playful">Hravě</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Něco jiného</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="voice" placeholder="Jako s kamarádem" hidden>
+    </div>
+    <!-- END VOICE -->
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">Přeskočit</button>
+    <button type="button" class="elicit-submit">Pokračovat</button>
+  </div>
+</form>

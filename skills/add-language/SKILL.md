@@ -5,7 +5,7 @@ description: Make a full Phygital Brain set in a new language (forms, rule files
 
 # Phygital Brain: Add a language
 
-Version 0.1.4. Everything below is for the agent. Follow it step by step, and check each step before moving on.
+Version 0.1.5. Everything below is for the agent. Follow it step by step, and check each step before moving on.
 
 Two jobs:
 
@@ -79,7 +79,7 @@ Finish with one short message: the language, the main folder names, what's left 
 
 ## B. Switch a brain to another language
 
-Only for a language with a ready set in `../brain-setup/i18n/{code}/`. If there isn't one, offer job A first.
+Only for a language with a ready set in `../brain-setup/i18n/{code}/`. If there isn't one, offer job A first. If they say just "Portuguese" or "Chinese", ask which one first (`Português do Brasil` · `Português de Portugal`, or `简体中文` · `繁體中文`), as the setup's Step 1 does.
 
 1. **Read first, change nothing.** The root `CLAUDE.md` (its version line, Language section and `## Folder map` if there is one), every folder's `CLAUDE.md`, and `{Name}'s Rules`. Count {Name}'s own rules.
 2. **Make the list.** From the current names (the Folder map, or the English names if there's none) to the new ones in `i18n/{code}/strings.json` (`paths`). One line per folder and fixed note that will be renamed.

@@ -1,0 +1,95 @@
+<h2 class="sr-only">فرم راه‌اندازی 3 از 4: روزها و آدم‌های شما.</h2>
+<form class="elicit" dir="rtl">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>جزئیات مغز دوم: روزها و آدم‌های شما (3 از 4)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">چه روزهایی کار می‌کنید؟</label>
+      <div class="elicit-pills" data-name="work_days" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Mon">دوشنبه</button>
+        <button type="button" class="elicit-pill" data-value="Tue">سه‌شنبه</button>
+        <button type="button" class="elicit-pill" data-value="Wed">چهارشنبه</button>
+        <button type="button" class="elicit-pill" data-value="Thu">پنج‌شنبه</button>
+        <button type="button" class="elicit-pill" data-value="Fri">جمعه</button>
+        <button type="button" class="elicit-pill" data-value="Sat">شنبه</button>
+        <button type="button" class="elicit-pill" data-value="Sun">یکشنبه</button>
+      </div>
+    </div>
+    <!-- BRIEF: keep this block only if BRIEF = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">خلاصه صبحگاهی‌تان چه ساعتی آماده باشد؟</label>
+      <div class="elicit-pills" data-name="brief_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="7:00">7:00</button>
+        <button type="button" class="elicit-pill" data-value="8:00">8:00</button>
+        <button type="button" class="elicit-pill" data-value="9:00">9:00</button>
+        <button type="button" class="elicit-pill" data-value="No brief">خلاصه نمی‌خواهم</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>غیره</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="brief_time" placeholder="10:30" hidden>
+    </div>
+    <!-- END BRIEF -->
+    <div class="elicit-group">
+      <label class="elicit-question">الان چه کسانی در کارتان از همه مهم‌ترند؟ حداکثر 3 اسم، هر کدام در یک خط.</label>
+      <textarea class="elicit-textarea" data-name="key_people" placeholder="مریم، ویراستارم در نشر&#10;علی، شریکم در استودیو&#10;لیلا، نماینده‌ام"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">با چه کسانی کار می‌کنید؟</label>
+      <div class="elicit-pills" data-name="people" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Clients">مشتری‌ها</button>
+        <button type="button" class="elicit-pill" data-value="Collaborators">همکاران</button>
+        <button type="button" class="elicit-pill" data-value="Team or freelancers">تیم یا فریلنسرها</button>
+        <button type="button" class="elicit-pill" data-value="Partners, press or venues">شرکا، رسانه‌ها یا محل‌های برگزاری</button>
+        <button type="button" class="elicit-pill" data-value="Just me">فقط خودم</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>غیره</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="people" placeholder="دانشجوها و دانش‌آموزها" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">شبکه‌های اجتماعی‌تان را بنویسید، چه کاری چه شخصی.</label>
+      <textarea class="elicit-textarea" data-name="social" placeholder="instagram.com/sara.draws (کاری)&#10;linkedin.com/in/saraahmadi&#10;tiktok.com/@sarasketchbook (شخصی)"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">با آدم‌ها کجا حرف می‌زنید؟</label>
+      <div class="elicit-pills" data-name="comms" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Gmail or Google Workspace">Gmail یا Google Workspace</button>
+        <button type="button" class="elicit-pill" data-value="Outlook or Microsoft 365">Outlook یا Microsoft 365</button>
+        <button type="button" class="elicit-pill" data-value="WhatsApp">WhatsApp</button>
+        <button type="button" class="elicit-pill" data-value="Slack or Teams">Slack یا Teams</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>غیره</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="comms" placeholder="Telegram" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">الان یادداشت‌ها و کارهایتان کجاست؟</label>
+      <div class="elicit-pills" data-name="notes_now" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Google Drive or Docs">Google Drive یا Docs</button>
+        <button type="button" class="elicit-pill" data-value="Notion">Notion</button>
+        <button type="button" class="elicit-pill" data-value="Apple Notes">Apple Notes</button>
+        <button type="button" class="elicit-pill" data-value="Canva or Figma">Canva یا Figma</button>
+        <button type="button" class="elicit-pill" data-value="Spreadsheets">جدول‌ها (اکسل و مشابهش)</button>
+        <button type="button" class="elicit-pill" data-value="Paper notebooks">دفترچه کاغذی</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>غیره</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="notes_now" placeholder="Evernote" hidden>
+    </div>
+    <!-- VOICE: keep this block only if BUSINESS = on and WRITE = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">می‌خواهید نوشته‌هایتان چه لحنی داشته باشد؟</label>
+      <div class="elicit-pills" data-name="voice" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Warm and personal">گرم و صمیمی</button>
+        <button type="button" class="elicit-pill" data-value="Direct and confident">رک و مطمئن</button>
+        <button type="button" class="elicit-pill" data-value="Humble and honest">فروتن و صادق</button>
+        <button type="button" class="elicit-pill" data-value="Playful">بازیگوش و شاد</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>غیره</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="voice" placeholder="همان‌طور که با یک دوست حرف می‌زنم" hidden>
+    </div>
+    <!-- END VOICE -->
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">رد کردن</button>
+    <button type="button" class="elicit-submit">ادامه</button>
+  </div>
+</form>

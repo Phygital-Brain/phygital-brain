@@ -1,0 +1,33 @@
+<!-- ADAPTING (for the agent, leave this comment out of the file):
+Remove the Morning Brief row if BRIEF = off.
+-->
+
+Noter og præferencer til de skills, agenten bruger, plus Oprydningshjælperen.
+
+## Opbygning
+
+```
+Skills/{skill-name}/
+  {skill-name}.md eller SKILL.md  hvad skillen gør
+  notes.md                        stemme og præferencer, som {Name} har til den her skill
+  references/                     eksempler og længere materiale
+```
+
+## Installeret
+
+| Skill | Mappe | Hvad den gør |
+|---|---|---|
+| Oprydningshjælper | `brain-keeper/` | Rydder op hver dag af sig selv, og laver et tjek, når {Name} beder om det |
+| Morgenoverblik | `morning-brief/` | En kort plan for dagen, når man beder om det, eller hver arbejdsdag |
+| Import | `import/` | Henter noter ind fra andre apps, med en plan, som {Name} godkender først |
+| Mødeforberedelse | `meeting-prep/` | Et kort overblik før et opkald, ud fra hjernens noter |
+| Tænkeværktøjer | `thinking/` | Udfordr en idé, find mønstre, find noter, der er uenige |
+| Forbundne apps | `connected-apps/` | Hvilke apps hjernen læser fra, og reglerne for dem |
+| No AI Slop | `no-ai-slop/` | Skrivetjekket: retter tekst, så den lyder menneskelig, eller markerer AI-mønstre (af Peter Yang, MIT-licens, bliver aldrig ændret) |
+
+## Regler
+
+- Én mappe pr. skill, navngivet i kebab-case (små bogstaver med bindestreger).
+- Når der kommer en ny skill til, så tilføj en række i tabellen ovenfor.
+- En `SKILL.md`, der kommer fra en anden, bliver aldrig ændret. Hvis du vil tilpasse en skill, så tilføj `notes.md` i dens mappe.
+- `brain-keeper/daily.md` bliver læst af en planlagt opgave. Ret den kun for at ændre, hvad den daglige kørsel gør, og hold den enkel: ingen links, ingen callouts.

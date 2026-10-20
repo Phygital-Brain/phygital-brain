@@ -5,7 +5,7 @@ description: Build a Phygital Brain second brain in the selected folder through 
 
 # Phygital Brain: Setup
 
-Version 0.1.4. Everything below is for the agent. Follow it step by step, and check each step before moving on.
+Version 0.1.5. Everything below is for the agent. Follow it step by step, and check each step before moving on.
 
 ## What you are building
 
@@ -58,9 +58,11 @@ If you are another agent and your tool loads a different rule file (for example 
 
 Ask one question with click options, in the language of their first message (English if unclear): **"Which language should your brain speak?"** The ready languages, each with its code:
 
-`English` (en) · `简体中文` (zh-CN) · `繁體中文` (zh-TW) · `हिन्दी` (hi) · `Español` (es) · `العربية` (ar) · `Français` (fr) · `বাংলা` (bn) · `Português (Brasil)` (pt-BR) · `Português (Portugal)` (pt-PT) · `Русский` (ru) · `اردو` (ur) · `Bahasa Indonesia` (id) · `Deutsch` (de) · `日本語` (ja) · `Tiếng Việt` (vi) · `Türkçe` (tr) · `한국어` (ko) · `Italiano` (it) · `Polski` (pl) · `Nederlands` (nl) · Other
+`English` (en) · `简体中文` (zh-CN) · `繁體中文` (zh-TW) · `हिन्दी` (hi) · `Español` (es) · `العربية` (ar) · `Français` (fr) · `বাংলা` (bn) · `Português (Brasil)` (pt-BR) · `Português (Portugal)` (pt-PT) · `Русский` (ru) · `اردو` (ur) · `Bahasa Indonesia` (id) · `Deutsch` (de) · `日本語` (ja) · `Tiếng Việt` (vi) · `Türkçe` (tr) · `한국어` (ko) · `Italiano` (it) · `Polski` (pl) · `Nederlands` (nl) · `فارسی` (fa) · `ไทย` (th) · `Українська` (uk) · `Kiswahili` (sw) · `தமிழ்` (ta) · `తెలుగు` (te) · `मराठी` (mr) · `ગુજરાતી` (gu) · `ਪੰਜਾਬੀ` (pa) · `Bahasa Melayu` (ms) · `Filipino` (fil) · `עברית` (he) · `Ελληνικά` (el) · `Čeština` (cs) · `Română` (ro) · `Magyar` (hu) · `Svenska` (sv) · `Dansk` (da) · `Norsk (bokmål)` (nb) · `Suomi` (fi) · Other
 
-If the click tool takes only 4 options, offer the 3 most likely from their first message plus Other. A ready language typed in counts the same as a click, whether they type its own name, its English name (German, Japanese) or its code (de, ja).
+If the click tool takes only 4 options, offer the 3 most likely from their first message plus Other. If their first message is in Portuguese, two of those are `Português (Brasil)` and `Português (Portugal)`; if it's in Chinese, `简体中文` and `繁體中文`. A ready language typed in counts the same as a click, whether they type its own name, its English name (German, Japanese) or its code (de, ja).
+
+**Two kinds of Portuguese, two kinds of Chinese.** Never guess between them. If they pick or type just "Portuguese" or "Português" (no country), ask one click question: `Português do Brasil` · `Português de Portugal`. If they pick or type just "Chinese" or "中文", ask: `简体中文` · `繁體中文`. A country or region they name decides it without asking: Brazil gives pt-BR; Portugal, Angola, Mozambique or another African Portuguese-speaking country gives pt-PT; mainland China, Singapore or Malaysia gives zh-CN; Taiwan, Hong Kong or Macau gives zh-TW.
 
 ### A ready language (a folder `i18n/{code}/` exists in this skill)
 
@@ -89,7 +91,7 @@ These stay in English, so the rules and the Brain Keeper work the same everywher
 - Info block (frontmatter) keys and values: `type: daily`, `status: active`, `day: Monday`, every tag. The one exception is `description:`, a sentence in their language.
 - Every `data-name` and `data-value` in the forms, so the answers come back the same in every language.
 
-Portuguese means Brazilian Portuguese (pt-BR) unless they say Portugal or European Portuguese, or write the way people in Portugal do (pt-PT). Chinese means Simplified (zh-CN) unless they say Traditional, Taiwan or Hong Kong, or write in Traditional characters (zh-TW). Names they give (their projects, people, companies) stay exactly as they wrote them.
+Brazilian and European Portuguese (pt-BR, pt-PT) are different sets, and so are Simplified and Traditional Chinese (zh-CN, zh-TW): use the one they chose in Step 1, everywhere. Names they give (their projects, people, companies) stay exactly as they wrote them.
 
 ## Step 2: The forms
 

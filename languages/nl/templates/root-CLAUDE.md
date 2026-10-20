@@ -7,7 +7,7 @@
 -->
 
 
-<!-- Phygital Brain, version 0.1.4, language: {lang} -->
+<!-- Phygital Brain, version 0.1.5, language: {lang} -->
 
 # Het tweede brein van {Name}
 

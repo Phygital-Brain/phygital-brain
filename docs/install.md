@@ -2,7 +2,7 @@
 
 Pick your agent and click. Then open a chat on your brain folder and say **"Set up my second brain."**
 
-Every way gives your agent the same setup, forms, 21 languages and Brain Keeper. Your agent writes your notes itself, in the folder you choose.
+Every way gives your agent the same setup, forms, 41 languages and Brain Keeper. Your agent writes your notes itself, in the folder you choose.
 
 <p align="center">
 <a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="images/buttons/claude-desktop.png" width="240" alt="Add to Claude desktop"></a>

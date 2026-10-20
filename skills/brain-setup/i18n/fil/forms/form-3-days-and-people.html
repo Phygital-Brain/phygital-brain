@@ -1,0 +1,95 @@
+<h2 class="sr-only">Form sa setup, 3 sa 4: ang mga araw mo at ang mga tao.</h2>
+<form class="elicit">
+  <div class="elicit-header">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M11.586 2a1.5 1.5 0 0 1 1.06.44l2.914 2.914a1.5 1.5 0 0 1 .44 1.06V16.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.492-1.347L4 16.5v-13A1.5 1.5 0 0 1 5.5 2zM5.5 3a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h-2.5A1.5 1.5 0 0 1 11 5.5V3zm7.04 10.304a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696m0-4a.5.5 0 0 1 .92.392c-.295.69-.871 1.304-1.66 1.304-.487 0-.892-.234-1.2-.574-.309.34-.713.574-1.2.574-.486 0-.892-.233-1.2-.574-.31.34-.714.574-1.2.574a.5.5 0 0 1 0-1c.212 0 .52-.18.74-.696l.034-.067a.5.5 0 0 1 .886.067c.221.516.528.696.74.696.213 0 .52-.18.74-.696l.035-.067a.5.5 0 0 1 .885.067c.22.516.527.696.74.696s.519-.18.74-.696M12 5.5a.5.5 0 0 0 .5.5h2.293L12 3.207z"/></svg>
+    <span>Detalye ng utak mo: ang mga araw mo at ang mga tao (3 sa 4)</span>
+  </div>
+  <div class="elicit-body">
+    <div class="elicit-group">
+      <label class="elicit-question">Anong mga araw ka nagtatrabaho?</label>
+      <div class="elicit-pills" data-name="work_days" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Mon">Lun</button>
+        <button type="button" class="elicit-pill" data-value="Tue">Mar</button>
+        <button type="button" class="elicit-pill" data-value="Wed">Miy</button>
+        <button type="button" class="elicit-pill" data-value="Thu">Huw</button>
+        <button type="button" class="elicit-pill" data-value="Fri">Biy</button>
+        <button type="button" class="elicit-pill" data-value="Sat">Sab</button>
+        <button type="button" class="elicit-pill" data-value="Sun">Lin</button>
+      </div>
+    </div>
+    <!-- BRIEF: keep this block only if BRIEF = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">Anong oras dapat handa ang buod sa umaga mo?</label>
+      <div class="elicit-pills" data-name="brief_time" data-multi="false">
+        <button type="button" class="elicit-pill" data-value="7:00">7:00</button>
+        <button type="button" class="elicit-pill" data-value="8:00">8:00</button>
+        <button type="button" class="elicit-pill" data-value="9:00">9:00</button>
+        <button type="button" class="elicit-pill" data-value="No brief">Walang buod</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Iba pa</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="brief_time" placeholder="10:30" hidden>
+    </div>
+    <!-- END BRIEF -->
+    <div class="elicit-group">
+      <label class="elicit-question">Sino ang pinakamahalaga sa trabaho mo ngayon? Hanggang 3 pangalan, isang linya bawat isa.</label>
+      <textarea class="elicit-textarea" data-name="key_people" placeholder="Marta, editor ko sa publisher&#10;Paolo, partner sa studio&#10;Lia, agent ko"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Sino ang mga katrabaho mo?</label>
+      <div class="elicit-pills" data-name="people" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Clients">Mga kliyente</button>
+        <button type="button" class="elicit-pill" data-value="Collaborators">Mga katuwang</button>
+        <button type="button" class="elicit-pill" data-value="Team or freelancers">Team o mga freelancer</button>
+        <button type="button" class="elicit-pill" data-value="Partners, press or venues">Partner, media o venue</button>
+        <button type="button" class="elicit-pill" data-value="Just me">Ako lang</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Iba pa</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="people" placeholder="Mga estudyante" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Ilista ang mga social media mo, pang-trabaho man o personal na project.</label>
+      <textarea class="elicit-textarea" data-name="social" placeholder="instagram.com/ana.draws (trabaho)&#10;linkedin.com/in/anasantos&#10;tiktok.com/@anasketchbook (personal)"></textarea>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Saan ka nakikipag-usap sa mga tao?</label>
+      <div class="elicit-pills" data-name="comms" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Gmail or Google Workspace">Gmail o Google Workspace</button>
+        <button type="button" class="elicit-pill" data-value="Outlook or Microsoft 365">Outlook o Microsoft 365</button>
+        <button type="button" class="elicit-pill" data-value="WhatsApp">WhatsApp</button>
+        <button type="button" class="elicit-pill" data-value="Slack or Teams">Slack o Teams</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Iba pa</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="comms" placeholder="Telegram" hidden>
+    </div>
+    <div class="elicit-group">
+      <label class="elicit-question">Saan nakalagay ngayon ang mga note at trabaho mo?</label>
+      <div class="elicit-pills" data-name="notes_now" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Google Drive or Docs">Google Drive o Docs</button>
+        <button type="button" class="elicit-pill" data-value="Notion">Notion</button>
+        <button type="button" class="elicit-pill" data-value="Apple Notes">Apple Notes</button>
+        <button type="button" class="elicit-pill" data-value="Canva or Figma">Canva o Figma</button>
+        <button type="button" class="elicit-pill" data-value="Spreadsheets">Mga spreadsheet</button>
+        <button type="button" class="elicit-pill" data-value="Paper notebooks">Notebook na papel</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Iba pa</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="notes_now" placeholder="Evernote" hidden>
+    </div>
+    <!-- VOICE: keep this block only if BUSINESS = on and WRITE = on -->
+    <div class="elicit-group">
+      <label class="elicit-question">Anong dating ang gusto mo sa mga sinusulat mo?</label>
+      <div class="elicit-pills" data-name="voice" data-multi="true">
+        <button type="button" class="elicit-pill" data-value="Warm and personal">Magiliw at personal</button>
+        <button type="button" class="elicit-pill" data-value="Direct and confident">Diretso at may kumpiyansa</button>
+        <button type="button" class="elicit-pill" data-value="Humble and honest">Mapagpakumbaba at tapat</button>
+        <button type="button" class="elicit-pill" data-value="Playful">Mapaglaro</button>
+        <button type="button" class="elicit-pill" data-value="Other" data-other>Iba pa</button>
+      </div>
+      <input type="text" class="elicit-other" data-for="voice" placeholder="Parang kausap ko ang isang kaibigan" hidden>
+    </div>
+    <!-- END VOICE -->
+  </div>
+  <div class="elicit-footer">
+    <button type="button" class="elicit-skip">Laktawan</button>
+    <button type="button" class="elicit-submit">Tuloy</button>
+  </div>
+</form>
