@@ -5,7 +5,7 @@ description: Make a full Phygital Brain set in a new language (forms, rule files
 
 # Phygital Brain: Add a language
 
-Version 0.1.5. Everything below is for the agent. Follow it step by step, and check each step before moving on.
+Version 0.1.6. Everything below is for the agent. Follow it step by step, and check each step before moving on.
 
 Two jobs:
 

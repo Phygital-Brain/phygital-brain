@@ -103,7 +103,17 @@
     "label_from_calendar": "(z kalendáře)",
     "needs_review": "potřebuje kontrolu",
     "dry_run": "Zkušební běh",
-    "paused": "Správce mozku je pozastavený."
+    "paused": "Správce mozku je pozastavený.",
+    "drive_connect_google": "Propoj Google Drive: v Claude otevři Nastavení (Settings), pak Konektory (Connectors), pak Google Drive, a klikni na Připojit (Connect). Přihlas se, povol, o co požádá, a pak se vrať sem.",
+    "drive_connect_other": "Propoj {drive}: v Claude otevři Nastavení (Settings), pak Konektory (Connectors), a najdi {drive}. Pokud tam není, přidej jeho MCP server. Pak se vrať sem.",
+    "drive_icloud": "iCloud nemá pro většinu agentů konektor, takže se tvůj agent k mozku z telefonu nedostane. S ostatními zařízeními Apple se ale dál synchronizuje.",
+    "drive_connected_button": "Mám to propojené",
+    "drive_checking": "Kontroluju, jestli tvůj agent vidí tuhle složku ve službě {drive}…",
+    "drive_ok": "Propojeno. Tvůj mozek budeš mít i v telefonu.",
+    "drive_failed": "Tvůj agent zatím tuhle složku ve službě {drive} nenašel. Zkontroluj, že je složka uvnitř tvé složky {drive} a že je konektor zapnutý. Synchronizace může trvat i minutu.",
+    "try_again": "Zkusit znovu",
+    "drive_later_note": "Nevadí. Tvůj mozek funguje na tomhle počítači. Až budeš chtít úložiště přidat, stačí kdykoli říct „propoj moje cloudové úložiště“.",
+    "drive_other": "Jiné cloudové úložiště"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formulář nastavení 1 ze 4: o tobě.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "nebo vlož odkazy nebo pár řádků o sobě",
     "or paste links to your shop, portfolio or past work": "nebo vlož odkazy na svůj obchod, portfolio nebo starší práci",
     "or tell your agent where they are, to move them later": "nebo řekni svému agentovi, kde jsou, a přesune je později",
-    "I keep forgetting to follow up with clients.": "Pořád se zapomínám ozvat klientům."
+    "I keep forgetting to follow up with clients.": "Pořád se zapomínám ozvat klientům.",
+    "Connect a cloud drive now or later.": "Propoj cloudové úložiště teď, nebo později.",
+    "Cloud drive details": "Podrobnosti o cloudovém úložišti",
+    "Connect your cloud drive?": "Propojit cloudové úložiště?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Tvůj mozek bydlí v cloudovém úložišti, takže se k němu dostaneš i z telefonu a máš ho vždycky zálohovaný. Tvůj agent ale zatím k žádnému připojený není.",
+    "Set it up now": "Nastavit teď",
+    "About 2 minutes": "Asi 2 minuty",
+    "Set it up later": "Nastavit později",
+    "Your brain works on this computer": "Tvůj mozek funguje na tomhle počítači",
+    "Which cloud drive the person uses.": "Jaké cloudové úložiště člověk používá.",
+    "Which cloud drive do you use?": "Jaké cloudové úložiště používáš?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Vítej v nastavení Phygital Brain.",
+    "Brain details: welcome": "Tvůj druhý mozek: vítej",
+    "A second brain that thinks with you.": "Druhý mozek, který přemýšlí s tebou.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain je operační systém pro tvoje poznámky. V tvém cloudovém úložišti vytvořím jednu složku s poznámkami o tobě, tvé práci a tvých lidech a s pravidly, která pokaždé dodržuju. Od té chvíle tě každý chat zná hned od začátku. Poznámky zůstávají tvoje, jako obyčejné soubory, které si můžeš vzít k jakékoli AI.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Dál: čtyři krátké formuláře, asi 10 minut, většinou jen klikání."
   }
 }

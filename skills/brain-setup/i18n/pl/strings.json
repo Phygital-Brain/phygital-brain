@@ -103,6 +103,16 @@
     "label_from_calendar": "(z kalendarza)",
     "needs_review": "do przejrzenia",
     "dry_run": "Próbne uruchomienie",
-    "paused": "Opiekun mózgu jest wstrzymany."
+    "paused": "Opiekun mózgu jest wstrzymany.",
+    "drive_connect_google": "Połącz Google Drive: w Claude otwórz Ustawienia (Settings), potem Konektory (Connectors), potem Google Drive i kliknij Połącz (Connect). Zaloguj się i zezwól na to, o co prosi, a potem wróć tutaj.",
+    "drive_connect_other": "Połącz {drive}: w Claude otwórz Ustawienia (Settings), potem Konektory (Connectors) i poszukaj pozycji {drive}. Jeśli jej tam nie ma, dodaj serwer MCP dla {drive}. Potem wróć tutaj.",
+    "drive_icloud": "iCloud nie ma konektora dla większości agentów, więc na telefonie twój agent nie dotrze do twojego mózgu. Mózg nadal synchronizuje się z twoimi innymi urządzeniami Apple.",
+    "drive_connected_button": "Gotowe, połączone",
+    "drive_checking": "Sprawdzam, czy twój agent widzi ten folder w {drive}…",
+    "drive_ok": "Połączone. Twój mózg będzie też na telefonie.",
+    "drive_failed": "Twój agent nie widzi jeszcze tego folderu w {drive}. Sprawdź, czy folder jest w twoim folderze {drive} i czy konektor jest włączony. Synchronizacja może potrwać minutę.",
+    "try_again": "Spróbuj ponownie",
+    "drive_later_note": "Nie ma sprawy. Twój mózg działa na tym komputerze. Napisz w dowolnej chwili „połącz mój dysk w chmurze”, żeby go dodać.",
+    "drive_other": "Inny dysk w chmurze"
   }
 }

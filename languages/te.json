@@ -103,7 +103,17 @@
     "label_from_calendar": "(క్యాలెండర్ నుంచి)",
     "needs_review": "మళ్ళీ చూడాలి",
     "dry_run": "టెస్ట్ రన్",
-    "paused": "బ్రెయిన్ కీపర్ ప్రస్తుతం ఆగి ఉంది."
+    "paused": "బ్రెయిన్ కీపర్ ప్రస్తుతం ఆగి ఉంది.",
+    "drive_connect_google": "Google Driveని కనెక్ట్ చేయండి: Claudeలో Settings తెరిచి, Connectorsకి వెళ్లి, Google Drive ఎంచుకుని Connect నొక్కండి. సైన్ ఇన్ చేసి, అడిగినవాటికి అనుమతి ఇవ్వండి, తర్వాత ఇక్కడికి తిరిగి రండి.",
+    "drive_connect_other": "{drive}ని కనెక్ట్ చేయండి: Claudeలో Settings తెరిచి, Connectorsకి వెళ్లి {drive} కోసం చూడండి. అది అక్కడ లేకపోతే, దాని MCP సర్వర్‌ని యాడ్ చేయండి. తర్వాత ఇక్కడికి తిరిగి రండి.",
+    "drive_icloud": "చాలా ఏజెంట్లకు iCloud కనెక్టర్ లేదు, కాబట్టి ఫోన్ నుంచి మీ ఏజెంట్ మీ బ్రెయిన్‌ని చేరుకోలేదు. అయినా అది మీ ఇతర Apple డివైస్‌లకు సింక్ అవుతూనే ఉంటుంది.",
+    "drive_connected_button": "కనెక్ట్ చేశాను",
+    "drive_checking": "మీ ఏజెంట్‌కి {drive}లో ఈ ఫోల్డర్ కనిపిస్తోందో లేదో చెక్ చేస్తున్నాను…",
+    "drive_ok": "కనెక్ట్ అయింది. మీ బ్రెయిన్ మీ ఫోన్‌లో కూడా ఉంటుంది.",
+    "drive_failed": "మీ ఏజెంట్‌కి {drive}లో ఈ ఫోల్డర్ ఇంకా కనిపించడం లేదు. ఫోల్డర్ మీ {drive} ఫోల్డర్ లోపల ఉందో లేదో, కనెక్టర్ ఆన్‌లో ఉందో లేదో చూడండి. సింక్ అవ్వడానికి ఒక నిమిషం పట్టొచ్చు.",
+    "try_again": "మళ్ళీ ప్రయత్నించండి",
+    "drive_later_note": "పర్వాలేదు. మీ బ్రెయిన్ ఈ కంప్యూటర్‌లో పని చేస్తుంది. యాడ్ చేయాలనుకున్నప్పుడు ఎప్పుడైనా \"నా క్లౌడ్ డ్రైవ్ కనెక్ట్ చేయి\" అనండి.",
+    "drive_other": "వేరే క్లౌడ్ డ్రైవ్"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "సెటప్ ఫారం 4లో 1: మీ గురించి.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "లేదా లింక్స్ పేస్ట్ చేయండి, లేదా మీ గురించి కొన్ని లైన్లు రాయండి",
     "or paste links to your shop, portfolio or past work": "లేదా మీ షాప్, పోర్ట్‌ఫోలియో, పాత పనుల లింక్స్ పేస్ట్ చేయండి",
     "or tell your agent where they are, to move them later": "లేదా అవి ఎక్కడ ఉన్నాయో మీ ఏజెంట్‌కి చెప్పండి, తర్వాత తీసుకొస్తుంది",
-    "I keep forgetting to follow up with clients.": "క్లయింట్లకు మళ్ళీ ఫాలో అప్ చేయడం మర్చిపోతూ ఉంటాను."
+    "I keep forgetting to follow up with clients.": "క్లయింట్లకు మళ్ళీ ఫాలో అప్ చేయడం మర్చిపోతూ ఉంటాను.",
+    "Connect a cloud drive now or later.": "క్లౌడ్ డ్రైవ్‌ని ఇప్పుడైనా, తర్వాతైనా కనెక్ట్ చేయండి.",
+    "Cloud drive details": "క్లౌడ్ డ్రైవ్ వివరాలు",
+    "Connect your cloud drive?": "మీ క్లౌడ్ డ్రైవ్‌ని కనెక్ట్ చేయాలా?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "మీ బ్రెయిన్ మీ క్లౌడ్ డ్రైవ్‌లో ఉంటుంది, కాబట్టి ఫోన్ నుంచి కూడా వాడుకోవచ్చు, బ్యాకప్ కూడా ఎప్పుడూ ఉంటుంది. మీ ఏజెంట్ ఇంకా ఏ క్లౌడ్ డ్రైవ్‌కీ కనెక్ట్ కాలేదు.",
+    "Set it up now": "ఇప్పుడే సెటప్ చేయండి",
+    "About 2 minutes": "సుమారు 2 నిమిషాలు",
+    "Set it up later": "తర్వాత సెటప్ చేయండి",
+    "Your brain works on this computer": "మీ బ్రెయిన్ ఈ కంప్యూటర్‌లో పని చేస్తుంది",
+    "Which cloud drive the person uses.": "వ్యక్తి వాడే క్లౌడ్ డ్రైవ్ ఏది.",
+    "Which cloud drive do you use?": "మీరు ఏ క్లౌడ్ డ్రైవ్ వాడతారు?",
+    "Welcome to the Phygital Brain setup.": "Phygital Brain సెటప్‌కి స్వాగతం.",
+    "Brain details: welcome": "బ్రెయిన్ వివరాలు: స్వాగతం",
+    "A second brain that thinks with you.": "మీతో కలిసి ఆలోచించే సెకండ్ బ్రెయిన్.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain మీ నోట్స్ కోసం ఒక OS. నేను మీ క్లౌడ్ డ్రైవ్‌లో ఒక ఫోల్డర్ తయారు చేస్తాను. అందులో మీ గురించి, మీ పని గురించి, మీ మనుషుల గురించి నోట్స్ ఉంటాయి, నేను ప్రతిసారీ పాటించే నియమాలు కూడా ఉంటాయి. అప్పటి నుంచి ప్రతి చాట్ మీరు ముందే తెలిసినట్టే మొదలవుతుంది. మీ నోట్స్ ఎప్పుడూ మీవే, మామూలు ఫైల్స్‌గా ఉంటాయి, వాటిని ఏ AIకి అయినా తీసుకెళ్లొచ్చు.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "తర్వాత: నాలుగు చిన్న ఫారాలు, సుమారు 10 నిమిషాలు, ఎక్కువగా క్లిక్‌లే.",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive"
   }
 }

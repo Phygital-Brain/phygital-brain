@@ -103,7 +103,17 @@
     "label_from_calendar": "（カレンダーより）",
     "needs_review": "見直しが必要",
     "dry_run": "テスト実行",
-    "paused": "ブレイン整理係は一時停止中です。"
+    "paused": "ブレイン整理係は一時停止中です。",
+    "drive_connect_google": "Google Driveを接続します。Claudeで「設定」を開き、「コネクター」、「Google Drive」の順に進んで「接続」をクリックしてください。サインインして、求められた内容を許可したら、ここに戻ってください。",
+    "drive_connect_other": "{drive}を接続します。Claudeで「設定」を開き、「コネクター」で{drive}を探してください。見つからない場合は、そのMCPサーバーを追加してください。それからここに戻ってください。",
+    "drive_icloud": "iCloudにはほとんどのエージェントで使えるコネクターがないため、エージェントはスマホからブレインにアクセスできません。ほかのAppleデバイスとの同期はこれまでどおり行われます。",
+    "drive_connected_button": "接続しました",
+    "drive_checking": "エージェントが{drive}のこのフォルダーを見られるか確認しています…",
+    "drive_ok": "接続できました。これでスマホからもブレインを使えます。",
+    "drive_failed": "エージェントが{drive}でこのフォルダーをまだ見つけられません。フォルダーが{drive}のフォルダーの中にあるか、コネクターがオンになっているかを確認してください。同期には1分ほどかかることがあります。",
+    "try_again": "もう一度試す",
+    "drive_later_note": "大丈夫です。ブレインはこのパソコンで使えます。追加したくなったら、いつでも「クラウドドライブを接続して」と言ってください。",
+    "drive_other": "その他のクラウドドライブ"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "セットアップ 1/4：あなたについて",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "またはリンクや、あなたについての短い文を貼り付けてください",
     "or paste links to your shop, portfolio or past work": "またはショップ、ポートフォリオ、過去の作品のリンクを貼り付けてください",
     "or tell your agent where they are, to move them later": "または場所をエージェントに伝えてください。あとで移します",
-    "I keep forgetting to follow up with clients.": "クライアントへのフォローをつい忘れてしまいます。"
+    "I keep forgetting to follow up with clients.": "クライアントへのフォローをつい忘れてしまいます。",
+    "Connect a cloud drive now or later.": "クラウドドライブを今すぐ、またはあとで接続します。",
+    "Cloud drive details": "クラウドドライブの設定",
+    "Connect your cloud drive?": "クラウドドライブを接続しますか？",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "ブレインはクラウドドライブに置くので、スマホからも使えて、いつもバックアップされます。エージェントはまだクラウドドライブに接続されていません。",
+    "Set it up now": "今すぐ設定する",
+    "About 2 minutes": "2分ほど",
+    "Set it up later": "あとで設定する",
+    "Your brain works on this computer": "ブレインはこのパソコンで使えます",
+    "Which cloud drive the person uses.": "使っているクラウドドライブ。",
+    "Which cloud drive do you use?": "どのクラウドドライブを使っていますか？",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Phygital Brainのセットアップへようこそ。",
+    "Brain details: welcome": "ブレインの設定：ようこそ",
+    "A second brain that thinks with you.": "一緒に考えてくれるセカンドブレイン。",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brainは、メモのためのOSです。クラウドドライブにフォルダーをひとつ作り、あなたのこと、仕事のこと、人脈についてのノートと、私が毎回守るルールを入れます。それからは、どのチャットも最初からあなたのことをわかった状態で始まります。ノートはずっとあなたのもの。ただのファイルなので、どのAIにも持っていけます。",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "次は短いフォームが4つ。10分ほどで、ほとんどクリックだけです。"
   }
 }

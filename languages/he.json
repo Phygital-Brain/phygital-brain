@@ -103,7 +103,17 @@
     "label_from_calendar": "(מהיומן)",
     "needs_review": "לבדיקה מחדש",
     "dry_run": "הרצת ניסיון",
-    "paused": "שומר המוח מושהה."
+    "paused": "שומר המוח מושהה.",
+    "drive_connect_google": "חיבור Google Drive: ב-Claude פותחים את Settings, אחר כך Connectors, אחר כך Google Drive, ולוחצים על Connect. מתחברים, מאשרים את מה שמתבקש, וחוזרים לכאן.",
+    "drive_connect_other": "חיבור {drive}: ב-Claude פותחים את Settings, אחר כך Connectors, ומחפשים את {drive}. אם הוא לא שם, מוסיפים את שרת ה-MCP שלו. אחר כך חוזרים לכאן.",
+    "drive_icloud": "ל-iCloud אין מחבר ברוב הסוכנים, כך שהסוכן שלך לא יכול להגיע למוח שלך מהטלפון. המוח עדיין מסתנכרן למכשירי Apple האחרים שלך.",
+    "drive_connected_button": "חיברתי",
+    "drive_checking": "בודקים שהסוכן שלך רואה את התיקייה הזו ב-{drive}…",
+    "drive_ok": "מחובר. המוח שלך יהיה גם בטלפון.",
+    "drive_failed": "הסוכן שלך עדיין לא מוצא את התיקייה הזו ב-{drive}. כדאי לבדוק שהתיקייה נמצאת בתוך תיקיית {drive} שלך ושהמחבר פעיל. הסנכרון יכול לקחת דקה.",
+    "try_again": "לנסות שוב",
+    "drive_later_note": "אין בעיה. המוח שלך עובד על המחשב הזה. אפשר להגיד \"לחבר את כונן הענן שלי\" מתי שרוצים כדי להוסיף אותו.",
+    "drive_other": "כונן ענן אחר"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "טופס הגדרה 1 מתוך 4: עליך.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "או להדביק קישורים או כמה שורות עליך",
     "or paste links to your shop, portfolio or past work": "או להדביק קישורים לחנות, לתיק העבודות או לעבודות קודמות",
     "or tell your agent where they are, to move them later": "או לספר לסוכן שלך איפה הם נמצאים, כדי להעביר אותם אחר כך",
-    "I keep forgetting to follow up with clients.": "כל הזמן יוצא לי לשכוח לחזור ללקוחות."
+    "I keep forgetting to follow up with clients.": "כל הזמן יוצא לי לשכוח לחזור ללקוחות.",
+    "Connect a cloud drive now or later.": "אפשר לחבר כונן ענן עכשיו או אחר כך.",
+    "Cloud drive details": "פרטי כונן הענן",
+    "Connect your cloud drive?": "לחבר את כונן הענן שלך?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "המוח שלך נמצא בכונן הענן, כך שאפשר להגיע אליו מהטלפון ותמיד יש לו גיבוי. הסוכן שלך עדיין לא מחובר לכונן ענן.",
+    "Set it up now": "להגדיר עכשיו",
+    "About 2 minutes": "בערך 2 דקות",
+    "Set it up later": "להגדיר אחר כך",
+    "Your brain works on this computer": "המוח שלך עובד על המחשב הזה",
+    "Which cloud drive the person uses.": "באיזה כונן ענן האדם משתמש.",
+    "Which cloud drive do you use?": "איזה כונן ענן יש לך?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "ברוכים הבאים להגדרה של Phygital Brain.",
+    "Brain details: welcome": "פרטים למוח: ברוכים הבאים",
+    "A second brain that thinks with you.": "מוח שני שחושב איתך.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain הוא מערכת הפעלה לפתקים שלך. אבנה תיקייה אחת בכונן הענן שלך, עם פתקים עליך, על העבודה שלך ועל האנשים שלך, וכללים שאני פועל לפיהם בכל פעם. מאותו רגע, כל צ'אט מתחיל כשאני כבר מכיר אותך. הפתקים נשארים שלך, כקבצים פשוטים שאפשר לקחת לכל AI.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "השלב הבא: ארבעה טפסים קצרים, בערך 10 דקות, בעיקר לחיצות."
   }
 }

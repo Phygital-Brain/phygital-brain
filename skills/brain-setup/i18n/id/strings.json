@@ -103,6 +103,16 @@
     "label_from_calendar": "(dari kalender)",
     "needs_review": "perlu ditinjau",
     "dry_run": "Uji coba",
-    "paused": "Penjaga Otak sedang dijeda."
+    "paused": "Penjaga Otak sedang dijeda.",
+    "drive_connect_google": "Hubungkan Google Drive: di Claude, buka Settings, lalu Connectors, lalu Google Drive, dan klik Connect. Masuk ke akunmu dan izinkan yang diminta, lalu kembali ke sini.",
+    "drive_connect_other": "Hubungkan {drive}: di Claude, buka Settings, lalu Connectors, dan cari {drive}. Kalau tidak ada, tambahkan server MCP-nya. Lalu kembali ke sini.",
+    "drive_icloud": "iCloud tidak punya konektor untuk kebanyakan agen, jadi agenmu tidak bisa membuka otakmu dari HP. Tapi otakmu tetap tersinkron ke perangkat Apple-mu yang lain.",
+    "drive_connected_button": "Sudah aku hubungkan",
+    "drive_checking": "Mengecek apakah agenmu bisa melihat folder ini di {drive}…",
+    "drive_ok": "Terhubung. Otakmu juga akan ada di HP-mu.",
+    "drive_failed": "Agenmu belum bisa menemukan folder ini di {drive}. Pastikan folder ini ada di dalam folder {drive}-mu dan konektornya aktif. Sinkronisasi bisa butuh semenit.",
+    "try_again": "Coba lagi",
+    "drive_later_note": "Tidak apa-apa. Otakmu tetap jalan di komputer ini. Bilang \"hubungkan cloud drive-ku\" kapan saja untuk menambahkannya.",
+    "drive_other": "Cloud drive lain"
   }
 }

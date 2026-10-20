@@ -103,6 +103,16 @@
     "label_from_calendar": "(uit agenda)",
     "needs_review": "moet nagekeken worden",
     "dry_run": "Testrun",
-    "paused": "De Opruimhulp is gepauzeerd."
+    "paused": "De Opruimhulp is gepauzeerd.",
+    "drive_connect_google": "Koppel Google Drive: open in Claude Settings, dan Connectors, dan Google Drive, en klik op Connect. Log in en geef toestemming voor wat er gevraagd wordt. Kom daarna hier terug.",
+    "drive_connect_other": "Koppel {drive}: open in Claude Settings, dan Connectors, en zoek {drive}. Staat het er niet tussen? Voeg dan de MCP-server ervan toe. Kom daarna hier terug.",
+    "drive_icloud": "iCloud heeft voor de meeste agents geen connector, dus je agent kan vanaf je telefoon niet bij je brein. Het synchroniseert wel gewoon met je andere Apple-apparaten.",
+    "drive_connected_button": "Ik heb het gekoppeld",
+    "drive_checking": "Even checken of je agent deze map in {drive} kan zien…",
+    "drive_ok": "Gekoppeld. Je brein staat nu ook op je telefoon.",
+    "drive_failed": "Je agent kan deze map in {drive} nog niet vinden. Check of de map in je {drive}-map staat en of de connector aanstaat. Synchroniseren kan een minuutje duren.",
+    "try_again": "Opnieuw proberen",
+    "drive_later_note": "Geen probleem. Je brein werkt op deze computer. Zeg op elk moment \"koppel mijn cloudopslag\" om het toe te voegen.",
+    "drive_other": "Andere cloudopslag"
   }
 }

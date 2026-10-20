@@ -103,6 +103,16 @@
     "label_from_calendar": "(takvimden)",
     "needs_review": "gözden geçirilmeli",
     "dry_run": "Deneme turu",
-    "paused": "Düzen Bekçisi duraklatıldı."
+    "paused": "Düzen Bekçisi duraklatıldı.",
+    "drive_connect_google": "Google Drive'ı bağla: Claude'da Ayarlar'ı aç, sonra Bağlayıcılar'a, sonra Google Drive'a git ve Bağlan'a tıkla. Giriş yap, istenen izinleri ver, sonra buraya dön.",
+    "drive_connect_other": "{drive} hesabını bağla: Claude'da Ayarlar'ı aç, sonra Bağlayıcılar'a gidip {drive} seçeneğini ara. Orada yoksa MCP sunucusunu ekle. Sonra buraya dön.",
+    "drive_icloud": "iCloud'un çoğu asistan için bir bağlayıcısı yok, bu yüzden asistanın telefonundan beynine ulaşamaz. Yine de diğer Apple cihazlarınla senkronize olmaya devam eder.",
+    "drive_connected_button": "Bağladım",
+    "drive_checking": "Asistanının bu klasörü {drive} içinde görüp görmediği kontrol ediliyor…",
+    "drive_ok": "Bağlandı. Beynin artık telefonunda da olacak.",
+    "drive_failed": "Asistanın bu klasörü {drive} içinde henüz bulamıyor. Klasörün {drive} klasörünün içinde olduğunu ve bağlayıcının açık olduğunu kontrol et. Senkronizasyon bir dakika sürebilir.",
+    "try_again": "Tekrar dene",
+    "drive_later_note": "Sorun değil. Beynin bu bilgisayarda çalışır. Eklemek istediğinde, istediğin zaman \"bulut depolamamı bağla\" demen yeterli.",
+    "drive_other": "Başka bulut depolama"
   }
 }

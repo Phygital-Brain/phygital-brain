@@ -103,7 +103,17 @@
     "label_from_calendar": "(من التقويم)",
     "needs_review": "يحتاج مراجعة",
     "dry_run": "تشغيل تجريبي",
-    "paused": "منظّم العقل متوقف مؤقتًا."
+    "paused": "منظّم العقل متوقف مؤقتًا.",
+    "drive_connect_google": "اربط Google Drive: في Claude، افتح الإعدادات (Settings)، ثم الموصلات (Connectors)، ثم Google Drive، واضغط اتصال (Connect). سجّل الدخول ووافق على ما يطلبه، ثم ارجع إلى هنا.",
+    "drive_connect_other": "اربط {drive}: في Claude، افتح الإعدادات (Settings)، ثم الموصلات (Connectors)، وابحث عن {drive}. إذا لم يكن موجودًا، أضف خادم MCP الخاص به. ثم ارجع إلى هنا.",
+    "drive_icloud": "لا يوجد موصل لـ iCloud في معظم المساعدات الذكية، لذلك لا يستطيع مساعدك الذكي الوصول إلى عقلك الثاني من هاتفك. لكنه يبقى متزامنًا مع أجهزة Apple الأخرى لديك.",
+    "drive_connected_button": "ربطته",
+    "drive_checking": "أتحقق من أن مساعدك الذكي يرى هذا المجلد في {drive}…",
+    "drive_ok": "تم الربط. سيكون عقلك الثاني على هاتفك أيضًا.",
+    "drive_failed": "مساعدك الذكي لا يجد هذا المجلد في {drive} بعد. تأكد أن المجلد داخل مجلد {drive} لديك وأن الموصل مفعّل. قد تستغرق المزامنة دقيقة.",
+    "try_again": "حاول مرة أخرى",
+    "drive_later_note": "لا مشكلة. عقلك الثاني يعمل على هذا الكمبيوتر. قل \"اربط تخزيني السحابي\" في أي وقت لإضافته.",
+    "drive_other": "تخزين سحابي آخر"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "نموذج الإعداد 1 من 4: عنك.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "أو الصق روابط أو بضعة أسطر عنك",
     "or paste links to your shop, portfolio or past work": "أو الصق روابط متجرك أو معرض أعمالك أو أعمالك السابقة",
     "or tell your agent where they are, to move them later": "أو أخبر مساعدك الذكي بمكانها لينقلها لاحقًا",
-    "I keep forgetting to follow up with clients.": "أنسى دائمًا متابعة العملاء."
+    "I keep forgetting to follow up with clients.": "أنسى دائمًا متابعة العملاء.",
+    "Connect a cloud drive now or later.": "اربط تخزينًا سحابيًا الآن أو لاحقًا.",
+    "Cloud drive details": "تفاصيل التخزين السحابي",
+    "Connect your cloud drive?": "هل تريد ربط تخزينك السحابي؟",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "عقلك الثاني موجود في تخزينك السحابي، لذلك يمكنك الوصول إليه من هاتفك، ونسخته الاحتياطية محفوظة دائمًا. مساعدك الذكي ليس مربوطًا بأي تخزين سحابي بعد.",
+    "Set it up now": "الإعداد الآن",
+    "About 2 minutes": "حوالي دقيقتين",
+    "Set it up later": "الإعداد لاحقًا",
+    "Your brain works on this computer": "عقلك الثاني يعمل على هذا الكمبيوتر",
+    "Which cloud drive the person uses.": "التخزين السحابي الذي يستخدمه الشخص.",
+    "Which cloud drive do you use?": "أي تخزين سحابي تستخدم؟",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "أهلًا بك في إعداد Phygital Brain.",
+    "Brain details: welcome": "تفاصيل عقلك الثاني: الترحيب",
+    "A second brain that thinks with you.": "عقل ثانٍ يفكّر معك.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain هو نظام تشغيل لملاحظاتك. سأبني مجلدًا واحدًا في تخزينك السحابي، فيه ملاحظات عنك وعن عملك وعن الناس في حياتك، وقواعد أتبعها في كل مرة. ومن بعدها، تبدأ كل محادثة وهي تعرفك مسبقًا. ملاحظاتك تبقى ملكك، كملفات عادية يمكنك أخذها إلى أي أداة ذكاء اصطناعي.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "التالي: أربعة نماذج قصيرة، حوالي 10 دقائق، نقرات في الغالب."
   }
 }

@@ -103,6 +103,16 @@
     "label_from_calendar": "(fra kalender)",
     "needs_review": "skal gennemgås",
     "dry_run": "Prøvekørsel",
-    "paused": "Oprydningshjælperen er sat på pause."
+    "paused": "Oprydningshjælperen er sat på pause.",
+    "drive_connect_google": "Forbind Google Drive: Åbn Indstillinger (Settings) i Claude, derefter Connectors og så Google Drive, og klik på Connect. Log ind, og tillad det, den beder om. Kom så tilbage hertil.",
+    "drive_connect_other": "Forbind {drive}: Åbn Indstillinger (Settings) i Claude, derefter Connectors, og find {drive}. Hvis den ikke er der, så tilføj dens MCP-server. Kom så tilbage hertil.",
+    "drive_icloud": "iCloud har ikke en connector til de fleste agenter, så din agent kan ikke nå din hjerne fra din telefon. Den synkroniserer stadig til dine andre Apple-enheder.",
+    "drive_connected_button": "Jeg har forbundet den",
+    "drive_checking": "Tjekker, at din agent kan se den her mappe i {drive}…",
+    "drive_ok": "Forbundet. Din hjerne vil også være på din telefon.",
+    "drive_failed": "Din agent kan ikke finde den her mappe i {drive} endnu. Tjek, at mappen ligger inde i din {drive}-mappe, og at connectoren er slået til. Synkronisering kan tage et minut.",
+    "try_again": "Prøv igen",
+    "drive_later_note": "Intet problem. Din hjerne virker på den her computer. Sig \"forbind mit cloud-drev\" når som helst for at tilføje det.",
+    "drive_other": "Andet cloud-drev"
   }
 }

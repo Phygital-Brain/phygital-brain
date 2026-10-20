@@ -103,7 +103,17 @@
     "label_from_calendar": "(från kalendern)",
     "needs_review": "behöver ses över",
     "dry_run": "Testkörning",
-    "paused": "Städhjälpen är pausad."
+    "paused": "Städhjälpen är pausad.",
+    "drive_connect_google": "Anslut Google Drive: i Claude öppnar du Inställningar (Settings), sedan Kopplingar (Connectors), sedan Google Drive, och klickar på Anslut (Connect). Logga in och tillåt det som efterfrågas, och kom sedan tillbaka hit.",
+    "drive_connect_other": "Anslut {drive}: i Claude öppnar du Inställningar (Settings), sedan Kopplingar (Connectors), och letar efter {drive}. Om den inte finns där lägger du till dess MCP-server. Kom sedan tillbaka hit.",
+    "drive_icloud": "iCloud har ingen koppling för de flesta agenter, så din agent kommer inte åt din hjärna från mobilen. Den synkas fortfarande till dina andra Apple-enheter.",
+    "drive_connected_button": "Jag har anslutit den",
+    "drive_checking": "Kollar att din agent ser den här mappen i {drive}…",
+    "drive_ok": "Ansluten. Din hjärna finns nu i mobilen också.",
+    "drive_failed": "Din agent hittar inte den här mappen i {drive} än. Kolla att mappen ligger i din {drive}-mapp och att kopplingen är på. Synkningen kan ta en minut.",
+    "try_again": "Försök igen",
+    "drive_later_note": "Inga problem. Din hjärna fungerar på den här datorn. Säg \"anslut min molnlagring\" när du vill för att lägga till den.",
+    "drive_other": "Annan molnlagring"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formulär 1 av 4: om dig.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "eller klistra in länkar eller några rader om dig",
     "or paste links to your shop, portfolio or past work": "eller klistra in länkar till din butik, portfolio eller tidigare jobb",
     "or tell your agent where they are, to move them later": "eller berätta för din agent var de finns, så kan den flytta dem senare",
-    "I keep forgetting to follow up with clients.": "Jag glömmer hela tiden att följa upp kunder."
+    "I keep forgetting to follow up with clients.": "Jag glömmer hela tiden att följa upp kunder.",
+    "Connect a cloud drive now or later.": "Anslut en molnlagring nu eller senare.",
+    "Cloud drive details": "Uppgifter om molnlagring",
+    "Connect your cloud drive?": "Ansluta din molnlagring?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Din hjärna ligger i din molnlagring, så du kommer åt den från mobilen och har alltid en säkerhetskopia. Din agent är inte ansluten till någon ännu.",
+    "Set it up now": "Ställ in nu",
+    "About 2 minutes": "Ungefär 2 minuter",
+    "Set it up later": "Ställ in senare",
+    "Your brain works on this computer": "Din hjärna fungerar på den här datorn",
+    "Which cloud drive the person uses.": "Vilken molnlagring personen använder.",
+    "Which cloud drive do you use?": "Vilken molnlagring använder du?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Välkommen till installationen av Phygital Brain.",
+    "Brain details: welcome": "Din hjärna: välkommen",
+    "A second brain that thinks with you.": "En andra hjärna som tänker med dig.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain är ett operativsystem för dina anteckningar. Jag bygger en mapp i din molnlagring, med anteckningar om dig, ditt jobb och människorna i ditt liv, och regler som jag följer varje gång. Från och med då börjar varje chatt med att jag redan känner dig. Dina anteckningar förblir dina, som vanliga filer du kan ta med till vilken AI som helst.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Härnäst: fyra korta formulär, ungefär 10 minuter, mest klick."
   }
 }

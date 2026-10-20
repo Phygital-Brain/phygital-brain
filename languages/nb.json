@@ -103,7 +103,17 @@
     "label_from_calendar": "(fra kalenderen)",
     "needs_review": "bør gås gjennom",
     "dry_run": "Prøvekjøring",
-    "paused": "Ryddehjelperen er satt på pause."
+    "paused": "Ryddehjelperen er satt på pause.",
+    "drive_connect_google": "Koble til Google Drive: åpne Settings i Claude, så Connectors, så Google Drive, og klikk Connect. Logg inn og gi tillatelse til det den spør om, og kom så tilbake hit.",
+    "drive_connect_other": "Koble til {drive}: åpne Settings i Claude, så Connectors, og se etter {drive}. Finner du den ikke, legger du til MCP-serveren for den. Kom så tilbake hit.",
+    "drive_icloud": "iCloud har ingen kobling for de fleste agenter, så agenten din kommer ikke til hjernen din fra mobilen. Den synkroniseres fortsatt til de andre Apple-enhetene dine.",
+    "drive_connected_button": "Jeg har koblet den til",
+    "drive_checking": "Sjekker at agenten din ser denne mappen i {drive}…",
+    "drive_ok": "Tilkoblet. Hjernen din er nå på mobilen også.",
+    "drive_failed": "Agenten din finner ikke denne mappen i {drive} ennå. Sjekk at mappen ligger i {drive}-mappen din, og at koblingen er slått på. Synkronisering kan ta et minutt.",
+    "try_again": "Prøv igjen",
+    "drive_later_note": "Helt greit. Hjernen din fungerer på denne datamaskinen. Si «koble til skylagringen min» når du vil, så legger vi den til.",
+    "drive_other": "Annen skylagring"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Oppsettskjema 1 av 4: om deg.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "eller lim inn lenker eller noen linjer om deg",
     "or paste links to your shop, portfolio or past work": "eller lim inn lenker til nettbutikken, porteføljen eller tidligere arbeid",
     "or tell your agent where they are, to move them later": "eller si til agenten din hvor de ligger, så kan de flyttes senere",
-    "I keep forgetting to follow up with clients.": "Jeg glemmer stadig å følge opp kunder."
+    "I keep forgetting to follow up with clients.": "Jeg glemmer stadig å følge opp kunder.",
+    "Connect a cloud drive now or later.": "Koble til en skylagring nå eller senere.",
+    "Cloud drive details": "Om skylagringen",
+    "Connect your cloud drive?": "Vil du koble til skylagringen din?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Hjernen din bor i skylagringen din, så du kommer til den fra mobilen, og den er alltid sikkerhetskopiert. Agenten din er ikke koblet til noen skylagring ennå.",
+    "Set it up now": "Sett det opp nå",
+    "About 2 minutes": "Rundt 2 minutter",
+    "Set it up later": "Sett det opp senere",
+    "Your brain works on this computer": "Hjernen din fungerer på denne datamaskinen",
+    "Which cloud drive the person uses.": "Hvilken skylagring personen bruker.",
+    "Which cloud drive do you use?": "Hvilken skylagring bruker du?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Velkommen til oppsettet av Phygital Brain.",
+    "Brain details: welcome": "Om hjernen din: velkommen",
+    "A second brain that thinks with you.": "En andre hjerne som tenker sammen med deg.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain er et operativsystem for notatene dine. Jeg lager én mappe i skylagringen din, med notater om deg, jobben din og folkene dine, og regler jeg følger hver gang. Fra da av kjenner jeg deg allerede når hver chat starter. Notatene er dine, som vanlige filer du kan ta med til hvilken som helst AI.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Neste: fire korte skjemaer, rundt 10 minutter, mest klikk."
   }
 }

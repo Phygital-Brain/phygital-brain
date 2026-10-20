@@ -103,6 +103,16 @@
     "label_from_calendar": "(z kalendáře)",
     "needs_review": "potřebuje kontrolu",
     "dry_run": "Zkušební běh",
-    "paused": "Správce mozku je pozastavený."
+    "paused": "Správce mozku je pozastavený.",
+    "drive_connect_google": "Propoj Google Drive: v Claude otevři Nastavení (Settings), pak Konektory (Connectors), pak Google Drive, a klikni na Připojit (Connect). Přihlas se, povol, o co požádá, a pak se vrať sem.",
+    "drive_connect_other": "Propoj {drive}: v Claude otevři Nastavení (Settings), pak Konektory (Connectors), a najdi {drive}. Pokud tam není, přidej jeho MCP server. Pak se vrať sem.",
+    "drive_icloud": "iCloud nemá pro většinu agentů konektor, takže se tvůj agent k mozku z telefonu nedostane. S ostatními zařízeními Apple se ale dál synchronizuje.",
+    "drive_connected_button": "Mám to propojené",
+    "drive_checking": "Kontroluju, jestli tvůj agent vidí tuhle složku ve službě {drive}…",
+    "drive_ok": "Propojeno. Tvůj mozek budeš mít i v telefonu.",
+    "drive_failed": "Tvůj agent zatím tuhle složku ve službě {drive} nenašel. Zkontroluj, že je složka uvnitř tvé složky {drive} a že je konektor zapnutý. Synchronizace může trvat i minutu.",
+    "try_again": "Zkusit znovu",
+    "drive_later_note": "Nevadí. Tvůj mozek funguje na tomhle počítači. Až budeš chtít úložiště přidat, stačí kdykoli říct „propoj moje cloudové úložiště“.",
+    "drive_other": "Jiné cloudové úložiště"
   }
 }

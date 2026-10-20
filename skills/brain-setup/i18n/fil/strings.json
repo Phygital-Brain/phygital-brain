@@ -103,6 +103,16 @@
     "label_from_calendar": "(mula sa calendar)",
     "needs_review": "kailangang balikan",
     "dry_run": "Test run",
-    "paused": "Nakahinto ang Taga-ayos ng Utak."
+    "paused": "Nakahinto ang Taga-ayos ng Utak.",
+    "drive_connect_google": "Ikonekta ang Google Drive: sa Claude, buksan ang Settings, tapos Connectors, tapos Google Drive, at i-click ang Connect. Mag-sign in at payagan ang hinihingi nito, saka bumalik dito.",
+    "drive_connect_other": "Ikonekta ang {drive}: sa Claude, buksan ang Settings, tapos Connectors, at hanapin ang {drive}. Kung wala roon, idagdag ang MCP server nito. Saka bumalik dito.",
+    "drive_icloud": "Walang connector ang iCloud sa karamihan ng agent, kaya hindi maaabot ng agent mo ang utak mo mula sa phone mo. Pero naka-sync pa rin ito sa iba mong Apple device.",
+    "drive_connected_button": "Nakonekta ko na",
+    "drive_checking": "Tinitingnan kung nakikita ng agent mo ang folder na ito sa {drive}…",
+    "drive_ok": "Nakakonekta na. Nasa phone mo na rin ang utak mo.",
+    "drive_failed": "Hindi pa makita ng agent mo ang folder na ito sa {drive}. Siguraduhing nasa loob ng {drive} folder mo ang folder at naka-on ang connector. Puwedeng tumagal nang isang minuto ang pag-sync.",
+    "try_again": "Subukan ulit",
+    "drive_later_note": "Okay lang. Gagana ang utak mo sa computer na ito. Sabihin lang ang \"ikonekta ang cloud drive ko\" kahit kailan para idagdag ito.",
+    "drive_other": "Ibang cloud drive"
   }
 }

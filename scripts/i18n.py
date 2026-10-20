@@ -1,7 +1,8 @@
 """Translations for Phygital Brain. Run from the repository root.
 
     python3 scripts/i18n.py extract   write the English form texts into languages/en.json
-    python3 scripts/i18n.py build     build skills/brain-setup/i18n/{code}/ for every language
+    python3 scripts/i18n.py build     build skills/brain-setup/i18n/{code}/ for every language,
+                                      and the language window (skills/brain-setup/forms/language.html)
     python3 scripts/i18n.py check     check every language file and build (also run by scripts/check.py)
     add a language code (build pt-BR, check pt-BR) to do only that one
 
@@ -27,6 +28,8 @@ os.chdir(ROOT)
 LANG_DIR = "languages"
 OUT_DIR = "skills/brain-setup/i18n"
 FORMS = sorted(glob.glob("skills/brain-setup/forms/form-*.html"))
+LANGUAGE_FORM = "skills/brain-setup/forms/language.html"
+SKILL = "skills/brain-setup/SKILL.md"
 SRC_TEMPLATES = "skills/brain-setup/templates"
 SRC_KEEPER = "skills/brain-keeper/templates"
 KEEP = {"CLAUDE.md", "README.md", "SKILL.md", "eval.md", "LICENSE", ".claudeignore", ".backups", "no-ai-slop"}
@@ -195,6 +198,9 @@ def extract():
 
 
 def build():
+    if ONLY is None:
+        _write(LANGUAGE_FORM, language_form())
+        print(f"built {LANGUAGE_FORM}")
     for code in languages():
         lang = load(f"{LANG_DIR}/{code}.json")
         paths = lang["paths"]
@@ -215,6 +221,47 @@ def build():
         meta = {k: lang[k] for k in ("language", "status", "paths", "features", "messages")}
         save(f"{out}/strings.json", meta)
         print(f"built {out}")
+
+
+# ---------- the language window ----------
+
+def language_order():
+    """The ready languages in the order SKILL.md Step 1 lists them, then any it doesn't list."""
+    step1 = open(SKILL, encoding="utf-8").read().split("## Step 1", 1)[1].split("\n## ", 1)[0]
+    listed = re.findall(r"`[^`]+` \(([A-Za-z-]+)\)", step1)
+    ready = ["en"] + sorted(os.path.basename(p)[:-5] for p in glob.glob(f"{LANG_DIR}/*.json") if not p.endswith("/en.json"))
+    return [c for c in listed if c in ready] + [c for c in ready if c not in listed]
+
+
+def language_form():
+    """The window for Step 1: one card per ready language, in its own name, then Other."""
+    header = re.search(r"\n(    <svg viewBox.*?</svg>)\n", open(FORMS[-1], encoding="utf-8").read()).group(1)
+    style = ("border-radius:12px; padding:12px 14px; display:flex; flex-direction:column; align-items:flex-start; "
+             "text-align:left; min-width:150px; box-shadow:0 1px 2px rgba(0,0,0,0.04)")
+    cards = []
+    for code in language_order():
+        meta = load(f"{LANG_DIR}/{code}.json")["language"]
+        name, english = meta["name"], meta.get("english_name", meta["name"])
+        sub = f'<span style="font-size:11px; color:var(--text-muted)">{english}</span>' if english != name else ""
+        pressed = ' aria-pressed="true"' if code == "en" else ""
+        cards.append(f'        <button type="button" class="elicit-pill"{pressed} data-value="{code}" style="{style}">'
+                     f'<span style="font-size:13px; font-weight:500">{name}</span>{sub}</button>')
+    cards.append(f'        <button type="button" class="elicit-pill" data-value="other" data-other style="{style}">'
+                 '<span style="font-size:13px; font-weight:500; color:#F05AB8">Other</span>'
+                 '<span style="font-size:11px; color:var(--text-muted)">Type your language</span></button>')
+    return "\n".join([
+        '<h2 class="sr-only">Setup: which language the brain should speak.</h2>',
+        "<!-- Made by scripts/i18n.py build from languages/*.json: don't edit by hand. ADAPTING: before showing it, "
+        "move aria-pressed=\"true\" to the language of their first message (English if unclear), and translate the "
+        "header, the question, Other, its hint and the buttons into that language. Leave every language name as it is. -->",
+        '<form class="elicit">', '  <div class="elicit-header">', header,
+        "    <span>Brain details: language</span>", "  </div>", '  <div class="elicit-body">',
+        '    <div class="elicit-group">',
+        '      <label class="elicit-question">Which language should your brain speak?</label>',
+        '      <div class="elicit-pills" data-name="language" data-multi="false">', *cards, "      </div>",
+        '      <input type="text" class="elicit-other" data-for="language" placeholder="Català" hidden>',
+        "    </div>", "  </div>", '  <div class="elicit-footer">',
+        '    <button type="button" class="elicit-submit">Continue</button>', "  </div>", "</form>", ""])
 
 
 def _write(path, text):
@@ -275,6 +322,13 @@ def check():
             dv = re.findall(r'data-(?:name|value|for)="[^"]*"', open(f, encoding="utf-8").read())
             if dv != re.findall(r'data-(?:name|value|for)="[^"]*"', open(built, encoding="utf-8").read()):
                 problems.append(f"{built}: answer names or values changed")
+    if ONLY is None:
+        if not os.path.exists(LANGUAGE_FORM) or open(LANGUAGE_FORM, encoding="utf-8").read() != language_form():
+            problems.append(f"{LANGUAGE_FORM}: out of date (run build)")
+        step1 = open(SKILL, encoding="utf-8").read().split("## Step 1", 1)[1].split("\n## ", 1)[0]
+        for code in ["en"] + languages():
+            if f"({code})" not in step1:
+                problems.append(f"{SKILL}: Step 1 doesn't list {code}")
     if problems:
         print("\n".join(problems))
         print(f"\n{len(problems)} translation problem(s).")

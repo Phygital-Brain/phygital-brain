@@ -103,6 +103,16 @@
     "label_from_calendar": "(fra kalenderen)",
     "needs_review": "bør gås gjennom",
     "dry_run": "Prøvekjøring",
-    "paused": "Ryddehjelperen er satt på pause."
+    "paused": "Ryddehjelperen er satt på pause.",
+    "drive_connect_google": "Koble til Google Drive: åpne Settings i Claude, så Connectors, så Google Drive, og klikk Connect. Logg inn og gi tillatelse til det den spør om, og kom så tilbake hit.",
+    "drive_connect_other": "Koble til {drive}: åpne Settings i Claude, så Connectors, og se etter {drive}. Finner du den ikke, legger du til MCP-serveren for den. Kom så tilbake hit.",
+    "drive_icloud": "iCloud har ingen kobling for de fleste agenter, så agenten din kommer ikke til hjernen din fra mobilen. Den synkroniseres fortsatt til de andre Apple-enhetene dine.",
+    "drive_connected_button": "Jeg har koblet den til",
+    "drive_checking": "Sjekker at agenten din ser denne mappen i {drive}…",
+    "drive_ok": "Tilkoblet. Hjernen din er nå på mobilen også.",
+    "drive_failed": "Agenten din finner ikke denne mappen i {drive} ennå. Sjekk at mappen ligger i {drive}-mappen din, og at koblingen er slått på. Synkronisering kan ta et minutt.",
+    "try_again": "Prøv igjen",
+    "drive_later_note": "Helt greit. Hjernen din fungerer på denne datamaskinen. Si «koble til skylagringen min» når du vil, så legger vi den til.",
+    "drive_other": "Annen skylagring"
   }
 }

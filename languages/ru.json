@@ -103,7 +103,17 @@
     "label_from_calendar": "(из календаря)",
     "needs_review": "пора пересмотреть",
     "dry_run": "Пробный запуск",
-    "paused": "Хранитель мозга на паузе."
+    "paused": "Хранитель мозга на паузе.",
+    "drive_connect_google": "Подключите Google Drive: в Claude откройте «Настройки» (Settings), затем «Коннекторы» (Connectors), затем Google Drive, и нажмите «Подключить» (Connect). Войдите в аккаунт и разрешите то, что он попросит, затем вернитесь сюда.",
+    "drive_connect_other": "Подключите {drive}: в Claude откройте «Настройки» (Settings), затем «Коннекторы» (Connectors), и найдите {drive}. Если его там нет, добавьте его MCP-сервер. Затем вернитесь сюда.",
+    "drive_icloud": "У iCloud нет коннектора для большинства агентов, поэтому ваш агент не сможет открыть ваш мозг с телефона. Но мозг по-прежнему синхронизируется с другими вашими устройствами Apple.",
+    "drive_connected_button": "Готово, подключено",
+    "drive_checking": "Проверяю, видит ли ваш агент эту папку в {drive}…",
+    "drive_ok": "Подключено. Ваш мозг будет и на телефоне.",
+    "drive_failed": "Ваш агент пока не находит эту папку в {drive}. Проверьте, что папка лежит внутри вашей папки {drive} и что коннектор включен. Синхронизация может занять минуту.",
+    "try_again": "Попробовать снова",
+    "drive_later_note": "Ничего страшного. Ваш мозг работает на этом компьютере. Скажите «подключи мой облачный диск» в любой момент, чтобы добавить его.",
+    "drive_other": "Другой облачный диск"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Настройка, анкета 1 из 4: о вас.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "или вставьте ссылки или пару строк о себе",
     "or paste links to your shop, portfolio or past work": "или вставьте ссылки на магазин, портфолио или прошлые работы",
     "or tell your agent where they are, to move them later": "или скажите агенту, где они лежат, чтобы перенести их позже",
-    "I keep forgetting to follow up with clients.": "Постоянно забываю написать клиентам повторно."
+    "I keep forgetting to follow up with clients.": "Постоянно забываю написать клиентам повторно.",
+    "Connect a cloud drive now or later.": "Подключите облачный диск сейчас или позже.",
+    "Cloud drive details": "Данные об облачном диске",
+    "Connect your cloud drive?": "Подключить облачный диск?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Ваш мозг хранится на облачном диске, поэтому он доступен с телефона и у него всегда есть резервная копия. Ваш агент пока не подключен ни к одному диску.",
+    "Set it up now": "Настроить сейчас",
+    "About 2 minutes": "Около 2 минут",
+    "Set it up later": "Настроить позже",
+    "Your brain works on this computer": "Ваш мозг работает на этом компьютере",
+    "Which cloud drive the person uses.": "Каким облачным диском пользуется человек.",
+    "Which cloud drive do you use?": "Каким облачным диском вы пользуетесь?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Добро пожаловать в настройку Phygital Brain.",
+    "Brain details: welcome": "Данные для мозга: приветствие",
+    "A second brain that thinks with you.": "Второй мозг, который думает вместе с вами.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain работает как операционная система для ваших заметок. Я создам одну папку на вашем облачном диске: в ней будут заметки о вас, вашей работе и людях вокруг вас, а также правила, которым я следую каждый раз. С этого момента каждый чат начинается с того, что я уже вас знаю. Ваши заметки остаются вашими: это обычные файлы, которые можно перенести в любой ИИ.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Дальше: четыре коротких анкеты, около 10 минут, в основном клики."
   }
 }

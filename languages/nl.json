@@ -103,7 +103,17 @@
     "label_from_calendar": "(uit agenda)",
     "needs_review": "moet nagekeken worden",
     "dry_run": "Testrun",
-    "paused": "De Opruimhulp is gepauzeerd."
+    "paused": "De Opruimhulp is gepauzeerd.",
+    "drive_connect_google": "Koppel Google Drive: open in Claude Settings, dan Connectors, dan Google Drive, en klik op Connect. Log in en geef toestemming voor wat er gevraagd wordt. Kom daarna hier terug.",
+    "drive_connect_other": "Koppel {drive}: open in Claude Settings, dan Connectors, en zoek {drive}. Staat het er niet tussen? Voeg dan de MCP-server ervan toe. Kom daarna hier terug.",
+    "drive_icloud": "iCloud heeft voor de meeste agents geen connector, dus je agent kan vanaf je telefoon niet bij je brein. Het synchroniseert wel gewoon met je andere Apple-apparaten.",
+    "drive_connected_button": "Ik heb het gekoppeld",
+    "drive_checking": "Even checken of je agent deze map in {drive} kan zien…",
+    "drive_ok": "Gekoppeld. Je brein staat nu ook op je telefoon.",
+    "drive_failed": "Je agent kan deze map in {drive} nog niet vinden. Check of de map in je {drive}-map staat en of de connector aanstaat. Synchroniseren kan een minuutje duren.",
+    "try_again": "Opnieuw proberen",
+    "drive_later_note": "Geen probleem. Je brein werkt op deze computer. Zeg op elk moment \"koppel mijn cloudopslag\" om het toe te voegen.",
+    "drive_other": "Andere cloudopslag"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Instelformulier 1 van 4: over jou.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "of plak links of een paar regels over jezelf",
     "or paste links to your shop, portfolio or past work": "of plak links naar je webshop, portfolio of eerder werk",
     "or tell your agent where they are, to move them later": "of vertel je agent waar ze staan, dan zet je agent ze later over",
-    "I keep forgetting to follow up with clients.": "Ik vergeet steeds om klanten op te volgen."
+    "I keep forgetting to follow up with clients.": "Ik vergeet steeds om klanten op te volgen.",
+    "Connect a cloud drive now or later.": "Koppel nu of later je cloudopslag.",
+    "Cloud drive details": "Je cloudopslag",
+    "Connect your cloud drive?": "Je cloudopslag koppelen?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Je brein staat in je cloudopslag, dus je kunt er ook op je telefoon bij en er is altijd een back-up. Je agent is nog niet aan cloudopslag gekoppeld.",
+    "Set it up now": "Nu instellen",
+    "About 2 minutes": "Ongeveer 2 minuten",
+    "Set it up later": "Later instellen",
+    "Your brain works on this computer": "Je brein werkt op deze computer",
+    "Which cloud drive the person uses.": "Welke cloudopslag de persoon gebruikt.",
+    "Which cloud drive do you use?": "Welke cloudopslag gebruik je?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Welkom bij het instellen van Phygital Brain.",
+    "Brain details: welcome": "Je brein: welkom",
+    "A second brain that thinks with you.": "Een tweede brein dat met je meedenkt.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain is een OS voor je notities. Ik maak één map in je cloudopslag, met notities over jou, je werk en je mensen, en regels die ik elke keer volg. Vanaf dan weet ik in elke chat meteen wie je bent. Je notities blijven van jou: gewone bestanden die je naar elke AI kunt meenemen.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Hierna: vier korte formulieren, ongeveer 10 minuten, vooral klikken."
   }
 }

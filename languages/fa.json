@@ -103,7 +103,17 @@
     "label_from_calendar": "(از تقویم)",
     "needs_review": "نیاز به بازبینی",
     "dry_run": "اجرای آزمایشی",
-    "paused": "مرتب‌کننده مغز متوقف است."
+    "paused": "مرتب‌کننده مغز متوقف است.",
+    "drive_connect_google": "Google Drive را وصل کنید: در Claude، تنظیمات (Settings) را باز کنید، بعد Connectors، بعد Google Drive، و روی Connect بزنید. وارد حسابتان شوید و هر اجازه‌ای خواست بدهید، بعد به اینجا برگردید.",
+    "drive_connect_other": "{drive} را وصل کنید: در Claude، تنظیمات (Settings) را باز کنید، بعد Connectors، و دنبال {drive} بگردید. اگر آنجا نبود، سرور MCP آن را اضافه کنید. بعد به اینجا برگردید.",
+    "drive_icloud": "iCloud برای بیشتر دستیارها رابط (connector) ندارد، پس دستیار شما نمی‌تواند از گوشی به مغز دوم شما دسترسی داشته باشد. ولی همچنان با بقیه دستگاه‌های Apple شما همگام می‌شود.",
+    "drive_connected_button": "وصلش کردم",
+    "drive_checking": "دارم بررسی می‌کنم که دستیار شما این پوشه را در {drive} می‌بیند یا نه…",
+    "drive_ok": "وصل شد. مغز دوم شما روی گوشی‌تان هم خواهد بود.",
+    "drive_failed": "دستیار شما هنوز این پوشه را در {drive} پیدا نمی‌کند. بررسی کنید که پوشه داخل پوشه {drive} شما باشد و رابط روشن باشد. همگام‌سازی ممکن است یک دقیقه طول بکشد.",
+    "try_again": "دوباره امتحان کنید",
+    "drive_later_note": "مشکلی نیست. مغز دوم شما روی این کامپیوتر کار می‌کند. هر وقت خواستید بگویید «فضای ابری‌ام را وصل کن» تا اضافه شود.",
+    "drive_other": "فضای ابری دیگر"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "فرم راه‌اندازی 1 از 4: درباره شما.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "یا لینک یا چند خط درباره خودتان بچسبانید",
     "or paste links to your shop, portfolio or past work": "یا لینک فروشگاه، نمونه‌کار یا کارهای قبلی‌تان را بچسبانید",
     "or tell your agent where they are, to move them later": "یا به دستیارتان بگویید کجا هستند تا بعداً منتقلشان کند",
-    "I keep forgetting to follow up with clients.": "مدام یادم می‌رود مشتری‌ها را پیگیری کنم."
+    "I keep forgetting to follow up with clients.": "مدام یادم می‌رود مشتری‌ها را پیگیری کنم.",
+    "Connect a cloud drive now or later.": "همین حالا یا بعداً یک فضای ابری وصل کنید.",
+    "Cloud drive details": "جزئیات فضای ابری",
+    "Connect your cloud drive?": "فضای ابری‌تان را وصل می‌کنید؟",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "مغز دوم شما در فضای ابری‌تان است، پس از گوشی هم به آن دسترسی دارید و همیشه نسخه پشتیبان دارد. دستیار شما هنوز به هیچ فضای ابری‌ای وصل نیست.",
+    "Set it up now": "همین الان راه‌اندازی‌اش کن",
+    "About 2 minutes": "حدود 2 دقیقه",
+    "Set it up later": "بعداً راه‌اندازی‌اش کن",
+    "Your brain works on this computer": "مغز دوم شما روی این کامپیوتر کار می‌کند",
+    "Which cloud drive the person uses.": "فضای ابری‌ای که این شخص استفاده می‌کند.",
+    "Which cloud drive do you use?": "از کدام فضای ابری استفاده می‌کنید؟",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "به راه‌اندازی Phygital Brain خوش آمدید.",
+    "Brain details: welcome": "جزئیات مغز دوم: خوش‌آمدگویی",
+    "A second brain that thinks with you.": "مغز دومی که با شما فکر می‌کند.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain یک سیستم‌عامل برای یادداشت‌های شماست. من یک پوشه در فضای ابری‌تان می‌سازم، با یادداشت‌هایی درباره خودتان، کارتان و آدم‌های زندگی‌تان، و قوانینی که هر بار رعایت می‌کنم. از آن به بعد، هر گفتگو از همان اول شما را می‌شناسد. یادداشت‌هایتان مال خودتان می‌ماند، به شکل فایل‌های ساده که می‌توانید به هر هوش مصنوعی‌ای ببرید.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "مرحله بعد: چهار فرم کوتاه، حدود 10 دقیقه، بیشترش چند کلیک."
   }
 }

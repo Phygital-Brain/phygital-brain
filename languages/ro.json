@@ -103,7 +103,17 @@
     "label_from_calendar": "(din calendar)",
     "needs_review": "de revăzut",
     "dry_run": "Probă fără modificări",
-    "paused": "Îngrijitorul creierului e pe pauză."
+    "paused": "Îngrijitorul creierului e pe pauză.",
+    "drive_connect_google": "Conectează Google Drive: în Claude, deschide Setări (Settings), apoi Conectori (Connectors), apoi Google Drive, și apasă Conectează (Connect). Intră în cont și permite ce ți se cere, apoi revino aici.",
+    "drive_connect_other": "Conectează {drive}: în Claude, deschide Setări (Settings), apoi Conectori (Connectors), și caută {drive}. Dacă nu e acolo, adaugă serverul său MCP. Apoi revino aici.",
+    "drive_icloud": "iCloud nu are conector pentru majoritatea agenților, așa că agentul tău nu poate ajunge la creierul tău de pe telefon. Creierul se sincronizează în continuare cu celelalte dispozitive Apple ale tale.",
+    "drive_connected_button": "L-am conectat",
+    "drive_checking": "Verific dacă agentul tău vede acest folder în {drive}…",
+    "drive_ok": "Conectat. Creierul tău va fi și pe telefon.",
+    "drive_failed": "Agentul tău nu găsește încă acest folder în {drive}. Verifică dacă folderul e în folderul tău {drive} și dacă conectorul e pornit. Sincronizarea poate dura un minut.",
+    "try_again": "Încearcă din nou",
+    "drive_later_note": "Nicio problemă. Creierul tău merge pe acest calculator. Spune oricând \"conectează-mi cloud-ul\" ca să-l adaugi.",
+    "drive_other": "Alt cloud"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formularul de configurare 1 din 4: despre tine.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "sau lipește linkuri ori câteva rânduri despre tine",
     "or paste links to your shop, portfolio or past work": "sau lipește linkuri către magazinul tău, portofoliu sau lucrări mai vechi",
     "or tell your agent where they are, to move them later": "sau spune-i agentului tău unde sunt, ca să le mute mai târziu",
-    "I keep forgetting to follow up with clients.": "Tot uit să mai revin la clienți."
+    "I keep forgetting to follow up with clients.": "Tot uit să mai revin la clienți.",
+    "Connect a cloud drive now or later.": "Conectează un spațiu în cloud acum sau mai târziu.",
+    "Cloud drive details": "Detalii despre spațiul în cloud",
+    "Connect your cloud drive?": "Conectezi spațiul tău în cloud?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Creierul tău stă în cloud, așa că îl poți folosi de pe telefon și are mereu o copie de siguranță. Agentul tău nu e conectat încă la niciun cloud.",
+    "Set it up now": "Configurează acum",
+    "About 2 minutes": "Cam 2 minute",
+    "Set it up later": "Configurează mai târziu",
+    "Your brain works on this computer": "Creierul tău merge pe acest calculator",
+    "Which cloud drive the person uses.": "Ce spațiu în cloud folosește persoana.",
+    "Which cloud drive do you use?": "Ce spațiu în cloud folosești?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Bun venit la configurarea Phygital Brain.",
+    "Brain details: welcome": "Creierul tău: bun venit",
+    "A second brain that thinks with you.": "Un al doilea creier care gândește împreună cu tine.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain este un sistem de operare pentru notele tale. Voi crea un singur folder în cloud-ul tău, cu note despre tine, munca ta și oamenii din viața ta, plus reguli pe care le respect de fiecare dată. De atunci încolo, fiecare chat începe știind deja cine ești. Notele rămân ale tale, ca fișiere simple pe care le poți lua cu tine la orice AI.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Urmează: patru formulare scurte, cam 10 minute, mai mult clicuri."
   }
 }

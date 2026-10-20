@@ -103,6 +103,16 @@
     "label_from_calendar": "(från kalendern)",
     "needs_review": "behöver ses över",
     "dry_run": "Testkörning",
-    "paused": "Städhjälpen är pausad."
+    "paused": "Städhjälpen är pausad.",
+    "drive_connect_google": "Anslut Google Drive: i Claude öppnar du Inställningar (Settings), sedan Kopplingar (Connectors), sedan Google Drive, och klickar på Anslut (Connect). Logga in och tillåt det som efterfrågas, och kom sedan tillbaka hit.",
+    "drive_connect_other": "Anslut {drive}: i Claude öppnar du Inställningar (Settings), sedan Kopplingar (Connectors), och letar efter {drive}. Om den inte finns där lägger du till dess MCP-server. Kom sedan tillbaka hit.",
+    "drive_icloud": "iCloud har ingen koppling för de flesta agenter, så din agent kommer inte åt din hjärna från mobilen. Den synkas fortfarande till dina andra Apple-enheter.",
+    "drive_connected_button": "Jag har anslutit den",
+    "drive_checking": "Kollar att din agent ser den här mappen i {drive}…",
+    "drive_ok": "Ansluten. Din hjärna finns nu i mobilen också.",
+    "drive_failed": "Din agent hittar inte den här mappen i {drive} än. Kolla att mappen ligger i din {drive}-mapp och att kopplingen är på. Synkningen kan ta en minut.",
+    "try_again": "Försök igen",
+    "drive_later_note": "Inga problem. Din hjärna fungerar på den här datorn. Säg \"anslut min molnlagring\" när du vill för att lägga till den.",
+    "drive_other": "Annan molnlagring"
   }
 }

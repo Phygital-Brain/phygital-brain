@@ -103,7 +103,17 @@
     "label_from_calendar": "(mula sa calendar)",
     "needs_review": "kailangang balikan",
     "dry_run": "Test run",
-    "paused": "Nakahinto ang Taga-ayos ng Utak."
+    "paused": "Nakahinto ang Taga-ayos ng Utak.",
+    "drive_connect_google": "Ikonekta ang Google Drive: sa Claude, buksan ang Settings, tapos Connectors, tapos Google Drive, at i-click ang Connect. Mag-sign in at payagan ang hinihingi nito, saka bumalik dito.",
+    "drive_connect_other": "Ikonekta ang {drive}: sa Claude, buksan ang Settings, tapos Connectors, at hanapin ang {drive}. Kung wala roon, idagdag ang MCP server nito. Saka bumalik dito.",
+    "drive_icloud": "Walang connector ang iCloud sa karamihan ng agent, kaya hindi maaabot ng agent mo ang utak mo mula sa phone mo. Pero naka-sync pa rin ito sa iba mong Apple device.",
+    "drive_connected_button": "Nakonekta ko na",
+    "drive_checking": "Tinitingnan kung nakikita ng agent mo ang folder na ito sa {drive}…",
+    "drive_ok": "Nakakonekta na. Nasa phone mo na rin ang utak mo.",
+    "drive_failed": "Hindi pa makita ng agent mo ang folder na ito sa {drive}. Siguraduhing nasa loob ng {drive} folder mo ang folder at naka-on ang connector. Puwedeng tumagal nang isang minuto ang pag-sync.",
+    "try_again": "Subukan ulit",
+    "drive_later_note": "Okay lang. Gagana ang utak mo sa computer na ito. Sabihin lang ang \"ikonekta ang cloud drive ko\" kahit kailan para idagdag ito.",
+    "drive_other": "Ibang cloud drive"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Form sa setup, 1 sa 4: tungkol sa iyo.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "o mag-paste ng link o ilang linya tungkol sa iyo",
     "or paste links to your shop, portfolio or past work": "o mag-paste ng link ng shop, portfolio o mga dati mong gawa",
     "or tell your agent where they are, to move them later": "o sabihin sa agent mo kung nasaan ang mga ito, para mailipat mamaya",
-    "I keep forgetting to follow up with clients.": "Lagi kong nakakalimutang i-follow up ang mga kliyente."
+    "I keep forgetting to follow up with clients.": "Lagi kong nakakalimutang i-follow up ang mga kliyente.",
+    "Connect a cloud drive now or later.": "Magkonekta ng cloud drive ngayon o mamaya.",
+    "Cloud drive details": "Detalye ng cloud drive",
+    "Connect your cloud drive?": "Ikonekta ang cloud drive mo?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Nasa cloud drive mo ang utak mo, kaya mabubuksan mo ito sa phone mo at laging may backup. Wala pang nakakonektang cloud drive sa agent mo.",
+    "Set it up now": "I-set up na ngayon",
+    "About 2 minutes": "Mga 2 minuto",
+    "Set it up later": "I-set up mamaya",
+    "Your brain works on this computer": "Gagana ang utak mo sa computer na ito",
+    "Which cloud drive the person uses.": "Kung aling cloud drive ang gamit ng tao.",
+    "Which cloud drive do you use?": "Anong cloud drive ang gamit mo?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Maligayang pagdating sa setup ng Phygital Brain.",
+    "Brain details: welcome": "Detalye ng utak mo: maligayang pagdating",
+    "A second brain that thinks with you.": "Isang pangalawang utak na kasama mong mag-isip.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Ang Phygital Brain ay isang OS para sa mga note mo. Gagawa ako ng isang folder sa cloud drive mo, na may mga note tungkol sa iyo, sa trabaho mo at sa mga tao mo, at mga patakarang sinusunod ko palagi. Mula noon, bawat chat ay nagsisimulang kilala na kita. Sa iyo pa rin ang mga note mo, bilang simpleng file na madadala mo sa kahit anong AI.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Susunod: apat na maikling form, mga 10 minuto, halos puro click."
   }
 }

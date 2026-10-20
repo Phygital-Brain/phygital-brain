@@ -103,7 +103,17 @@
     "label_from_calendar": "（来自日历）",
     "needs_review": "需要复查",
     "dry_run": "试运行",
-    "paused": "大脑管家已暂停。"
+    "paused": "大脑管家已暂停。",
+    "drive_connect_google": "连接 Google Drive：在 Claude 里打开“设置”，然后是“连接器”，再选 Google Drive，点击“连接”。登录并允许它请求的权限，然后回到这里。",
+    "drive_connect_other": "连接 {drive}：在 Claude 里打开“设置”，然后是“连接器”，找到 {drive}。如果没有，就添加它的 MCP 服务器。然后回到这里。",
+    "drive_icloud": "大多数 AI 助手都没有 iCloud 连接器，所以你的 AI 助手没法在手机上访问你的大脑。不过它仍然会同步到你的其他 Apple 设备上。",
+    "drive_connected_button": "我已经连接好了",
+    "drive_checking": "正在检查你的 AI 助手能否在 {drive} 里看到这个文件夹…",
+    "drive_ok": "已连接。你的大脑在手机上也能用了。",
+    "drive_failed": "你的 AI 助手还找不到 {drive} 里的这个文件夹。请确认这个文件夹在你的 {drive} 文件夹里，并且连接器已打开。同步可能需要一分钟左右。",
+    "try_again": "再试一次",
+    "drive_later_note": "没问题。你的大脑在这台电脑上可以正常使用。想添加的时候，随时说“连接我的云盘”就行。",
+    "drive_other": "其他云盘"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "设置表单 1/4：关于你。",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "或者贴上链接，或写几句关于你的话",
     "or paste links to your shop, portfolio or past work": "或者贴上你的店铺、作品集或以往作品的链接",
     "or tell your agent where they are, to move them later": "或者告诉 AI 助手它们在哪里，以后再搬",
-    "I keep forgetting to follow up with clients.": "我老是忘了跟进客户。"
+    "I keep forgetting to follow up with clients.": "我老是忘了跟进客户。",
+    "Connect a cloud drive now or later.": "现在或以后连接云盘。",
+    "Cloud drive details": "云盘信息",
+    "Connect your cloud drive?": "要连接你的云盘吗？",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "你的大脑放在云盘里，这样用手机也能打开，而且随时都有备份。你的 AI 助手还没有连接任何云盘。",
+    "Set it up now": "现在设置",
+    "About 2 minutes": "大约 2 分钟",
+    "Set it up later": "以后再设置",
+    "Your brain works on this computer": "你的大脑在这台电脑上可以正常使用",
+    "Which cloud drive the person uses.": "这个人用的是哪个云盘。",
+    "Which cloud drive do you use?": "你用的是哪个云盘？",
+    "Welcome to the Phygital Brain setup.": "欢迎来到 Phygital Brain 设置。",
+    "Brain details: welcome": "大脑信息：欢迎",
+    "A second brain that thinks with you.": "和你一起思考的第二大脑。",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain 是你笔记的操作系统。我会在你的云盘里建一个文件夹，里面有关于你、你的工作和你身边的人的笔记，还有我每次都会遵守的规则。从此以后，每次对话一开始就已经了解你。你的笔记始终属于你，都是普通文件，可以带到任何 AI 上用。",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "接下来：四个简短的表单，大约 10 分钟，大多只要点一点。",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive"
   }
 }

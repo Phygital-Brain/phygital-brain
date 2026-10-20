@@ -103,6 +103,16 @@
     "label_from_calendar": "(kalenterista)",
     "needs_review": "tarkistettava",
     "dry_run": "Testiajo",
-    "paused": "Siivousapuri on tauolla."
+    "paused": "Siivousapuri on tauolla.",
+    "drive_connect_google": "Yhdistä Google Drive: avaa Claudessa Settings, sitten Connectors ja Google Drive, ja klikkaa Connect. Kirjaudu sisään ja salli pyydetyt oikeudet. Palaa sitten tänne.",
+    "drive_connect_other": "Yhdistä {drive}: avaa Claudessa Settings ja sitten Connectors, ja etsi {drive}. Jos sitä ei löydy, lisää sen MCP-palvelin. Palaa sitten tänne.",
+    "drive_icloud": "Useimmissa agenteissa iCloudille ei ole liitintä, joten agenttisi ei pääse aivoihisi puhelimelta. Ne synkronoituvat silti muihin Apple-laitteisiisi.",
+    "drive_connected_button": "Yhdistin sen",
+    "drive_checking": "Tarkistetaan, näkeekö agenttisi tämän kansion palvelussa {drive}…",
+    "drive_ok": "Yhdistetty. Aivosi ovat nyt myös puhelimessasi.",
+    "drive_failed": "Agenttisi ei vielä löydä tätä kansiota palvelusta {drive}. Tarkista, että kansio on {drive}-kansiosi sisällä ja että liitin on päällä. Synkronointi voi kestää hetken.",
+    "try_again": "Yritä uudelleen",
+    "drive_later_note": "Ei haittaa. Aivosi toimivat tällä tietokoneella. Sano milloin tahansa \"yhdistä pilvipalveluni\", niin lisätään se.",
+    "drive_other": "Muu pilvipalvelu"
   }
 }

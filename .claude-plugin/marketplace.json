@@ -9,7 +9,7 @@
       "name": "phygital-brain",
       "source": "./",
       "description": "A second brain that thinks with you. Four short forms build it, the Brain Keeper keeps it tidy.",
-      "version": "0.1.5"
+      "version": "0.1.6"
     }
   ]
 }

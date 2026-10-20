@@ -103,7 +103,17 @@
     "label_from_calendar": "(کیلنڈر سے)",
     "needs_review": "دوبارہ دیکھنا ہے",
     "dry_run": "آزمائشی رن",
-    "paused": "برین کیپر رکا ہوا ہے۔"
+    "paused": "برین کیپر رکا ہوا ہے۔",
+    "drive_connect_google": "Google Drive کنیکٹ کریں: Claude میں Settings کھولیں، پھر Connectors، پھر Google Drive، اور Connect پر کلک کریں۔ سائن ان کریں اور جو اجازت مانگی جائے وہ دے دیں، پھر یہاں واپس آئیں۔",
+    "drive_connect_other": "{drive} کنیکٹ کریں: Claude میں Settings کھولیں، پھر Connectors، اور {drive} تلاش کریں۔ اگر وہ وہاں نہ ہو تو اس کا MCP سرور شامل کریں۔ پھر یہاں واپس آئیں۔",
+    "drive_icloud": "زیادہ تر ایجنٹس کے لیے iCloud کا کوئی کنیکٹر نہیں ہے، اس لیے آپ کا ایجنٹ فون سے آپ کے برین تک نہیں پہنچ سکتا۔ پھر بھی یہ آپ کے دوسرے Apple آلات پر سنک ہوتا رہتا ہے۔",
+    "drive_connected_button": "میں نے کنیکٹ کر دیا",
+    "drive_checking": "دیکھ رہے ہیں کہ آپ کا ایجنٹ {drive} میں یہ فولڈر دیکھ سکتا ہے یا نہیں…",
+    "drive_ok": "کنیکٹ ہو گیا۔ آپ کا برین اب آپ کے فون پر بھی ہوگا۔",
+    "drive_failed": "آپ کے ایجنٹ کو ابھی {drive} میں یہ فولڈر نہیں مل رہا۔ دیکھ لیں کہ فولڈر آپ کے {drive} فولڈر کے اندر ہے اور کنیکٹر آن ہے۔ سنک ہونے میں ایک منٹ لگ سکتا ہے۔",
+    "try_again": "دوبارہ کوشش کریں",
+    "drive_later_note": "کوئی بات نہیں۔ آپ کا برین اس کمپیوٹر پر کام کرتا ہے۔ اسے شامل کرنے کے لیے جب چاہیں کہیں \"میری کلاؤڈ ڈرائیو کنیکٹ کرو\"۔",
+    "drive_other": "کوئی اور کلاؤڈ ڈرائیو"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "سیٹ اپ فارم 4 میں سے 1: آپ کے بارے میں۔",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "یا لنکس یا اپنے بارے میں چند لائنیں پیسٹ کریں",
     "or paste links to your shop, portfolio or past work": "یا اپنی شاپ، پورٹ فولیو یا پچھلے کام کے لنکس پیسٹ کریں",
     "or tell your agent where they are, to move them later": "یا اپنے ایجنٹ کو بتائیں کہ وہ کہاں ہیں، تاکہ بعد میں منتقل ہو سکیں",
-    "I keep forgetting to follow up with clients.": "کلائنٹس سے فالو اپ اکثر رہ جاتا ہے۔"
+    "I keep forgetting to follow up with clients.": "کلائنٹس سے فالو اپ اکثر رہ جاتا ہے۔",
+    "Connect a cloud drive now or later.": "کلاؤڈ ڈرائیو ابھی کنیکٹ کریں یا بعد میں۔",
+    "Cloud drive details": "کلاؤڈ ڈرائیو کی تفصیل",
+    "Connect your cloud drive?": "اپنی کلاؤڈ ڈرائیو کنیکٹ کریں؟",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "آپ کا برین آپ کی کلاؤڈ ڈرائیو میں رہتا ہے، اس لیے آپ اسے فون سے بھی کھول سکتے ہیں اور اس کا بیک اپ ہمیشہ رہتا ہے۔ آپ کا ایجنٹ ابھی کسی کلاؤڈ ڈرائیو سے کنیکٹ نہیں ہے۔",
+    "Set it up now": "ابھی سیٹ اپ کریں",
+    "About 2 minutes": "تقریباً 2 منٹ",
+    "Set it up later": "بعد میں سیٹ اپ کریں",
+    "Your brain works on this computer": "آپ کا برین اس کمپیوٹر پر کام کرتا ہے",
+    "Which cloud drive the person uses.": "صارف کون سی کلاؤڈ ڈرائیو استعمال کرتا ہے۔",
+    "Which cloud drive do you use?": "آپ کون سی کلاؤڈ ڈرائیو استعمال کرتے ہیں؟",
+    "Welcome to the Phygital Brain setup.": "Phygital Brain سیٹ اپ میں خوش آمدید۔",
+    "Brain details: welcome": "برین کی تفصیل: خوش آمدید",
+    "A second brain that thinks with you.": "ایک سیکنڈ برین جو آپ کے ساتھ مل کر سوچتا ہے۔",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain آپ کے نوٹس کے لیے ایک OS ہے۔ میں آپ کی کلاؤڈ ڈرائیو میں ایک فولڈر بناؤں گا، جس میں آپ کے بارے میں، آپ کے کام اور آپ کے لوگوں کے بارے میں نوٹس ہوں گے، اور وہ اصول بھی جن پر میں ہر بار عمل کرتا ہوں۔ اس کے بعد ہر چیٹ پہلے سے آپ کو جانتے ہوئے شروع ہوگی۔ آپ کے نوٹس آپ کے ہی رہتے ہیں، سادہ فائلوں کی صورت میں جنہیں آپ کسی بھی AI کے پاس لے جا سکتے ہیں۔",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "اگلا مرحلہ: چار مختصر فارم، تقریباً 10 منٹ، زیادہ تر کلک۔",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive"
   }
 }

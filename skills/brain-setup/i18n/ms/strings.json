@@ -103,6 +103,16 @@
     "label_from_calendar": "(dari kalendar)",
     "needs_review": "perlu disemak",
     "dry_run": "Larian ujian",
-    "paused": "Penjaga Otak sedang dijeda."
+    "paused": "Penjaga Otak sedang dijeda.",
+    "drive_connect_google": "Sambungkan Google Drive: dalam Claude, buka Settings, kemudian Connectors, kemudian Google Drive, dan klik Connect. Log masuk dan benarkan apa yang diminta, kemudian kembali ke sini.",
+    "drive_connect_other": "Sambungkan {drive}: dalam Claude, buka Settings, kemudian Connectors, dan cari {drive}. Jika tiada, tambahkan pelayan MCP untuknya. Kemudian kembali ke sini.",
+    "drive_icloud": "iCloud tiada penyambung untuk kebanyakan ejen, jadi ejen anda tidak boleh mencapai otak anda dari telefon bimbit. Ia tetap disegerakkan ke peranti Apple anda yang lain.",
+    "drive_connected_button": "Saya sudah sambungkan",
+    "drive_checking": "Menyemak sama ada ejen anda boleh melihat folder ini dalam {drive}…",
+    "drive_ok": "Sudah disambungkan. Otak anda akan ada di telefon bimbit juga.",
+    "drive_failed": "Ejen anda belum dapat mencari folder ini dalam {drive}. Pastikan folder itu berada di dalam folder {drive} anda dan penyambung dihidupkan. Penyegerakan mungkin mengambil masa seminit.",
+    "try_again": "Cuba lagi",
+    "drive_later_note": "Tiada masalah. Otak anda berfungsi pada komputer ini. Sebut \"sambungkan storan awan saya\" bila-bila masa untuk menambahkannya.",
+    "drive_other": "Storan awan lain"
   }
 }

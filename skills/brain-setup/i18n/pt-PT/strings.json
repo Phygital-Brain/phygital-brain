@@ -103,6 +103,16 @@
     "label_from_calendar": "(do calendário)",
     "needs_review": "precisa de revisão",
     "dry_run": "Ronda de teste",
-    "paused": "O Organizador está em pausa."
+    "paused": "O Organizador está em pausa.",
+    "drive_connect_google": "Liga o Google Drive: no Claude, abre as Definições, depois Conectores, depois Google Drive, e clica em Conectar. Inicia sessão e autoriza o que for pedido, depois volta aqui.",
+    "drive_connect_other": "Liga o {drive}: no Claude, abre as Definições, depois Conectores, e procura o {drive}. Se não estiver lá, adiciona o servidor MCP dele. Depois volta aqui.",
+    "drive_icloud": "O iCloud não tem conector para a maioria dos agentes, por isso o teu agente não consegue chegar ao teu cérebro a partir do telemóvel. Continua a sincronizar com os teus outros dispositivos Apple.",
+    "drive_connected_button": "Já liguei",
+    "drive_checking": "A verificar se o teu agente consegue ver esta pasta no {drive}…",
+    "drive_ok": "Ligado. O teu cérebro também vai estar no teu telemóvel.",
+    "drive_failed": "O teu agente ainda não encontra esta pasta no {drive}. Confirma que a pasta está dentro da tua pasta do {drive} e que o conector está ligado. A sincronização pode demorar um minuto.",
+    "try_again": "Tentar de novo",
+    "drive_later_note": "Não faz mal. O teu cérebro funciona neste computador. Diz \"liga a minha nuvem\" quando quiseres, para a adicionar.",
+    "drive_other": "Outra nuvem"
   }
 }

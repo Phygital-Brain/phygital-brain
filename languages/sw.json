@@ -103,7 +103,17 @@
     "label_from_calendar": "(kutoka kalenda)",
     "needs_review": "inahitaji kupitiwa",
     "dry_run": "Jaribio",
-    "paused": "Mtunzaji wa Ubongo amesimamishwa."
+    "paused": "Mtunzaji wa Ubongo amesimamishwa.",
+    "drive_connect_google": "Unganisha Google Drive: kwenye Claude, fungua Settings, kisha Connectors, kisha Google Drive, na ubofye Connect. Ingia kwenye akaunti na ukubali kinachoombwa, kisha urudi hapa.",
+    "drive_connect_other": "Unganisha {drive}: kwenye Claude, fungua Settings, kisha Connectors, na utafute {drive}. Kama haipo, ongeza seva yake ya MCP. Kisha urudi hapa.",
+    "drive_icloud": "iCloud haina kiunganishi (connector) kwa wakala wengi, kwa hiyo wakala wako hawezi kufikia ubongo wako kutoka kwenye simu yako. Ubongo wako bado unasawazishwa kwenye vifaa vyako vingine vya Apple.",
+    "drive_connected_button": "Nimeshaiunganisha",
+    "drive_checking": "Ninaangalia kama wakala wako anaweza kuiona folda hii kwenye {drive}…",
+    "drive_ok": "Imeunganishwa. Ubongo wako utakuwa kwenye simu yako pia.",
+    "drive_failed": "Wakala wako bado hawezi kupata folda hii kwenye {drive}. Hakikisha folda iko ndani ya folda yako ya {drive} na kwamba kiunganishi kimewashwa. Usawazishaji unaweza kuchukua dakika moja.",
+    "try_again": "Jaribu tena",
+    "drive_later_note": "Hakuna shida. Ubongo wako unafanya kazi kwenye kompyuta hii. Sema \"unganisha hifadhi yangu ya mtandaoni\" wakati wowote ili kuiongeza.",
+    "drive_other": "Hifadhi nyingine ya mtandaoni"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Fomu ya kuanza 1 kati ya 4: kukuhusu.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "au bandika viungo, au mistari michache kukuhusu",
     "or paste links to your shop, portfolio or past work": "au bandika viungo vya duka lako, portfolio au kazi zako za zamani",
     "or tell your agent where they are, to move them later": "au mwambie wakala wako zilipo, ili azihamishe baadaye",
-    "I keep forgetting to follow up with clients.": "Huwa nasahau kufuatilia wateja."
+    "I keep forgetting to follow up with clients.": "Huwa nasahau kufuatilia wateja.",
+    "Connect a cloud drive now or later.": "Unganisha hifadhi ya mtandaoni sasa au baadaye.",
+    "Cloud drive details": "Maelezo ya hifadhi ya mtandaoni",
+    "Connect your cloud drive?": "Uunganishe hifadhi yako ya mtandaoni?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Ubongo wako unakaa kwenye hifadhi yako ya mtandaoni, kwa hiyo unaweza kuufikia kwenye simu yako na una nakala ya akiba kila wakati. Wakala wako bado hajaunganishwa na hifadhi yoyote.",
+    "Set it up now": "Iandae sasa",
+    "About 2 minutes": "Kama dakika 2",
+    "Set it up later": "Iandae baadaye",
+    "Your brain works on this computer": "Ubongo wako unafanya kazi kwenye kompyuta hii",
+    "Which cloud drive the person uses.": "Hifadhi ya mtandaoni ambayo mtu huyu anatumia.",
+    "Which cloud drive do you use?": "Unatumia hifadhi gani ya mtandaoni?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Karibu kwenye maandalizi ya Phygital Brain.",
+    "Brain details: welcome": "Maelezo ya ubongo: karibu",
+    "A second brain that thinks with you.": "Ubongo wa pili unaofikiri pamoja nawe.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain ni mfumo wa uendeshaji (OS) wa noti zako. Nitaunda folda moja kwenye hifadhi yako ya mtandaoni, yenye noti kukuhusu, kazi yako na watu wako, pamoja na sheria ninazofuata kila wakati. Kuanzia hapo, kila chat inaanza tayari ikikujua. Noti zako zinabaki kuwa zako, kama faili za kawaida unazoweza kupeleka kwa AI yoyote.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Kinachofuata: fomu nne fupi, kama dakika 10, mara nyingi ni kubofya tu."
   }
 }

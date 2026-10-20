@@ -103,7 +103,17 @@
     "label_from_calendar": "(naptárból)",
     "needs_review": "át kell nézni",
     "dry_run": "Próbafuttatás",
-    "paused": "A Rendrakó szünetel."
+    "paused": "A Rendrakó szünetel.",
+    "drive_connect_google": "Csatlakoztasd a Google Drive-ot: a Claude-ban nyisd meg a Settings menüt, aztán a Connectors részt, majd a Google Drive-ot, és kattints a Connect gombra. Jelentkezz be, engedélyezd, amit kér, aztán gyere vissza ide.",
+    "drive_connect_other": "{drive} csatlakoztatása: a Claude-ban nyisd meg a Settings menüt, aztán a Connectors részt, és keresd meg ezt: {drive}. Ha nincs ott, add hozzá az MCP-szerverét. Aztán gyere vissza ide.",
+    "drive_icloud": "A legtöbb ügynökhöz nincs iCloud-csatlakozó, így az ügynököd a telefonodról nem éri el az agyadat. A többi Apple-eszközödre viszont továbbra is szinkronizál.",
+    "drive_connected_button": "Csatlakoztattam",
+    "drive_checking": "Ellenőrzöm, hogy az ügynököd látja-e ezt a mappát itt: {drive}…",
+    "drive_ok": "Csatlakoztatva. Az agyad a telefonodon is ott lesz.",
+    "drive_failed": "Az ügynököd még nem találja ezt a mappát itt: {drive}. Nézd meg, hogy a mappa ott van-e a saját {drive}-mappádban, és hogy be van-e kapcsolva a csatlakozó. A szinkronizálás eltarthat egy percig.",
+    "try_again": "Próbáld újra",
+    "drive_later_note": "Semmi gond. Az agyad ezen a gépen működik. Ha hozzá szeretnéd adni, bármikor mondd: \"csatlakoztasd a felhőtárhelyemet\".",
+    "drive_other": "Más felhőtárhely"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Beállítás, 1. űrlap (4-ből): rólad.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "vagy illessz be linkeket, vagy írj pár sort magadról",
     "or paste links to your shop, portfolio or past work": "vagy illessz be linket a webshopodhoz, a portfóliódhoz vagy a korábbi munkáidhoz",
     "or tell your agent where they are, to move them later": "vagy mondd meg az ügynöködnek, hol vannak, és később áthozza őket",
-    "I keep forgetting to follow up with clients.": "Folyton elfelejtek visszaírni az ügyfeleknek."
+    "I keep forgetting to follow up with clients.": "Folyton elfelejtek visszaírni az ügyfeleknek.",
+    "Connect a cloud drive now or later.": "Csatlakoztass felhőtárhelyet most vagy később.",
+    "Cloud drive details": "A felhőtárhely adatai",
+    "Connect your cloud drive?": "Csatlakoztatod a felhőtárhelyedet?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Az agyad a felhőtárhelyeden él, így a telefonodról is eléred, és mindig van róla mentés. Az ügynököd még nincs felhőtárhelyhez csatlakoztatva.",
+    "Set it up now": "Beállítom most",
+    "About 2 minutes": "Kb. 2 perc",
+    "Set it up later": "Beállítom később",
+    "Your brain works on this computer": "Az agyad ezen a gépen működik",
+    "Which cloud drive the person uses.": "Melyik felhőtárhelyet használja a felhasználó.",
+    "Which cloud drive do you use?": "Melyik felhőtárhelyet használod?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Üdvözlünk a Phygital Brain beállításában.",
+    "Brain details: welcome": "Az agyad adatai: üdvözlés",
+    "A second brain that thinks with you.": "Egy második agy, ami veled együtt gondolkodik.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "A Phygital Brain egy operációs rendszer a jegyzeteidhez. Létrehozok egy mappát a felhőtárhelyeden, benne jegyzetekkel rólad, a munkádról és a hozzád közel álló emberekről, meg szabályokkal, amiket minden alkalommal betartok. Onnantól minden chat úgy indul, hogy már ismerlek. A jegyzeteid a tieid maradnak, egyszerű fájlokként, amiket bármelyik AI-hoz magaddal vihetsz.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Következik: négy rövid űrlap, kb. 10 perc, főleg kattintás."
   }
 }

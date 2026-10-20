@@ -103,7 +103,17 @@
     "label_from_calendar": "(takvimden)",
     "needs_review": "gözden geçirilmeli",
     "dry_run": "Deneme turu",
-    "paused": "Düzen Bekçisi duraklatıldı."
+    "paused": "Düzen Bekçisi duraklatıldı.",
+    "drive_connect_google": "Google Drive'ı bağla: Claude'da Ayarlar'ı aç, sonra Bağlayıcılar'a, sonra Google Drive'a git ve Bağlan'a tıkla. Giriş yap, istenen izinleri ver, sonra buraya dön.",
+    "drive_connect_other": "{drive} hesabını bağla: Claude'da Ayarlar'ı aç, sonra Bağlayıcılar'a gidip {drive} seçeneğini ara. Orada yoksa MCP sunucusunu ekle. Sonra buraya dön.",
+    "drive_icloud": "iCloud'un çoğu asistan için bir bağlayıcısı yok, bu yüzden asistanın telefonundan beynine ulaşamaz. Yine de diğer Apple cihazlarınla senkronize olmaya devam eder.",
+    "drive_connected_button": "Bağladım",
+    "drive_checking": "Asistanının bu klasörü {drive} içinde görüp görmediği kontrol ediliyor…",
+    "drive_ok": "Bağlandı. Beynin artık telefonunda da olacak.",
+    "drive_failed": "Asistanın bu klasörü {drive} içinde henüz bulamıyor. Klasörün {drive} klasörünün içinde olduğunu ve bağlayıcının açık olduğunu kontrol et. Senkronizasyon bir dakika sürebilir.",
+    "try_again": "Tekrar dene",
+    "drive_later_note": "Sorun değil. Beynin bu bilgisayarda çalışır. Eklemek istediğinde, istediğin zaman \"bulut depolamamı bağla\" demen yeterli.",
+    "drive_other": "Başka bulut depolama"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Kurulum formu 1/4: seni tanıyalım.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "ya da bağlantı yapıştır veya kendinle ilgili birkaç satır yaz",
     "or paste links to your shop, portfolio or past work": "ya da mağazanın, portfolyonun veya eski işlerinin bağlantılarını yapıştır",
     "or tell your agent where they are, to move them later": "ya da nerede olduklarını asistanına söyle, sonra taşısın",
-    "I keep forgetting to follow up with clients.": "Müşterilere dönüş yapmayı hep unutuyorum."
+    "I keep forgetting to follow up with clients.": "Müşterilere dönüş yapmayı hep unutuyorum.",
+    "Connect a cloud drive now or later.": "Bulut depolamanı şimdi ya da sonra bağla.",
+    "Cloud drive details": "Bulut depolama bilgileri",
+    "Connect your cloud drive?": "Bulut depolamanı bağlayalım mı?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Beynin bulut depolamanda duruyor, böylece telefonundan da ulaşabilirsin ve her zaman yedekli kalır. Asistanın henüz bir bulut depolamaya bağlı değil.",
+    "Set it up now": "Şimdi kur",
+    "About 2 minutes": "Yaklaşık 2 dakika",
+    "Set it up later": "Sonra kur",
+    "Your brain works on this computer": "Beynin bu bilgisayarda çalışır",
+    "Which cloud drive the person uses.": "Kişinin kullandığı bulut depolama.",
+    "Which cloud drive do you use?": "Hangi bulut depolamayı kullanıyorsun?",
+    "Welcome to the Phygital Brain setup.": "Phygital Brain kurulumuna hoş geldin.",
+    "Brain details: welcome": "Beyin bilgileri: hoş geldin",
+    "A second brain that thinks with you.": "Seninle birlikte düşünen bir ikinci beyin.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain, notların için bir işletim sistemi. Bulut depolamanda tek bir klasör kuracağım: içinde senin, işinin ve hayatındaki insanların notları, bir de her seferinde uyduğum kurallar olacak. O andan sonra her sohbet seni zaten tanıyarak başlar. Notların senin kalır: istediğin AI'ya götürebileceğin sade dosyalar olarak.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Sırada: dört kısa form, yaklaşık 10 dakika, çoğu tıklama.",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive"
   }
 }

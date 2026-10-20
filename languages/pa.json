@@ -103,7 +103,17 @@
     "label_from_calendar": "(ਕੈਲੰਡਰ ਤੋਂ)",
     "needs_review": "ਦੁਬਾਰਾ ਦੇਖਣਾ ਹੈ",
     "dry_run": "ਟੈਸਟ ਰਨ",
-    "paused": "ਬ੍ਰੇਨ ਕੀਪਰ ਹਾਲੇ ਰੁਕਿਆ ਹੋਇਆ ਹੈ।"
+    "paused": "ਬ੍ਰੇਨ ਕੀਪਰ ਹਾਲੇ ਰੁਕਿਆ ਹੋਇਆ ਹੈ।",
+    "drive_connect_google": "Google Drive ਜੋੜੋ: Claude ਵਿੱਚ Settings ਖੋਲ੍ਹੋ, ਫਿਰ Connectors, ਫਿਰ Google Drive, ਅਤੇ Connect 'ਤੇ ਕਲਿੱਕ ਕਰੋ। ਸਾਈਨ ਇਨ ਕਰੋ ਅਤੇ ਜੋ ਵੀ ਪੁੱਛੇ ਉਸਦੀ ਇਜਾਜ਼ਤ ਦਿਓ, ਫਿਰ ਇੱਥੇ ਵਾਪਸ ਆਓ।",
+    "drive_connect_other": "{drive} ਜੋੜੋ: Claude ਵਿੱਚ Settings ਖੋਲ੍ਹੋ, ਫਿਰ Connectors, ਅਤੇ {drive} ਲੱਭੋ। ਜੇ ਉਹ ਉੱਥੇ ਨਹੀਂ ਹੈ, ਤਾਂ ਉਸਦਾ MCP ਸਰਵਰ ਜੋੜੋ। ਫਿਰ ਇੱਥੇ ਵਾਪਸ ਆਓ।",
+    "drive_icloud": "ਜ਼ਿਆਦਾਤਰ ਏਜੰਟਾਂ ਲਈ iCloud ਦਾ ਕੋਈ ਕਨੈਕਟਰ ਨਹੀਂ ਹੈ, ਇਸ ਲਈ ਤੁਹਾਡਾ ਏਜੰਟ ਫ਼ੋਨ ਤੋਂ ਤੁਹਾਡੇ ਬ੍ਰੇਨ ਤੱਕ ਨਹੀਂ ਪਹੁੰਚ ਸਕਦਾ। ਫਿਰ ਵੀ ਇਹ ਤੁਹਾਡੇ ਬਾਕੀ Apple ਡਿਵਾਈਸਾਂ ਨਾਲ ਸਿੰਕ ਹੁੰਦਾ ਰਹਿੰਦਾ ਹੈ।",
+    "drive_connected_button": "ਮੈਂ ਜੋੜ ਦਿੱਤਾ ਹੈ",
+    "drive_checking": "ਦੇਖ ਰਹੇ ਹਾਂ ਕਿ ਤੁਹਾਡੇ ਏਜੰਟ ਨੂੰ {drive} ਵਿੱਚ ਇਹ ਫ਼ੋਲਡਰ ਦਿਸਦਾ ਹੈ ਜਾਂ ਨਹੀਂ…",
+    "drive_ok": "ਜੁੜ ਗਿਆ। ਤੁਹਾਡਾ ਬ੍ਰੇਨ ਹੁਣ ਫ਼ੋਨ 'ਤੇ ਵੀ ਹੋਵੇਗਾ।",
+    "drive_failed": "ਤੁਹਾਡੇ ਏਜੰਟ ਨੂੰ {drive} ਵਿੱਚ ਇਹ ਫ਼ੋਲਡਰ ਹਾਲੇ ਨਹੀਂ ਲੱਭ ਰਿਹਾ। ਚੈੱਕ ਕਰੋ ਕਿ ਫ਼ੋਲਡਰ ਤੁਹਾਡੇ {drive} ਫ਼ੋਲਡਰ ਦੇ ਅੰਦਰ ਹੈ ਅਤੇ ਕਨੈਕਟਰ ਚਾਲੂ ਹੈ। ਸਿੰਕ ਹੋਣ ਵਿੱਚ ਇੱਕ ਮਿੰਟ ਲੱਗ ਸਕਦਾ ਹੈ।",
+    "try_again": "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+    "drive_later_note": "ਕੋਈ ਗੱਲ ਨਹੀਂ। ਤੁਹਾਡਾ ਬ੍ਰੇਨ ਇਸ ਕੰਪਿਊਟਰ 'ਤੇ ਚੱਲਦਾ ਹੈ। ਇਸਨੂੰ ਜੋੜਨ ਲਈ ਕਦੇ ਵੀ ਕਹੋ \"ਮੇਰੀ ਕਲਾਊਡ ਡਰਾਈਵ ਜੋੜੋ\"।",
+    "drive_other": "ਹੋਰ ਕਲਾਊਡ ਡਰਾਈਵ"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "ਸੈੱਟਅੱਪ ਫ਼ਾਰਮ 4 ਵਿੱਚੋਂ 1: ਤੁਹਾਡੇ ਬਾਰੇ।",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "ਜਾਂ ਲਿੰਕ ਪੇਸਟ ਕਰੋ, ਜਾਂ ਆਪਣੇ ਬਾਰੇ ਕੁਝ ਲਾਈਨਾਂ ਲਿਖੋ",
     "or paste links to your shop, portfolio or past work": "ਜਾਂ ਆਪਣੀ ਦੁਕਾਨ, ਪੋਰਟਫ਼ੋਲੀਓ ਜਾਂ ਪੁਰਾਣੇ ਕੰਮ ਦੇ ਲਿੰਕ ਪੇਸਟ ਕਰੋ",
     "or tell your agent where they are, to move them later": "ਜਾਂ ਆਪਣੇ ਏਜੰਟ ਨੂੰ ਦੱਸੋ ਕਿ ਉਹ ਕਿੱਥੇ ਹਨ, ਤਾਂ ਜੋ ਬਾਅਦ ਵਿੱਚ ਲਿਆਂਦੇ ਜਾ ਸਕਣ",
-    "I keep forgetting to follow up with clients.": "ਕਲਾਇੰਟਾਂ ਨਾਲ ਦੁਬਾਰਾ ਗੱਲ ਕਰਨੀ ਮੈਨੂੰ ਵਾਰ-ਵਾਰ ਭੁੱਲ ਜਾਂਦੀ ਹੈ।"
+    "I keep forgetting to follow up with clients.": "ਕਲਾਇੰਟਾਂ ਨਾਲ ਦੁਬਾਰਾ ਗੱਲ ਕਰਨੀ ਮੈਨੂੰ ਵਾਰ-ਵਾਰ ਭੁੱਲ ਜਾਂਦੀ ਹੈ।",
+    "Connect a cloud drive now or later.": "ਕਲਾਊਡ ਡਰਾਈਵ ਹੁਣੇ ਜਾਂ ਬਾਅਦ ਵਿੱਚ ਜੋੜੋ।",
+    "Cloud drive details": "ਕਲਾਊਡ ਡਰਾਈਵ ਦੀ ਜਾਣਕਾਰੀ",
+    "Connect your cloud drive?": "ਕੀ ਆਪਣੀ ਕਲਾਊਡ ਡਰਾਈਵ ਜੋੜਨੀ ਹੈ?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "ਤੁਹਾਡਾ ਬ੍ਰੇਨ ਤੁਹਾਡੀ ਕਲਾਊਡ ਡਰਾਈਵ ਵਿੱਚ ਰਹਿੰਦਾ ਹੈ, ਇਸ ਲਈ ਤੁਸੀਂ ਇਸਨੂੰ ਫ਼ੋਨ ਤੋਂ ਵੀ ਖੋਲ੍ਹ ਸਕਦੇ ਹੋ ਅਤੇ ਇਸਦਾ ਹਮੇਸ਼ਾ ਬੈਕਅੱਪ ਰਹਿੰਦਾ ਹੈ। ਤੁਹਾਡਾ ਏਜੰਟ ਹਾਲੇ ਕਿਸੇ ਕਲਾਊਡ ਡਰਾਈਵ ਨਾਲ ਜੁੜਿਆ ਨਹੀਂ ਹੈ।",
+    "Set it up now": "ਹੁਣੇ ਸੈੱਟ ਕਰੋ",
+    "About 2 minutes": "ਲਗਭਗ 2 ਮਿੰਟ",
+    "Set it up later": "ਬਾਅਦ ਵਿੱਚ ਸੈੱਟ ਕਰੋ",
+    "Your brain works on this computer": "ਤੁਹਾਡਾ ਬ੍ਰੇਨ ਇਸ ਕੰਪਿਊਟਰ 'ਤੇ ਚੱਲਦਾ ਹੈ",
+    "Which cloud drive the person uses.": "ਉਹ ਵਿਅਕਤੀ ਕਿਹੜੀ ਕਲਾਊਡ ਡਰਾਈਵ ਵਰਤਦਾ ਹੈ।",
+    "Which cloud drive do you use?": "ਤੁਸੀਂ ਕਿਹੜੀ ਕਲਾਊਡ ਡਰਾਈਵ ਵਰਤਦੇ ਹੋ?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Phygital Brain ਦੇ ਸੈੱਟਅੱਪ ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ।",
+    "Brain details: welcome": "ਬ੍ਰੇਨ ਦੀ ਜਾਣਕਾਰੀ: ਸੁਆਗਤ",
+    "A second brain that thinks with you.": "ਇੱਕ ਸੈਕੰਡ ਬ੍ਰੇਨ ਜੋ ਤੁਹਾਡੇ ਨਾਲ ਮਿਲ ਕੇ ਸੋਚਦਾ ਹੈ।",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain ਤੁਹਾਡੇ ਨੋਟਸ ਲਈ ਇੱਕ OS ਹੈ। ਮੈਂ ਤੁਹਾਡੀ ਕਲਾਊਡ ਡਰਾਈਵ ਵਿੱਚ ਇੱਕ ਫ਼ੋਲਡਰ ਬਣਾਵਾਂਗਾ, ਜਿਸ ਵਿੱਚ ਤੁਹਾਡੇ ਬਾਰੇ, ਤੁਹਾਡੇ ਕੰਮ ਬਾਰੇ ਅਤੇ ਤੁਹਾਡੇ ਲੋਕਾਂ ਬਾਰੇ ਨੋਟਸ ਹੋਣਗੇ, ਅਤੇ ਉਹ ਨਿਯਮ ਹੋਣਗੇ ਜੋ ਮੈਂ ਹਰ ਵਾਰ ਮੰਨਦਾ ਹਾਂ। ਉਸ ਤੋਂ ਬਾਅਦ, ਹਰ ਚੈਟ ਦੀ ਸ਼ੁਰੂਆਤ ਤੋਂ ਹੀ ਮੈਂ ਤੁਹਾਨੂੰ ਜਾਣਦਾ ਹੋਵਾਂਗਾ। ਤੁਹਾਡੇ ਨੋਟਸ ਤੁਹਾਡੇ ਹੀ ਰਹਿੰਦੇ ਹਨ: ਸਾਦੀਆਂ ਫ਼ਾਈਲਾਂ, ਜਿਨ੍ਹਾਂ ਨੂੰ ਤੁਸੀਂ ਕਿਸੇ ਵੀ AI ਕੋਲ ਲਿਜਾ ਸਕਦੇ ਹੋ।",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "ਅੱਗੇ: ਚਾਰ ਛੋਟੇ ਫ਼ਾਰਮ, ਲਗਭਗ 10 ਮਿੰਟ, ਬਹੁਤਾ ਕਰਕੇ ਬੱਸ ਕਲਿੱਕ।"
   }
 }

@@ -103,7 +103,17 @@
     "label_from_calendar": "(aus dem Kalender)",
     "needs_review": "muss geprüft werden",
     "dry_run": "Testlauf",
-    "paused": "Der Aufräumhelfer ist pausiert."
+    "paused": "Der Aufräumhelfer ist pausiert.",
+    "drive_connect_google": "Verbinde Google Drive: Öffne in Claude die Einstellungen, dann Konnektoren, dann Google Drive, und klicke auf Verbinden. Melde dich an und erlaube, worum es dich bittet. Komm dann hierher zurück.",
+    "drive_connect_other": "Verbinde {drive}: Öffne in Claude die Einstellungen, dann Konnektoren, und such nach {drive}. Wenn es nicht da ist, füge seinen MCP-Server hinzu. Komm dann hierher zurück.",
+    "drive_icloud": "Für iCloud gibt es bei den meisten Agenten keinen Konnektor, also kann dein Agent dein Gehirn nicht vom Handy aus erreichen. Mit deinen anderen Apple-Geräten wird es trotzdem synchronisiert.",
+    "drive_connected_button": "Ich hab's verbunden",
+    "drive_checking": "Ich prüfe, ob dein Agent diesen Ordner in {drive} sehen kann…",
+    "drive_ok": "Verbunden. Dein Gehirn ist dann auch auf deinem Handy.",
+    "drive_failed": "Dein Agent findet diesen Ordner in {drive} noch nicht. Prüf, ob der Ordner in deinem {drive}-Ordner liegt und ob der Konnektor an ist. Das Synchronisieren kann eine Minute dauern.",
+    "try_again": "Erneut versuchen",
+    "drive_later_note": "Kein Problem. Dein Gehirn funktioniert auf diesem Computer. Sag jederzeit \"verbinde meinen Cloud-Speicher\", um ihn hinzuzufügen.",
+    "drive_other": "Anderer Cloud-Speicher"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Einrichtung, Formular 1 von 4: über dich.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "oder füg Links oder ein paar Zeilen über dich ein",
     "or paste links to your shop, portfolio or past work": "oder füg Links zu deinem Shop, Portfolio oder früheren Arbeiten ein",
     "or tell your agent where they are, to move them later": "oder sag deinem Agenten, wo sie liegen, dann holt er sie später rüber",
-    "I keep forgetting to follow up with clients.": "Ich vergesse immer wieder, bei Kunden nachzuhaken."
+    "I keep forgetting to follow up with clients.": "Ich vergesse immer wieder, bei Kunden nachzuhaken.",
+    "Connect a cloud drive now or later.": "Verbinde jetzt oder später einen Cloud-Speicher.",
+    "Cloud drive details": "Details zum Cloud-Speicher",
+    "Connect your cloud drive?": "Cloud-Speicher verbinden?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Dein Gehirn liegt in deinem Cloud-Speicher, so kommst du auch vom Handy dran, und es ist immer gesichert. Dein Agent ist noch mit keinem verbunden.",
+    "Set it up now": "Jetzt einrichten",
+    "About 2 minutes": "Etwa 2 Minuten",
+    "Set it up later": "Später einrichten",
+    "Your brain works on this computer": "Dein Gehirn funktioniert auf diesem Computer",
+    "Which cloud drive the person uses.": "Welchen Cloud-Speicher die Person nutzt.",
+    "Which cloud drive do you use?": "Welchen Cloud-Speicher nutzt du?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Willkommen bei der Einrichtung von Phygital Brain.",
+    "Brain details: welcome": "Dein Gehirn: Willkommen",
+    "A second brain that thinks with you.": "Ein zweites Gehirn, das mit dir denkt.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain ist ein Betriebssystem für deine Notizen. Ich lege einen Ordner in deinem Cloud-Speicher an, mit Notizen über dich, deine Arbeit und deine Leute, und mit Regeln, an die ich mich jedes Mal halte. Ab dann kennt dich jeder Chat schon von Anfang an. Deine Notizen bleiben deine, als einfache Dateien, die du zu jeder KI mitnehmen kannst.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Als Nächstes: vier kurze Formulare, etwa 10 Minuten, meistens Klicks."
   }
 }

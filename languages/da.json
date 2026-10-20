@@ -103,7 +103,17 @@
     "label_from_calendar": "(fra kalender)",
     "needs_review": "skal gennemgås",
     "dry_run": "Prøvekørsel",
-    "paused": "Oprydningshjælperen er sat på pause."
+    "paused": "Oprydningshjælperen er sat på pause.",
+    "drive_connect_google": "Forbind Google Drive: Åbn Indstillinger (Settings) i Claude, derefter Connectors og så Google Drive, og klik på Connect. Log ind, og tillad det, den beder om. Kom så tilbage hertil.",
+    "drive_connect_other": "Forbind {drive}: Åbn Indstillinger (Settings) i Claude, derefter Connectors, og find {drive}. Hvis den ikke er der, så tilføj dens MCP-server. Kom så tilbage hertil.",
+    "drive_icloud": "iCloud har ikke en connector til de fleste agenter, så din agent kan ikke nå din hjerne fra din telefon. Den synkroniserer stadig til dine andre Apple-enheder.",
+    "drive_connected_button": "Jeg har forbundet den",
+    "drive_checking": "Tjekker, at din agent kan se den her mappe i {drive}…",
+    "drive_ok": "Forbundet. Din hjerne vil også være på din telefon.",
+    "drive_failed": "Din agent kan ikke finde den her mappe i {drive} endnu. Tjek, at mappen ligger inde i din {drive}-mappe, og at connectoren er slået til. Synkronisering kan tage et minut.",
+    "try_again": "Prøv igen",
+    "drive_later_note": "Intet problem. Din hjerne virker på den her computer. Sig \"forbind mit cloud-drev\" når som helst for at tilføje det.",
+    "drive_other": "Andet cloud-drev"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Opsætning, formular 1 af 4: om dig.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "eller indsæt links eller et par linjer om dig",
     "or paste links to your shop, portfolio or past work": "eller indsæt links til din butik, portfolio eller tidligere arbejde",
     "or tell your agent where they are, to move them later": "eller fortæl din agent, hvor de ligger, så de kan flyttes senere",
-    "I keep forgetting to follow up with clients.": "Jeg glemmer hele tiden at følge op på kunder."
+    "I keep forgetting to follow up with clients.": "Jeg glemmer hele tiden at følge op på kunder.",
+    "Connect a cloud drive now or later.": "Forbind et cloud-drev nu eller senere.",
+    "Cloud drive details": "Detaljer om dit cloud-drev",
+    "Connect your cloud drive?": "Vil du forbinde dit cloud-drev?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Din hjerne bor på dit cloud-drev, så du kan nå den fra din telefon, og der er altid en sikkerhedskopi. Din agent er ikke forbundet til et cloud-drev endnu.",
+    "Set it up now": "Sæt det op nu",
+    "About 2 minutes": "Cirka 2 minutter",
+    "Set it up later": "Sæt det op senere",
+    "Your brain works on this computer": "Din hjerne virker på den her computer",
+    "Which cloud drive the person uses.": "Hvilket cloud-drev personen bruger.",
+    "Which cloud drive do you use?": "Hvilket cloud-drev bruger du?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Velkommen til opsætningen af Phygital Brain.",
+    "Brain details: welcome": "Din hjerne: velkommen",
+    "A second brain that thinks with you.": "En anden hjerne, der tænker med dig.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain er et styresystem til dine noter. Jeg laver én mappe på dit cloud-drev med noter om dig, dit arbejde og dine folk, og regler, som jeg følger hver gang. Fra da af kender hver chat dig allerede fra start. Dine noter forbliver dine, som almindelige filer, du kan tage med til enhver AI.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Næste: fire korte formularer, cirka 10 minutter, mest klik."
   }
 }

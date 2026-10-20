@@ -103,6 +103,16 @@
     "label_from_calendar": "(din calendar)",
     "needs_review": "de revăzut",
     "dry_run": "Probă fără modificări",
-    "paused": "Îngrijitorul creierului e pe pauză."
+    "paused": "Îngrijitorul creierului e pe pauză.",
+    "drive_connect_google": "Conectează Google Drive: în Claude, deschide Setări (Settings), apoi Conectori (Connectors), apoi Google Drive, și apasă Conectează (Connect). Intră în cont și permite ce ți se cere, apoi revino aici.",
+    "drive_connect_other": "Conectează {drive}: în Claude, deschide Setări (Settings), apoi Conectori (Connectors), și caută {drive}. Dacă nu e acolo, adaugă serverul său MCP. Apoi revino aici.",
+    "drive_icloud": "iCloud nu are conector pentru majoritatea agenților, așa că agentul tău nu poate ajunge la creierul tău de pe telefon. Creierul se sincronizează în continuare cu celelalte dispozitive Apple ale tale.",
+    "drive_connected_button": "L-am conectat",
+    "drive_checking": "Verific dacă agentul tău vede acest folder în {drive}…",
+    "drive_ok": "Conectat. Creierul tău va fi și pe telefon.",
+    "drive_failed": "Agentul tău nu găsește încă acest folder în {drive}. Verifică dacă folderul e în folderul tău {drive} și dacă conectorul e pornit. Sincronizarea poate dura un minut.",
+    "try_again": "Încearcă din nou",
+    "drive_later_note": "Nicio problemă. Creierul tău merge pe acest calculator. Spune oricând \"conectează-mi cloud-ul\" ca să-l adaugi.",
+    "drive_other": "Alt cloud"
   }
 }

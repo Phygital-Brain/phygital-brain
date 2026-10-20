@@ -103,7 +103,17 @@
     "label_from_calendar": "(з календаря)",
     "needs_review": "час переглянути",
     "dry_run": "Пробний запуск",
-    "paused": "Доглядач мозку на паузі."
+    "paused": "Доглядач мозку на паузі.",
+    "drive_connect_google": "Підключіть Google Drive: у Claude відкрийте «Налаштування», потім «Конектори», потім Google Drive і натисніть «Підключити». Увійдіть в акаунт, дозвольте те, що він попросить, і поверніться сюди.",
+    "drive_connect_other": "Підключіть {drive}: у Claude відкрийте «Налаштування», потім «Конектори» і знайдіть {drive}. Якщо його там немає, додайте його MCP-сервер. Потім поверніться сюди.",
+    "drive_icloud": "Для більшості агентів iCloud не має конектора, тож ваш агент не зможе дістатися до вашого мозку з телефона. Але синхронізація з іншими вашими пристроями Apple працює як завжди.",
+    "drive_connected_button": "Готово, підключено",
+    "drive_checking": "Перевіряємо, чи бачить ваш агент цю папку в {drive}…",
+    "drive_ok": "Підключено. Ваш мозок тепер буде й на телефоні.",
+    "drive_failed": "Ваш агент поки не знаходить цю папку в {drive}. Перевірте, що папка лежить усередині вашої папки {drive} і що конектор увімкнено. Синхронізація може тривати хвилину.",
+    "try_again": "Спробувати ще раз",
+    "drive_later_note": "Без проблем. Ваш мозок працює на цьому комп'ютері. Щоб додати диск, будь-коли скажіть «підключи мій хмарний диск».",
+    "drive_other": "Інший хмарний диск"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Налаштування, анкета 1 з 4: про вас.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "або вставте посилання чи кілька рядків про себе",
     "or paste links to your shop, portfolio or past work": "або вставте посилання на магазин, портфоліо чи попередні роботи",
     "or tell your agent where they are, to move them later": "або скажіть своєму агентові, де вони лежать, щоб перенести їх пізніше",
-    "I keep forgetting to follow up with clients.": "Постійно забуваю нагадати про себе клієнтам."
+    "I keep forgetting to follow up with clients.": "Постійно забуваю нагадати про себе клієнтам.",
+    "Connect a cloud drive now or later.": "Підключіть хмарний диск зараз або пізніше.",
+    "Cloud drive details": "Дані хмарного диска",
+    "Connect your cloud drive?": "Підключити хмарний диск?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Ваш мозок живе на хмарному диску, тож він доступний з телефона і завжди має резервну копію. Ваш агент поки не підключений до жодного диска.",
+    "Set it up now": "Налаштувати зараз",
+    "About 2 minutes": "Близько 2 хвилин",
+    "Set it up later": "Налаштувати пізніше",
+    "Your brain works on this computer": "Ваш мозок працює на цьому комп'ютері",
+    "Which cloud drive the person uses.": "Яким хмарним диском користується людина.",
+    "Which cloud drive do you use?": "Яким хмарним диском ви користуєтеся?",
+    "Welcome to the Phygital Brain setup.": "Вітаємо в налаштуванні Phygital Brain.",
+    "Brain details: welcome": "Дані для мозку: вітання",
+    "A second brain that thinks with you.": "Другий мозок, який думає разом з вами.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain працює як операційна система для ваших нотаток. Я створю одну папку на вашому хмарному диску з нотатками про вас, вашу роботу й ваших людей, а також з правилами, яких я щоразу дотримуюся. Відтоді кожен новий чат уже знатиме вас із самого початку. Ваші нотатки залишаються вашими: це звичайні файли, які можна взяти з собою до будь-якого AI.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Далі: чотири короткі анкети, близько 10 хвилин, здебільшого кліки.",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive"
   }
 }

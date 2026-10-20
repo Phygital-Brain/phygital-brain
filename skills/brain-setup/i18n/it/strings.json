@@ -103,6 +103,16 @@
     "label_from_calendar": "(dal calendario)",
     "needs_review": "da rivedere",
     "dry_run": "Prova senza modifiche",
-    "paused": "Il Custode del Cervello è in pausa."
+    "paused": "Il Custode del Cervello è in pausa.",
+    "drive_connect_google": "Collega Google Drive: in Claude apri Impostazioni, poi Connettori, poi Google Drive, e clicca Connetti. Accedi e consenti quello che ti chiede, poi torna qui.",
+    "drive_connect_other": "Collega {drive}: in Claude apri Impostazioni, poi Connettori, e cerca {drive}. Se non c'è, aggiungi il suo server MCP. Poi torna qui.",
+    "drive_icloud": "iCloud non ha un connettore per la maggior parte degli agenti, quindi il tuo agente non può raggiungere il tuo cervello dal telefono. Resta comunque sincronizzato con gli altri tuoi dispositivi Apple.",
+    "drive_connected_button": "L'ho collegato",
+    "drive_checking": "Controllo che il tuo agente veda questa cartella in {drive}…",
+    "drive_ok": "Collegato. Il tuo cervello sarà anche sul telefono.",
+    "drive_failed": "Il tuo agente non trova ancora questa cartella in {drive}. Controlla che la cartella sia dentro la tua cartella {drive} e che il connettore sia attivo. La sincronizzazione può richiedere un minuto.",
+    "try_again": "Riprova",
+    "drive_later_note": "Nessun problema. Il tuo cervello funziona su questo computer. Quando vuoi, di' \"collega il mio cloud\" per aggiungerlo.",
+    "drive_other": "Altro cloud"
   }
 }

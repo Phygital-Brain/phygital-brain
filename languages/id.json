@@ -103,7 +103,17 @@
     "label_from_calendar": "(dari kalender)",
     "needs_review": "perlu ditinjau",
     "dry_run": "Uji coba",
-    "paused": "Penjaga Otak sedang dijeda."
+    "paused": "Penjaga Otak sedang dijeda.",
+    "drive_connect_google": "Hubungkan Google Drive: di Claude, buka Settings, lalu Connectors, lalu Google Drive, dan klik Connect. Masuk ke akunmu dan izinkan yang diminta, lalu kembali ke sini.",
+    "drive_connect_other": "Hubungkan {drive}: di Claude, buka Settings, lalu Connectors, dan cari {drive}. Kalau tidak ada, tambahkan server MCP-nya. Lalu kembali ke sini.",
+    "drive_icloud": "iCloud tidak punya konektor untuk kebanyakan agen, jadi agenmu tidak bisa membuka otakmu dari HP. Tapi otakmu tetap tersinkron ke perangkat Apple-mu yang lain.",
+    "drive_connected_button": "Sudah aku hubungkan",
+    "drive_checking": "Mengecek apakah agenmu bisa melihat folder ini di {drive}…",
+    "drive_ok": "Terhubung. Otakmu juga akan ada di HP-mu.",
+    "drive_failed": "Agenmu belum bisa menemukan folder ini di {drive}. Pastikan folder ini ada di dalam folder {drive}-mu dan konektornya aktif. Sinkronisasi bisa butuh semenit.",
+    "try_again": "Coba lagi",
+    "drive_later_note": "Tidak apa-apa. Otakmu tetap jalan di komputer ini. Bilang \"hubungkan cloud drive-ku\" kapan saja untuk menambahkannya.",
+    "drive_other": "Cloud drive lain"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formulir pengaturan 1 dari 4: tentang kamu.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "atau tempel link atau beberapa baris tentang kamu",
     "or paste links to your shop, portfolio or past work": "atau tempel link ke tokomu, portofolio, atau karya sebelumnya",
     "or tell your agent where they are, to move them later": "atau beri tahu agenmu di mana letaknya, supaya bisa dipindahkan nanti",
-    "I keep forgetting to follow up with clients.": "Aku sering lupa follow up ke klien."
+    "I keep forgetting to follow up with clients.": "Aku sering lupa follow up ke klien.",
+    "Connect a cloud drive now or later.": "Hubungkan cloud drive sekarang atau nanti.",
+    "Cloud drive details": "Detail cloud drive",
+    "Connect your cloud drive?": "Hubungkan cloud drive-mu?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Otakmu tinggal di cloud drive, jadi bisa kamu buka dari HP dan selalu punya cadangan. Agenmu belum terhubung ke cloud drive mana pun.",
+    "Set it up now": "Atur sekarang",
+    "About 2 minutes": "Sekitar 2 menit",
+    "Set it up later": "Atur nanti",
+    "Your brain works on this computer": "Otakmu tetap jalan di komputer ini",
+    "Which cloud drive the person uses.": "Cloud drive yang dipakai orang ini.",
+    "Which cloud drive do you use?": "Kamu pakai cloud drive apa?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Selamat datang di pengaturan Phygital Brain.",
+    "Brain details: welcome": "Detail otakmu: selamat datang",
+    "A second brain that thinks with you.": "Otak kedua yang ikut berpikir bersamamu.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain adalah OS untuk catatanmu. Aku akan membuat satu folder di cloud drive-mu, berisi catatan tentang kamu, pekerjaanmu, dan orang-orang di sekitarmu, plus aturan yang selalu aku ikuti. Setelah itu, setiap chat dimulai dengan aku sudah mengenalmu. Catatanmu tetap milikmu, berupa file biasa yang bisa kamu bawa ke AI mana pun.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Berikutnya: empat formulir singkat, sekitar 10 menit, kebanyakan tinggal klik."
   }
 }

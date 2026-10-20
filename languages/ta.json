@@ -103,7 +103,17 @@
     "label_from_calendar": "(கேலெண்டரிலிருந்து)",
     "needs_review": "மீண்டும் பார்க்க வேண்டும்",
     "dry_run": "சோதனை ஓட்டம்",
-    "paused": "பிரெயின் கீப்பர் இப்போது நிறுத்தி வைக்கப்பட்டுள்ளது."
+    "paused": "பிரெயின் கீப்பர் இப்போது நிறுத்தி வைக்கப்பட்டுள்ளது.",
+    "drive_connect_google": "Google Drive-ஐ இணைக்க: Claude-இல் Settings-ஐத் திறந்து, பிறகு Connectors, பிறகு Google Drive-க்குச் சென்று, Connect-ஐ கிளிக் செய்யுங்கள். சைன் இன் செய்து, அது கேட்பதை அனுமதியுங்கள், பிறகு இங்கே திரும்பி வாருங்கள்.",
+    "drive_connect_other": "{drive}-ஐ இணைக்க: Claude-இல் Settings-ஐத் திறந்து, பிறகு Connectors-க்குச் சென்று {drive}-ஐத் தேடுங்கள். அது அங்கே இல்லையென்றால், அதன் MCP சர்வரைச் சேர்க்கவும். பிறகு இங்கே திரும்பி வாருங்கள்.",
+    "drive_icloud": "பெரும்பாலான ஏஜென்ட்களுக்கு iCloud-இல் கனெக்டர் இல்லை, அதனால் உங்கள் ஏஜென்ட் போனிலிருந்து உங்கள் பிரெயினை அணுக முடியாது. ஆனாலும் அது உங்கள் மற்ற Apple சாதனங்களுடன் சிங்க் ஆகும்.",
+    "drive_connected_button": "இணைத்துவிட்டேன்",
+    "drive_checking": "உங்கள் ஏஜென்ட் {drive}-இல் இந்த ஃபோல்டரைப் பார்க்க முடிகிறதா எனச் சரிபார்க்கிறேன்…",
+    "drive_ok": "இணைந்துவிட்டது. உங்கள் பிரெயின் உங்கள் போனிலும் இருக்கும்.",
+    "drive_failed": "உங்கள் ஏஜென்ட்டால் {drive}-இல் இந்த ஃபோல்டரை இன்னும் கண்டுபிடிக்க முடியவில்லை. ஃபோல்டர் உங்கள் {drive} ஃபோல்டருக்குள் இருக்கிறதா, கனெக்டர் ஆன் செய்யப்பட்டிருக்கிறதா எனப் பாருங்கள். சிங்க் ஆக ஒரு நிமிடம் ஆகலாம்.",
+    "try_again": "மீண்டும் முயற்சிக்கவும்",
+    "drive_later_note": "பரவாயில்லை. உங்கள் பிரெயின் இந்தக் கம்ப்யூட்டரில் வேலை செய்யும். சேர்க்க விரும்பும்போது எப்போது வேண்டுமானாலும் \"என் கிளவுட் டிரைவை இணை\" என்று சொல்லுங்கள்.",
+    "drive_other": "வேறு கிளவுட் டிரைவ்"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "செட்டப் படிவம் 4-இல் 1: உங்களைப் பற்றி.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "அல்லது லிங்க்குகளையோ உங்களைப் பற்றிய சில வரிகளையோ ஒட்டுங்கள்",
     "or paste links to your shop, portfolio or past work": "அல்லது உங்கள் கடை, போர்ட்ஃபோலியோ அல்லது முந்தைய வேலைகளின் லிங்க்குகளை ஒட்டுங்கள்",
     "or tell your agent where they are, to move them later": "அல்லது அவை எங்கே இருக்கின்றன என்று உங்கள் ஏஜென்டிடம் சொல்லுங்கள், பிறகு மாற்றலாம்",
-    "I keep forgetting to follow up with clients.": "கிளையன்ட்களை மீண்டும் தொடர்புகொள்ள அடிக்கடி மறந்துவிடுகிறேன்."
+    "I keep forgetting to follow up with clients.": "கிளையன்ட்களை மீண்டும் தொடர்புகொள்ள அடிக்கடி மறந்துவிடுகிறேன்.",
+    "Connect a cloud drive now or later.": "இப்போதோ பிறகோ ஒரு கிளவுட் டிரைவை இணைக்கவும்.",
+    "Cloud drive details": "கிளவுட் டிரைவ் விவரங்கள்",
+    "Connect your cloud drive?": "உங்கள் கிளவுட் டிரைவை இணைக்கலாமா?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "உங்கள் பிரெயின் உங்கள் கிளவுட் டிரைவில் இருக்கும், அதனால் போனிலிருந்தும் அதைத் திறக்கலாம், எப்போதும் பேக்கப்பும் இருக்கும். உங்கள் ஏஜென்ட் இன்னும் எந்த டிரைவுடனும் இணைக்கப்படவில்லை.",
+    "Set it up now": "இப்போதே செட்டப் செய்யவும்",
+    "About 2 minutes": "சுமார் 2 நிமிடம்",
+    "Set it up later": "பிறகு செட்டப் செய்யவும்",
+    "Your brain works on this computer": "உங்கள் பிரெயின் இந்தக் கம்ப்யூட்டரில் வேலை செய்யும்",
+    "Which cloud drive the person uses.": "அந்த நபர் பயன்படுத்தும் கிளவுட் டிரைவ்.",
+    "Which cloud drive do you use?": "நீங்கள் எந்த கிளவுட் டிரைவைப் பயன்படுத்துகிறீர்கள்?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Phygital Brain செட்டப்புக்கு வரவேற்கிறோம்.",
+    "Brain details: welcome": "பிரெயின் விவரங்கள்: வரவேற்பு",
+    "A second brain that thinks with you.": "உங்களுடன் சேர்ந்து சிந்திக்கும் ஒரு செகண்ட் பிரெயின்.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain என்பது உங்கள் குறிப்புகளுக்கான ஒரு OS. உங்கள் கிளவுட் டிரைவில் நான் ஒரு ஃபோல்டரை உருவாக்குவேன்: அதில் உங்களைப் பற்றி, உங்கள் வேலை, உங்களைச் சுற்றியுள்ள நபர்கள் பற்றிய குறிப்புகளும், நான் ஒவ்வொரு முறையும் பின்பற்றும் விதிகளும் இருக்கும். அதன் பிறகு, ஒவ்வொரு சாட்டும் உங்களை ஏற்கனவே தெரிந்துகொண்டே தொடங்கும். உங்கள் குறிப்புகள் எப்போதும் உங்களுடையவை: எந்த AI-க்கும் எடுத்துச் செல்லக்கூடிய சாதாரண ஃபைல்கள்.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "அடுத்து: நான்கு சின்ன படிவங்கள், சுமார் 10 நிமிடம், பெரும்பாலும் கிளிக்குகள்."
   }
 }

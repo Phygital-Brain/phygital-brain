@@ -103,6 +103,16 @@
     "label_from_calendar": "（來自行事曆）",
     "needs_review": "需要重新檢視",
     "dry_run": "試跑",
-    "paused": "大腦管家已暫停。"
+    "paused": "大腦管家已暫停。",
+    "drive_connect_google": "連接 Google Drive：在 Claude 打開「設定」，接著是「連接器」，再選 Google Drive，點「連接」。登入並允許它要求的權限，然後回到這裡。",
+    "drive_connect_other": "連接 {drive}：在 Claude 打開「設定」，接著是「連接器」，找找 {drive}。如果沒有，就加入它的 MCP 伺服器。然後回到這裡。",
+    "drive_icloud": "大多數 AI 代理都沒有 iCloud 連接器，所以你的 AI 代理沒辦法從手機存取你的大腦。不過它還是會同步到你的其他 Apple 裝置。",
+    "drive_connected_button": "我已經連接好了",
+    "drive_checking": "正在確認你的 AI 代理能不能在 {drive} 看到這個資料夾…",
+    "drive_ok": "已連接。你的大腦在手機上也能用了。",
+    "drive_failed": "你的 AI 代理還找不到 {drive} 裡的這個資料夾。請確認這個資料夾在你的 {drive} 資料夾裡，而且連接器已經開啟。同步可能要一分鐘左右。",
+    "try_again": "再試一次",
+    "drive_later_note": "沒問題。你的大腦在這台電腦上可以正常使用。想加入的時候，隨時說「連接我的雲端硬碟」就好。",
+    "drive_other": "其他雲端硬碟"
   }
 }

@@ -103,7 +103,17 @@
     "label_from_calendar": "(ক্যালেন্ডার থেকে)",
     "needs_review": "আবার দেখা দরকার",
     "dry_run": "ট্রায়াল রান",
-    "paused": "গোছানোর সহকারী এখন থামানো আছে।"
+    "paused": "গোছানোর সহকারী এখন থামানো আছে।",
+    "drive_connect_google": "Google Drive কানেক্ট করুন: Claude-এ Settings খুলুন, তারপর Connectors, তারপর Google Drive, আর Connect-এ ক্লিক করুন। সাইন ইন করে যা অনুমতি চায় দিন, তারপর এখানে ফিরে আসুন।",
+    "drive_connect_other": "{drive} কানেক্ট করুন: Claude-এ Settings খুলুন, তারপর Connectors, আর {drive} খুঁজুন। না পেলে এর MCP সার্ভার যোগ করুন। তারপর এখানে ফিরে আসুন।",
+    "drive_icloud": "বেশিরভাগ এজেন্টের জন্য iCloud-এর কোনো কানেক্টর নেই, তাই আপনার এজেন্ট ফোন থেকে আপনার ব্রেনে পৌঁছাতে পারবে না। তবে আপনার অন্য Apple ডিভাইসগুলোর সঙ্গে এটা সিঙ্ক হতে থাকবে।",
+    "drive_connected_button": "কানেক্ট করেছি",
+    "drive_checking": "দেখছি আপনার এজেন্ট {drive}-এ এই ফোল্ডারটা দেখতে পাচ্ছে কি না…",
+    "drive_ok": "কানেক্ট হয়েছে। আপনার ব্রেন এখন ফোনেও থাকবে।",
+    "drive_failed": "আপনার এজেন্ট এখনো {drive}-এ এই ফোল্ডারটা খুঁজে পাচ্ছে না। দেখে নিন ফোল্ডারটা আপনার {drive} ফোল্ডারের ভেতরে আছে কি না, আর কানেক্টর চালু আছে কি না। সিঙ্ক হতে এক মিনিট লাগতে পারে।",
+    "try_again": "আবার চেষ্টা করুন",
+    "drive_later_note": "কোনো সমস্যা নেই। আপনার ব্রেন এই কম্পিউটারে চলে। যোগ করতে চাইলে যেকোনো সময় বলুন \"আমার ক্লাউড ড্রাইভ কানেক্ট করো\"।",
+    "drive_other": "অন্য ক্লাউড ড্রাইভ"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "সেটআপ ফর্ম, 4টির মধ্যে 1: আপনার কথা।",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "অথবা লিংক দিন, বা নিজের সম্পর্কে কয়েক লাইন লিখুন",
     "or paste links to your shop, portfolio or past work": "অথবা আপনার দোকান, পোর্টফোলিও বা আগের কাজের লিংক দিন",
     "or tell your agent where they are, to move them later": "অথবা আপনার এজেন্টকে বলুন সেগুলো কোথায় আছে, পরে নিয়ে আসার জন্য",
-    "I keep forgetting to follow up with clients.": "ক্লায়েন্টদের সঙ্গে ফলো-আপ করতে বারবার ভুলে যাই।"
+    "I keep forgetting to follow up with clients.": "ক্লায়েন্টদের সঙ্গে ফলো-আপ করতে বারবার ভুলে যাই।",
+    "Connect a cloud drive now or later.": "এখন বা পরে একটা ক্লাউড ড্রাইভ কানেক্ট করুন।",
+    "Cloud drive details": "ক্লাউড ড্রাইভের তথ্য",
+    "Connect your cloud drive?": "আপনার ক্লাউড ড্রাইভ কানেক্ট করবেন?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "আপনার ব্রেন থাকে আপনার ক্লাউড ড্রাইভে, তাই ফোন থেকেও এটা খুলতে পারেন, আর এর ব্যাকআপ সবসময় থাকে। আপনার এজেন্ট এখনো কোনো ক্লাউড ড্রাইভে কানেক্ট করা নেই।",
+    "Set it up now": "এখনই সেট আপ করুন",
+    "About 2 minutes": "মোটামুটি 2 মিনিট",
+    "Set it up later": "পরে সেট আপ করুন",
+    "Your brain works on this computer": "আপনার ব্রেন এই কম্পিউটারে চলে",
+    "Which cloud drive the person uses.": "মানুষটি কোন ক্লাউড ড্রাইভ ব্যবহার করেন।",
+    "Which cloud drive do you use?": "আপনি কোন ক্লাউড ড্রাইভ ব্যবহার করেন?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Phygital Brain সেটআপে স্বাগতম।",
+    "Brain details: welcome": "ব্রেনের তথ্য: স্বাগতম",
+    "A second brain that thinks with you.": "একটা সেকেন্ড ব্রেন, যে আপনার সঙ্গে ভাবে।",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain হলো আপনার নোটের জন্য একটা OS। আমি আপনার ক্লাউড ড্রাইভে একটা ফোল্ডার বানাব, তাতে থাকবে আপনাকে, আপনার কাজ আর আপনার মানুষদের নিয়ে নোট, আর কিছু নিয়ম, যা আমি প্রতিবার মেনে চলি। তারপর থেকে প্রতিটা চ্যাট শুরু হবে আপনাকে আগে থেকেই চিনে। আপনার নোট আপনারই থাকে, সাধারণ ফাইল হিসেবে, যা যেকোনো AI-তে নিয়ে যেতে পারেন।",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "এরপর: চারটা ছোট ফর্ম, মোটামুটি 10 মিনিট, বেশিরভাগই ক্লিক।"
   }
 }

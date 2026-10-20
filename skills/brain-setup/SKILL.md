@@ -5,7 +5,7 @@ description: Build a Phygital Brain second brain in the selected folder through 
 
 # Phygital Brain: Setup
 
-Version 0.1.5. Everything below is for the agent. Follow it step by step, and check each step before moving on.
+Version 0.1.6. Everything below is for the agent. Follow it step by step, and check each step before moving on.
 
 ## What you are building
 
@@ -48,15 +48,12 @@ If you are another agent and your tool loads a different rule file (for example 
 
    Never delete or overwrite existing notes.
 3. If the folder has other files, don't touch them. Build around them and mention them at the end.
-4. **Cloud drive and Baalda.** Both are part of the brain unless the person says they don't want them. A cloud drive lets them use the brain from their phone, so it matters most. Check each one, and for anything missing, say in one line why it helps and ask (click options):
-   - **Is the folder inside a cloud drive?** Look at the folder's path. Common signs: on a Mac, `~/Library/CloudStorage/` (Google Drive, Dropbox, OneDrive), `~/Library/Mobile Documents/` (iCloud), a `Nextcloud` or `Dropbox` folder in the home folder; on Windows, a `G:` drive (`My Drive`), or a `Dropbox`, `OneDrive` or `Nextcloud` folder. If you can't tell, ask: "Is this folder synced to a cloud drive?" If not: `Help me move it to a cloud drive` (ask which drive they use, walk them through Getting started step 2: install the drive's desktop app, make the folder inside it, then pick that folder for a new chat and say "Set up my second brain" again; then stop) · `Continue without a cloud drive` (the brain stays on this computer only; add "No cloud drive: this brain is on one computer only." to `About/tools.md` later).
-   - **Is the drive connected to your agent?** It must be able to read, edit and create files in the drive from the agent's phone or web app. If you have no tools for their drive in this chat: `I'll connect it now` (in Claude with Google Drive: Settings, then Connectors, then Google Drive; with another drive, its connector or MCP server; wait, then go on) · `Later` (mention it again in the finish message).
-   - **Is Baalda installed?** Ask: `Yes` · `Install it now` (give the link https://github.com/naveedharri/baalda, wait, then go on) · `Not now`.
-5. **Form window.** Check whether you can show an HTML form window (in Claude, the `show_widget` tool). Remember the answer. If you can't, use `forms/questions.md` in Step 2: click questions where you have them (AskUserQuestion, up to 4 questions per call), otherwise numbered options in chat.
+4. **Cloud drive and Baalda** come in Step 1.6, after the language question, so they're asked in the person's language.
+5. **Form window.** Check whether you can show an HTML form window (in Claude, the `show_widget` tool). Remember the answer. If you can't, use `forms/questions.md` in Step 2: click questions where you have them (AskUserQuestion, up to 4 questions per call), otherwise numbered options in chat. **On a phone, never use form windows**, even if you have the tool: they don't work well there. Use click questions for every step, from the language question on, with the texts and options from the forms (for a ready language, from `i18n/{code}/forms/`).
 
 ## Step 1: Language
 
-Ask one question with click options, in the language of their first message (English if unclear): **"Which language should your brain speak?"** The ready languages, each with its code:
+With a form window, show `forms/language.html` (made by `scripts/i18n.py build`: it has every ready language), adapted as its first comment says. Without one, or on a phone, ask one question with click options, in the language of their first message (English if unclear): **"Which language should your brain speak?"** The ready languages, each with its code:
 
 `English` (en) · `简体中文` (zh-CN) · `繁體中文` (zh-TW) · `हिन्दी` (hi) · `Español` (es) · `العربية` (ar) · `Français` (fr) · `বাংলা` (bn) · `Português (Brasil)` (pt-BR) · `Português (Portugal)` (pt-PT) · `Русский` (ru) · `اردو` (ur) · `Bahasa Indonesia` (id) · `Deutsch` (de) · `日本語` (ja) · `Tiếng Việt` (vi) · `Türkçe` (tr) · `한국어` (ko) · `Italiano` (it) · `Polski` (pl) · `Nederlands` (nl) · `فارسی` (fa) · `ไทย` (th) · `Українська` (uk) · `Kiswahili` (sw) · `தமிழ்` (ta) · `తెలుగు` (te) · `मराठी` (mr) · `ગુજરાતી` (gu) · `ਪੰਜਾਬੀ` (pa) · `Bahasa Melayu` (ms) · `Filipino` (fil) · `עברית` (he) · `Ελληνικά` (el) · `Čeština` (cs) · `Română` (ro) · `Magyar` (hu) · `Svenska` (sv) · `Dansk` (da) · `Norsk (bokmål)` (nb) · `Suomi` (fi) · Other
 
@@ -93,11 +90,37 @@ These stay in English, so the rules and the Brain Keeper work the same everywher
 
 Brazilian and European Portuguese (pt-BR, pt-PT) are different sets, and so are Simplified and Traditional Chinese (zh-CN, zh-TW): use the one they chose in Step 1, everywhere. Names they give (their projects, people, companies) stay exactly as they wrote them.
 
+## Step 1.5: Welcome
+
+Right after the language, show `forms/form-0-welcome.html` (for a ready language, `i18n/{code}/forms/form-0-welcome.html`; for any other language, translate it as `translating.md` says, but never the lettering). It shows the name, what Phygital Brain is in a few lines, and one button: Continue. Wait for it.
+
+Without a form window, or on a phone, send the same texts as one chat message, with the lettering in a code block exactly as it is in the form, and one click option: the form's Continue.
+
+## Step 1.6: Cloud drive and Baalda
+
+Both are part of the brain unless the person says they don't want them. A cloud drive lets them use the brain from their phone, so it matters most. On a phone (`docs/phone-only.md`) skip this step: the brain is already in their drive.
+
+Each `name` below is a message: for a ready language, say it from `strings.json` (`messages`); otherwise say the English text given here, translated into their language. For each window, without a form window use a click question with the same texts and options.
+
+1. **Is the folder inside a cloud drive?** Look at the folder's path. Common signs: on a Mac, `~/Library/CloudStorage/` (Google Drive, Dropbox, OneDrive), `~/Library/Mobile Documents/` (iCloud), a `Nextcloud` or `Dropbox` folder in the home folder; on Windows, a `G:` drive (`My Drive`), or a `Dropbox`, `OneDrive` or `Nextcloud` folder. If you can't tell, ask: "Is this folder synced to a cloud drive?" If not, say `drive_why` ("A cloud drive keeps your brain backed up and lets you use it from your phone.") and ask: `drive_move` ("Help me move it to a cloud drive") (ask which drive they use, walk them through Getting started step 2: install the drive's desktop app, make the folder inside it, then pick that folder for a new chat and say "Set up my second brain" again; then stop) · `drive_skip` ("Continue without a cloud drive") (the brain stays on this computer only; add "No cloud drive: this brain is on one computer only." to `About/tools.md` later; skip 2 and 3).
+2. **Is the drive connected to your agent?** If you have tools for their cloud drive in this chat (a connector or MCP server that can read, edit and create files), go to 3. If not, show `forms/form-0-cloud.html`:
+   - **Set it up later** (answer `later`): say `drive_later_note` ("No problem. Your brain works on this computer. Say "connect my cloud drive" anytime to add it."), remember it for the finish message, and go to 4.
+   - **Set it up now** (answer `now`): show `forms/form-0-drive.html` (Google Drive starts selected; "Set it up later" there counts as later). Without a form window, ask two click questions: `Google Drive` · `drive_other` ("Other cloud drive"), then for Other: `Dropbox` · `OneDrive` · `Nextcloud` · `iCloud`, with the box for any other drive. Then:
+     - Google Drive: say `drive_connect_google` ("Connect Google Drive: in Claude, open Settings, then Connectors, then Google Drive, and click Connect. Sign in and allow what it asks, then come back here.").
+     - iCloud: say `drive_icloud` ("iCloud has no connector for most agents, so your agent can't reach your brain from your phone. It still syncs to your other Apple devices."), then go on as for later.
+     - Any other drive: say `drive_connect_other` ("Connect {drive}: in Claude, open Settings, then Connectors, and look for {drive}. If it isn't there, add its MCP server. Then come back here."), with `{drive}` as its name.
+
+     Then one click option: `drive_connected_button` ("I've connected it"). When they click it and the drive's tools still aren't in this chat, ask them to turn the connector on for this chat (in Claude: the **+** button, then Connectors), or to start a new chat on the same folder and say "Set up my second brain" again.
+3. **Does the drive see this folder?** Say `drive_checking` ("Checking that your agent can see this folder in {drive}…"). Save a small file called `phygital-brain-check.md` in the brain folder with your own file tools. Then look for it by name through the drive's tools.
+   - Found: delete it, say `drive_ok` ("Connected. Your brain will be on your phone too."), and go on.
+   - Not found: the drive may still be syncing. Wait about 30 seconds and look again, up to three times. Still not found: delete the file, say `drive_failed` ("Your agent can't find this folder in {drive} yet. Check that the folder is inside your {drive} folder and that the connector is on. Syncing can take a minute.") and ask `try_again` ("Try again") (do 3 again) · the cloud form's "Set it up later" (say `drive_later_note`, remember it for the finish message).
+4. **Is Baalda installed?** Ask: `Yes` · `Install it now` (give the link https://github.com/naveedharri/baalda, wait, then go on) · `Not now`.
+
 ## Step 2: The forms
 
-Send one short message first: "About 10 minutes: mostly clicks, a few short answers. Skip anything you like."
+The welcome already said how long it takes, so go straight to the first form.
 
-For each form: read the file, take out every `<!-- ... -->` comment and the blocks the comments tell you to remove, translate if needed, and show it. Wait for the answers before the next form.
+For each form (`form-1` to `form-4`): read the file, take out every `<!-- ... -->` comment and the blocks the comments tell you to remove, translate if needed, and show it. Wait for the answers before the next form.
 
 ### Form 1: About you (`forms/form-1-about-you.html`)
 
@@ -284,7 +307,7 @@ One short message, no recap:
 3. **How to use it every day:** open a chat on this folder and talk normally. For example: "I had a call with X, here's what we agreed", "New project: ...", "Write a reply to this email". Your agent files everything in the right place.
 4. **Keep it healthy:** the Brain Keeper tidies every day at {keeper time}. Say "check up my brain" anytime.
 5. **Only if BRIEF = on:** your morning brief comes at {brief time} on work days. Say "morning brief" anytime.
-6. **On your phone** (if the brain is in a cloud drive): "Your brain is in your cloud drive, so you can use it from your phone." One line on each: ask about your notes in your agent's phone app with the drive connected, and send tasks to your computer if your agent can (in Claude, Dispatch). Point to the phone guide: https://github.com/Phygital-Brain/phygital-brain/blob/main/docs/phone.md. If the drive isn't connected yet, say how to connect it.
+6. **On your phone** (if the brain is in a cloud drive; if they chose "Set it up later" in Step 1.6, say `drive_later_note` again instead): "Your brain is in your cloud drive, so you can use it from your phone." One line on each: ask about your notes in your agent's phone app with the drive connected, and send tasks to your computer if your agent can (in Claude, Dispatch). Point to the phone guide: https://github.com/Phygital-Brain/phygital-brain/blob/main/docs/phone.md. If the drive isn't connected yet, say how to connect it.
 7. **Instructions for every chat:** "Want your agent to talk like this in every chat, not only in your brain? Copy this into your agent's settings." Then the text in a box they can copy (see below), and where it goes: in Claude, the personal instructions box in Settings; in other agents, their custom instructions.
 8. **Only if they gave old notes in form 4:** "Want me to bring in your old notes now?" If yes, follow `Skills/import/import.md`.
 9. **One line on the extras:** "You can also say 'prep me for Marta', 'challenge my idea', or 'undo the last change'."

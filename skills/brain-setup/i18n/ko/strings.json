@@ -103,6 +103,16 @@
     "label_from_calendar": "(캘린더에서)",
     "needs_review": "다시 볼 필요 있음",
     "dry_run": "테스트 실행",
-    "paused": "정리 도우미가 일시정지 상태예요."
+    "paused": "정리 도우미가 일시정지 상태예요.",
+    "drive_connect_google": "Google Drive 연결하기: Claude에서 설정을 열고 커넥터, Google Drive를 차례로 누른 다음 연결을 클릭하세요. 로그인하고 요청하는 권한을 허용한 뒤 여기로 돌아오세요.",
+    "drive_connect_other": "{drive} 연결하기: Claude에서 설정을 열고 커넥터에서 {drive} 항목을 찾으세요. 없으면 그 MCP 서버를 추가하세요. 그런 다음 여기로 돌아오세요.",
+    "drive_icloud": "iCloud는 대부분의 에이전트에서 쓸 수 있는 커넥터가 없어서, 에이전트가 휴대폰에서 브레인에 접근할 수 없어요. 다른 Apple 기기와는 계속 동기화돼요.",
+    "drive_connected_button": "연결했어요",
+    "drive_checking": "에이전트가 {drive}에서 이 폴더를 볼 수 있는지 확인하는 중…",
+    "drive_ok": "연결됐어요. 이제 휴대폰에서도 브레인을 쓸 수 있어요.",
+    "drive_failed": "에이전트가 아직 {drive}에서 이 폴더를 찾지 못했어요. 폴더가 {drive} 폴더 안에 있는지, 커넥터가 켜져 있는지 확인하세요. 동기화에 1분쯤 걸릴 수 있어요.",
+    "try_again": "다시 시도",
+    "drive_later_note": "괜찮아요. 브레인은 이 컴퓨터에서 쓸 수 있어요. 나중에 추가하고 싶으면 언제든 \"클라우드 드라이브 연결해 줘\"라고 말하세요.",
+    "drive_other": "다른 클라우드 드라이브"
   }
 }

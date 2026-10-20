@@ -103,7 +103,17 @@
     "label_from_calendar": "(từ lịch)",
     "needs_review": "cần xem lại",
     "dry_run": "Chạy thử",
-    "paused": "Quản gia đang tạm dừng."
+    "paused": "Quản gia đang tạm dừng.",
+    "drive_connect_google": "Kết nối Google Drive: trong Claude, mở Cài đặt, rồi Trình kết nối, rồi Google Drive, và bấm Kết nối. Đăng nhập và cho phép những gì được yêu cầu, rồi quay lại đây.",
+    "drive_connect_other": "Kết nối {drive}: trong Claude, mở Cài đặt, rồi Trình kết nối, và tìm {drive}. Nếu không thấy, hãy thêm máy chủ MCP của nó. Sau đó quay lại đây.",
+    "drive_icloud": "iCloud không có trình kết nối cho hầu hết các trợ lý AI, nên trợ lý AI của bạn không thể vào bộ não của bạn từ điện thoại. Bộ não vẫn được đồng bộ sang các thiết bị Apple khác của bạn.",
+    "drive_connected_button": "Mình đã kết nối rồi",
+    "drive_checking": "Đang kiểm tra xem trợ lý AI của bạn có thấy thư mục này trong {drive} không…",
+    "drive_ok": "Đã kết nối. Bộ não của bạn sẽ có cả trên điện thoại.",
+    "drive_failed": "Trợ lý AI của bạn chưa tìm thấy thư mục này trong {drive}. Hãy kiểm tra xem thư mục có nằm trong thư mục {drive} của bạn không, và trình kết nối đã bật chưa. Việc đồng bộ có thể mất khoảng một phút.",
+    "try_again": "Thử lại",
+    "drive_later_note": "Không sao. Bộ não của bạn vẫn dùng được trên máy tính này. Lúc nào muốn thêm, bạn cứ nói \"kết nối ổ đám mây của mình\".",
+    "drive_other": "Ổ đám mây khác"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Biểu mẫu thiết lập 1/4: về bạn.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "hoặc dán link hay vài dòng giới thiệu về bạn",
     "or paste links to your shop, portfolio or past work": "hoặc dán link cửa hàng, portfolio hay các sản phẩm đã làm",
     "or tell your agent where they are, to move them later": "hoặc cho trợ lý AI biết chúng đang ở đâu, để chuyển sau",
-    "I keep forgetting to follow up with clients.": "Mình cứ quên nhắn lại cho khách hàng."
+    "I keep forgetting to follow up with clients.": "Mình cứ quên nhắn lại cho khách hàng.",
+    "Connect a cloud drive now or later.": "Kết nối ổ đám mây ngay bây giờ hoặc để sau.",
+    "Cloud drive details": "Thông tin ổ đám mây",
+    "Connect your cloud drive?": "Kết nối ổ đám mây của bạn?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Bộ não của bạn nằm trong ổ đám mây, nên bạn mở được cả trên điện thoại và luôn có bản sao lưu. Trợ lý AI của bạn chưa được kết nối với ổ đám mây nào.",
+    "Set it up now": "Thiết lập ngay",
+    "About 2 minutes": "Khoảng 2 phút",
+    "Set it up later": "Thiết lập sau",
+    "Your brain works on this computer": "Bộ não của bạn vẫn dùng được trên máy tính này",
+    "Which cloud drive the person uses.": "Ổ đám mây mà người dùng đang dùng.",
+    "Which cloud drive do you use?": "Bạn dùng ổ đám mây nào?",
+    "Welcome to the Phygital Brain setup.": "Chào mừng bạn đến với phần thiết lập Phygital Brain.",
+    "Brain details: welcome": "Thông tin bộ não: chào mừng",
+    "A second brain that thinks with you.": "Bộ não thứ hai cùng suy nghĩ với bạn.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain là hệ điều hành cho ghi chú của bạn. Mình sẽ tạo một thư mục trong ổ đám mây của bạn, gồm các ghi chú về bạn, công việc của bạn và những người quanh bạn, cùng các quy tắc mình luôn làm theo. Từ đó, mỗi cuộc trò chuyện đều bắt đầu khi mình đã hiểu bạn rồi. Ghi chú vẫn là của bạn, dưới dạng tệp thông thường mà bạn có thể mang sang bất kỳ AI nào.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Tiếp theo: bốn biểu mẫu ngắn, khoảng 10 phút, chủ yếu là bấm chọn.",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive"
   }
 }

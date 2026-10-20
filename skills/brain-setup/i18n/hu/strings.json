@@ -103,6 +103,16 @@
     "label_from_calendar": "(naptárból)",
     "needs_review": "át kell nézni",
     "dry_run": "Próbafuttatás",
-    "paused": "A Rendrakó szünetel."
+    "paused": "A Rendrakó szünetel.",
+    "drive_connect_google": "Csatlakoztasd a Google Drive-ot: a Claude-ban nyisd meg a Settings menüt, aztán a Connectors részt, majd a Google Drive-ot, és kattints a Connect gombra. Jelentkezz be, engedélyezd, amit kér, aztán gyere vissza ide.",
+    "drive_connect_other": "{drive} csatlakoztatása: a Claude-ban nyisd meg a Settings menüt, aztán a Connectors részt, és keresd meg ezt: {drive}. Ha nincs ott, add hozzá az MCP-szerverét. Aztán gyere vissza ide.",
+    "drive_icloud": "A legtöbb ügynökhöz nincs iCloud-csatlakozó, így az ügynököd a telefonodról nem éri el az agyadat. A többi Apple-eszközödre viszont továbbra is szinkronizál.",
+    "drive_connected_button": "Csatlakoztattam",
+    "drive_checking": "Ellenőrzöm, hogy az ügynököd látja-e ezt a mappát itt: {drive}…",
+    "drive_ok": "Csatlakoztatva. Az agyad a telefonodon is ott lesz.",
+    "drive_failed": "Az ügynököd még nem találja ezt a mappát itt: {drive}. Nézd meg, hogy a mappa ott van-e a saját {drive}-mappádban, és hogy be van-e kapcsolva a csatlakozó. A szinkronizálás eltarthat egy percig.",
+    "try_again": "Próbáld újra",
+    "drive_later_note": "Semmi gond. Az agyad ezen a gépen működik. Ha hozzá szeretnéd adni, bármikor mondd: \"csatlakoztasd a felhőtárhelyemet\".",
+    "drive_other": "Más felhőtárhely"
   }
 }

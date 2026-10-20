@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.6 (2026-10-20)
+
+- A welcome screen right after the language question: the name, what Phygital Brain is in a few lines, and Continue.
+- The language question is a window with every ready language, in its own name.
+- The cloud drive check now comes after the language, so it's asked in the person's language. With no drive connected: **Set it up now** (pick Google Drive, Dropbox, OneDrive, Nextcloud, iCloud or another drive, with short steps) or **Set it up later**.
+- A test file checks that the drive really sees the brain folder, and is deleted after.
+- On a phone, every step uses plain click questions instead of windows.
+
 ## 0.1.5 (2026-10-20)
 
 - The Brain Keeper's check-up says when a new version of Phygital Brain is out, and how to get it.

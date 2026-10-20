@@ -103,7 +103,17 @@
     "label_from_calendar": "(z kalendarza)",
     "needs_review": "do przejrzenia",
     "dry_run": "Próbne uruchomienie",
-    "paused": "Opiekun mózgu jest wstrzymany."
+    "paused": "Opiekun mózgu jest wstrzymany.",
+    "drive_connect_google": "Połącz Google Drive: w Claude otwórz Ustawienia (Settings), potem Konektory (Connectors), potem Google Drive i kliknij Połącz (Connect). Zaloguj się i zezwól na to, o co prosi, a potem wróć tutaj.",
+    "drive_connect_other": "Połącz {drive}: w Claude otwórz Ustawienia (Settings), potem Konektory (Connectors) i poszukaj pozycji {drive}. Jeśli jej tam nie ma, dodaj serwer MCP dla {drive}. Potem wróć tutaj.",
+    "drive_icloud": "iCloud nie ma konektora dla większości agentów, więc na telefonie twój agent nie dotrze do twojego mózgu. Mózg nadal synchronizuje się z twoimi innymi urządzeniami Apple.",
+    "drive_connected_button": "Gotowe, połączone",
+    "drive_checking": "Sprawdzam, czy twój agent widzi ten folder w {drive}…",
+    "drive_ok": "Połączone. Twój mózg będzie też na telefonie.",
+    "drive_failed": "Twój agent nie widzi jeszcze tego folderu w {drive}. Sprawdź, czy folder jest w twoim folderze {drive} i czy konektor jest włączony. Synchronizacja może potrwać minutę.",
+    "try_again": "Spróbuj ponownie",
+    "drive_later_note": "Nie ma sprawy. Twój mózg działa na tym komputerze. Napisz w dowolnej chwili „połącz mój dysk w chmurze”, żeby go dodać.",
+    "drive_other": "Inny dysk w chmurze"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formularz konfiguracji 1 z 4: o tobie.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "albo wklej linki lub kilka zdań o sobie",
     "or paste links to your shop, portfolio or past work": "albo wklej linki do sklepu, portfolio lub wcześniejszych prac",
     "or tell your agent where they are, to move them later": "albo powiedz swojemu agentowi, gdzie są, żeby przeniósł je później",
-    "I keep forgetting to follow up with clients.": "Ciągle zapominam przypomnieć się klientom."
+    "I keep forgetting to follow up with clients.": "Ciągle zapominam przypomnieć się klientom.",
+    "Connect a cloud drive now or later.": "Połącz dysk w chmurze teraz albo później.",
+    "Cloud drive details": "Szczegóły dysku w chmurze",
+    "Connect your cloud drive?": "Połączyć twój dysk w chmurze?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Twój mózg leży na dysku w chmurze, więc możesz z niego korzystać na telefonie i zawsze ma kopię zapasową. Twój agent nie jest jeszcze połączony z żadnym dyskiem.",
+    "Set it up now": "Skonfiguruj teraz",
+    "About 2 minutes": "Około 2 minut",
+    "Set it up later": "Skonfiguruj później",
+    "Your brain works on this computer": "Twój mózg działa na tym komputerze",
+    "Which cloud drive the person uses.": "Z jakiego dysku w chmurze korzysta ta osoba.",
+    "Which cloud drive do you use?": "Z jakiego dysku w chmurze korzystasz?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Witaj w konfiguracji Phygital Brain.",
+    "Brain details: welcome": "Twój drugi mózg: powitanie",
+    "A second brain that thinks with you.": "Drugi mózg, który myśli razem z tobą.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain to system operacyjny dla twoich notatek. Zbuduję jeden folder na twoim dysku w chmurze, z notatkami o tobie, twojej pracy i ludziach wokół ciebie, oraz z zasadami, których zawsze się trzymam. Od tej chwili każdy czat zaczyna się od tego, że już cię znam. Twoje notatki zostają twoje, jako zwykłe pliki, które możesz zabrać do dowolnego narzędzia AI.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Dalej: cztery krótkie formularze, około 10 minut, głównie klikanie."
   }
 }

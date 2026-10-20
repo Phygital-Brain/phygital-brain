@@ -1,6 +1,6 @@
 {
   "name": "phygital-brain",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A second brain that thinks with you. The Phygital Brain connector: an MCP server that gives your agent the setup, forms, templates and Brain Keeper.",
   "type": "module",
   "bin": {

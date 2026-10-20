@@ -103,7 +103,17 @@
     "label_from_calendar": "(από το ημερολόγιο)",
     "needs_review": "θέλει έλεγχο",
     "dry_run": "Δοκιμαστική εκτέλεση",
-    "paused": "Ο Τακτοποιητής είναι σε παύση."
+    "paused": "Ο Τακτοποιητής είναι σε παύση.",
+    "drive_connect_google": "Σύνδεσε το Google Drive: στο Claude, άνοιξε τις Ρυθμίσεις (Settings), μετά τους Connectors, μετά το Google Drive, και πάτα Connect. Συνδέσου, επίτρεψε ό,τι ζητήσει και μετά γύρνα εδώ.",
+    "drive_connect_other": "Σύνδεσε το {drive}: στο Claude, άνοιξε τις Ρυθμίσεις (Settings), μετά τους Connectors, και ψάξε το {drive}. Αν δεν είναι εκεί, πρόσθεσε τον MCP server του. Μετά γύρνα εδώ.",
+    "drive_icloud": "Το iCloud δεν έχει connector για τους περισσότερους βοηθούς, οπότε ο βοηθός σου δεν μπορεί να φτάσει στον εγκέφαλό σου από το κινητό. Συνεχίζει όμως να συγχρονίζεται με τις άλλες συσκευές Apple σου.",
+    "drive_connected_button": "Το σύνδεσα",
+    "drive_checking": "Ελέγχω αν ο βοηθός σου βλέπει αυτόν τον φάκελο στο {drive}…",
+    "drive_ok": "Συνδέθηκε. Ο εγκέφαλός σου θα είναι και στο κινητό σου.",
+    "drive_failed": "Ο βοηθός σου δεν βρίσκει ακόμα αυτόν τον φάκελο στο {drive}. Έλεγξε ότι ο φάκελος είναι μέσα στον φάκελο {drive} σου και ότι ο connector είναι ενεργός. Ο συγχρονισμός μπορεί να πάρει ένα λεπτό.",
+    "try_again": "Δοκίμασε ξανά",
+    "drive_later_note": "Κανένα πρόβλημα. Ο εγκέφαλός σου δουλεύει σε αυτόν τον υπολογιστή. Πες «σύνδεσε το cloud μου» όποτε θέλεις, για να το προσθέσεις.",
+    "drive_other": "Άλλο cloud"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Φόρμα ρύθμισης 1 από 4: για σένα.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "ή επικόλλησε συνδέσμους ή λίγες γραμμές για σένα",
     "or paste links to your shop, portfolio or past work": "ή επικόλλησε συνδέσμους για το κατάστημά σου, το portfolio σου ή παλιότερες δουλειές",
     "or tell your agent where they are, to move them later": "ή πες στον βοηθό σου πού βρίσκονται, για να τις μεταφέρει αργότερα",
-    "I keep forgetting to follow up with clients.": "Ξεχνάω συνέχεια να ξαναγράψω στους πελάτες."
+    "I keep forgetting to follow up with clients.": "Ξεχνάω συνέχεια να ξαναγράψω στους πελάτες.",
+    "Connect a cloud drive now or later.": "Σύνδεσε έναν χώρο στο cloud τώρα ή αργότερα.",
+    "Cloud drive details": "Στοιχεία cloud",
+    "Connect your cloud drive?": "Να συνδέσεις το cloud σου;",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Ο εγκέφαλός σου μένει στο cloud σου, οπότε τον ανοίγεις και από το κινητό και έχει πάντα αντίγραφο ασφαλείας. Ο βοηθός σου δεν είναι ακόμα συνδεδεμένος με κάποιο cloud.",
+    "Set it up now": "Ρύθμιση τώρα",
+    "About 2 minutes": "Περίπου 2 λεπτά",
+    "Set it up later": "Ρύθμιση αργότερα",
+    "Your brain works on this computer": "Ο εγκέφαλός σου δουλεύει σε αυτόν τον υπολογιστή",
+    "Which cloud drive the person uses.": "Ποιο cloud χρησιμοποιεί το άτομο.",
+    "Which cloud drive do you use?": "Ποιο cloud χρησιμοποιείς;",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Καλώς ήρθες στη ρύθμιση του Phygital Brain.",
+    "Brain details: welcome": "Στοιχεία εγκεφάλου: καλωσόρισμα",
+    "A second brain that thinks with you.": "Ένας δεύτερος εγκέφαλος που σκέφτεται μαζί σου.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Το Phygital Brain είναι ένα λειτουργικό σύστημα για τις σημειώσεις σου. Θα φτιάξω έναν φάκελο στο cloud σου, με σημειώσεις για σένα, τη δουλειά σου και τους ανθρώπους σου, και κανόνες που ακολουθώ κάθε φορά. Από εκεί και πέρα, κάθε συνομιλία ξεκινά ξέροντάς σε ήδη. Οι σημειώσεις σου μένουν δικές σου, σε απλά αρχεία που μπορείς να πάρεις σε οποιοδήποτε εργαλείο AI.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Επόμενο: τέσσερις σύντομες φόρμες, περίπου 10 λεπτά, κυρίως κλικ."
   }
 }

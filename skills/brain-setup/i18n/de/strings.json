@@ -103,6 +103,16 @@
     "label_from_calendar": "(aus dem Kalender)",
     "needs_review": "muss geprüft werden",
     "dry_run": "Testlauf",
-    "paused": "Der Aufräumhelfer ist pausiert."
+    "paused": "Der Aufräumhelfer ist pausiert.",
+    "drive_connect_google": "Verbinde Google Drive: Öffne in Claude die Einstellungen, dann Konnektoren, dann Google Drive, und klicke auf Verbinden. Melde dich an und erlaube, worum es dich bittet. Komm dann hierher zurück.",
+    "drive_connect_other": "Verbinde {drive}: Öffne in Claude die Einstellungen, dann Konnektoren, und such nach {drive}. Wenn es nicht da ist, füge seinen MCP-Server hinzu. Komm dann hierher zurück.",
+    "drive_icloud": "Für iCloud gibt es bei den meisten Agenten keinen Konnektor, also kann dein Agent dein Gehirn nicht vom Handy aus erreichen. Mit deinen anderen Apple-Geräten wird es trotzdem synchronisiert.",
+    "drive_connected_button": "Ich hab's verbunden",
+    "drive_checking": "Ich prüfe, ob dein Agent diesen Ordner in {drive} sehen kann…",
+    "drive_ok": "Verbunden. Dein Gehirn ist dann auch auf deinem Handy.",
+    "drive_failed": "Dein Agent findet diesen Ordner in {drive} noch nicht. Prüf, ob der Ordner in deinem {drive}-Ordner liegt und ob der Konnektor an ist. Das Synchronisieren kann eine Minute dauern.",
+    "try_again": "Erneut versuchen",
+    "drive_later_note": "Kein Problem. Dein Gehirn funktioniert auf diesem Computer. Sag jederzeit \"verbinde meinen Cloud-Speicher\", um ihn hinzuzufügen.",
+    "drive_other": "Anderer Cloud-Speicher"
   }
 }

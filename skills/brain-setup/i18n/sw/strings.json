@@ -103,6 +103,16 @@
     "label_from_calendar": "(kutoka kalenda)",
     "needs_review": "inahitaji kupitiwa",
     "dry_run": "Jaribio",
-    "paused": "Mtunzaji wa Ubongo amesimamishwa."
+    "paused": "Mtunzaji wa Ubongo amesimamishwa.",
+    "drive_connect_google": "Unganisha Google Drive: kwenye Claude, fungua Settings, kisha Connectors, kisha Google Drive, na ubofye Connect. Ingia kwenye akaunti na ukubali kinachoombwa, kisha urudi hapa.",
+    "drive_connect_other": "Unganisha {drive}: kwenye Claude, fungua Settings, kisha Connectors, na utafute {drive}. Kama haipo, ongeza seva yake ya MCP. Kisha urudi hapa.",
+    "drive_icloud": "iCloud haina kiunganishi (connector) kwa wakala wengi, kwa hiyo wakala wako hawezi kufikia ubongo wako kutoka kwenye simu yako. Ubongo wako bado unasawazishwa kwenye vifaa vyako vingine vya Apple.",
+    "drive_connected_button": "Nimeshaiunganisha",
+    "drive_checking": "Ninaangalia kama wakala wako anaweza kuiona folda hii kwenye {drive}…",
+    "drive_ok": "Imeunganishwa. Ubongo wako utakuwa kwenye simu yako pia.",
+    "drive_failed": "Wakala wako bado hawezi kupata folda hii kwenye {drive}. Hakikisha folda iko ndani ya folda yako ya {drive} na kwamba kiunganishi kimewashwa. Usawazishaji unaweza kuchukua dakika moja.",
+    "try_again": "Jaribu tena",
+    "drive_later_note": "Hakuna shida. Ubongo wako unafanya kazi kwenye kompyuta hii. Sema \"unganisha hifadhi yangu ya mtandaoni\" wakati wowote ili kuiongeza.",
+    "drive_other": "Hifadhi nyingine ya mtandaoni"
   }
 }

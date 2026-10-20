@@ -103,7 +103,17 @@
     "label_from_calendar": "(કૅલેન્ડરમાંથી)",
     "needs_review": "ફરી જોવાનું છે",
     "dry_run": "ટ્રાયલ રન",
-    "paused": "ગોઠવણ સહાયક થોભાવેલો છે."
+    "paused": "ગોઠવણ સહાયક થોભાવેલો છે.",
+    "drive_connect_google": "Google Drive જોડો: Claudeમાં Settings ખોલો, પછી Connectors, પછી Google Drive, અને Connect પર ક્લિક કરો. સાઇન ઇન કરો અને જે પરવાનગી માગે તે આપો, પછી અહીં પાછા આવો.",
+    "drive_connect_other": "{drive} જોડો: Claudeમાં Settings ખોલો, પછી Connectors, અને {drive} શોધો. જો તે ન મળે, તો તેનું MCP સર્વર ઉમેરો. પછી અહીં પાછા આવો.",
+    "drive_icloud": "મોટા ભાગના એજન્ટ માટે iCloudનું કોઈ કનેક્ટર નથી, એટલે તમારો એજન્ટ ફોનથી તમારા બ્રેન સુધી પહોંચી શકતો નથી. છતાં તે તમારાં બીજાં Apple ડિવાઇસ સાથે સિંક થતું રહે છે.",
+    "drive_connected_button": "મેં જોડી દીધું",
+    "drive_checking": "તમારો એજન્ટ {drive}માં આ ફોલ્ડર જોઈ શકે છે કે નહીં તે તપાસી રહ્યા છીએ…",
+    "drive_ok": "જોડાઈ ગયું. હવે તમારું બ્રેન તમારા ફોન પર પણ હશે.",
+    "drive_failed": "તમારા એજન્ટને {drive}માં હજી આ ફોલ્ડર મળતું નથી. તપાસો કે ફોલ્ડર તમારા {drive} ફોલ્ડરની અંદર છે અને કનેક્ટર ચાલુ છે. સિંક થવામાં એકાદ મિનિટ લાગી શકે છે.",
+    "try_again": "ફરી પ્રયત્ન કરો",
+    "drive_later_note": "કોઈ વાંધો નહીં. તમારું બ્રેન આ કમ્પ્યુટર પર ચાલે છે. તેને ઉમેરવા માટે ગમે ત્યારે કહો \"મારી ક્લાઉડ ડ્રાઇવ જોડો\".",
+    "drive_other": "બીજી ક્લાઉડ ડ્રાઇવ"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "સેટઅપ ફોર્મ 4માંથી 1: તમારા વિશે.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "અથવા લિંક પેસ્ટ કરો, કે તમારા વિશે થોડી લાઇન લખો",
     "or paste links to your shop, portfolio or past work": "અથવા તમારી દુકાન, પોર્ટફોલિયો કે જૂના કામની લિંક પેસ્ટ કરો",
     "or tell your agent where they are, to move them later": "અથવા તમારા એજન્ટને કહો કે તે ક્યાં છે, જેથી પછીથી ખસેડી શકાય",
-    "I keep forgetting to follow up with clients.": "ક્લાયન્ટનો ફરી સંપર્ક કરવાનું હું ભૂલી જ જાઉં છું."
+    "I keep forgetting to follow up with clients.": "ક્લાયન્ટનો ફરી સંપર્ક કરવાનું હું ભૂલી જ જાઉં છું.",
+    "Connect a cloud drive now or later.": "હમણાં કે પછી ક્લાઉડ ડ્રાઇવ જોડો.",
+    "Cloud drive details": "ક્લાઉડ ડ્રાઇવની વિગતો",
+    "Connect your cloud drive?": "તમારી ક્લાઉડ ડ્રાઇવ જોડવી છે?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "તમારું બ્રેન તમારી ક્લાઉડ ડ્રાઇવમાં રહે છે, એટલે તમે ફોનથી પણ તેને ખોલી શકો છો અને તેનો હંમેશાં બેકઅપ રહે છે. તમારો એજન્ટ હજી કોઈ ક્લાઉડ ડ્રાઇવ સાથે જોડાયેલો નથી.",
+    "Set it up now": "હમણાં સેટઅપ કરો",
+    "About 2 minutes": "લગભગ 2 મિનિટ",
+    "Set it up later": "પછી સેટઅપ કરો",
+    "Your brain works on this computer": "તમારું બ્રેન આ કમ્પ્યુટર પર ચાલે છે",
+    "Which cloud drive the person uses.": "વ્યક્તિ કઈ ક્લાઉડ ડ્રાઇવ વાપરે છે.",
+    "Which cloud drive do you use?": "તમે કઈ ક્લાઉડ ડ્રાઇવ વાપરો છો?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Phygital Brain સેટઅપમાં તમારું સ્વાગત છે.",
+    "Brain details: welcome": "બ્રેનની વિગતો: સ્વાગત",
+    "A second brain that thinks with you.": "એક સેકન્ડ બ્રેન, જે તમારી સાથે વિચારે છે.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain તમારી નોંધો માટેની OS છે. હું તમારી ક્લાઉડ ડ્રાઇવમાં એક ફોલ્ડર બનાવીશ, જેમાં તમારા વિશે, તમારા કામ અને તમારા લોકો વિશે નોંધો હશે, અને એવા નિયમો હશે જે હું દર વખતે પાળું છું. પછી દરેક ચેટમાં હું તમને પહેલેથી ઓળખતો હોઈશ. તમારી નોંધો તમારી જ રહે છે, સાદી ફાઇલો તરીકે, જે તમે કોઈ પણ AIમાં લઈ જઈ શકો છો.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "હવે પછી: ચાર ટૂંકાં ફોર્મ, લગભગ 10 મિનિટ, મોટા ભાગે ક્લિક."
   }
 }

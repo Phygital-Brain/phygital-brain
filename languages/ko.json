@@ -103,7 +103,17 @@
     "label_from_calendar": "(캘린더에서)",
     "needs_review": "다시 볼 필요 있음",
     "dry_run": "테스트 실행",
-    "paused": "정리 도우미가 일시정지 상태예요."
+    "paused": "정리 도우미가 일시정지 상태예요.",
+    "drive_connect_google": "Google Drive 연결하기: Claude에서 설정을 열고 커넥터, Google Drive를 차례로 누른 다음 연결을 클릭하세요. 로그인하고 요청하는 권한을 허용한 뒤 여기로 돌아오세요.",
+    "drive_connect_other": "{drive} 연결하기: Claude에서 설정을 열고 커넥터에서 {drive} 항목을 찾으세요. 없으면 그 MCP 서버를 추가하세요. 그런 다음 여기로 돌아오세요.",
+    "drive_icloud": "iCloud는 대부분의 에이전트에서 쓸 수 있는 커넥터가 없어서, 에이전트가 휴대폰에서 브레인에 접근할 수 없어요. 다른 Apple 기기와는 계속 동기화돼요.",
+    "drive_connected_button": "연결했어요",
+    "drive_checking": "에이전트가 {drive}에서 이 폴더를 볼 수 있는지 확인하는 중…",
+    "drive_ok": "연결됐어요. 이제 휴대폰에서도 브레인을 쓸 수 있어요.",
+    "drive_failed": "에이전트가 아직 {drive}에서 이 폴더를 찾지 못했어요. 폴더가 {drive} 폴더 안에 있는지, 커넥터가 켜져 있는지 확인하세요. 동기화에 1분쯤 걸릴 수 있어요.",
+    "try_again": "다시 시도",
+    "drive_later_note": "괜찮아요. 브레인은 이 컴퓨터에서 쓸 수 있어요. 나중에 추가하고 싶으면 언제든 \"클라우드 드라이브 연결해 줘\"라고 말하세요.",
+    "drive_other": "다른 클라우드 드라이브"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "설정 양식 1/4: 나에 대해.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "또는 나에 대한 링크나 짧은 소개를 붙여 넣어 주세요",
     "or paste links to your shop, portfolio or past work": "또는 내 쇼핑몰, 포트폴리오, 예전 작업 링크를 붙여 넣어 주세요",
     "or tell your agent where they are, to move them later": "또는 메모가 어디 있는지 에이전트에게 알려 주세요. 나중에 옮길 수 있어요",
-    "I keep forgetting to follow up with clients.": "클라이언트에게 다시 연락하는 걸 자꾸 잊어요."
+    "I keep forgetting to follow up with clients.": "클라이언트에게 다시 연락하는 걸 자꾸 잊어요.",
+    "Connect a cloud drive now or later.": "클라우드 드라이브를 지금 또는 나중에 연결해요.",
+    "Cloud drive details": "클라우드 드라이브 정보",
+    "Connect your cloud drive?": "클라우드 드라이브를 연결할까요?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "브레인은 클라우드 드라이브에 있어서 휴대폰에서도 볼 수 있고 항상 백업돼요. 에이전트는 아직 클라우드 드라이브에 연결되지 않았어요.",
+    "Set it up now": "지금 설정할게요",
+    "About 2 minutes": "2분 정도",
+    "Set it up later": "나중에 설정할게요",
+    "Your brain works on this computer": "브레인은 이 컴퓨터에서 쓸 수 있어요",
+    "Which cloud drive the person uses.": "사용하는 클라우드 드라이브.",
+    "Which cloud drive do you use?": "어떤 클라우드 드라이브를 써요?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Phygital Brain 설정에 오신 걸 환영해요.",
+    "Brain details: welcome": "브레인 정보: 환영해요",
+    "A second brain that thinks with you.": "나와 함께 생각하는 세컨드 브레인.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain은 노트를 위한 OS예요. 클라우드 드라이브에 폴더를 하나 만들고, 그 안에 자기소개와 하는 일, 인맥에 대한 노트, 그리고 제가 매번 지키는 규칙을 넣을게요. 그다음부터는 어떤 채팅을 시작해도 이미 다 알고 있어요. 노트의 주인은 언제나 본인이에요. 평범한 파일이라 어떤 AI로든 가져갈 수 있어요.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "다음: 짧은 양식 4개, 10분 정도, 대부분 클릭만 하면 돼요."
   }
 }

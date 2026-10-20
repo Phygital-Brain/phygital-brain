@@ -191,8 +191,8 @@ Every way, step by step: [Install](docs/install.md).
 
 ```mermaid
 flowchart LR
-    C[Checks: cloud drive, connector, Baalda] --> L[Language]
-    L --> F1[Form 1<br>About you] --> F2[Form 2<br>Your work] --> F3[Form 3<br>Days and people] --> F4[Form 4<br>Files]
+    C[Checks: the folder] --> L[Language] --> W[Welcome]
+    W --> CD[Cloud drive:<br>connect and check] --> F1[Form 1<br>About you] --> F2[Form 2<br>Your work] --> F3[Form 3<br>Days and people] --> F4[Form 4<br>Files]
     F4 --> B[Build: folders, rules,<br>notes, Brain Keeper]
     B --> D[One short message:<br>what was built, how to use it]
 ```
@@ -303,7 +303,7 @@ The full list is in [Limits](docs/limits.md).
 - **No app.** There's nothing to run. Your AI agent does the work, following the files in this repository.
 - **No lock yet.** The rules work only because your agent follows them. Keep truly secret things outside the brain folder. Locked folders are on the [roadmap](#roadmap).
 - **Not always on, unless you move it to the cloud.** On your computer, the Brain Keeper and the morning brief run only while your agent's app is open. As a cloud routine, they run with the computer off.
-- **An early version.** This is version 0.1.5, and the setup hasn't been tested with many people yet.
+- **An early version.** This is version 0.1.6, and the setup hasn't been tested with many people yet.
 
 ## Roadmap
 

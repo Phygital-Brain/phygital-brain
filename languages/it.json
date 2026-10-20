@@ -103,7 +103,17 @@
     "label_from_calendar": "(dal calendario)",
     "needs_review": "da rivedere",
     "dry_run": "Prova senza modifiche",
-    "paused": "Il Custode del Cervello è in pausa."
+    "paused": "Il Custode del Cervello è in pausa.",
+    "drive_connect_google": "Collega Google Drive: in Claude apri Impostazioni, poi Connettori, poi Google Drive, e clicca Connetti. Accedi e consenti quello che ti chiede, poi torna qui.",
+    "drive_connect_other": "Collega {drive}: in Claude apri Impostazioni, poi Connettori, e cerca {drive}. Se non c'è, aggiungi il suo server MCP. Poi torna qui.",
+    "drive_icloud": "iCloud non ha un connettore per la maggior parte degli agenti, quindi il tuo agente non può raggiungere il tuo cervello dal telefono. Resta comunque sincronizzato con gli altri tuoi dispositivi Apple.",
+    "drive_connected_button": "L'ho collegato",
+    "drive_checking": "Controllo che il tuo agente veda questa cartella in {drive}…",
+    "drive_ok": "Collegato. Il tuo cervello sarà anche sul telefono.",
+    "drive_failed": "Il tuo agente non trova ancora questa cartella in {drive}. Controlla che la cartella sia dentro la tua cartella {drive} e che il connettore sia attivo. La sincronizzazione può richiedere un minuto.",
+    "try_again": "Riprova",
+    "drive_later_note": "Nessun problema. Il tuo cervello funziona su questo computer. Quando vuoi, di' \"collega il mio cloud\" per aggiungerlo.",
+    "drive_other": "Altro cloud"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Modulo di configurazione 1 di 4: su di te.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "oppure incolla dei link o qualche riga su di te",
     "or paste links to your shop, portfolio or past work": "oppure incolla i link al tuo negozio, al portfolio o a lavori passati",
     "or tell your agent where they are, to move them later": "oppure di' al tuo agente dove sono, per spostarli più avanti",
-    "I keep forgetting to follow up with clients.": "Mi dimentico sempre di ricontattare i clienti."
+    "I keep forgetting to follow up with clients.": "Mi dimentico sempre di ricontattare i clienti.",
+    "Connect a cloud drive now or later.": "Collega un cloud adesso o più tardi.",
+    "Cloud drive details": "Il tuo cloud",
+    "Connect your cloud drive?": "Vuoi collegare il tuo cloud?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Il tuo cervello vive nel tuo cloud: così lo raggiungi anche dal telefono e ha sempre un backup. Il tuo agente non è ancora collegato a nessun cloud.",
+    "Set it up now": "Lo configuro adesso",
+    "About 2 minutes": "Circa 2 minuti",
+    "Set it up later": "Lo configuro più tardi",
+    "Your brain works on this computer": "Il tuo cervello funziona su questo computer",
+    "Which cloud drive the person uses.": "Quale cloud usa la persona.",
+    "Which cloud drive do you use?": "Quale cloud usi?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Ti diamo il benvenuto nella configurazione di Phygital Brain.",
+    "Brain details: welcome": "Il tuo cervello: si comincia",
+    "A second brain that thinks with you.": "Un secondo cervello che pensa insieme a te.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain è un sistema operativo per i tuoi appunti. Creerò una cartella nel tuo cloud, con note su di te, sul tuo lavoro e sulle tue persone, e con regole che seguo ogni volta. Da lì in poi, ogni chat parte sapendo già chi sei. I tuoi appunti restano tuoi: semplici file che puoi portare in qualsiasi AI.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Prossimo passo: quattro brevi moduli, circa 10 minuti, quasi solo clic."
   }
 }

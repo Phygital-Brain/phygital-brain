@@ -103,6 +103,16 @@
     "label_from_calendar": "(từ lịch)",
     "needs_review": "cần xem lại",
     "dry_run": "Chạy thử",
-    "paused": "Quản gia đang tạm dừng."
+    "paused": "Quản gia đang tạm dừng.",
+    "drive_connect_google": "Kết nối Google Drive: trong Claude, mở Cài đặt, rồi Trình kết nối, rồi Google Drive, và bấm Kết nối. Đăng nhập và cho phép những gì được yêu cầu, rồi quay lại đây.",
+    "drive_connect_other": "Kết nối {drive}: trong Claude, mở Cài đặt, rồi Trình kết nối, và tìm {drive}. Nếu không thấy, hãy thêm máy chủ MCP của nó. Sau đó quay lại đây.",
+    "drive_icloud": "iCloud không có trình kết nối cho hầu hết các trợ lý AI, nên trợ lý AI của bạn không thể vào bộ não của bạn từ điện thoại. Bộ não vẫn được đồng bộ sang các thiết bị Apple khác của bạn.",
+    "drive_connected_button": "Mình đã kết nối rồi",
+    "drive_checking": "Đang kiểm tra xem trợ lý AI của bạn có thấy thư mục này trong {drive} không…",
+    "drive_ok": "Đã kết nối. Bộ não của bạn sẽ có cả trên điện thoại.",
+    "drive_failed": "Trợ lý AI của bạn chưa tìm thấy thư mục này trong {drive}. Hãy kiểm tra xem thư mục có nằm trong thư mục {drive} của bạn không, và trình kết nối đã bật chưa. Việc đồng bộ có thể mất khoảng một phút.",
+    "try_again": "Thử lại",
+    "drive_later_note": "Không sao. Bộ não của bạn vẫn dùng được trên máy tính này. Lúc nào muốn thêm, bạn cứ nói \"kết nối ổ đám mây của mình\".",
+    "drive_other": "Ổ đám mây khác"
   }
 }

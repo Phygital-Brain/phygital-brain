@@ -103,7 +103,17 @@
     "label_from_calendar": "(dari kalendar)",
     "needs_review": "perlu disemak",
     "dry_run": "Larian ujian",
-    "paused": "Penjaga Otak sedang dijeda."
+    "paused": "Penjaga Otak sedang dijeda.",
+    "drive_connect_google": "Sambungkan Google Drive: dalam Claude, buka Settings, kemudian Connectors, kemudian Google Drive, dan klik Connect. Log masuk dan benarkan apa yang diminta, kemudian kembali ke sini.",
+    "drive_connect_other": "Sambungkan {drive}: dalam Claude, buka Settings, kemudian Connectors, dan cari {drive}. Jika tiada, tambahkan pelayan MCP untuknya. Kemudian kembali ke sini.",
+    "drive_icloud": "iCloud tiada penyambung untuk kebanyakan ejen, jadi ejen anda tidak boleh mencapai otak anda dari telefon bimbit. Ia tetap disegerakkan ke peranti Apple anda yang lain.",
+    "drive_connected_button": "Saya sudah sambungkan",
+    "drive_checking": "Menyemak sama ada ejen anda boleh melihat folder ini dalam {drive}…",
+    "drive_ok": "Sudah disambungkan. Otak anda akan ada di telefon bimbit juga.",
+    "drive_failed": "Ejen anda belum dapat mencari folder ini dalam {drive}. Pastikan folder itu berada di dalam folder {drive} anda dan penyambung dihidupkan. Penyegerakan mungkin mengambil masa seminit.",
+    "try_again": "Cuba lagi",
+    "drive_later_note": "Tiada masalah. Otak anda berfungsi pada komputer ini. Sebut \"sambungkan storan awan saya\" bila-bila masa untuk menambahkannya.",
+    "drive_other": "Storan awan lain"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Borang persediaan 1 daripada 4: tentang anda.",
@@ -265,6 +275,27 @@
     "or paste links or a few lines about you": "atau tampal pautan atau beberapa baris tentang anda",
     "or paste links to your shop, portfolio or past work": "atau tampal pautan ke kedai, portfolio atau kerja lepas anda",
     "or tell your agent where they are, to move them later": "atau beritahu ejen anda di mana nota itu, untuk dipindahkan nanti",
-    "I keep forgetting to follow up with clients.": "Saya selalu terlupa nak hubungi klien semula."
+    "I keep forgetting to follow up with clients.": "Saya selalu terlupa nak hubungi klien semula.",
+    "Connect a cloud drive now or later.": "Sambungkan storan awan sekarang atau nanti.",
+    "Cloud drive details": "Butiran storan awan",
+    "Connect your cloud drive?": "Sambungkan storan awan anda?",
+    "Your brain lives in your cloud drive, so you can reach it from your phone and it's always backed up. Your agent isn't connected to one yet.": "Otak anda tinggal dalam storan awan anda, jadi anda boleh membukanya dari telefon bimbit dan ia sentiasa disandarkan. Ejen anda belum disambungkan ke mana-mana storan awan lagi.",
+    "Set it up now": "Sediakan sekarang",
+    "About 2 minutes": "Lebih kurang 2 minit",
+    "Set it up later": "Sediakan nanti",
+    "Your brain works on this computer": "Otak anda berfungsi pada komputer ini",
+    "Which cloud drive the person uses.": "Storan awan yang digunakan oleh orang itu.",
+    "Which cloud drive do you use?": "Anda guna storan awan yang mana?",
+    "Google Drive": "Google Drive",
+    "Dropbox": "Dropbox",
+    "OneDrive": "OneDrive",
+    "Nextcloud": "Nextcloud",
+    "iCloud": "iCloud",
+    "Box, pCloud, Proton Drive": "Box, pCloud, Proton Drive",
+    "Welcome to the Phygital Brain setup.": "Selamat datang ke persediaan Phygital Brain.",
+    "Brain details: welcome": "Butiran otak: selamat datang",
+    "A second brain that thinks with you.": "Otak kedua yang berfikir bersama anda.",
+    "Phygital Brain is an OS for your notes. I'll build one folder in your cloud drive, with notes about you, your work and your people, and rules I follow every time. From then on, every chat starts already knowing you. Your notes stay yours, as plain files you can take to any AI.": "Phygital Brain ialah OS untuk nota anda. Saya akan bina satu folder dalam storan awan anda, dengan nota tentang anda, kerja anda dan orang di sekeliling anda, serta peraturan yang saya ikut setiap kali. Selepas itu, setiap sembang bermula dengan saya sudah mengenali anda. Nota anda kekal milik anda, sebagai fail biasa yang boleh anda bawa ke mana-mana AI.",
+    "Next: four short forms, about 10 minutes, mostly clicks.": "Seterusnya: empat borang pendek, lebih kurang 10 minit, kebanyakannya klik sahaja."
   }
 }
