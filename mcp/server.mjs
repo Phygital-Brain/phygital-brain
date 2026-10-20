@@ -6,7 +6,7 @@
 // this package's own skills/ folder and never touches the person's files: the agent writes
 // the brain with its own file tools, in the folder the person chose.
 //
-// Run it with: npx -y github:Phygital-Brain/phygital-brain
+// Run it with: npx -y phygital-brain
 
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { dirname, join, normalize, relative, sep } from "node:path";

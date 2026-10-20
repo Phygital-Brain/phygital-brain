@@ -1,0 +1,47 @@
+# Publishes Phygital Brain when a GitHub release is published (tag vX.Y.Z):
+# the npm package (npx -y phygital-brain) and the Claude desktop extension (.mcpb).
+# npm trusts this workflow through trusted publishing, so no token is stored anywhere.
+name: Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write # attach the .mcpb to the release
+  id-token: write # npm trusted publishing
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+
+      - name: Use the newest npm (trusted publishing needs 11.5.1 or newer)
+        run: npm install -g npm@latest
+
+      - name: Check the tag matches the version
+        run: |
+          version="v$(node -p "require('./package.json').version")"
+          if [ "$version" != "$GITHUB_REF_NAME" ]; then
+            echo "The tag is $GITHUB_REF_NAME but package.json says $version."
+            exit 1
+          fi
+
+      - name: Run the checks
+        run: python3 scripts/check.py
+
+      - name: Publish to npm
+        run: npm publish --access public
+
+      - name: Build and attach the Claude desktop extension
+        run: |
+          python3 scripts/build_mcpb.py
+          gh release upload "$GITHUB_REF_NAME" dist/phygital-brain.mcpb --clobber
+        env:
+          GH_TOKEN: ${{ github.token }}

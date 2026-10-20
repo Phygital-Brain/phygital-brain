@@ -5,9 +5,9 @@ Pick your agent and click. Every way gives your agent the same thing: Phygital B
 <p align="center">
 <a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="images/buttons/claude-desktop.png" width="240" alt="Add to Claude desktop"></a>
 <a href="#claude-code"><img src="images/buttons/claude-code.png" width="240" alt="Install in Claude Code"></a>
-<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsImdpdGh1YjpQaHlnaXRhbC1CcmFpbi9waHlnaXRhbC1icmFpbiJdfQ=="><img src="images/buttons/cursor.png" width="240" alt="Add to Cursor"></a>
+<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsInBoeWdpdGFsLWJyYWluIl19"><img src="images/buttons/cursor.png" width="240" alt="Add to Cursor"></a>
 <br>
-<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522github%253APhygital-Brain%252Fphygital-brain%2522%255D%257D"><img src="images/buttons/vscode.png" width="240" alt="Add to VS Code"></a>
+<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522phygital-brain%2522%255D%257D"><img src="images/buttons/vscode.png" width="240" alt="Add to VS Code"></a>
 <a href="#codex"><img src="images/buttons/codex.png" width="240" alt="Set up in Codex"></a>
 <a href="#hermes-agent-and-openclaw"><img src="images/buttons/other-agents.png" width="240" alt="Set up in Hermes Agent or OpenClaw"></a>
 </p>
@@ -38,7 +38,7 @@ flowchart LR
 | **Plugin** | Phygital Brain's skills, loaded straight into the agent | Claude Code (recommended there) |
 | **Connector** | A small program, an MCP server, that runs on your computer and hands your agent Phygital Brain's files | Claude desktop, Cursor, VS Code, Codex, Hermes Agent, OpenClaw and other agents that take MCP servers |
 
-The connector only reads its own files. It never opens your notes, and it sends nothing anywhere. It runs with `npx -y github:Phygital-Brain/phygital-brain`, straight from this repository, so it needs **Node.js 18 or newer** on your computer. The Claude desktop file is the exception: the Claude app brings its own Node.js.
+The connector only reads its own files. It never opens your notes, and it sends nothing anywhere. It runs with `npx -y phygital-brain`, from npm, so it needs **Node.js 18 or newer** on your computer. The Claude desktop file is the exception: the Claude app brings its own Node.js.
 
 ## Terminal, any agent
 
@@ -73,7 +73,7 @@ The plugin is the best fit here: the skills load directly.
 Or, as a connector, in a terminal:
 
 ```bash
-claude mcp add phygital-brain -- npx -y github:Phygital-Brain/phygital-brain
+claude mcp add phygital-brain -- npx -y phygital-brain
 ```
 
 ## Cursor
@@ -87,7 +87,7 @@ By hand: add this to Cursor's `mcp.json`.
   "mcpServers": {
     "phygital-brain": {
       "command": "npx",
-      "args": ["-y", "github:Phygital-Brain/phygital-brain"]
+      "args": ["-y", "phygital-brain"]
     }
   }
 }
@@ -97,7 +97,7 @@ By hand: add this to Cursor's `mcp.json`.
 
 Click **Add to VS Code** above. VS Code opens and asks to install the **phygital-brain** server. Click **Install**. It works with the agent mode of VS Code's chat.
 
-By hand: run **MCP: Add Server** from the Command Palette, choose **Command (stdio)**, and enter `npx -y github:Phygital-Brain/phygital-brain`.
+By hand: run **MCP: Add Server** from the Command Palette, choose **Command (stdio)**, and enter `npx -y phygital-brain`.
 
 ## Codex
 
@@ -106,7 +106,7 @@ Add this to Codex's config file, `~/.codex/config.toml`:
 ```toml
 [mcp_servers.phygital-brain]
 command = "npx"
-args = ["-y", "github:Phygital-Brain/phygital-brain"]
+args = ["-y", "phygital-brain"]
 ```
 
 Restart Codex, open it on your brain folder, and say "Set up my second brain."
@@ -116,20 +116,20 @@ Restart Codex, open it on your brain folder, and say "Set up my second brain."
 Both can use MCP servers. Add Phygital Brain as a **stdio** server in their MCP settings, with:
 
 - **Command:** `npx`
-- **Arguments:** `-y github:Phygital-Brain/phygital-brain`
+- **Arguments:** `-y phygital-brain`
 
 The settings file and its format are in each agent's own docs. Point the agent at your brain folder, and say "Set up my second brain." If it doesn't read `CLAUDE.md` by itself, start each chat with "Read CLAUDE.md first." See [Other agents](other-agents.md).
 
 ## Any other agent
 
-Any agent that takes MCP servers works the same way: a stdio server with the command `npx -y github:Phygital-Brain/phygital-brain`. Many use this format:
+Any agent that takes MCP servers works the same way: a stdio server with the command `npx -y phygital-brain`. Many use this format:
 
 ```json
 {
   "mcpServers": {
     "phygital-brain": {
       "command": "npx",
-      "args": ["-y", "github:Phygital-Brain/phygital-brain"]
+      "args": ["-y", "phygital-brain"]
     }
   }
 }
@@ -139,7 +139,7 @@ No MCP? Download this repository, open your agent on your brain folder, and say:
 
 ## Updating
 
-- **Connector with npx:** it runs the newest version from GitHub each time it starts.
+- **Connector with npx:** it runs the newest version from npm each time it starts.
 - **Claude desktop file:** download the new `phygital-brain.mcpb` from the latest release and install it over the old one.
 - **Claude Code plugin:** `/plugin marketplace update phygital-brain`.
 

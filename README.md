@@ -171,9 +171,9 @@ You need an AI agent that can work in a folder, a cloud drive your agent can con
 <p align="center">
 <a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="docs/images/buttons/claude-desktop.png" width="240" alt="Add to Claude desktop"></a>
 <a href="docs/install.md#claude-code"><img src="docs/images/buttons/claude-code.png" width="240" alt="Install in Claude Code"></a>
-<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsImdpdGh1YjpQaHlnaXRhbC1CcmFpbi9waHlnaXRhbC1icmFpbiJdfQ=="><img src="docs/images/buttons/cursor.png" width="240" alt="Add to Cursor"></a>
+<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsInBoeWdpdGFsLWJyYWluIl19"><img src="docs/images/buttons/cursor.png" width="240" alt="Add to Cursor"></a>
 <br>
-<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522github%253APhygital-Brain%252Fphygital-brain%2522%255D%257D"><img src="docs/images/buttons/vscode.png" width="240" alt="Add to VS Code"></a>
+<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522phygital-brain%2522%255D%257D"><img src="docs/images/buttons/vscode.png" width="240" alt="Add to VS Code"></a>
 <a href="docs/install.md#codex"><img src="docs/images/buttons/codex.png" width="240" alt="Set up in Codex"></a>
 <a href="docs/install.md#hermes-agent-and-openclaw"><img src="docs/images/buttons/other-agents.png" width="240" alt="Set up in Hermes Agent or OpenClaw"></a>
 </p>
@@ -352,7 +352,8 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 | `scripts/` | The checks to run before a change (`python3 scripts/check.py`) |
 | `.claude-plugin/` | The plugin files, for installing it in Claude |
 | `mcp/` | The connector (an MCP server, no dependencies) for agents that take MCP servers |
-| `package.json` | Lets `npx` run the connector straight from GitHub |
+| `package.json` | The npm package, so `npx -y phygital-brain` runs the connector |
+| `.github/workflows/` | Publishes each new release to npm and attaches the Claude desktop file |
 
 <p align="center"><img src="docs/images/ownership.png" alt="Your notes. Any AI. It remembers you. Your brain folder in your drive, plain text and yours, sits in the middle, linked to Claude, Codex, Hermes Agent, OpenClaw, Cursor and the next AI you pick. Switch to another AI any time: it reads the same notes, so you never start over. Free and open source." width="100%"></p>
 
