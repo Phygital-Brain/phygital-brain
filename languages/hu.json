@@ -122,7 +122,11 @@
     "finish_cloud_on": "Az agyad a felhőtárhelyeden van, így van róla mentés, és a telefonodon is ott van.",
     "finish_keeper_short": "Minden munkanapon {keeper time}-kor a Rendrakó rendet rak helyetted a jegyzeteidben.",
     "baalda_offer": "Szeretnéd appként böngészni a jegyzeteidet? A Baalda jegyzetalkalmazásként mutatja meg az agyadat a gépeden.",
-    "baalda_install_button": "Baalda telepítése"
+    "baalda_install_button": "Baalda telepítése",
+    "phone_drive_needed": "Az agyadnak kell egy felhőtárhely, ahol lakhat, hogy a telefonodról is elérd. Csatlakoztassunk egyet.",
+    "phone_google_account": "Még nincs Google-fiókod? Készíts egyet ingyen az accounts.google.com oldalon. 15 GB Google Drive jár hozzá.",
+    "phone_icloud": "Az ügynököd telefonon még nem tudja használni az iCloudot. A Google Drive a legegyszerűbb választás: ingyenes, és azonnal működik.",
+    "phone_drive_stop": "Semmi gond. Ha csatlakoztattad a tárhelyedet, gyere vissza, és mondd: \"Építsd fel a második agyamat a telefonomon\"."
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Beállítás, 1. űrlap (4-ből): rólad.",

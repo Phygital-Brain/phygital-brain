@@ -122,6 +122,10 @@
     "finish_cloud_on": "Nasa cloud drive mo ang utak mo, kaya may backup ito at nasa phone mo rin.",
     "finish_keeper_short": "Tuwing araw ng trabaho nang {keeper time}, inaayos ng Taga-ayos ng Utak ang mga note mo para sa iyo.",
     "baalda_offer": "Gusto mo bang tingnan ang mga note mo na parang app? Ipinapakita ng Baalda ang utak mo bilang notes app sa computer mo.",
-    "baalda_install_button": "I-install ang Baalda"
+    "baalda_install_button": "I-install ang Baalda",
+    "phone_drive_needed": "Kailangan ng utak mo ng cloud drive na matitirhan, para mabuksan mo ito sa phone mo. Magkonekta tayo ng isa.",
+    "phone_google_account": "Wala ka pang Google account? Gumawa ng libre sa accounts.google.com. May kasama itong 15 GB ng Google Drive.",
+    "phone_icloud": "Hindi pa magagamit ng agent mo ang iCloud sa phone. Google Drive ang pinakamadaling piliin: libre ito at gumagana agad.",
+    "phone_drive_stop": "Okay lang. Kapag nakakonekta na ang drive mo, bumalik ka at sabihin ang \"Buuin ang pangalawang utak ko sa phone ko\"."
   }
 }

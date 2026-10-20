@@ -122,7 +122,11 @@
     "finish_cloud_on": "Aivosi ovat pilvipalvelussasi, joten ne ovat tallessa ja myös puhelimessasi.",
     "finish_keeper_short": "Joka työpäivä kello {keeper time} Siivousapuri siistii muistiinpanosi puolestasi.",
     "baalda_offer": "Haluatko selata muistiinpanojasi kuin sovelluksessa? Baalda näyttää aivosi muistiinpanosovelluksena tietokoneellasi.",
-    "baalda_install_button": "Asenna Baalda"
+    "baalda_install_button": "Asenna Baalda",
+    "phone_drive_needed": "Aivosi tarvitsevat pilvipalvelun, jossa ne asuvat, jotta pääset niihin puhelimelta. Yhdistetään sellainen.",
+    "phone_google_account": "Eikö sinulla ole vielä Google-tiliä? Tee ilmainen tili osoitteessa accounts.google.com. Mukana tulee 15 GB Google Drivea.",
+    "phone_icloud": "Agenttisi ei vielä voi käyttää iCloudia puhelimella. Google Drive on helpoin vaihtoehto: se on ilmainen ja toimii heti.",
+    "phone_drive_stop": "Ei haittaa. Kun pilvipalvelusi on yhdistetty, tule takaisin ja sano \"Rakenna toiset aivoni puhelimeeni\"."
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Käyttöönotto, lomake 1/4: kuka olet.",

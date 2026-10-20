@@ -122,6 +122,10 @@
     "finish_cloud_on": "Din hjärna ligger i din molnlagring, så den har en säkerhetskopia och finns i mobilen också.",
     "finish_keeper_short": "Varje arbetsdag klockan {keeper time} städar Städhjälpen i dina anteckningar åt dig.",
     "baalda_offer": "Vill du bläddra i dina anteckningar som i en app? Baalda visar din hjärna som en anteckningsapp på din dator.",
-    "baalda_install_button": "Installera Baalda"
+    "baalda_install_button": "Installera Baalda",
+    "phone_drive_needed": "Din hjärna behöver en molnlagring att bo i, så att du kan nå den från mobilen. Låt oss ansluta en.",
+    "phone_google_account": "Har du inget Google-konto än? Skapa ett gratis på accounts.google.com. Du får 15 GB Google Drive på köpet.",
+    "phone_icloud": "Din agent kan inte använda iCloud i mobilen än. Google Drive är enklast: det är gratis och fungerar direkt.",
+    "phone_drive_stop": "Inga problem. När din molnlagring är ansluten kan du komma tillbaka och säga \"Bygg min andra hjärna i mobilen\"."
   }
 }

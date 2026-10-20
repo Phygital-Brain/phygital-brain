@@ -122,7 +122,11 @@
     "finish_cloud_on": "Twój mózg jest na dysku w chmurze, więc ma kopię zapasową i masz go też na telefonie.",
     "finish_keeper_short": "W każdy dzień roboczy o {keeper time} Opiekun mózgu porządkuje za ciebie twoje notatki.",
     "baalda_offer": "Chcesz przeglądać notatki jak w aplikacji? Baalda pokazuje twój mózg jako aplikację do notatek na komputerze.",
-    "baalda_install_button": "Zainstaluj Baaldę"
+    "baalda_install_button": "Zainstaluj Baaldę",
+    "phone_drive_needed": "Twój mózg potrzebuje miejsca na dysku w chmurze, żeby był dostępny na telefonie. Połączmy jakiś dysk.",
+    "phone_google_account": "Nie masz jeszcze konta Google? Załóż darmowe na accounts.google.com. Dostajesz z nim 15 GB na Google Drive.",
+    "phone_icloud": "Twój agent nie może jeszcze korzystać z iCloud na telefonie. Google Drive to najprostszy wybór: jest darmowy i działa od razu.",
+    "phone_drive_stop": "Nie ma sprawy. Kiedy dysk będzie połączony, wróć tutaj i napisz „Zbuduj mój drugi mózg na telefonie”."
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formularz konfiguracji 1 z 4: o tobie.",

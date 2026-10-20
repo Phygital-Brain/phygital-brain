@@ -122,7 +122,11 @@
     "finish_cloud_on": "Seu cérebro está no seu drive na nuvem, então tem cópia de segurança e também está no seu celular.",
     "finish_keeper_short": "Todo dia de trabalho às {keeper time}, o Guardião do Cérebro arruma suas notas para você.",
     "baalda_offer": "Quer navegar pelas suas notas como em um app? O Baalda mostra seu cérebro como um app de notas no seu computador.",
-    "baalda_install_button": "Instalar o Baalda"
+    "baalda_install_button": "Instalar o Baalda",
+    "phone_drive_needed": "Seu cérebro precisa morar em um drive na nuvem para você acessar pelo celular. Vamos conectar um.",
+    "phone_google_account": "Ainda não tem uma conta Google? Crie uma de graça em accounts.google.com. Ela vem com 15 GB de Google Drive.",
+    "phone_icloud": "Seu agente ainda não consegue usar o iCloud no celular. O Google Drive é a opção mais fácil: é grátis e funciona na hora.",
+    "phone_drive_stop": "Sem problema. Quando seu drive estiver conectado, volte aqui e diga \"Monte meu segundo cérebro no celular\"."
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formulário de configuração 1 de 4: sobre você.",

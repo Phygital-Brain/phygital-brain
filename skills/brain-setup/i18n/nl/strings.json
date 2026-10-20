@@ -122,6 +122,10 @@
     "finish_cloud_on": "Je brein staat in je cloudopslag, dus er is een back-up en je hebt het ook op je telefoon.",
     "finish_keeper_short": "Elke werkdag om {keeper time} ruimt de Opruimhulp je notities voor je op.",
     "baalda_offer": "Wil je door je notities bladeren zoals in een app? Baalda laat je brein zien als notitie-app op je computer.",
-    "baalda_install_button": "Baalda installeren"
+    "baalda_install_button": "Baalda installeren",
+    "phone_drive_needed": "Je brein heeft cloudopslag nodig om in te wonen, zodat je het vanaf je telefoon kunt bereiken. Laten we er een koppelen.",
+    "phone_google_account": "Nog geen Google-account? Maak er gratis een aan op accounts.google.com. Je krijgt er 15 GB Google Drive bij.",
+    "phone_icloud": "Je agent kan iCloud op een telefoon nog niet gebruiken. Google Drive is de makkelijkste keuze: het is gratis en werkt meteen.",
+    "phone_drive_stop": "Geen probleem. Als je cloudopslag gekoppeld is, kom dan terug en zeg \"Bouw mijn tweede brein op mijn telefoon\"."
   }
 }

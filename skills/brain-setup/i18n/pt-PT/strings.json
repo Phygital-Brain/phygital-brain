@@ -122,6 +122,10 @@
     "finish_cloud_on": "O teu cérebro está na nuvem, por isso tem uma cópia de segurança e também está no teu telemóvel.",
     "finish_keeper_short": "Em todos os dias de trabalho, às {keeper time}, o Organizador arruma as tuas notas por ti.",
     "baalda_offer": "Queres ver as tuas notas como numa app? O Baalda mostra o teu cérebro como uma app de notas no teu computador.",
-    "baalda_install_button": "Instalar o Baalda"
+    "baalda_install_button": "Instalar o Baalda",
+    "phone_drive_needed": "O teu cérebro precisa de viver numa nuvem para lhe poderes chegar a partir do telemóvel. Vamos ligar uma.",
+    "phone_google_account": "Ainda não tens conta Google? Cria uma grátis em accounts.google.com. Vem com 15 GB de Google Drive.",
+    "phone_icloud": "O teu agente ainda não consegue usar o iCloud no telemóvel. O Google Drive é a opção mais fácil: é grátis e funciona logo.",
+    "phone_drive_stop": "Não faz mal. Quando a tua nuvem estiver ligada, volta aqui e diz \"Cria o meu segundo cérebro no telemóvel\"."
   }
 }

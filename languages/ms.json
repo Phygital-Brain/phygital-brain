@@ -122,7 +122,11 @@
     "finish_cloud_on": "Otak anda ada dalam storan awan anda, jadi ia ada salinan sandaran dan boleh digunakan dari telefon bimbit juga.",
     "finish_keeper_short": "Setiap hari bekerja pada pukul {keeper time}, Penjaga Otak mengemas nota anda untuk anda.",
     "baalda_offer": "Mahu melihat nota anda seperti dalam aplikasi? Baalda memaparkan otak anda sebagai aplikasi nota pada komputer anda.",
-    "baalda_install_button": "Pasang Baalda"
+    "baalda_install_button": "Pasang Baalda",
+    "phone_drive_needed": "Otak anda perlu tempat dalam storan awan supaya anda boleh mencapainya dari telefon bimbit. Jom sambungkan satu.",
+    "phone_google_account": "Belum ada akaun Google? Buat akaun percuma di accounts.google.com. Ia datang dengan 15 GB Google Drive.",
+    "phone_icloud": "iCloud belum boleh digunakan oleh ejen anda pada telefon bimbit. Google Drive pilihan paling mudah: ia percuma dan terus berfungsi.",
+    "phone_drive_stop": "Tiada masalah. Apabila storan awan anda sudah disambungkan, kembali ke sini dan sebut \"Bina otak kedua saya di telefon bimbit\"."
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Borang persediaan 1 daripada 4: tentang anda.",

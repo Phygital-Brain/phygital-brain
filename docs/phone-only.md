@@ -17,7 +17,7 @@ The steps use **Claude and Google Drive**. So far we've tested this only with Cl
 - **Code execution and file creation.** Your agent needs it to save files in your drive.
 - **Web search.** Your agent needs it to read the setup instructions from this page.
 
-**3. Connect Google Drive.** In Settings, open Connectors, tap Google Drive, then Connect, and sign in with your Google account. Allow what it asks.
+**3. Connect Google Drive.** In Settings, open Connectors, tap Google Drive, then Connect, and sign in with your Google account. Allow what it asks. Using Dropbox, OneDrive or Nextcloud instead? Connect it the same way. No drive yet, or stuck? Skip this step: your agent helps you during the setup.
 
 If it's not in the app, open claude.ai in your phone's browser, sign in, and do the same there. It's the same account.
 
@@ -45,17 +45,17 @@ Read only what you need: `SKILL.md`, the forms or `forms/questions.md`, the temp
 
 ### 2. Check before you start
 
-Do these checks before the first question. If one fails, tell the person in one plain line what to turn on (from the steps above), and wait.
+1. **You can read the setup:** you could read `SKILL.md`. If you can't open web pages, ask them to turn on web search, and wait.
 
-1. **Drive connector:** you have Google Drive tools in this chat.
-2. **You can write:** create a folder called `My Brain` in the root of their drive (ask them first; if a `My Brain` folder already exists, follow `SKILL.md` Step 0.2 on it). Save a small test file in it, read it back, then move it to the trash. If you can't save files, ask them to turn on code execution and file creation (step 2 above), then try again.
-3. **You can read the setup:** you could read `SKILL.md`. If you can't open web pages, ask them to turn on web search.
+Then follow `SKILL.md` from Step 0: the language, the welcome, then the cloud drive in Step 1.6, "On a phone". It helps them connect Google Drive or another drive if it isn't connected yet. When the drive is connected, do the folder check:
+
+2. **The folder:** create a folder called `My Brain` in the root of their drive (ask them first; if a `My Brain` folder already exists, follow `SKILL.md` Step 0.2 on it). Save a small test file in it, read it back, then delete it. If you can't save files, ask them to turn on code execution and file creation (step 2 above), then try again.
 
 `My Brain` is the selected folder for the whole setup. Every path in `SKILL.md` (`About/me.md`, `Daily/...`) is inside it.
 
 ### 3. What changes from `SKILL.md`
 
-- **Step 1.6:** skip it. The brain is already in Google Drive, the connector works, and Baalda is a computer app.
+- **Step 1.6:** use its "On a phone" part: no "later", because the brain needs the drive.
 - **Forms and windows:** on a phone, never use form windows, even if you have the tool (in Claude, `show_widget`): they don't work well there. Ask the language question, the welcome and the forms as click questions, and use `forms/questions.md` for the four forms. For a ready language, take the same questions and options from that language's forms in `i18n/{code}/forms/`, so they're already translated. Ask them as click questions where you have them, numbered options in chat where you don't. Keep answers short, because typing on a phone is slow.
 - **Form 4 (files):** they can attach photos, screenshots or files from their phone in this chat, or paste links. Read them as `SKILL.md` says.
 - **Files:** save every note as plain text Markdown (`.md`), never as a Google Doc or a Word file. Keep the exact file names, including `CLAUDE.md` and `.claudeignore`. Create each folder before the files inside it. Copy `bundled/no-ai-slop/` unchanged.
@@ -66,10 +66,10 @@ Do these checks before the first question. If one fails, tell the person in one 
 
 Use `SKILL.md` Step 4, with these changes:
 
-- Item 4: "Start a new chat, check Google Drive is on, and talk to me the way you'd talk to a friend."
-- Item 5: the brain is in Google Drive, so say `finish_cloud_on`.
+- Item 4: "Start a new chat, check your drive's connector is on, and talk to me the way you'd talk to a friend."
+- Item 5: the brain is in their drive, so say `finish_cloud_on`.
 - Skip Step 4.1 (Baalda): it's a computer app.
-- Add the instructions text (`SKILL.md`, "The instructions text"), with one more sentence first, in their language: "My second brain is the My Brain folder in my Google Drive. At the start of every chat, read My Brain/CLAUDE.md through the Google Drive connector and follow it." Tell them where to paste it: in the Claude app, Settings, then the personal instructions box. Without it, a new chat won't know the brain is there.
-- Add one line: "To read your notes yourself, open the Google Drive app, then My Brain."
+- Add the instructions text (`SKILL.md`, "The instructions text"), with one more sentence first, in their language: "My second brain is the My Brain folder in my {drive}. At the start of every chat, read My Brain/CLAUDE.md through the {drive} connector and follow it." (with their drive's name) Tell them where to paste it: in the Claude app, Settings, then the personal instructions box. Without it, a new chat won't know the brain is there.
+- Add one line: "To read your notes yourself, open the {drive} app, then My Brain."
 
 Then stop.

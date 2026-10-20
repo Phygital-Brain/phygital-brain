@@ -122,7 +122,11 @@
     "finish_cloud_on": "Beynin bulut depolamanda, yani yedeği alınıyor ve telefonunda da duruyor.",
     "finish_keeper_short": "Düzen Bekçisi her iş günü notlarını senin için toparlar (saat {keeper time}).",
     "baalda_offer": "Notlarına bir uygulamadaki gibi göz atmak ister misin? Baalda, beynini bilgisayarında bir not uygulaması olarak gösterir.",
-    "baalda_install_button": "Baalda'yı yükle"
+    "baalda_install_button": "Baalda'yı yükle",
+    "phone_drive_needed": "Beyninin yaşayacağı bir bulut depolamaya ihtiyacı var, böylece ona telefonundan ulaşabilirsin. Hadi bir tane bağlayalım.",
+    "phone_google_account": "Henüz Google hesabın yok mu? accounts.google.com adresinden ücretsiz bir tane aç. Yanında 15 GB Google Drive alanı gelir.",
+    "phone_icloud": "Asistanın telefonda henüz iCloud'u kullanamıyor. En kolay seçenek Google Drive: ücretsiz ve hemen çalışır.",
+    "phone_drive_stop": "Sorun değil. Bulut depolaman bağlandığında geri gel ve \"İkinci beynimi telefonumda kur\" de."
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Kurulum formu 1/4: seni tanıyalım.",

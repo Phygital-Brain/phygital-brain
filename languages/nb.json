@@ -122,7 +122,11 @@
     "finish_cloud_on": "Hjernen din ligger i skylagringen din, så den er sikkerhetskopiert og finnes på mobilen også.",
     "finish_keeper_short": "Hver arbeidsdag klokken {keeper time} rydder Ryddehjelperen i notatene dine for deg.",
     "baalda_offer": "Vil du bla i notatene dine som i en app? Baalda viser hjernen din som en notatapp på datamaskinen din.",
-    "baalda_install_button": "Installer Baalda"
+    "baalda_install_button": "Installer Baalda",
+    "phone_drive_needed": "Hjernen din trenger en skylagring å bo i, så du kan nå den fra mobilen. La oss koble til en.",
+    "phone_google_account": "Har du ikke en Google-konto ennå? Lag en gratis på accounts.google.com. Den kommer med 15 GB Google Drive.",
+    "phone_icloud": "Agenten din kan ikke bruke iCloud fra mobilen ennå. Google Drive er det enkleste valget: det er gratis og fungerer med en gang.",
+    "phone_drive_stop": "Helt greit. Når skylagringen din er koblet til, kom tilbake og si «Bygg den andre hjernen min på mobilen»."
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Oppsettskjema 1 av 4: om deg.",

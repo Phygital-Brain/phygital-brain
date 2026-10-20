@@ -122,6 +122,10 @@
     "finish_cloud_on": "ブレインはクラウドドライブにあるので、バックアップされ、スマホからも使えます。",
     "finish_keeper_short": "仕事の日は毎日{keeper time}に、ブレイン整理係がノートを整理しておきます。",
     "baalda_offer": "ノートをアプリのように見てみませんか？Baaldaを使うと、パソコンでブレインをノートアプリとして見られます。",
-    "baalda_install_button": "Baaldaをインストールする"
+    "baalda_install_button": "Baaldaをインストールする",
+    "phone_drive_needed": "スマホからブレインを使うには、ブレインを置くクラウドドライブが必要です。さっそく接続しましょう。",
+    "phone_google_account": "Googleアカウントをまだ持っていませんか？accounts.google.comで無料で作れます。Google Driveが15 GB付いてきます。",
+    "phone_icloud": "スマホのエージェントからは、まだiCloudを使えません。いちばん簡単なのはGoogle Driveです。無料で、すぐに使えます。",
+    "phone_drive_stop": "大丈夫です。ドライブを接続したら、戻ってきて「スマホにセカンドブレインを作って」と言ってください。"
   }
 }

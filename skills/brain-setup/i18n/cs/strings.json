@@ -122,6 +122,10 @@
     "finish_cloud_on": "Tvůj mozek je v cloudovém úložišti, takže je zálohovaný a máš ho i v telefonu.",
     "finish_keeper_short": "Každý pracovní den v {keeper time} ti Správce mozku uklidí poznámky.",
     "baalda_offer": "Chceš si poznámky prohlížet jako v aplikaci? Baalda ti ukáže tvůj mozek jako aplikaci na poznámky v počítači.",
-    "baalda_install_button": "Nainstalovat Baaldu"
+    "baalda_install_button": "Nainstalovat Baaldu",
+    "phone_drive_needed": "Tvůj mozek potřebuje cloudové úložiště, kde bude bydlet, aby byl dostupný i z telefonu. Pojďme jedno propojit.",
+    "phone_google_account": "Ještě nemáš účet Google? Založ si ho zdarma na accounts.google.com. Dostaneš k němu 15 GB na Google Drive.",
+    "phone_icloud": "iCloud zatím tvůj agent v telefonu používat nemůže. Nejjednodušší volba je Google Drive: je zdarma a funguje hned.",
+    "phone_drive_stop": "Nevadí. Až budeš mít úložiště propojené, vrať se a řekni „Postav můj druhý mozek v telefonu“."
   }
 }

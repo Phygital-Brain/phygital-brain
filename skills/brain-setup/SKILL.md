@@ -5,7 +5,7 @@ description: Build a Phygital Brain second brain in the selected folder through 
 
 # Phygital Brain: Setup
 
-Version 0.1.7. Everything below is for the agent. Follow it step by step, and check each step before moving on.
+Version 0.1.8. Everything below is for the agent. Follow it step by step, and check each step before moving on.
 
 ## What you are building
 
@@ -98,7 +98,7 @@ Without a form window, or on a phone, send the same texts as one chat message, w
 
 ## Step 1.6: Cloud drive
 
-The cloud drive is part of the brain unless the person says they don't want it: it backs the brain up and lets them use it from their phone. On a phone (`docs/phone-only.md`) skip this step: the brain is already in their drive.
+The cloud drive is part of the brain unless the person says they don't want it: it backs the brain up and lets them use it from their phone. On a phone (`docs/phone-only.md`), use **On a phone** at the end of this step instead.
 
 Each `name` below is a message: for a ready language, say it from `strings.json` (`messages`); otherwise say the English text given here, translated into their language. For each window, without a form window use a click question with the same texts and options.
 
@@ -114,6 +114,15 @@ Each `name` below is a message: for a ready language, say it from `strings.json`
 3. **Does the drive see this folder?** Say `drive_checking` ("Checking that your agent can see this folder in {drive}…"). Save a small file called `phygital-brain-check.md` in the brain folder with your own file tools. Then look for it by name through the drive's tools.
    - Found: delete it, say `drive_ok` ("Connected. Your brain will be on your phone too."), and go on.
    - Not found: the drive may still be syncing. Wait about 30 seconds and look again, up to three times. Still not found: delete the file, say `drive_failed` ("Your agent can't find this folder in {drive} yet. Check that the folder is inside your {drive} folder and that the connector is on. Syncing can take a minute.") and ask `try_again` ("Try again") (do 3 again) · the cloud form's "Set it up later" (say `drive_later_note`, remember it for the finish message).
+
+**On a phone.** The drive isn't optional there: it's the only place the brain can be saved. If you have tools for a cloud drive in this chat, do the folder check in `docs/phone-only.md` (step 2: make the `My Brain` folder and test it), then go on to Step 2. If not:
+
+1. Say `phone_drive_needed` ("Your brain needs a cloud drive to live in, so you can reach it from your phone. Let's connect one.") and ask two click questions: `Google Drive` · `drive_other`, then for Other: `Dropbox` · `OneDrive` · `Nextcloud` · `iCloud`, with the box for any other drive. No "later" here.
+2. Google Drive: say `drive_connect_google` (tap instead of click), then `phone_google_account` ("No Google account yet? Make a free one at accounts.google.com. It comes with 15 GB of Google Drive.")
+3. iCloud: say `phone_icloud` ("iCloud can't be used from your agent on a phone yet. Google Drive is the easiest choice: it's free and works right away.") and ask the first question again.
+4. Any other drive: say `drive_connect_other`, with `{drive}` as its name.
+5. Then one click option: `drive_connected_button`, or `phone_drive_stop` ("No problem. When your drive is connected, come back and say "Build my second brain on my phone".") if they'd rather stop. When they click it and the drive's tools still aren't in this chat, ask them to turn the connector on for this chat (the **+** button, then Connectors) and try again.
+6. Then do the folder check in `docs/phone-only.md` (step 2), and go on to Step 2.
 
 ## Step 2: The forms
 

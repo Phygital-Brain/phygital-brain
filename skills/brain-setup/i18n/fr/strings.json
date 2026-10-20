@@ -122,6 +122,10 @@
     "finish_cloud_on": "Votre cerveau est dans votre cloud : il est sauvegardé, et il est aussi sur votre téléphone.",
     "finish_keeper_short": "Chaque jour travaillé à {keeper time}, le Gardien du cerveau range vos notes pour vous.",
     "baalda_offer": "Envie de parcourir vos notes comme dans une app ? Baalda affiche votre cerveau sous forme d'app de notes sur votre ordinateur.",
-    "baalda_install_button": "Installer Baalda"
+    "baalda_install_button": "Installer Baalda",
+    "phone_drive_needed": "Votre cerveau a besoin d'un cloud où vivre, pour que vous puissiez y accéder depuis votre téléphone. Connectons-en un.",
+    "phone_google_account": "Pas encore de compte Google ? Créez-en un gratuitement sur accounts.google.com. Il inclut 15 GB de Google Drive.",
+    "phone_icloud": "Votre agent ne peut pas encore utiliser iCloud sur un téléphone. Google Drive est le choix le plus simple : c'est gratuit et ça marche tout de suite.",
+    "phone_drive_stop": "Pas de souci. Quand votre cloud est connecté, revenez et dites « Construis mon second cerveau sur mon téléphone »."
   }
 }

@@ -122,6 +122,10 @@
     "finish_cloud_on": "Creierul tău e în cloud, așa că are o copie de siguranță și e și pe telefon.",
     "finish_keeper_short": "În fiecare zi lucrătoare, la {keeper time}, Îngrijitorul creierului îți face ordine în notițe.",
     "baalda_offer": "Vrei să-ți răsfoiești notițele ca într-o aplicație? Baalda îți arată creierul ca pe o aplicație de notițe, pe calculator.",
-    "baalda_install_button": "Instalează Baalda"
+    "baalda_install_button": "Instalează Baalda",
+    "phone_drive_needed": "Creierul tău are nevoie de un spațiu în cloud, ca să-l poți folosi de pe telefon. Hai să conectăm unul.",
+    "phone_google_account": "Nu ai încă un cont Google? Fă-ți unul gratuit pe accounts.google.com. Primești și 15 GB de Google Drive.",
+    "phone_icloud": "Agentul tău nu poate folosi încă iCloud de pe telefon. Google Drive e cea mai simplă variantă: e gratuit și merge imediat.",
+    "phone_drive_stop": "Nicio problemă. După ce ți-ai conectat cloud-ul, revino și spune \"Construiește-mi al doilea creier pe telefon\"."
   }
 }

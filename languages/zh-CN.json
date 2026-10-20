@@ -122,7 +122,11 @@
     "finish_cloud_on": "你的大脑在云盘里，所以有备份，用手机也能打开。",
     "finish_keeper_short": "每个工作日 {keeper time}，大脑管家会帮你整理笔记。",
     "baalda_offer": "想用应用的方式浏览笔记吗？Baalda 能把你的大脑变成电脑上的一个笔记应用。",
-    "baalda_install_button": "安装 Baalda"
+    "baalda_install_button": "安装 Baalda",
+    "phone_drive_needed": "你的大脑需要放在云盘里，这样你用手机也能打开。我们来连接一个吧。",
+    "phone_google_account": "还没有 Google 账号？在 accounts.google.com 免费注册一个，自带 15 GB 的 Google Drive 空间。",
+    "phone_icloud": "目前在手机上，你的 AI 助手还用不了 iCloud。Google Drive 是最简单的选择：免费，而且马上就能用。",
+    "phone_drive_stop": "没问题。等云盘连接好了，回来说“在我的手机上搭建我的第二大脑”就行。"
   },
   "forms": {
     "Setup form 1 of 4: about you.": "设置表单 1/4：关于你。",

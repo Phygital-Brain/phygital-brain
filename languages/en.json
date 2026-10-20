@@ -122,7 +122,11 @@
     "finish_cloud_on": "Your brain is in your cloud drive, so it's backed up and on your phone too.",
     "finish_keeper_short": "Every work day at {keeper time}, the Brain Keeper tidies your notes for you.",
     "baalda_offer": "Want to browse your notes like an app? Baalda shows your brain as a notes app on your computer.",
-    "baalda_install_button": "Install Baalda"
+    "baalda_install_button": "Install Baalda",
+    "phone_drive_needed": "Your brain needs a cloud drive to live in, so you can reach it from your phone. Let's connect one.",
+    "phone_google_account": "No Google account yet? Make a free one at accounts.google.com. It comes with 15 GB of Google Drive.",
+    "phone_icloud": "iCloud can't be used from your agent on a phone yet. Google Drive is the easiest choice: it's free and works right away.",
+    "phone_drive_stop": "No problem. When your drive is connected, come back and say \"Build my second brain on my phone\"."
   },
   "forms": {
     "Connect a cloud drive now or later.": "Connect a cloud drive now or later.",

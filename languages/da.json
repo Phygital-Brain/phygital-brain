@@ -122,7 +122,11 @@
     "finish_cloud_on": "Din hjerne ligger på dit cloud-drev, så den har en sikkerhedskopi og er også på din telefon.",
     "finish_keeper_short": "Hver arbejdsdag kl. {keeper time} rydder Oprydningshjælperen op i dine noter for dig.",
     "baalda_offer": "Vil du se dine noter som i en app? Baalda viser din hjerne som en noteapp på din computer.",
-    "baalda_install_button": "Installér Baalda"
+    "baalda_install_button": "Installér Baalda",
+    "phone_drive_needed": "Din hjerne skal bo på et cloud-drev, så du kan nå den fra din telefon. Lad os forbinde et.",
+    "phone_google_account": "Har du ikke en Google-konto endnu? Lav en gratis på accounts.google.com. Den kommer med 15 GB Google Drive.",
+    "phone_icloud": "Din agent kan endnu ikke bruge iCloud på en telefon. Google Drive er det nemmeste valg: det er gratis og virker med det samme.",
+    "phone_drive_stop": "Intet problem. Når dit drev er forbundet, så kom tilbage og sig \"Byg min anden hjerne på min telefon\"."
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Opsætning, formular 1 af 4: om dig.",

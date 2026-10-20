@@ -122,6 +122,10 @@
     "finish_cloud_on": "브레인이 클라우드 드라이브에 있어서 백업되고, 휴대폰에서도 쓸 수 있어요.",
     "finish_keeper_short": "일하는 날마다 {keeper time}에 정리 도우미가 노트를 대신 정리해 줘요.",
     "baalda_offer": "노트를 앱처럼 둘러보고 싶나요? Baalda를 쓰면 컴퓨터에서 브레인을 노트 앱으로 볼 수 있어요.",
-    "baalda_install_button": "Baalda 설치하기"
+    "baalda_install_button": "Baalda 설치하기",
+    "phone_drive_needed": "휴대폰에서 브레인을 쓰려면 브레인을 둘 클라우드 드라이브가 필요해요. 하나 연결해 볼게요.",
+    "phone_google_account": "아직 Google 계정이 없나요? accounts.google.com에서 무료로 만들 수 있어요. Google Drive 15 GB가 함께 제공돼요.",
+    "phone_icloud": "휴대폰의 에이전트는 아직 iCloud를 쓸 수 없어요. 가장 쉬운 선택은 Google Drive예요. 무료이고 바로 쓸 수 있어요.",
+    "phone_drive_stop": "괜찮아요. 드라이브를 연결한 다음 돌아와서 \"내 휴대폰에 세컨드 브레인 만들어 줘\"라고 말하세요."
   }
 }

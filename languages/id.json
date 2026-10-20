@@ -122,7 +122,11 @@
     "finish_cloud_on": "Otakmu ada di cloud drive, jadi sudah punya cadangan dan ada di HP-mu juga.",
     "finish_keeper_short": "Setiap hari kerja pukul {keeper time}, Penjaga Otak merapikan catatanmu untukmu.",
     "baalda_offer": "Mau melihat-lihat catatanmu seperti di aplikasi? Baalda menampilkan otakmu sebagai aplikasi catatan di komputermu.",
-    "baalda_install_button": "Pasang Baalda"
+    "baalda_install_button": "Pasang Baalda",
+    "phone_drive_needed": "Otakmu butuh cloud drive sebagai tempat tinggalnya, supaya bisa kamu buka dari HP. Yuk, hubungkan satu.",
+    "phone_google_account": "Belum punya akun Google? Buat gratis di accounts.google.com. Sudah termasuk 15 GB Google Drive.",
+    "phone_icloud": "Agenmu belum bisa memakai iCloud dari HP. Google Drive pilihan paling mudah: gratis dan langsung jalan.",
+    "phone_drive_stop": "Tidak apa-apa. Kalau drive-mu sudah terhubung, kembali lagi dan bilang \"Bangun otak keduaku di HP-ku\"."
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Formulir pengaturan 1 dari 4: tentang kamu.",

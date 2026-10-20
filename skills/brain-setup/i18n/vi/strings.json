@@ -122,6 +122,10 @@
     "finish_cloud_on": "Bộ não của bạn nằm trong ổ đám mây, nên luôn có bản sao lưu và có cả trên điện thoại.",
     "finish_keeper_short": "Lúc {keeper time} mỗi ngày làm việc, Quản gia sẽ dọn dẹp ghi chú giúp bạn.",
     "baalda_offer": "Bạn có muốn xem ghi chú như dùng một ứng dụng không? Baalda hiển thị bộ não của bạn thành một ứng dụng ghi chú trên máy tính.",
-    "baalda_install_button": "Cài đặt Baalda"
+    "baalda_install_button": "Cài đặt Baalda",
+    "phone_drive_needed": "Bộ não của bạn cần một ổ đám mây để ở, nhờ vậy bạn mở được nó từ điện thoại. Mình cùng kết nối một ổ nhé.",
+    "phone_google_account": "Chưa có tài khoản Google? Tạo miễn phí tại accounts.google.com. Bạn sẽ có sẵn 15 GB trên Google Drive.",
+    "phone_icloud": "Trên điện thoại, trợ lý AI của bạn chưa dùng được iCloud. Google Drive là lựa chọn dễ nhất: miễn phí và dùng được ngay.",
+    "phone_drive_stop": "Không sao. Khi đã kết nối ổ đám mây, bạn quay lại đây và nói \"Tạo bộ não thứ hai của mình trên điện thoại\"."
   }
 }

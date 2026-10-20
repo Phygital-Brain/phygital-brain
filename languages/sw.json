@@ -122,7 +122,11 @@
     "finish_cloud_on": "Ubongo wako uko kwenye hifadhi yako ya mtandaoni, kwa hiyo una nakala ya akiba na uko kwenye simu yako pia.",
     "finish_keeper_short": "Kila siku ya kazi saa {keeper time}, Mtunzaji wa Ubongo anakupangia noti zako.",
     "baalda_offer": "Ungependa kuvinjari noti zako kama programu? Baalda inaonyesha ubongo wako kama programu ya noti kwenye kompyuta yako.",
-    "baalda_install_button": "Sakinisha Baalda"
+    "baalda_install_button": "Sakinisha Baalda",
+    "phone_drive_needed": "Ubongo wako unahitaji hifadhi ya mtandaoni ya kukaa, ili uweze kuufikia kutoka kwenye simu yako. Tuunganishe moja.",
+    "phone_google_account": "Huna akaunti ya Google bado? Fungua moja bila malipo kwenye accounts.google.com. Inakuja na 15 GB za Google Drive.",
+    "phone_icloud": "Wakala wako bado hawezi kutumia iCloud kwenye simu. Google Drive ndiyo chaguo rahisi zaidi: ni bure na inafanya kazi mara moja.",
+    "phone_drive_stop": "Hakuna shida. Hifadhi yako ikishaunganishwa, rudi hapa na useme \"Jenga ubongo wangu wa pili kwenye simu yangu\"."
   },
   "forms": {
     "Setup form 1 of 4: about you.": "Fomu ya kuanza 1 kati ya 4: kukuhusu.",

@@ -122,6 +122,10 @@
     "finish_cloud_on": "Il tuo cervello è nel tuo cloud, quindi ha una copia di sicurezza ed è anche sul tuo telefono.",
     "finish_keeper_short": "Ogni giorno lavorativo alle {keeper time}, il Custode del Cervello mette in ordine le tue note al posto tuo.",
     "baalda_offer": "Vuoi sfogliare le tue note come in un'app? Baalda ti mostra il tuo cervello come un'app di note sul computer.",
-    "baalda_install_button": "Installa Baalda"
+    "baalda_install_button": "Installa Baalda",
+    "phone_drive_needed": "Il tuo cervello ha bisogno di un cloud in cui vivere, così puoi raggiungerlo dal telefono. Colleghiamone uno.",
+    "phone_google_account": "Non hai ancora un account Google? Creane uno gratis su accounts.google.com. Include 15 GB di Google Drive.",
+    "phone_icloud": "Il tuo agente non può ancora usare iCloud dal telefono. Google Drive è la scelta più facile: è gratis e funziona subito.",
+    "phone_drive_stop": "Nessun problema. Quando il tuo cloud è collegato, torna qui e di' \"Costruisci il mio secondo cervello sul telefono\"."
   }
 }

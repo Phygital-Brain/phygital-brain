@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.8 (2026-10-20)
+
+- Phone-only setup: with no cloud drive connected, your agent now helps you connect one, in your language, after the welcome. Google Drive (with a free account if you need one), Dropbox, OneDrive, Nextcloud or another drive. iCloud can't work from a phone yet, and your agent says so. There's no "later" on a phone, because the brain needs the drive.
+
 ## 0.1.7 (2026-10-20)
 
 - The language window shows the main languages (English, Portuguese, Spanish, French, German, Arabic, Japanese, Chinese) and Other. Every other ready language is typed in Other.
