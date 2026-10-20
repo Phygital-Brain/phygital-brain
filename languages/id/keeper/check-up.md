@@ -28,10 +28,13 @@ Telusuri seluruh folder dan daftar masalahnya dalam kelompok berikut:
 - **Aturan yang bertabrakan**: aturan di `CLAUDE.md` utama yang saling bertentangan.
 - **Privasi**: kata sandi, kunci, atau nomor pribadi yang ada di catatan biasa (aturan utama 25 dan 26). Laporkan catatannya, jangan pernah nilainya.
 - **Tulisan**: em dash dan pola Cek Tulisan di dalam catatan.
+- **Versi baru**: bandingkan versi otak ini (baris pertama `CLAUDE.md` utama) dengan versi Phygital Brain terbaru. Kalau kamu bisa membuka web, versi terbaru adalah rilis terakhir di https://github.com/Phygital-Brain/phygital-brain/releases/latest. Kalau tidak bisa, pakai versi Phygital Brain yang terpasang di agenmu, kalau terlihat. Kalau tidak bisa dipastikan, lewati bagian ini.
 
 ## 2. Laporan
 
 Daftar singkat dengan kata-kata sederhana, dikelompokkan seperti di atas. Untuk setiap masalah: catatannya, apa yang salah, dan perbaikan yang kamu sarankan. Taruh perbaikan yang sederhana dan aman di paling atas (em dash, tag yang kurang, baris tabel rute).
+
+Kalau ada versi yang lebih baru, mulai laporan dengan satu baris. Kalau agenmu sudah punya versi itu: "Ada versi baru Phygital Brain. Bilang 'perbarui otak keduaku' ('Upgrade my second brain') untuk melihat apa yang baru." Kalau belum: "Ada versi baru Phygital Brain. Perbarui dulu di agenmu, lalu bilang 'perbarui otak keduaku'."
 
 ## 3. Perbaiki hanya yang disetujui
 

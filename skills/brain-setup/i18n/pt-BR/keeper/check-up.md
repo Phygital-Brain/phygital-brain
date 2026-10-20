@@ -28,10 +28,13 @@ Procure na pasta inteira e liste os problemas nestes grupos:
 - **Regras em conflito**: regras do `CLAUDE.md` da raiz que se contradizem.
 - **Privacidade**: senhas, chaves ou números privados em notas comuns (regras 25 e 26 da raiz). Diga qual é a nota, nunca o valor.
 - **Escrita**: travessões longos e padrões da Revisão de Texto nas notas.
+- **Versão nova**: compare a versão deste cérebro (a primeira linha do `CLAUDE.md` da raiz) com a versão mais nova do Phygital Brain. Se você puder navegar na web, a mais nova é a última versão publicada em https://github.com/Phygital-Brain/phygital-brain/releases/latest. Se não puder, use a versão do Phygital Brain instalada no seu agente, se der para ver. Se não der para saber, pule esta parte.
 
 ## 2. Relatório
 
 Uma lista curta em palavras simples, agrupada como acima. Para cada problema: a nota, o que está errado, a correção que você sugere. Coloque primeiro as correções simples e seguras (travessões, tags faltando, linhas das tabelas de onde guardar).
+
+Se tiver uma versão mais nova, comece o relatório com uma linha. Se o seu agente já tem essa versão: "Saiu uma versão nova do Phygital Brain. Diga 'atualize meu segundo cérebro' ('Upgrade my second brain') para ver o que mudou." Se não tem: "Saiu uma versão nova do Phygital Brain. Atualize primeiro no seu agente, depois diga 'atualize meu segundo cérebro'."
 
 ## 3. Corrija só o que for aprovado
 

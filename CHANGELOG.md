@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3 (2026-10-20)
+
+- The Brain Keeper's check-up says when a new version of Phygital Brain is out, and how to get it.
+
 ## 0.1.2 (2026-10-20)
 
 - A language that isn't ready is now translated in full during the setup, folder and note names included, without questions. The rules are in `skills/brain-setup/translating.md`.

@@ -28,10 +28,13 @@ Parcourez tout le dossier et listez les problèmes dans ces groupes :
 - **Règles contradictoires** : des règles du `CLAUDE.md` racine qui se contredisent.
 - **Confidentialité** : des mots de passe, des clés ou des numéros privés dans des notes ordinaires (règles 25 et 26 du fichier racine). Indiquez la note, jamais la valeur.
 - **Écriture** : des tirets longs et des tics du Contrôle d'écriture dans les notes.
+- **Nouvelle version** : comparez la version de ce cerveau (la première ligne du `CLAUDE.md` racine) avec la version la plus récente de Phygital Brain. Si vous pouvez naviguer sur le web, la plus récente est la dernière version publiée sur https://github.com/Phygital-Brain/phygital-brain/releases/latest. Sinon, utilisez la version de Phygital Brain installée dans votre agent, si vous la voyez. Si vous ne pouvez pas savoir, passez ce point.
 
 ## 2. Faire le rapport
 
 Une liste courte, avec des mots simples, groupée comme ci-dessus. Pour chaque problème : la note, ce qui ne va pas, la correction que vous proposez. Mettez d'abord les corrections simples et sans risque (tirets longs, tags manquants, lignes des tableaux de rangement).
+
+S'il y a une version plus récente, commencez le rapport par une ligne. Si votre agent l'a déjà : « Une nouvelle version de Phygital Brain est sortie. Dites "mets à jour mon second cerveau" ("Upgrade my second brain") pour voir ce qui change. » Sinon : « Une nouvelle version de Phygital Brain est sortie. Mettez-la d'abord à jour dans votre agent, puis dites "mets à jour mon second cerveau". »
 
 ## 3. Corriger seulement ce qui est validé
 

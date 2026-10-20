@@ -28,10 +28,13 @@ Busca en toda la carpeta y haz una lista de problemas en estos grupos:
 - **Reglas que chocan**: reglas del `CLAUDE.md` principal que se contradicen entre sí.
 - **Privacidad**: contraseñas, claves o números privados metidos en notas normales (reglas principales 25 y 26). Di en qué nota están, nunca el dato.
 - **Escritura**: rayas largas y patrones del Control de Escritura en las notas.
+- **Versión nueva**: compara la versión de este cerebro (la primera línea del `CLAUDE.md` principal) con la versión más nueva de Phygital Brain. Si puedes navegar por la web, la más nueva es la última versión publicada en https://github.com/Phygital-Brain/phygital-brain/releases/latest. Si no puedes, usa la versión de Phygital Brain instalada en tu agente, si la puedes ver. Si no hay forma de saberlo, sáltate esto.
 
 ## 2. Informe
 
 Una lista corta con palabras sencillas, agrupada como arriba. Para cada problema: la nota, qué falla y el arreglo que sugieres. Pon primero los arreglos sencillos y seguros (rayas largas, etiquetas que faltan, filas de las tablas de rutas).
+
+Si hay una versión más nueva, empieza el informe con una línea. Si tu agente ya la tiene: "Hay una versión nueva de Phygital Brain. Di 'actualiza mi segundo cerebro' ('Upgrade my second brain') para ver qué hay de nuevo." Si no: "Hay una versión nueva de Phygital Brain. Primero actualízala en tu agente y luego di 'actualiza mi segundo cerebro'."
 
 ## 3. Arregla solo lo aprobado
 

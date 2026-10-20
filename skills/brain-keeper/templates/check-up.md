@@ -28,10 +28,13 @@ Search the whole folder and list problems in these groups:
 - **Rule conflicts**: rules in the root `CLAUDE.md` that contradict each other.
 - **Privacy**: passwords, keys or private numbers sitting in ordinary notes (root rules 25 and 26). Report the note, never the value.
 - **Writing**: em dashes and Writing Check patterns in notes.
+- **New version**: compare this brain's version (the first line of the root `CLAUDE.md`) with the newest Phygital Brain. If you can browse the web, the newest is the latest release at https://github.com/Phygital-Brain/phygital-brain/releases/latest. If you can't, use the version of Phygital Brain installed in your agent, if you can see it. If you can't tell, skip this.
 
 ## 2. Report
 
 A short list in plain words, grouped as above. For each problem: the note, what's wrong, the fix you suggest. Put the simple, safe fixes first (em dashes, missing tags, routing table rows).
+
+If a newer version is out, start the report with one line. If your agent already has it: "A new version of Phygital Brain is out. Say 'Upgrade my second brain' to see what's new." If not: "A new version of Phygital Brain is out. Update it in your agent first, then say 'Upgrade my second brain'."
 
 ## 3. Fix only what's approved
 

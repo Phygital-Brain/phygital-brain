@@ -28,10 +28,13 @@ Durchsuch den ganzen Ordner und liste Probleme in diesen Gruppen auf:
 - **Widersprüchliche Regeln**: Regeln in der Haupt-`CLAUDE.md`, die sich gegenseitig widersprechen.
 - **Datenschutz**: Passwörter, Schlüssel oder private Nummern in normalen Notizen (Hauptregeln 25 und 26). Nenn die Notiz, nie den Wert.
 - **Schreiben**: Gedankenstriche und Muster aus dem Schreibcheck in Notizen.
+- **Neue Version**: Vergleiche die Version dieses Gehirns (die erste Zeile der Haupt-`CLAUDE.md`) mit der neuesten Version von Phygital Brain. Wenn du im Web suchen kannst, ist die neueste die letzte Veröffentlichung auf https://github.com/Phygital-Brain/phygital-brain/releases/latest. Wenn nicht, nimm die Version von Phygital Brain, die in deinem Agenten installiert ist, falls du sie siehst. Wenn du es nicht herausfinden kannst, lass diesen Punkt aus.
 
 ## 2. Bericht
 
 Eine kurze Liste in einfachen Worten, gruppiert wie oben. Für jedes Problem: die Notiz, was nicht stimmt, die Korrektur, die du vorschlägst. Die einfachen, sicheren Korrekturen kommen zuerst (Gedankenstriche, fehlende Tags, Zeilen in Tabellen "Wo was hinkommt").
+
+Wenn es eine neuere Version gibt, beginne den Bericht mit einer Zeile. Wenn dein Agent sie schon hat: "Es gibt eine neue Version von Phygital Brain. Sag 'aktualisiere mein zweites Gehirn' ('Upgrade my second brain'), um zu sehen, was neu ist." Wenn nicht: "Es gibt eine neue Version von Phygital Brain. Aktualisiere sie zuerst in deinem Agenten, dann sag 'aktualisiere mein zweites Gehirn'."
 
 ## 3. Nur korrigieren, was freigegeben ist
 
