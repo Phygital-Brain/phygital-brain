@@ -104,7 +104,7 @@ Open a chat on your brain folder and talk normally:
 
 ## On your phone
 
-Ask your brain things from the Claude phone app, with Google Drive connected, and send tasks to your computer with Dispatch. See [Your brain on your phone](phone.md).
+Ask your brain things from your agent's phone app, with your cloud drive connected, and send tasks to your computer (in Claude, with Dispatch). See [Your brain on your phone](phone.md).
 
 ## Keeping it healthy
 
@@ -112,7 +112,7 @@ Ask your brain things from the Claude phone app, with Google Drive connected, an
 - **Check-up:** the Brain Keeper's other mode. Say "check up my brain" anytime for a full list of problems and suggested fixes. Nothing changes until you say yes.
 - **Morning brief:** if you chose one, it comes at your time on work days: your 3 most important things, what you're waiting on, and one decision to make. Say "morning brief" anytime.
 
-More in [Skills](folders/skills.md).
+More in [Skills](folders/skills.md). Questions: [FAQ](faq.md).
 
 ## Your own rules
 
@@ -141,7 +141,7 @@ Your brain speaks the language you chose. Notes, messages and the forms are in t
 - `.claudeignore` lists what your agent never reads unless you ask for that exact file: password and key files, and `Memory/finances/`. You can add your own private folders.
 - Private details (tax IDs, bank details, card numbers, full legal name, date of birth) live only in the one note that needs them, and are never repeated in replies.
 - Passwords, keys and tokens never go in a note. Use a password manager.
-- Your notes live in your own Google Drive. Your agent reads them when you open a chat on the folder.
+- Your notes live in your own cloud drive. Your agent reads them when you open a chat on the folder.
 
 ## What your agent never does
 

@@ -17,7 +17,7 @@ body:
     attributes:
       label: It's about
       options:
-        - "Getting started: Claude, Google Drive, Baalda, the plugin"
+        - "Getting started: your agent, your cloud drive, Baalda, the plugin"
         - "The setup forms"
         - "Using my brain every day"
         - "A folder or what goes where"

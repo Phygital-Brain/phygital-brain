@@ -58,7 +58,7 @@ The Brain Keeper looks after your brain in two ways.
 
 ### 1. Every day, on its own
 
-It runs at the time set in the setup, on your work days, while the Claude app is open. It never asks you anything. It does this:
+It runs at the time set in the setup, on your work days, while your agent's app is open. It never asks you anything. It does this:
 
 1. Checks that today's daily note has a correct info block.
 2. Makes tomorrow's daily note, with just the info block.

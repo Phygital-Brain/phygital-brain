@@ -63,7 +63,7 @@ It talks the way you chose in the setup (for example "short and plain"), and in 
 **Your private things**
 - Tax numbers, bank details, card numbers, your full legal name and your birth date live in one note only. Your agent never copies them anywhere else, and never repeats them in a reply. At most it shows the last 4 digits.
 - Passwords, keys and codes never go in a note. Use a password manager.
-- If a link is broken, it never makes a blank note to "fix" it. The real note might still be syncing from Google Drive.
+- If a link is broken, it never makes a blank note to "fix" it. The real note might still be syncing from your cloud drive.
 
 **Time**
 - It checks your computer's clock and time zone first, in case you're travelling.

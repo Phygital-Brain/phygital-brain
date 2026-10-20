@@ -11,6 +11,6 @@ First version.
 - An optional morning brief on your work days.
 - Questions say "your agent", so the brain works with Claude, Codex and other agents. Rule files are `CLAUDE.md`; other agents point their own file at them.
 - [Baalda](https://github.com/naveedharri/baalda) is the notes app.
-- Google Drive and Baalda are part of the setup unless you say no. The setup checks for them and helps you set them up, so you can use your brain from your phone ([phone guide](docs/phone.md)).
+- A cloud drive (Google Drive, Nextcloud, Dropbox or any drive your agent can connect to) and Baalda are part of the setup unless you say no. The setup checks for them and helps you set them up, so you can use your brain from your phone ([phone guide](docs/phone.md)).
 - Works in any language: your agent translates the forms and messages, and file and folder names stay in English.
 - At the end, your agent writes a short text for your agent's settings, so it talks the same way in every chat.

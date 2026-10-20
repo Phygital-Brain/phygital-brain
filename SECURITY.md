@@ -4,7 +4,7 @@ Phygital Brain has no program and no server. It's instructions and templates tha
 
 ## What you share with your AI
 
-Phygital Brain is only files and instructions. It doesn't send your notes anywhere by itself. But your agent reads your notes to help you, so **everything it reads goes to the company that runs your AI** (for example Anthropic for Claude, or OpenAI for Codex), and your files are stored by Google in Google Drive.
+Phygital Brain is only files and instructions. It doesn't send your notes anywhere by itself. But your agent reads your notes to help you, so **everything it reads goes to the company that runs your AI** (for example Anthropic for Claude, or OpenAI for Codex), and your files are stored by your cloud drive's provider (for example Google for Google Drive, or whoever runs your Nextcloud).
 
 You choose what goes in your brain, and you're responsible for it. Before you start:
 
@@ -12,9 +12,9 @@ You choose what goes in your brain, and you're responsible for it. Before you st
 - **Read their privacy policy** if your work is sensitive: how long they keep your chats, and who can see them.
 - **Other people's details are your responsibility too.** Notes about clients, friends or your team hold their names, emails and history. Only keep what you need, and follow the privacy laws where you live and work.
 - **Some things should never go in.** Passwords, keys, health records, other people's ID numbers, and anything you've promised to keep secret. `.claudeignore` asks your agent not to read some folders, but that's only a rule your agent follows. It doesn't lock anything.
-- **Work for a company?** Check its rules before you put work information in a personal AI or a personal Google Drive.
+- **Work for a company?** Check its rules before you put work information in a personal AI or a personal cloud drive.
 
-Phygital-Brain doesn't see, collect or store your notes. It isn't responsible for what you share with your AI provider, Google or anyone else.
+Phygital-Brain doesn't see, collect or store your notes. It isn't responsible for what you share with your AI provider, your cloud drive's provider or anyone else.
 
 ## Supported versions
 
@@ -64,7 +64,7 @@ In scope:
 
 Out of scope:
 
-- Problems in your AI app, Google Drive, Baalda or your computer. Please report those to their makers.
+- Problems in your AI app, your cloud drive, Baalda or your computer. Please report those to their makers.
 - `.claudeignore` not stopping a determined agent. The agent follows it as a rule, and it doesn't lock anything. Truly private things shouldn't be in the brain folder.
 - An AI model that doesn't follow its instructions in general, without a way to make it happen.
 - Reports from automated scanners without a real problem.

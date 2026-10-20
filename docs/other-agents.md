@@ -9,7 +9,7 @@ Phygital Brain is plain text files and plain instructions. Any agent that can **
 | Build the brain | Yes | Yes | No |
 | The four form windows | Yes | Usually no: the same questions come in chat | No |
 | Daily use: tell it things, it files them | Yes | Yes | No, they can only read |
-| Read your brain from anywhere | Yes, with the Google Drive connector | Depends on the app | Yes, if the app can connect to Google Drive |
+| Read your brain from anywhere | Yes, with a connector for your cloud drive | Depends on the app | Yes, if the app can connect to your cloud drive |
 | Brain Keeper every day, morning brief | Yes, as scheduled tasks | Only if the app can schedule tasks. Otherwise say "run the brain keeper". | No |
 | Check-up | Yes | Yes | No |
 
@@ -22,7 +22,7 @@ Phygital Brain is plain text files and plain instructions. Any agent that can **
 ## Setting up with another agent
 
 1. Get this repository onto your computer. On GitHub, use Code, then Download ZIP, and unzip it somewhere outside your brain folder.
-2. Make your brain folder in Google Drive, as in [Getting started](getting-started.md) steps 2 and 5.
+2. Make your brain folder in your cloud drive, as in [Getting started](getting-started.md) steps 2 and 5.
 3. Open your agent on your brain folder.
 4. Say:
 
@@ -55,7 +55,7 @@ For things that must stay truly private, don't put them in the brain folder at a
 
 You can. For example, Claude on your computer and another agent on another one. They read the same rules, so they file things the same way. Two tips:
 
-- Don't let both write at the same time. Google Drive may make a second copy of a note, ending in `(1)`. If that happens, ask your agent to merge them.
+- Don't let both write at the same time. Your cloud drive may make a second copy of a note, ending in `(1)`. If that happens, ask your agent to merge them.
 - Let only one of them run the Brain Keeper's daily tidy.
 
 ## Scheduled tasks

@@ -7,7 +7,7 @@ Notes for AI agents (Claude Code, Codex, Cursor and others) and people who **cha
 
 ## What this is
 
-Phygital Brain builds a second brain: a folder of Markdown notes that works as the person's knowledge base and as the agent's operating system. It's a Claude plugin with two skills. There is no program: everything is instructions, templates and four HTML forms. Licence Apache-2.0. The name and logo are not covered (see [TRADEMARKS.md](TRADEMARKS.md)).
+Phygital Brain is an OS (operating system) for notes: a folder of Markdown notes in a cloud drive that works as the person's knowledge base and as the agent's operating system. It's two skills that any agent working in a folder can follow, packaged as a Claude plugin. There is no program: everything is instructions, templates and four HTML forms. Licence Apache-2.0. The name and logo are not covered (see [TRADEMARKS.md](TRADEMARKS.md)).
 
 ## Layout
 
@@ -19,7 +19,7 @@ skills/brain-setup/forms/         the four forms (HTML for the form window) and 
 skills/brain-setup/templates/     every file a new brain gets, with {placeholders}
 skills/brain-keeper/SKILL.md      installs and updates the Brain Keeper
 skills/brain-keeper/templates/    daily.md, check-up.md, queue.md, the root CLAUDE.md section
-docs/                             for people: getting started, phone, how it works, other agents
+docs/                             for people: getting started, FAQ, phone, how it works, other agents
 docs/folders/                     one page per brain folder, and the main rules in plain words
 docs/images/                      the README picture and the logo
 languages/                        how other languages work
