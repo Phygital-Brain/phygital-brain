@@ -264,7 +264,7 @@ The full list is in [Limits](docs/limits.md).
 
 ## FAQ
 
-The most asked questions are below. The full list, with 91 answers grouped by topic, is in the [FAQ](docs/faq.md).
+The most asked questions are below. The full list, with 92 answers grouped by topic, is in the [FAQ](docs/faq.md).
 
 <details>
 <summary><b>Do I need to know how to code?</b></summary>
@@ -301,9 +301,10 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 | Guide | What's in it |
 |---|---|
 | [Use cases](docs/use-cases.md) | Five people, what their brain looks like, and what they say on a normal day |
-| [FAQ](docs/faq.md) | 91 questions and answers, grouped by topic |
+| [FAQ](docs/faq.md) | 92 questions and answers, grouped by topic |
 | [Getting started](docs/getting-started.md) | Every step from nothing to a working brain, with checks and fixes |
 | [Connect your apps](docs/connect-your-apps.md) | Gmail, Calendar, Drive and other services, read only, and running fully online |
+| [Add more skills](docs/add-skills.md) | Adding any skill to your brain, and making videos with HyperFrames and Keyframes |
 | [Teams](docs/teams.md) | Sharing one brain through Baalda's cloud |
 | [Bringing in your old notes](docs/importing.md) | Exporting from Notion, Google Docs, Apple Notes and others, and filing it all |
 | [Example brain](docs/example-brain/README.md) | A few made-up notes, so you can see the files before you build yours |

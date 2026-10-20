@@ -104,7 +104,7 @@ Skills/
 - `notes.md`: how you like that skill to work, in your words, like "Write my posts shorter, no hashtags".
 - `references/`: examples and longer material, like three posts you loved.
 
-**Good to know:** a skill that came from someone else is never edited directly. Your `notes.md` changes how it works for you.
+**Good to know:** a skill that came from someone else is never edited directly. Your `notes.md` changes how it works for you. How to add one, with a video example: [Add more skills](../add-skills.md).
 
 ## The Brain Keeper
 

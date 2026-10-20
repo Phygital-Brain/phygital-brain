@@ -483,6 +483,12 @@ Yes. Say "Add a rule: never book calls on Fridays." Your rules live at the botto
 </details>
 
 <details>
+<summary><b>Can I add other skills, like making videos?</b></summary>
+
+Yes. Install the skill in your agent, then say "Add it to my brain". Your agent writes a short notes file telling the skill what to read in your brain and where to save its work. For videos, HyperFrames and its Keyframes editor work well: see [Add more skills](add-skills.md).
+</details>
+
+<details>
 <summary><b>Can I change how the Brain Keeper works?</b></summary>
 
 Yes. Ask in chat, for example "Let the Brain Keeper fix 10 things a day" or "Only report, don't fix anything."
