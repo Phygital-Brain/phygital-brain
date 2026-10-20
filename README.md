@@ -7,8 +7,9 @@
 <p align="center">
 <a href="#open-source-and-credit"><img src="https://img.shields.io/badge/-open%20source-F05AB8" alt="Open source"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="License: Apache-2.0"></a>
-<a href="CHANGELOG.md"><img src="https://img.shields.io/badge/version-0.1.1-5AC8FA" alt="Version 0.1.1"></a>
+<a href="https://www.npmjs.com/package/phygital-brain"><img src="https://img.shields.io/npm/v/phygital-brain?color=5AC8FA" alt="npm version"></a>
 <a href="#quick-start"><img src="https://img.shields.io/badge/Claude-plugin-D97757?logo=anthropic&logoColor=white" alt="Claude plugin"></a>
+<a href="docs/install.md"><img src="https://img.shields.io/badge/MCP-connector-F05AB8" alt="MCP connector"></a>
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-5AC8FA" alt="Pull requests welcome"></a>
 </p>
 <p align="center">
@@ -18,11 +19,13 @@
 <a href="#languages"><img src="https://img.shields.io/badge/languages-11%20ready%20%C2%B7%20add%20yours-0B0D12?labelColor=5AC8FA" alt="11 languages ready, add yours"></a>
 <a href="SECURITY.md#what-you-share-with-your-ai"><img src="https://img.shields.io/badge/telemetry-none-0B0D12?labelColor=F05AB8" alt="No telemetry"></a>
 </p>
-<!-- Turn these on when the repository is public (GitHub can't show them for a private repository):
+<p align="center">
 <a href="https://github.com/Phygital-Brain/phygital-brain/stargazers"><img src="https://img.shields.io/github/stars/Phygital-Brain/phygital-brain?style=flat" alt="GitHub stars"></a>
 <a href="https://github.com/Phygital-Brain/phygital-brain/commits/main"><img src="https://img.shields.io/github/last-commit/Phygital-Brain/phygital-brain" alt="Last commit"></a>
 <a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest"><img src="https://img.shields.io/github/v/release/Phygital-Brain/phygital-brain" alt="Latest release"></a>
--->
+<a href="https://www.npmjs.com/package/phygital-brain"><img src="https://img.shields.io/npm/dm/phygital-brain" alt="npm downloads per month"></a>
+<a href="https://github.com/Phygital-Brain/phygital-brain/actions/workflows/release.yml"><img src="https://img.shields.io/github/actions/workflow/status/Phygital-Brain/phygital-brain/release.yml?label=release" alt="Release status"></a>
+</p>
 
 <p align="center">
 <a href="#what-it-is">What it is</a> ·
@@ -270,9 +273,17 @@ Your notes are read by your AI agent and stored in your cloud drive. Phygital Br
 The full list is in [Limits](docs/limits.md).
 
 - **No app.** There's nothing to run. Your AI agent does the work, following the files in this repository.
-- **No lock.** The rules work only because your agent follows them. Keep truly secret things outside the brain folder.
+- **No lock yet.** The rules work only because your agent follows them. Keep truly secret things outside the brain folder. Locked folders are on the [roadmap](#roadmap).
 - **Not always on, unless you move it to the cloud.** On your computer, the Brain Keeper and the morning brief run only while your agent's app is open. As a cloud routine, they run with the computer off.
 - **An early version.** This is version 0.1.1, and the setup hasn't been tested with many people yet.
+
+## Roadmap
+
+Planned, not built yet:
+
+- **Locked folders.** You choose which folders to lock, like `Memory/finances/`. Their notes are encrypted in your drive, so no app or agent can read them without you. You unlock them with your password or fingerprint, from the agent you already use, and only for what you approve.
+
+Ideas are welcome: open an issue on GitHub.
 
 ## Updating and leaving
 
