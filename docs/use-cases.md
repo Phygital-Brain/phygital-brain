@@ -116,6 +116,8 @@ What people use their brain for most, whoever they are:
 | Remember people | "I met João at the fair, he runs a small press." | A note in `Relationships/`, linked from today |
 | Follow up on leads | "Who did I promise to get back to?" | Your agent reads `_Leads.md`, tasks and recent daily notes |
 | Keep projects moving | "What's next on all my projects?" | Each project's "Status and next step" |
+| Get ready for a call | "Prep me for Marta." | A short brief from her note, the project and the last 30 days |
+| Test an idea | "Challenge my idea: stop doing logos." | Points for and against, each from a note |
 | Remember why | "Why did I stop doing logos?" | The decision note, with the reason |
 | Research | "Compare three print shops in Lisbon." | A research note in `Memory/research/` |
 | Write like you | "Write a reply to this email." | A draft in your voice, from `About/brand.md` |

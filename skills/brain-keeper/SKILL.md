@@ -29,7 +29,7 @@ Templates, in this skill's folder: `templates/daily.md`, `templates/check-up.md`
 1. **Is the brain set up?** No `CLAUDE.md` in the folder root: say "This folder doesn't have a second brain yet. Say 'Set up my second brain' first." Then stop.
 2. **Which version?** The first line of the root `CLAUDE.md` is `<!-- Phygital Brain, version X, language: xx -->`. If it's missing: say "This folder doesn't have a Phygital Brain yet. Say 'Set up my second brain' first." Then stop. If X is older than this skill's version: say "Your brain needs an upgrade first. Say 'Upgrade my second brain'." Then stop.
 3. **Language.** Read the Language section of the root `CLAUDE.md` and write everything in that language. Folder names, file names, `[[links]]` to files, and info block keys and values stay in English.
-4. **Already installed?** If `Skills/brain-keeper/daily.md` exists, ask (header `Keeper`): `Update the Brain Keeper` (rewrite `daily.md` and `check-up.md` from the templates with their current settings, keep `queue.md` and the reports) or `Cancel`.
+4. **Already installed?** If `Skills/brain-keeper/daily.md` exists, ask (header `Keeper`): `Update the Brain Keeper` (rewrite `daily.md` and `check-up.md` from the templates with their current settings, keep `queue.md` and the reports) · `Move it to the cloud` (go to Step 3, In the cloud) · `Cancel`. If they said "run the brain keeper in the cloud", go straight to Step 3, In the cloud.
 5. **Read their setup.** From the root `CLAUDE.md` and `About/me.md`: their first name, their time zone (root rule 30, or the "How I want my agent to work" section) and their work days.
 6. **Scheduled tasks.** Check whether you can create a scheduled task in this app. Remember the answer for Step 3.
 
@@ -46,6 +46,10 @@ Templates, in this skill's folder: `templates/daily.md`, `templates/check-up.md`
 
 Set FIX MODE to `safe fixes` or `report only`.
 
+3. **"Where should it run?"** (header `Where`), only if this app can create cloud routines and the brain is in a cloud drive with a cloud connector:
+   - `On this computer (Recommended)`: runs while the app is open and the computer is awake
+   - `In the cloud`: runs even when the computer is off (Step 3, In the cloud)
+
 ## Step 2: Build
 
 1. Create `Skills/brain-keeper/daily.md` from `templates/daily.md`. Replace `{Name}`, `{Time zone}` and `{Fix mode}`.
@@ -61,6 +65,10 @@ They asked for the install (or the setup did), so these `CLAUDE.md` changes are 
 
 ## Step 3: Schedule
 
+Two ways to run it. **On this computer** is the default. **In the cloud** keeps it running when the computer is off.
+
+### On this computer
+
 If scheduled tasks are available:
 
 1. Create a scheduled task called `brain-keeper-daily`, at the chosen time, on their work days (every day if unknown), running on this folder, with this prompt:
@@ -70,6 +78,22 @@ If scheduled tasks are available:
 2. **Check:** list the scheduled tasks and confirm it's there, with the right time and folder.
 
 If scheduled tasks aren't available: skip this step, and tell them in the finish message to say "run the brain keeper" once a day.
+
+### In the cloud
+
+Only if {Name} chose it, the agent app can create cloud routines (in Claude: routines, set up with `/schedule` in Claude Code, in the desktop app or on the web), and the brain folder is reachable through a cloud connector for their drive (for example the Google Drive connector). A connector or MCP server that runs only on {Name}'s computer can't be used by a cloud routine.
+
+1. Check the connector can read, edit and create files in the brain folder: read `CLAUDE.md`, then create and delete a test file in `Skills/brain-keeper/` (tell {Name} first). If it can read but not write, say so, and keep the local schedule instead, or offer a cloud run in `report only` mode that writes only its report.
+2. Create a routine called `brain-keeper-daily`, at the chosen time, on their work days, with the drive connector turned on, plus the connectors for the apps listed in `Skills/connected-apps/connected-apps.md` (if they're cloud connectors), and this prompt (fill in the folder name):
+
+   > Use the {drive} connector to open the folder "{brain folder}". Read `Skills/brain-keeper/daily.md` in it and do exactly what it says, reading and writing through the connector. This is a scheduled cloud run: no questions, no confirmations. Use the time zone in the root `CLAUDE.md` for dates.
+
+3. Remove the local `brain-keeper-daily` task if there is one, so it doesn't run twice.
+4. **Check:** list the routines and confirm it's there with the right time and connectors. Then run it once by hand with "This is a dry run." added to the end of the prompt, so it only writes its report.
+
+The morning brief can move to the cloud the same way, with its own routine. Nobody reads a cloud run's chat, so its prompt says: "Read `Skills/morning-brief/morning-brief.md` and write the brief into today's daily note under 'Morning brief', instead of replying."
+
+Each cloud run starts fresh, with no memory of the last one. Everything it needs is in the brain's files, so that's fine.
 
 ## Step 4: Test run
 

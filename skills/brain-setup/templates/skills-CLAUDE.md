@@ -19,6 +19,10 @@ Skills/{skill-name}/
 |---|---|---|
 | Brain Keeper | `brain-keeper/` | Daily tidy on its own, and a check-up when {Name} asks |
 | Morning Brief | `morning-brief/` | A short plan of the day, on request or every work day |
+| Import | `import/` | Brings in notes from other apps, with a plan {Name} approves first |
+| Meeting Prep | `meeting-prep/` | A short brief before a call, from the brain's notes |
+| Thinking Tools | `thinking/` | Challenge an idea, find patterns, find notes that disagree |
+| Connected Apps | `connected-apps/` | Which apps the brain reads from, and the rules for them |
 | No AI Slop | `no-ai-slop/` | The Writing Check: edits writing so it sounds human, or flags AI patterns (by Peter Yang, MIT License, never edited) |
 
 ## Rules

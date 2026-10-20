@@ -163,6 +163,18 @@ Yes. Install the Nextcloud desktop app so the folder syncs to your computer, and
 </details>
 
 <details>
+<summary><b>Can it read my email and calendar?</b></summary>
+
+Yes, read only, if you connect them to your agent. The Brain Keeper notes yesterday's emails with people you have notes on, and tomorrow's meetings. It never sends, deletes or changes anything in your apps. See [Connect your apps](connect-your-apps.md).
+</details>
+
+<details>
+<summary><b>Can the brain live in more than one drive?</b></summary>
+
+Yes. A team can keep it in Baalda's cloud for real-time sync and also in a drive like Google Drive for phones and cloud routines. Pick one as the main one for edits, and test the second one first: two sync services on one folder can make duplicate copies. See [Teams](teams.md).
+</details>
+
+<details>
 <summary><b>Can I use iCloud?</b></summary>
 
 On your computer, yes: an iCloud Drive folder syncs like any other. Reaching it from your agent's phone app depends on whether your agent can connect to iCloud, so check that first.
@@ -281,6 +293,24 @@ Tasks for a project go on that project's front page. Other tasks go in `Daily/ta
 </details>
 
 <details>
+<summary><b>Can it prepare me for a meeting?</b></summary>
+
+Yes. Say "prep me for Marta" or, with a connected calendar, "prep me for my next meeting". You get eight short lines from your notes: who they are, when you last talked, what's going on, what was agreed, and what to bring up.
+</details>
+
+<details>
+<summary><b>Can it help me think, not only store notes?</b></summary>
+
+Yes. Say "challenge my idea: ..." for points for and against from your own notes, "what patterns do you see?" for what keeps coming up in the last 30 days, or "find contradictions" for notes that disagree. See [Skills](folders/skills.md#thinking-thinking-tools).
+</details>
+
+<details>
+<summary><b>Can I undo a change?</b></summary>
+
+Yes. Before a big change, like an import, check-up fixes, a move or a delete, your agent copies the files into a hidden `.backups/` folder. Say "undo the last change" within 10 days. Your cloud drive's version history is a second safety net.
+</details>
+
+<details>
 <summary><b>Can it write emails and posts for me?</b></summary>
 
 Yes, if you picked "Write for me" in the setup. It writes in the voice saved in `About/brand.md`. For writing other people will read, it shows you the AI-sounding bits it found and lets you choose before changing them. It drafts. You send. The check uses the no-ai-slop skill, which every brain gets in `Skills/no-ai-slop/`.
@@ -315,7 +345,7 @@ Scheduled tasks run only while your agent's app is open and your computer is awa
 <details>
 <summary><b>Can it run while my laptop is closed?</b></summary>
 
-Not yet. Scheduled tasks run on your computer, while your agent's app is open and the computer is awake. If a run is missed, say "run the brain keeper". See [Limits](limits.md).
+Yes, as a cloud routine (in Claude: routines), if your brain is in a cloud drive that connects to your agent in the cloud, like Google Drive. Say "Run the Brain Keeper in the cloud." Your agent checks the connector can read and write your notes first. See [Running in the cloud](folders/skills.md#running-in-the-cloud).
 </details>
 
 <details>
@@ -397,7 +427,7 @@ A list of files and folders your agent must not open unless you ask for that exa
 <details>
 <summary><b>Can my team use one brain?</b></summary>
 
-It's built for one person. Two people can share a folder, but there are no per-person permissions, and writing at the same time can make duplicate copies. A shared team version isn't part of Phygital Brain yet. See [Limits](limits.md#one-person-one-brain).
+Yes, through Baalda's cloud, which is paid. It syncs everyone's copy in real time, and folder permissions are set in Baalda. Then say "Set up my team" and your agent adds a Team section to the rules, with each person's role and daily notes. See [Teams](teams.md).
 </details>
 
 <details>

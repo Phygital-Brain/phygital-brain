@@ -15,7 +15,7 @@ Search the whole folder and list problems in these groups:
 - **Broken links**: `[[links]]` pointing to notes that don't exist. Never fix these by creating a blank note: the real note may still be syncing (root rule 28).
 - **Orphans**: notes no other note links to.
 - **Empty or near-empty notes**, and leftover placeholders (`[name]`, `TBD`).
-- **Wrong place**: files in the folder root, notes that don't match their folder's routing table.
+- **Wrong place**: files in the folder root (except `CLAUDE.md`, `.claudeignore`, `.backups/` and another agent's one-line rule file, like `AGENTS.md`), notes that don't match their folder's routing table.
 - **Routing tables out of date**: a `CLAUDE.md` lists files or folders that don't exist, or misses ones that do (rows marked "created on first use" are fine).
 - **Info blocks**: missing or incomplete, against the folder's `CLAUDE.md`. No `status:`, fewer than 2 `tags:`, a project note without `project:`, daily tags outside the fixed list.
 - **Stale projects**: no update in 60+ days. Suggest a status update, `paused`, or archive.
@@ -34,6 +34,8 @@ Search the whole folder and list problems in these groups:
 A short list in plain words, grouped as above. For each problem: the note, what's wrong, the fix you suggest. Put the simple, safe fixes first (em dashes, missing tags, routing table rows).
 
 ## 3. Fix only what's approved
+
+Before the first fix, back up every file you'll change (Backups and Undo in the root `CLAUDE.md`).
 
 Ask (with clickable choices when possible): **Fix all safe ones**, **Go one by one**, **Just the report**.
 

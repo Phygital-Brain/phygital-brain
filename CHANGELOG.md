@@ -9,6 +9,11 @@ First version.
 - Seven folders: `About/`, `Daily/`, `Projects/`, `Relationships/`, `Memory/` (with private `finances/`), `Library/` and `Skills/`, each with its own rules.
 - The Brain Keeper: a daily tidy that runs by itself, and a check-up when you ask. It's set up with the brain.
 - An optional morning brief on your work days.
+- Meeting prep, thinking tools (challenge an idea, patterns, contradictions) and import as skills in every brain.
+- Backups before big changes, kept 10 days in a hidden `.backups/` folder, with "undo the last change".
+- Connected apps, read only: email and calendar notes from the Brain Keeper's daily run.
+- The Brain Keeper can run as a cloud routine, through the cloud drive's connector.
+- Teams: "set up my team" adds a Team section, for brains shared through Baalda's cloud.
 - Every brain gets the no-ai-slop skill by Peter Yang (MIT License) for the Writing Check, and work habits adapted from Andrej Karpathy's guidelines.
 - Questions say "your agent", so the brain works with Claude, Codex and other agents. Rule files are `CLAUDE.md`; other agents point their own file at them.
 - [Baalda](https://github.com/naveedharri/baalda) is the notes app.

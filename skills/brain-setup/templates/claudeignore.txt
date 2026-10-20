@@ -9,6 +9,9 @@
 credentials/
 secrets/
 
+# Backups made before big changes (read only to undo)
+.backups/
+
 # Money: invoices, taxes, bank details
 Memory/finances/
 

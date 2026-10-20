@@ -136,6 +136,11 @@ You can also add a rule on purpose: "Add a rule: never book calls on Fridays."
 | You want to... | Say |
 |---|---|
 | Redo the setup questions | "Update my answers." |
+| Take back a big change | "Undo the last change." (within 10 days) |
+| Get ready for a call | "Prep me for Marta." |
+| Read your email and calendar | "Connect my Gmail and calendar to my brain." |
+| Run the Brain Keeper with your computer off | "Run the Brain Keeper in the cloud." |
+| Share the brain with your team | "Set up my team." |
 | Change how your agent talks | "From now on, give me longer answers." |
 | Add a folder for something new | "I want a place for my students." Your agent suggests where and asks first. |
 | Change when the Brain Keeper runs | "Run the Brain Keeper at 7 instead." |

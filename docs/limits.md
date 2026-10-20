@@ -10,9 +10,9 @@ Your brain is for knowledge in words: what you decided and why, who someone is, 
 
 Nothing in the folder is locked. `.claudeignore` and "ask before you delete" are instructions your agent follows. A different tool, or a person with the folder, can still open and change anything. Keep secret things outside the brain folder.
 
-## Scheduled tasks need your computer
+## Scheduled tasks need a computer, unless they run in the cloud
 
-The Brain Keeper and the morning brief run only while your agent's app is open and your computer is awake. If your laptop is closed at 7:00, the run waits or is skipped. Say "run the brain keeper" to run it by hand.
+On your computer, the Brain Keeper and the morning brief run only while your agent's app is open and the computer is awake. A missed run waits or is skipped; say "run the brain keeper" to run it by hand. They can run as cloud routines instead, if your agent has them and your cloud drive connects in the cloud. See [Running in the cloud](folders/skills.md#running-in-the-cloud).
 
 ## The first setup uses more of your plan
 
@@ -26,13 +26,13 @@ Your agent finds notes by names, words, links and folders. It doesn't search by 
 
 Your agent reads PDFs, images and Word files when you drop them into a chat, and writes what matters into notes. Inside the brain, those files are kept as they are, and some apps show them only as a link.
 
-## It doesn't pull from your other apps yet
+## Connected apps are read only, and limited
 
-Your brain knows what you tell it, and what you drop in. It doesn't read your email, calendar or meeting recordings by itself, except the calendar in the morning brief if one is connected to your agent.
+Your brain can read email and calendar through connectors (see [Connect your apps](connect-your-apps.md)), but only to note who you talked to and what's coming up. It never sends or changes anything in an app, it doesn't read chat apps like Slack yet, and it can't read meeting recordings.
 
-## One person, one brain
+## Teams need Baalda's paid cloud
 
-Phygital Brain is built for one person. Two agents can share a brain, but there are no per-person permissions, and two people writing at once can make duplicate copies in your cloud drive.
+A team can share one brain through Baalda's cloud, which is paid (see [Teams](teams.md)). Permissions are set in Baalda, per folder, not inside a note. Large teams writing at once haven't been tested.
 
 ## Phone use depends on your agent and drive
 

@@ -1,6 +1,6 @@
 ---
 name: brain-setup
-description: Build a Phygital Brain second brain in the selected folder through four short forms, then set up its daily Brain Keeper. Use when the person says "set up my second brain", "build my brain", "upgrade my second brain", or the same in another language.
+description: Build a Phygital Brain second brain in the selected folder through four short forms, then set up its daily Brain Keeper. Use when the person says "set up my second brain", "build my brain", "upgrade my second brain", "set up my team", or the same in another language.
 ---
 
 # Phygital Brain: Setup
@@ -124,6 +124,10 @@ Memory/archive/
 Library/
 Skills/brain-keeper/
 Skills/no-ai-slop/
+Skills/import/
+Skills/meeting-prep/
+Skills/thinking/
+Skills/connected-apps/
 Relationships/
 ```
 
@@ -157,6 +161,10 @@ Never create empty extra folders "just in case". Project subfolders, `Memory/app
 | `Relationships/{Subfolder}/CLAUDE.md`, one per subfolder | `templates/relationships-subfolder-CLAUDE.md` |
 | `Skills/morning-brief/morning-brief.md` (only if BRIEF = on) | `templates/morning-brief.md` |
 | `.claudeignore` | `templates/claudeignore.txt` |
+| `Skills/import/import.md` | `templates/import.md` |
+| `Skills/meeting-prep/meeting-prep.md` | `templates/meeting-prep.md` |
+| `Skills/thinking/thinking.md` | `templates/thinking.md` |
+| `Skills/connected-apps/connected-apps.md` | `templates/connected-apps.md` (see 3.7b) |
 | `Skills/no-ai-slop/SKILL.md`, `eval.md`, `LICENSE` | `bundled/no-ai-slop/`, copied unchanged (not a template: no placeholders, no edits) |
 
 Some templates start with an `ADAPTING` comment for you: follow it, then leave it out of the file. In every template:
@@ -212,12 +220,17 @@ If they named work they say no to (form 1, `values`), add it as the first rule u
 
 `Daily/YYYY-MM-DD.md` (today, in their time zone) from `templates/daily-note.md`. Don't create `Daily/tasks.md` yet: it's created when the first task comes up.
 
+### 3.7b Connected apps
+
+Look at which connectors you have in this chat for the apps {Name} named in form 3 (`comms`, `notes_now`): email (for example Gmail or Outlook), calendar (Google Calendar or Outlook), and their cloud drive. Then ask one question (click options, multi): "Which of these should your brain read from?" with one option per connected app, and `None for now`. Write the ones picked into `Skills/connected-apps/connected-apps.md` under Connected, read only, in the shape its ADAPTING note shows. An app {Name} uses but hasn't connected: mention it in the finish message with the guide link https://github.com/Phygital-Brain/phygital-brain/blob/main/docs/connect-your-apps.md.
+
 ### 3.8 Brain Keeper
 
 Set it up now, so nobody has to come back for it. Follow `../brain-keeper/SKILL.md` from its Step 2, without its questions:
 
 - **Run time:** one hour before the morning brief time from form 3. BRIEF = off: 8:00 on their work days.
 - **Fix mode:** `safe fixes`.
+- **Where it runs:** on this computer, as a scheduled task. If your app can create cloud routines (in Claude: routines) and the brain is in a cloud drive with a cloud connector, ask one question: `On this computer` · `In the cloud, even with my computer off`. For the cloud, follow `../brain-keeper/SKILL.md` Step 3, cloud.
 
 If BRIEF = on, also schedule the morning brief (the Schedule part of `Skills/morning-brief/morning-brief.md`) at that time, on their work days, without asking again.
 
@@ -230,7 +243,7 @@ Fix anything that fails, then check it again.
 - No file has leftover placeholders (`[name]`, `TBD`, `{Name}`, `{Time zone}`, `{Language}`, `{lang}`, `{Fix mode}`, `{keeper time}`, `{brief time}`, `{n}`) or em dashes. Path patterns in routing tables stay.
 - Every routing table lists only folders and files that exist, except rows marked "created on first use".
 - Every note links to at least one other note.
-- No files in the folder root except `CLAUDE.md`, `.claudeignore` (and the other agent's rule file, if you added one).
+- No files in the folder root except `CLAUDE.md`, `.claudeignore`, `.backups/` (and the other agent's rule file, if you added one).
 - The root `CLAUDE.md` starts with the version line and has the Language section.
 - Every note has a complete info block, keys and values in English.
 - Rule numbers in the root `CLAUDE.md` run with no gaps, and `{Name}'s Rules` is the last section.
@@ -248,7 +261,8 @@ One short message, no recap:
 5. **Only if BRIEF = on:** your morning brief comes at {brief time} on work days. Say "morning brief" anytime.
 6. **On your phone** (if the brain is in a cloud drive): "Your brain is in your cloud drive, so you can use it from your phone." One line on each: ask about your notes in your agent's phone app with the drive connected, and send tasks to your computer if your agent can (in Claude, Dispatch). Point to the phone guide: https://github.com/Phygital-Brain/phygital-brain/blob/main/docs/phone.md. If the drive isn't connected yet, say how to connect it.
 7. **Instructions for every chat:** "Want your agent to talk like this in every chat, not only in your brain? Copy this into your agent's settings." Then the text in a box they can copy (see below), and where it goes: in Claude, the personal instructions box in Settings; in other agents, their custom instructions.
-8. **Only if they gave old notes in form 4:** "Want me to bring in your old notes now?" If yes, file each one by the routing rules, asking before every new note (root rule 9).
+8. **Only if they gave old notes in form 4:** "Want me to bring in your old notes now?" If yes, follow `Skills/import/import.md`.
+9. **One line on the extras:** "You can also say 'prep me for Marta', 'challenge my idea', or 'undo the last change'."
 
 Then stop.
 
@@ -276,7 +290,8 @@ When Step 0 found an older Phygital Brain and they picked `Upgrade my brain`.
 3. **Make the list.** Compare their files with `templates/`. List what's new for them in plain words, one line each, grouped by file. Use the CHANGELOG entries newer than their version as a guide.
 4. **Ask** (header `Upgrade`): `Upgrade everything` · `Show me each change` · `Cancel`.
 5. **Apply, keeping what's theirs:**
-   - Add missing sections, routing rows, rules and files, including `Skills/no-ai-slop/` (copied unchanged from `bundled/no-ai-slop/`).
+   - Add missing sections, routing rows, rules and files, including `Skills/no-ai-slop/` (copied unchanged from `bundled/no-ai-slop/`), `Skills/import/`, `Skills/meeting-prep/`, `Skills/thinking/` and `Skills/connected-apps/` (ask 3.7b's question), and `.backups/` in `.claudeignore`.
+   - Make a backup of every file you'll change before you change it (Backups and Undo).
    - Replace the numbered base rules with the new list (1 to 32, or 1 to 30 when they don't sell). Their own rules stay under `{Name}'s Rules`, word for word and in the same order, renumbered to follow on. If one of their rules says the same as a new base rule, keep theirs and mention it.
    - Keep their own routing rows, folders and anything else they wrote that isn't in the templates.
    - Never rewrite notes to new info blocks. Old notes get them the next time they're edited.
@@ -284,3 +299,16 @@ When Step 0 found an older Phygital Brain and they picked `Upgrade my brain`.
    - **Brain Keeper.** Update it (follow `../brain-keeper/SKILL.md`, its Step 0.4 keeps `queue.md` and the reports). If it isn't installed, install it from its Step 1.
 6. **Check:** the same number of their own rules as in step 2, word for word; every check in 3.9 that applies; nothing deleted.
 7. **Finish:** one line in today's daily note, then 2 or 3 lines on what changed.
+
+## Step T: Set up a team
+
+When {Name} says "set up my team". The guide for people is https://github.com/Phygital-Brain/phygital-brain/blob/main/docs/teams.md.
+
+1. **Check the folder is shared.** Ask whether the brain is already shared through Baalda's cloud (or another sync service the team uses). If not, point them to the guide and stop. Don't move or copy the folder yourself.
+2. **Ask who's on the team** (one chat message): each person's name, role, and which folders they may change. The person asking is the owner unless they say otherwise.
+3. **Back up** the root `CLAUDE.md` (Backups and Undo).
+4. **Replace the short Team section** of the root `CLAUDE.md` with the one from `templates/team-section.md`, filled in. Ask first (root rule 9): show the section, then write it after the yes.
+5. **For each person:** a note in `Relationships/Team/` (search first, create the folder and its `CLAUDE.md` if needed), and their daily notes folder `Daily/{person}/` (created when their first note is written).
+6. **Brain Keeper:** ask whose agent, or which cloud routine, runs it. Only one may. Remove any other schedule. In `Skills/brain-keeper/daily.md`, note under Settings that daily notes are per person, in `Daily/{person}/`.
+7. **Finish:** one short message: who's in, what each can change, and that permissions themselves are set in Baalda.
+

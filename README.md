@@ -104,6 +104,13 @@ Small updates to notes that already exist happen right away, and your agent tell
 - **Decisions with the reason.** Each decision note says what you chose, why, what you gave up, and the risk. Open decisions show up in your daily note until you close them.
 - **The Brain Keeper.** Every work day it makes tomorrow's note, closes old ones, lists open decisions, fixes up to 5 small things and writes a report. A full check-up runs whenever you say "check up my brain".
 - **A morning brief,** if you want one: your three most important things, what you're waiting on, and one decision to make.
+- **Meeting prep.** Say "prep me for Marta" and get a short brief from your notes: when you last talked, what's going on, what was agreed, what to bring up.
+- **Thinking tools.** "Challenge my idea" weighs it against your own notes. "What patterns do you see?" finds what keeps coming up. "Find contradictions" finds notes that disagree.
+- **Your apps, read only.** Connect Gmail and Google Calendar (or Outlook, Nextcloud and others) and the Brain Keeper notes yesterday's emails with your people and tomorrow's meetings. It never sends or changes anything.
+- **Fully online, if you want.** The Brain Keeper can run as a cloud routine, reading and writing your notes through your cloud drive, with your computer off.
+- **Backups and undo.** Before a big change, your agent copies the files into a hidden `.backups/` folder for 10 days. "Undo the last change" puts them back.
+- **Old notes, any time.** "Bring in my old notes" imports from Notion, Google Docs, Apple Notes and others, with a plan you approve first.
+- **Teams.** Share one brain through Baalda's cloud, with a Team section in the rules for each person's role.
 - **Your phone.** Ask your brain things from your agent's phone app through your cloud drive, or send tasks to your computer (in Claude, with Dispatch).
 - **Your language.** The forms, messages and notes are in the language you pick. File and folder names stay in English, so the rules work the same everywhere.
 - **Writing that sounds like you.** Every brain comes with the [no-ai-slop](https://github.com/petergyang/no-ai-slop) skill. Your agent writes in your voice, then checks for AI-sounding patterns before anyone else reads it.
@@ -213,10 +220,9 @@ Your notes are read by your AI agent and stored in your cloud drive. Phygital Br
 
 The full list is in [Limits](docs/limits.md).
 
-
 - **No app.** There's nothing to run. Your AI agent does the work, following the files in this repository.
 - **No lock.** The rules work only because your agent follows them. Keep truly secret things outside the brain folder.
-- **Not always on.** The Brain Keeper and the morning brief run only while your agent's app is open and your computer is awake.
+- **Not always on, unless you move it to the cloud.** On your computer, the Brain Keeper and the morning brief run only while your agent's app is open. As a cloud routine, they run with the computer off.
 - **An early version.** This is version 0.1.0, and the setup hasn't been tested with many people yet.
 
 ## Updating and leaving
@@ -229,7 +235,7 @@ The full list is in [Limits](docs/limits.md).
 
 ## FAQ
 
-The most asked questions are below. The full list, with 86 answers grouped by topic, is in the [FAQ](docs/faq.md).
+The most asked questions are below. The full list, with 91 answers grouped by topic, is in the [FAQ](docs/faq.md).
 
 <details>
 <summary><b>Do I need to know how to code?</b></summary>
@@ -266,8 +272,10 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 | Guide | What's in it |
 |---|---|
 | [Use cases](docs/use-cases.md) | Five people, what their brain looks like, and what they say on a normal day |
-| [FAQ](docs/faq.md) | 86 questions and answers, grouped by topic |
+| [FAQ](docs/faq.md) | 91 questions and answers, grouped by topic |
 | [Getting started](docs/getting-started.md) | Every step from nothing to a working brain, with checks and fixes |
+| [Connect your apps](docs/connect-your-apps.md) | Gmail, Calendar, Drive and other services, read only, and running fully online |
+| [Teams](docs/teams.md) | Sharing one brain through Baalda's cloud |
 | [Bringing in your old notes](docs/importing.md) | Exporting from Notion, Google Docs, Apple Notes and others, and filing it all |
 | [Example brain](docs/example-brain/README.md) | A few made-up notes, so you can see the files before you build yours |
 | [How it works](docs/how-it-works.md) | What your agent does at each step, when it saves and when it asks |
