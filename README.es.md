@@ -11,6 +11,7 @@
 <a href="#código-abierto-y-créditos"><img src="https://img.shields.io/badge/-open%20source-F05AB8" alt="Código abierto"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="Licencia: Apache-2.0"></a>
 <a href="https://www.npmjs.com/package/phygital-brain"><img src="https://img.shields.io/npm/v/phygital-brain?color=5AC8FA" alt="Versión en npm"></a>
+<a href="https://www.npmjs.com/package/phygital-brain"><img src="https://img.shields.io/npm/dt/phygital-brain?color=F05AB8" alt="Descargas en npm"></a>
 <a href="#inicio-rápido"><img src="https://img.shields.io/badge/Claude-plugin-D97757?logo=anthropic&logoColor=white" alt="Plugin de Claude"></a>
 <a href="docs/install.md"><img src="https://img.shields.io/badge/MCP-connector-F05AB8" alt="Conector MCP"></a>
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-5AC8FA" alt="Se aceptan pull requests"></a>
