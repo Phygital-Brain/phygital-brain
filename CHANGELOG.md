@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.9 (2026-10-21)
+
+- The connector's three tools explain themselves better to AI apps: what each returns, when to use it and which tool to use instead. They're marked read only, because they only read Phygital Brain's own files. Nothing else changed.
+
 ## 0.1.8 (2026-10-20)
 
 - Phone-only setup: with no cloud drive connected, your agent now helps you connect one, in your language, after the welcome. Google Drive (with a free account if you need one), Dropbox, OneDrive, Nextcloud or another drive. iCloud can't work from a phone yet, and your agent says so. There's no "later" on a phone, because the brain needs the drive.

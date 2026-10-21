@@ -32,39 +32,65 @@ const HOW_TO_USE = `This is Phygital Brain ${VERSION}, through its connector.
 - This connector only gives you Phygital Brain's files. Write the person's brain yourself, with your own file tools, in the folder they chose. If you can't write files in a folder, say so and stop: the brain needs an agent that can.
 - Paths that start with a brain folder (About/, Daily/, Projects/...) are in the person's brain, not here.`;
 
+// Every tool only reads this package's own files: none changes anything, here or in the person's brain.
+const READ_ONLY = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false };
+
 const TOOLS = [
   {
     name: "phygital_brain_start",
+    title: "Start a Phygital Brain job",
     description:
-      "Start a Phygital Brain job and get its instructions. Use when the person says 'set up my second brain', 'upgrade my second brain', 'set up my team', 'set up my brain keeper', 'translate Phygital Brain into my language', 'switch my brain to another language', or the same in another language. job: 'setup' (default, also upgrades and teams), 'brain-keeper', or 'add-language'.",
+      "Start a Phygital Brain job: returns that job's step-by-step instructions (a skill) as text, for you to follow. It changes nothing by itself: you then build or change the person's brain with your own file tools, in the folder they chose. Call it first when the person says 'set up my second brain', 'upgrade my second brain', 'set up my team', 'set up my brain keeper', 'translate Phygital Brain into my language', 'switch my brain to another language', or the same in another language. Calling it again returns the same instructions. To open a file the instructions name, use phygital_brain_read_file; to see which files exist, use phygital_brain_list_files. An unknown job returns an error naming the valid ones.",
     inputSchema: {
       type: "object",
       properties: {
-        job: { type: "string", enum: Object.keys(JOBS), description: "Which job. Default: setup." },
+        job: {
+          type: "string",
+          enum: Object.keys(JOBS),
+          description:
+            "Which job: 'setup' (the default; also upgrades a brain and sets up a team), 'brain-keeper' (set up, update or move the scheduled task that tidies the brain) or 'add-language' (make Phygital Brain in a new language, or switch a brain's language).",
+        },
       },
       additionalProperties: false,
     },
+    annotations: { title: "Start a Phygital Brain job", ...READ_ONLY },
   },
   {
     name: "phygital_brain_read_file",
+    title: "Read a Phygital Brain file",
     description:
-      "Read one of Phygital Brain's files: a form, a template, a language file or a skill. path is relative to the skills folder, like 'brain-setup/forms/form-1-about-you.html' or 'brain-setup/i18n/ja/templates/root-CLAUDE.md'.",
+      "Read one of Phygital Brain's own files and return its full text: a form, a template, a language file or a skill. Use it when the instructions from phygital_brain_start name a file; if you don't know the exact name, list the folder with phygital_brain_list_files first. A missing file, a folder, or a path outside the skills folder returns an error that says so. It reads only Phygital Brain's files, never the person's brain, and changes nothing.",
     inputSchema: {
       type: "object",
-      properties: { path: { type: "string", description: "Path inside the skills folder." } },
+      properties: {
+        path: {
+          type: "string",
+          description:
+            "The file's path inside Phygital Brain's skills folder, like 'brain-setup/forms/form-1-about-you.html' or 'brain-setup/i18n/ja/templates/root-CLAUDE.md'. Paths that start with a brain folder (About/, Daily/, Projects/...) are in the person's brain, not here.",
+        },
+      },
       required: ["path"],
       additionalProperties: false,
     },
+    annotations: { title: "Read a Phygital Brain file", ...READ_ONLY },
   },
   {
     name: "phygital_brain_list_files",
+    title: "List Phygital Brain files",
     description:
-      "List Phygital Brain's files in a folder, relative to the skills folder (for example 'brain-setup/templates' or 'brain-setup/i18n'). Empty path lists the skills.",
+      "List what's in one of Phygital Brain's folders: one name per line, sorted, with folders ending in '/'. It doesn't look inside subfolders: list a subfolder to see its files. Use it to find a file's exact name, then open the file with phygital_brain_read_file. A folder that doesn't exist returns an error. It reads only Phygital Brain's files, never the person's brain, and changes nothing.",
     inputSchema: {
       type: "object",
-      properties: { path: { type: "string", description: "Folder inside the skills folder. Default: the top." } },
+      properties: {
+        path: {
+          type: "string",
+          description:
+            "The folder inside Phygital Brain's skills folder, like 'brain-setup/templates' or 'brain-setup/i18n'. Leave empty to list the skills.",
+        },
+      },
       additionalProperties: false,
     },
+    annotations: { title: "List Phygital Brain files", ...READ_ONLY },
   },
 ];
 
