@@ -1,0 +1,21 @@
+# Checks the GitHub Actions workflows for unsafe patterns (leaked tokens, injection, broad permissions)
+# on every push and pull request. Free on a public repository.
+name: Workflows
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  zizmor:
+    name: workflows (zizmor)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1   # v7.0.1, pinned
+        with:
+          persist-credentials: false
+      - run: pipx run zizmor==1.31.1 --offline .

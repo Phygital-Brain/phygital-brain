@@ -33,6 +33,7 @@ scripts/build_mcpb.py             builds dist/phygital-brain.mcpb, the Claude de
 mcp/server.mjs                    the connector: an MCP server with no dependencies that serves skills/
 package.json                      the npm package: npx -y phygital-brain runs the connector
 .github/workflows/release.yml     on a push to main with a new version: checks, npm publish, the release with the .mcpb
+.github/workflows/workflows.yml   on every push and pull request: zizmor checks the workflows for unsafe patterns
 README.md, CHANGELOG.md, NOTICE, LICENSE, TRADEMARKS.md, CONTRIBUTING.md, SECURITY.md, CITATION.cff
 ```
 
