@@ -1,7 +1,7 @@
 <p align="center"><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.pt-BR.md">Português (Brasil)</a> · <a href="README.es.md">Español</a> · <a href="README.fr.md">Français</a> · <b>日本語</b> · <a href="README.ar.md">العربية</a></p>
 <p align="center"><sub>このREADMEは英語版から翻訳したものです。内容が違う場合は、英語版のREADMEを正としてください。ここからリンクしているガイドは英語です。</sub></p>
 
-<p align="center"><img src="docs/images/hero.png" alt="Phygital Brain。あなたと一緒に考えるセカンドブレイン。ノートのためのOS：エージェントがノートを読み、あなたの話を整理して、きれいに保ちます。見出しの横では、あなたが「マルタさんと電話した。表紙の締め切りは15日になったよ」と話しかけ、エージェントが3つのノートを更新します：Projects/Picture-Book、Relationships/Penguin Kids、Daily/2026-10-20。" width="100%"></p>
+<p align="center"><img src="docs/images/hero-ja.png" alt="Phygital Brain。あなたと一緒に考えるセカンドブレイン。ノートのためのOS：エージェントがノートを読み、あなたの話を整理して、きれいに保ちます。見出しの横では、あなたが「マルタさんと電話した。表紙の締め切りは15日になったよ」と話しかけ、エージェントが3つのノートを更新します：プロジェクト/Picture-Book、人脈/Penguin Kids、日記/2026-10-20。" width="100%"></p>
 
 <h1 align="center">Phygital Brain</h1>
 
@@ -76,7 +76,7 @@ Phygital Brainは、エージェントが読み書きできる場所をひとつ
 
 ## しくみ
 
-<p align="center"><img src="docs/images/os.png" alt="ノートのためのオペレーティングシステム、5つの層：01 あなたが話しかけ、ファイルを入れ、質問する（パソコンでもスマホでも）。02 エージェント：Claude、Codex、Hermes Agent、OpenClawなど。03 ルール：すべてのフォルダーにあるCLAUDE.mdが、何をどこに入れ、先に何を確認するかを決める。04 ノート：クラウドドライブにある、Markdownファイルの7つのフォルダー。05 ブレイン整理係：毎日整理し、頼めば総点検もする。" width="100%"></p>
+<p align="center"><img src="docs/images/os-ja.png" alt="ノートのためのオペレーティングシステム、5つの層：01 あなたが話しかけ、ファイルを入れ、質問する（パソコンでもスマホでも）。02 エージェント：Claude、Codex、Hermes Agent、OpenClawなど。03 ルール：すべてのフォルダーにあるCLAUDE.mdが、何をどこに入れ、先に何を確認するかを決める。04 ノート：クラウドドライブにある、Markdownファイルの7つのフォルダー。05 ブレイン整理係：毎日整理し、頼めば総点検もする。" width="100%"></p>
 
 パソコンのOSの部品は、それぞれブレインの中にも対応するものがあります：
 
@@ -132,13 +132,13 @@ sequenceDiagram
 
 ## エージェントの働き方
 
-<p align="center"><img src="docs/images/rules.png" alt="ていねいな仕事と、あなたらしい文章。エージェントがどの作業でも守る仕事のしかた：迷ったら聞き、何を前提にしているかを伝える。いちばんシンプルな方法で、余計なことはしない。必要なところだけ、頼まれたことだけを変えて、ほかはそのままにする。終わったと言う前に仕上がりを確認する。そして書いたものすべてに文章チェック：まずブランドのページをもとに、あなたらしい言葉で書く。大げさな言葉、中身のない言葉、長いダッシュなど、AIっぽいところを見つける。ひとつずつ直し方と一緒に見せるので、誰かが読む前にあなたが選べる。" width="100%"></p>
+<p align="center"><img src="docs/images/rules-ja.png" alt="ていねいな仕事と、あなたらしい文章。エージェントがどの作業でも守る仕事のしかた：迷ったら聞き、何を前提にしているかを伝える。いちばんシンプルな方法で、余計なことはしない。必要なところだけ、頼まれたことだけを変えて、ほかはそのままにする。終わったと言う前に仕上がりを確認する。そして書いたものすべてに文章チェック：まずブランドのページをもとに、あなたらしい言葉で書く。大げさな言葉、中身のない言葉、長いダッシュなど、AIっぽいところを見つける。ひとつずつ直し方と一緒に見せるので、誰かが読む前にあなたが選べる。" width="100%"></p>
 
 仕事のしかたは、Andrej KarpathyによるAIアシスタント向けのガイドライン（[andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)）を、私たちの言葉ですべてのブレインのメインのルールに組み込んだものです。文章チェックには[no-ai-slop](https://github.com/petergyang/no-ai-slop)スキルを使います。このスキルは、すべてのブレインの`Skills/no-ai-slop/`に入っています。詳しくは[メインのルール](docs/folders/main-rules.md)へ。
 
 ## ブレインの中身
 
-<p align="center"><img src="docs/images/folders.png" alt="7つのフォルダーに、すべての置き場所。Aboutには、あなた自身、目標、仕事、あなたらしい言葉づかい。Dailyには、1日1つのノートと未完了のタスク。Projectsには、プロジェクトごとのフォルダーとトップページ。Relationshipsには、人や会社ごとのノート。Memoryには、決定事項とその理由、リサーチ、お金、アーカイブ。Libraryには、プロンプト、テンプレート、チェックリスト。Skillsには、ブレイン整理係と朝のまとめ。そしてCLAUDE.md、ブレインのいちばん上にあるメインのルール。" width="100%"></p>
+<p align="center"><img src="docs/images/folders-ja.png" alt="7つのフォルダーに、すべての置き場所。Aboutには、あなた自身、目標、仕事、あなたらしい言葉づかい。Dailyには、1日1つのノートと未完了のタスク。Projectsには、プロジェクトごとのフォルダーとトップページ。Relationshipsには、人や会社ごとのノート。Memoryには、決定事項とその理由、リサーチ、お金、アーカイブ。Libraryには、プロンプト、テンプレート、チェックリスト。Skillsには、ブレイン整理係と朝のまとめ。そしてCLAUDE.md、ブレインのいちばん上にあるメインのルール。" width="100%"></p>
 
 ```
 My Brain/
@@ -157,7 +157,7 @@ My Brain/
 
 ## クイックスタート
 
-<p align="center"><img src="docs/images/setup.png" alt="セットアップ：4つのフォームで10分ほど。1 あなたについて：名前、仕事、強み、大切にしていること、好きな働き方。2 あなたの仕事：あなたの仕事に合わせた3つの質問、それから目標、プロジェクト、悩み。3 日々と人：仕事の日、まとめを受け取る時間、大事な人、SNS、ツール。4 ファイル：経歴書、プロフィール文、料金表、今までのメモ、またはスキップ。最後に「ブレインを作る」：フォルダー、ルール、ノート、ブレイン整理係。" width="100%"></p>
+<p align="center"><img src="docs/images/setup-ja.png" alt="セットアップ：4つのフォームで10分ほど。1 あなたについて：名前、仕事、強み、大切にしていること、好きな働き方。2 あなたの仕事：あなたの仕事に合わせた3つの質問、それから目標、プロジェクト、悩み。3 日々と人：仕事の日、まとめを受け取る時間、大事な人、SNS、ツール。4 ファイル：経歴書、プロフィール文、料金表、今までのメモ、またはスキップ。最後に「ブレインを作る」：フォルダー、ルール、ノート、ブレイン整理係。" width="100%"></p>
 
 必要なのは、フォルダーの中で作業できるAIエージェント、エージェントが接続できるクラウドドライブ、そしてパソコンです。コードは必要ありません。おすすめは、いちばん多くテストしたClaudeとGoogle Driveの組み合わせなので、下の手順もこの2つを使っています。ほかのドライブやエージェントも含めた詳しい手順は[はじめに](docs/getting-started.md)にあります。
 
@@ -173,13 +173,13 @@ My Brain/
 **インストール：** お使いのエージェントのボタンをクリックしてください。
 
 <p align="center">
-<a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="docs/images/buttons/claude-desktop.png" width="240" alt="Claudeデスクトップに追加"></a>
-<a href="docs/install.md#claude-code"><img src="docs/images/buttons/claude-code.png" width="240" alt="Claude Codeにインストール"></a>
-<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsInBoeWdpdGFsLWJyYWluIl19"><img src="docs/images/buttons/cursor.png" width="240" alt="Cursorに追加"></a>
+<a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="docs/images/buttons/claude-desktop-ja.png" width="240" alt="Claudeデスクトップに追加"></a>
+<a href="docs/install.md#claude-code"><img src="docs/images/buttons/claude-code-ja.png" width="240" alt="Claude Codeにインストール"></a>
+<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsInBoeWdpdGFsLWJyYWluIl19"><img src="docs/images/buttons/cursor-ja.png" width="240" alt="Cursorに追加"></a>
 <br>
-<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522phygital-brain%2522%255D%257D"><img src="docs/images/buttons/vscode.png" width="240" alt="VS Codeに追加"></a>
-<a href="docs/install.md#codex"><img src="docs/images/buttons/codex.png" width="240" alt="Codexで設定"></a>
-<a href="docs/install.md#hermes-agent-and-openclaw"><img src="docs/images/buttons/other-agents.png" width="240" alt="Hermes AgentまたはOpenClawで設定"></a>
+<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522phygital-brain%2522%255D%257D"><img src="docs/images/buttons/vscode-ja.png" width="240" alt="VS Codeに追加"></a>
+<a href="docs/install.md#codex"><img src="docs/images/buttons/codex-ja.png" width="240" alt="Codexで設定"></a>
+<a href="docs/install.md#hermes-agent-and-openclaw"><img src="docs/images/buttons/other-agents-ja.png" width="240" alt="Hermes AgentまたはOpenClawで設定"></a>
 </p>
 
 **またはターミナルで。スキルを使えるエージェントならどれでもOKです**（Claude Code、Codex、Cursor、Gemini CLIなど）：
@@ -355,7 +355,7 @@ Phygital Brainは無料のオープンソースです。お金がかかるのは
 | `package.json` | npmパッケージ。`npx -y phygital-brain`でコネクターが動きます |
 | `.github/workflows/` | 新しいバージョンごとのリリース：npmと、Claudeデスクトップ用ファイルつきのGitHubリリース |
 
-<p align="center"><img src="docs/images/ownership.png" alt="あなたのノート。どのAIでも。あなたのことを覚えている。ドライブにあるあなたのブレインのフォルダー（テキストファイルで、あなたのもの）が真ん中にあり、Claude、Codex、Hermes Agent、OpenClaw、Cursor、そして次に選ぶAIとつながっています。いつでもほかのAIに乗り換えられます。同じノートを読むので、一からやり直す必要はありません。無料のオープンソース。" width="100%"></p>
+<p align="center"><img src="docs/images/ownership-ja.png" alt="あなたのノート。どのAIでも。あなたのことを覚えている。ドライブにあるあなたのブレインのフォルダー（テキストファイルで、あなたのもの）が真ん中にあり、Claude、Codex、Hermes Agent、OpenClaw、Cursor、そして次に選ぶAIとつながっています。いつでもほかのAIに乗り換えられます。同じノートを読むので、一からやり直す必要はありません。無料のオープンソース。" width="100%"></p>
 
 ## ヘルプと協力
 

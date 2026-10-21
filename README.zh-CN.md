@@ -1,7 +1,7 @@
 <p align="center"><a href="README.md">English</a> · <b>简体中文</b> · <a href="README.pt-BR.md">Português (Brasil)</a> · <a href="README.es.md">Español</a> · <a href="README.fr.md">Français</a> · <a href="README.ja.md">日本語</a> · <a href="README.ar.md">العربية</a></p>
 <p align="center"><sub>本文译自英文。如有出入，以英文 README 为准。文中链接的指南都是英文的。</sub></p>
 
-<p align="center"><img src="docs/images/hero.png" alt="Phygital Brain。会和你一起思考的第二大脑。你笔记的操作系统：你的 AI 助手会读你的笔记，把你说的话归好类，并保持整洁。标题旁边，你说“刚和 Marta 通了电话，封面改成 15 号交”，你的 AI 助手就更新了三条笔记：Projects/Picture-Book、Relationships/Penguin Kids 和 Daily/2026-10-20。" width="100%"></p>
+<p align="center"><img src="docs/images/hero-zh-CN.png" alt="Phygital Brain。会和你一起思考的第二大脑。你笔记的操作系统：你的 AI 助手会读你的笔记，把你说的话归好类，并保持整洁。标题旁边，你说“刚和 Marta 通了电话，封面改成 15 号交”，你的 AI 助手就更新了三条笔记：项目/Picture-Book、人脉/Penguin Kids 和 日记/2026-10-20。" width="100%"></p>
 
 <h1 align="center">Phygital Brain</h1>
 
@@ -76,7 +76,7 @@ Phygital Brain 给 AI 助手一个固定的地方来读和写，还有一套它�
 
 ## 工作原理
 
-<p align="center"><img src="docs/images/os.png" alt="你笔记的操作系统，共五层：01 你在电脑或手机上说话、丢文件、提问题；02 你的 AI 助手：Claude、Codex、Hermes Agent、OpenClaw 等；03 规则，每个文件夹里都有一个 CLAUDE.md，说明东西放哪里、先问什么；04 你的笔记，云盘里七个装着纯 Markdown 文件的文件夹；05 大脑管家，每天整理，你需要时做一次完整的体检。" width="100%"></p>
+<p align="center"><img src="docs/images/os-zh-CN.png" alt="你笔记的操作系统，共五层：01 你在电脑或手机上说话、丢文件、提问题；02 你的 AI 助手：Claude、Codex、Hermes Agent、OpenClaw 等；03 规则，每个文件夹里都有一个 CLAUDE.md，说明东西放哪里、先问什么；04 你的笔记，云盘里七个装着纯 Markdown 文件的文件夹；05 大脑管家，每天整理，你需要时做一次完整的体检。" width="100%"></p>
 
 电脑操作系统的每个部分，在你的大脑里都有对应：
 
@@ -132,13 +132,13 @@ sequenceDiagram
 
 ## 你的 AI 助手怎么做事
 
-<p align="center"><img src="docs/images/rules.png" alt="细心做事，写得像你。你的 AI 助手每项任务都遵守的做事习惯：不确定就问，并说出它的假设；用最简单的办法，不多做；只做需要的，只改你要求的，其余不动；说完成之前先检查自己的工作。它写的每样东西还会经过写作检查：先用你品牌页里的口吻来写；找出听起来像 AI 的地方，比如夸张的词、废话和长破折号；再把每一处连同修改建议给你看，让你在别人读到之前做决定。" width="100%"></p>
+<p align="center"><img src="docs/images/rules-zh-CN.png" alt="细心做事，写得像你。你的 AI 助手每项任务都遵守的做事习惯：不确定就问，并说出它的假设；用最简单的办法，不多做；只做需要的，只改你要求的，其余不动；说完成之前先检查自己的工作。它写的每样东西还会经过写作检查：先用你品牌页里的口吻来写；找出听起来像 AI 的地方，比如夸张的词、废话和长破折号；再把每一处连同修改建议给你看，让你在别人读到之前做决定。" width="100%"></p>
 
 这些做事习惯来自 Andrej Karpathy 给 AI 助手的准则（[andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)），我们用自己的话把它写进了每个大脑的总规则。写作检查用的是 [no-ai-slop](https://github.com/petergyang/no-ai-slop) 技能，每个大脑都会在 `Skills/no-ai-slop/` 里有一份。详见[总规则](docs/folders/main-rules.md)。
 
 ## 大脑里有什么
 
-<p align="center"><img src="docs/images/folders.png" alt="七个文件夹，什么都有地方放：About 放你自己、你的目标、你的工作和你的口吻；Daily 每天一条笔记，外加你的待办；Projects 每个项目一个文件夹，带一个首页；Relationships 每个人或每家公司一条笔记；Memory 放决定和理由、调研、财务和归档；Library 放提示词、模板和清单；Skills 放大脑管家和晨间简报；还有 CLAUDE.md，放在大脑最上层的总规则。" width="100%"></p>
+<p align="center"><img src="docs/images/folders-zh-CN.png" alt="七个文件夹，什么都有地方放：关于我 放你自己、你的目标、你的工作和你的口吻；日记 每天一条笔记，外加你的待办；项目 每个项目一个文件夹，带一个首页；人脉 每个人或每家公司一条笔记；记忆 放决定和理由、调研、财务和归档；资料库 放提示词、模板和清单；技能 放大脑管家和晨间简报；还有 CLAUDE.md，放在大脑最上层的总规则。" width="100%"></p>
 
 ```
 My Brain/
@@ -157,7 +157,7 @@ My Brain/
 
 ## 快速开始
 
-<p align="center"><img src="docs/images/setup.png" alt="搭建：四张表单，大约十分钟。1 关于你：名字、做什么、长处、价值观、喜欢怎样工作。2 你的工作：根据你的职业写的三个问题，然后是目标、项目和顾虑。3 日子和人：工作日、简报时间、重要的人、社交媒体、工具。4 文件：简历、个人简介、价目表、以前的笔记，也可以跳过。然后点“搭建我的大脑”：文件夹、规则、笔记和大脑管家。" width="100%"></p>
+<p align="center"><img src="docs/images/setup-zh-CN.png" alt="搭建：四张表单，大约十分钟。1 关于你：名字、做什么、长处、价值观、喜欢怎样工作。2 你的工作：根据你的职业写的三个问题，然后是目标、项目和顾虑。3 日子和人：工作日、简报时间、重要的人、社交媒体、工具。4 文件：简历、个人简介、价目表、以前的笔记，也可以跳过。然后点“搭建我的大脑”：文件夹、规则、笔记和大脑管家。" width="100%"></p>
 
 你需要一个能在文件夹里工作的 AI 助手、一个你的 AI 助手能连接的云盘，还有一台电脑。不用写代码。我们推荐 Claude 搭配 Google Drive，这是我们测试最多的组合，所以下面的步骤都用它们。完整步骤（包括其他云盘和 AI 助手）在[入门指南](docs/getting-started.md)里。
 
@@ -173,13 +173,13 @@ My Brain/
 **安装**：点击你的 AI 助手对应的按钮。
 
 <p align="center">
-<a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="docs/images/buttons/claude-desktop.png" width="240" alt="添加到 Claude 桌面应用"></a>
-<a href="docs/install.md#claude-code"><img src="docs/images/buttons/claude-code.png" width="240" alt="安装到 Claude Code"></a>
-<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsInBoeWdpdGFsLWJyYWluIl19"><img src="docs/images/buttons/cursor.png" width="240" alt="添加到 Cursor"></a>
+<a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="docs/images/buttons/claude-desktop-zh-CN.png" width="240" alt="添加到 Claude 桌面应用"></a>
+<a href="docs/install.md#claude-code"><img src="docs/images/buttons/claude-code-zh-CN.png" width="240" alt="安装到 Claude Code"></a>
+<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsInBoeWdpdGFsLWJyYWluIl19"><img src="docs/images/buttons/cursor-zh-CN.png" width="240" alt="添加到 Cursor"></a>
 <br>
-<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522phygital-brain%2522%255D%257D"><img src="docs/images/buttons/vscode.png" width="240" alt="添加到 VS Code"></a>
-<a href="docs/install.md#codex"><img src="docs/images/buttons/codex.png" width="240" alt="在 Codex 中设置"></a>
-<a href="docs/install.md#hermes-agent-and-openclaw"><img src="docs/images/buttons/other-agents.png" width="240" alt="在 Hermes Agent 或 OpenClaw 中设置"></a>
+<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522phygital-brain%2522%255D%257D"><img src="docs/images/buttons/vscode-zh-CN.png" width="240" alt="添加到 VS Code"></a>
+<a href="docs/install.md#codex"><img src="docs/images/buttons/codex-zh-CN.png" width="240" alt="在 Codex 中设置"></a>
+<a href="docs/install.md#hermes-agent-and-openclaw"><img src="docs/images/buttons/other-agents-zh-CN.png" width="240" alt="在 Hermes Agent 或 OpenClaw 中设置"></a>
 </p>
 
 **也可以在终端里安装，适用于任何支持技能的 AI 助手**（Claude Code、Codex、Cursor、Gemini CLI 等）：
@@ -355,7 +355,7 @@ Phygital Brain 免费开源。你需要付费的是你的 AI 助手，以及在�
 | `package.json` | npm 包，这样 `npx -y phygital-brain` 就能运行连接器 |
 | `.github/workflows/` | 发布每个新版本：npm，以及附带 Claude 桌面应用文件的 GitHub release |
 
-<p align="center"><img src="docs/images/ownership.png" alt="你的笔记。任何 AI。它记得你。你云盘里的大脑文件夹，纯文本，归你所有，位于中间，连着 Claude、Codex、Hermes Agent、OpenClaw、Cursor，以及你下一个选的 AI。随时换成别的 AI：它读的还是同样的笔记，所以你永远不用从头再来。免费开源。" width="100%"></p>
+<p align="center"><img src="docs/images/ownership-zh-CN.png" alt="你的笔记。任何 AI。它记得你。你云盘里的大脑文件夹，纯文本，归你所有，位于中间，连着 Claude、Codex、Hermes Agent、OpenClaw、Cursor，以及你下一个选的 AI。随时换成别的 AI：它读的还是同样的笔记，所以你永远不用从头再来。免费开源。" width="100%"></p>
 
 ## 帮助和贡献
 

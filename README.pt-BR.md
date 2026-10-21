@@ -1,7 +1,7 @@
 <p align="center"><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a> · <b>Português (Brasil)</b> · <a href="README.es.md">Español</a> · <a href="README.fr.md">Français</a> · <a href="README.ja.md">日本語</a> · <a href="README.ar.md">العربية</a></p>
 <p align="center"><sub>Traduzido do inglês. Se algo estiver diferente, vale o README em inglês. Os guias indicados aqui estão em inglês.</sub></p>
 
-<p align="center"><img src="docs/images/hero.png" alt="Phygital Brain. Um segundo cérebro que pensa com você. Um sistema operacional para as suas notas: seu agente lê as notas, guarda o que você fala e mantém tudo em ordem. Ao lado do título, você diz 'Tive uma ligação com a Marta, a capa agora é para o dia 15', e seu agente atualiza três notas: Projects/Picture-Book, Relationships/Penguin Kids e Daily/2026-10-20." width="100%"></p>
+<p align="center"><img src="docs/images/hero-pt-BR.png" alt="Phygital Brain. Um segundo cérebro que pensa com você. Um sistema operacional para as suas notas: seu agente lê as notas, guarda o que você fala e mantém tudo em ordem. Ao lado do título, você diz 'Tive uma ligação com a Marta, a capa agora é para o dia 15', e seu agente atualiza três notas: Projetos/Picture-Book, Contatos/Penguin Kids e Diário/2026-10-20." width="100%"></p>
 
 <h1 align="center">Phygital Brain</h1>
 
@@ -76,7 +76,7 @@ O Phygital Brain dá ao agente um lugar só para ler e escrever, com regras que 
 
 ## Como funciona
 
-<p align="center"><img src="docs/images/os.png" alt="Um sistema operacional para as suas notas, em cinco camadas: 01 você fala, solta arquivos e faz perguntas, no computador ou no celular; 02 seu agente: Claude, Codex, Hermes Agent, OpenClaw e outros; 03 as regras, um CLAUDE.md em cada pasta dizendo onde vai cada coisa e o que perguntar antes; 04 suas notas, sete pastas de arquivos Markdown simples no seu drive na nuvem; 05 o Guardião do Cérebro, que arruma tudo todo dia e faz um check-up completo quando você pede." width="100%"></p>
+<p align="center"><img src="docs/images/os-pt-BR.png" alt="Um sistema operacional para as suas notas, em cinco camadas: 01 você fala, solta arquivos e faz perguntas, no computador ou no celular; 02 seu agente: Claude, Codex, Hermes Agent, OpenClaw e outros; 03 as regras, um CLAUDE.md em cada pasta dizendo onde vai cada coisa e o que perguntar antes; 04 suas notas, sete pastas de arquivos Markdown simples no seu drive na nuvem; 05 o Guardião do Cérebro, que arruma tudo todo dia e faz um check-up completo quando você pede." width="100%"></p>
 
 Cada parte do sistema operacional de um computador tem um equivalente no seu cérebro:
 
@@ -132,13 +132,13 @@ Pequenas atualizações em notas que já existem acontecem na hora, e seu agente
 
 ## Como seu agente trabalha
 
-<p align="center"><img src="docs/images/rules.png" alt="Trabalho cuidadoso, textos com a sua cara. Hábitos que seu agente segue em toda tarefa: pergunta quando está em dúvida, dizendo o que está supondo; o caminho mais simples, nada a mais; só o necessário, mudando o que você pediu e deixando o resto; confere o trabalho antes de dizer que terminou. E uma Revisão de Texto em tudo o que ele escreve: escreve primeiro com a sua voz, a partir da página da sua marca; encontra o que soa como IA, como palavras exageradas, enrolação e travessões longos; e mostra cada um com uma correção, para você escolher antes que alguém leia." width="100%"></p>
+<p align="center"><img src="docs/images/rules-pt-BR.png" alt="Trabalho cuidadoso, textos com a sua cara. Hábitos que seu agente segue em toda tarefa: pergunta quando está em dúvida, dizendo o que está supondo; o caminho mais simples, nada a mais; só o necessário, mudando o que você pediu e deixando o resto; confere o trabalho antes de dizer que terminou. E uma Revisão de Texto em tudo o que ele escreve: escreve primeiro com a sua voz, a partir da página da sua marca; encontra o que soa como IA, como palavras exageradas, enrolação e travessões longos; e mostra cada um com uma correção, para você escolher antes que alguém leia." width="100%"></p>
 
 Os hábitos de trabalho são as diretrizes de Andrej Karpathy para assistentes de IA ([andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)), colocadas nas regras principais de todo cérebro com as nossas palavras. A Revisão de Texto usa a skill [no-ai-slop](https://github.com/petergyang/no-ai-slop), que todo cérebro recebe em `Skills/no-ai-slop/`. Mais em [Regras principais](docs/folders/main-rules.md).
 
 ## Por dentro do seu cérebro
 
-<p align="center"><img src="docs/images/folders.png" alt="Sete pastas, um lugar para tudo: About para você, suas metas, seu trabalho e sua voz; Daily para uma nota por dia e suas tarefas em aberto; Projects para uma pasta por projeto, com uma página inicial; Relationships para uma nota por pessoa ou empresa; Memory para decisões e motivos, pesquisas, dinheiro e itens arquivados; Library para prompts, modelos e checklists; Skills para o Guardião do Cérebro e o resumo da manhã; e o CLAUDE.md, as regras principais no topo do cérebro." width="100%"></p>
+<p align="center"><img src="docs/images/folders-pt-BR.png" alt="Sete pastas, um lugar para tudo: Sobre para você, suas metas, seu trabalho e sua voz; Diário para uma nota por dia e suas tarefas em aberto; Projetos para uma pasta por projeto, com uma página inicial; Contatos para uma nota por pessoa ou empresa; Memória para decisões e motivos, pesquisas, dinheiro e itens arquivados; Biblioteca para prompts, modelos e checklists; Skills para o Guardião do Cérebro e o resumo da manhã; e o CLAUDE.md, as regras principais no topo do cérebro." width="100%"></p>
 
 ```
 My Brain/
@@ -157,7 +157,7 @@ Cada pasta tem seu próprio guia: o que vai nela, o que você pode dizer, exempl
 
 ## Início rápido
 
-<p align="center"><img src="docs/images/setup.png" alt="A configuração: quatro formulários em uns dez minutos. 1 Sobre você: nome, o que você faz, pontos fortes, valores, como você gosta de trabalhar. 2 Seu trabalho: três perguntas escritas para a sua profissão, depois metas, projetos e preocupações. 3 Dias e pessoas: dias de trabalho, horário do resumo, pessoas importantes, redes sociais, ferramentas. 4 Arquivos: currículo, biografia, tabela de preços, notas antigas, ou pule. Depois, Montar meu cérebro: pastas, regras, notas e o Guardião do Cérebro." width="100%"></p>
+<p align="center"><img src="docs/images/setup-pt-BR.png" alt="A configuração: quatro formulários em uns dez minutos. 1 Sobre você: nome, o que você faz, pontos fortes, valores, como você gosta de trabalhar. 2 Seu trabalho: três perguntas escritas para a sua profissão, depois metas, projetos e preocupações. 3 Dias e pessoas: dias de trabalho, horário do resumo, pessoas importantes, redes sociais, ferramentas. 4 Arquivos: currículo, biografia, tabela de preços, notas antigas, ou pule. Depois, Montar meu cérebro: pastas, regras, notas e o Guardião do Cérebro." width="100%"></p>
 
 Você precisa de um agente de IA que trabalhe numa pasta, de um drive na nuvem que seu agente consiga conectar e de um computador. Nada de código. A gente recomenda o Claude com o Google Drive, a dupla que mais testamos, então os passos abaixo usam os dois. O passo a passo completo, com outros drives e agentes, está em [Primeiros passos](docs/getting-started.md).
 
@@ -173,13 +173,13 @@ Você precisa de um agente de IA que trabalhe numa pasta, de um drive na nuvem q
 **Instalar:** clique no botão do seu agente.
 
 <p align="center">
-<a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="docs/images/buttons/claude-desktop.png" width="240" alt="Adicionar ao Claude para computador"></a>
-<a href="docs/install.md#claude-code"><img src="docs/images/buttons/claude-code.png" width="240" alt="Instalar no Claude Code"></a>
-<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsInBoeWdpdGFsLWJyYWluIl19"><img src="docs/images/buttons/cursor.png" width="240" alt="Adicionar ao Cursor"></a>
+<a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="docs/images/buttons/claude-desktop-pt-BR.png" width="240" alt="Adicionar ao Claude para computador"></a>
+<a href="docs/install.md#claude-code"><img src="docs/images/buttons/claude-code-pt-BR.png" width="240" alt="Instalar no Claude Code"></a>
+<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsInBoeWdpdGFsLWJyYWluIl19"><img src="docs/images/buttons/cursor-pt-BR.png" width="240" alt="Adicionar ao Cursor"></a>
 <br>
-<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522phygital-brain%2522%255D%257D"><img src="docs/images/buttons/vscode.png" width="240" alt="Adicionar ao VS Code"></a>
-<a href="docs/install.md#codex"><img src="docs/images/buttons/codex.png" width="240" alt="Configurar no Codex"></a>
-<a href="docs/install.md#hermes-agent-and-openclaw"><img src="docs/images/buttons/other-agents.png" width="240" alt="Configurar no Hermes Agent ou no OpenClaw"></a>
+<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522phygital-brain%2522%255D%257D"><img src="docs/images/buttons/vscode-pt-BR.png" width="240" alt="Adicionar ao VS Code"></a>
+<a href="docs/install.md#codex"><img src="docs/images/buttons/codex-pt-BR.png" width="240" alt="Configurar no Codex"></a>
+<a href="docs/install.md#hermes-agent-and-openclaw"><img src="docs/images/buttons/other-agents-pt-BR.png" width="240" alt="Configurar no Hermes Agent ou no OpenClaw"></a>
 </p>
 
 **Ou num terminal, para qualquer agente que usa skills** (Claude Code, Codex, Cursor, Gemini CLI e outros):
@@ -355,7 +355,7 @@ O Phygital Brain é grátis e de código aberto. Você paga pelo seu agente de I
 | `package.json` | O pacote npm, para o `npx -y phygital-brain` rodar o conector |
 | `.github/workflows/` | Publica cada versão nova: no npm e no release do GitHub, com o arquivo do Claude para computador |
 
-<p align="center"><img src="docs/images/ownership.png" alt="Suas notas. Qualquer IA. Ele lembra de você. A pasta do seu cérebro no seu drive, em texto simples e sua, fica no meio, ligada ao Claude, Codex, Hermes Agent, OpenClaw, Cursor e à próxima IA que você escolher. Troque de IA quando quiser: ela lê as mesmas notas, então você nunca começa do zero. Grátis e de código aberto." width="100%"></p>
+<p align="center"><img src="docs/images/ownership-pt-BR.png" alt="Suas notas. Qualquer IA. Ele lembra de você. A pasta do seu cérebro no seu drive, em texto simples e sua, fica no meio, ligada ao Claude, Codex, Hermes Agent, OpenClaw, Cursor e à próxima IA que você escolher. Troque de IA quando quiser: ela lê as mesmas notas, então você nunca começa do zero. Grátis e de código aberto." width="100%"></p>
 
 ## Ajuda e contribuições
 

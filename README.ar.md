@@ -2,7 +2,7 @@
 
 <p align="center" dir="rtl"><sub>هذه الصفحة مترجمة من الإنجليزية. إذا اختلف أي شيء، فالنسخة الإنجليزية هي المرجع. الأدلة المرتبطة هنا باللغة الإنجليزية.</sub></p>
 
-<p align="center" dir="rtl"><img src="docs/images/hero.png" alt="Phygital Brain. عقل ثانٍ يفكر معك. نظام تشغيل لملاحظاتك: مساعدك الذكي يقرؤها، ويضع ما تقوله في مكانه، ويبقيها مرتبة. بجانب العنوان تقول 'كلّمت مارتا، وموعد تسليم الغلاف صار يوم 15'، فيحدّث مساعدك الذكي ثلاث ملاحظات: Projects/Picture-Book وRelationships/Penguin Kids وDaily/2026-10-20." width="100%"></p>
+<p align="center" dir="rtl"><img src="docs/images/hero-ar.png" alt="Phygital Brain. عقل ثانٍ يفكر معك. نظام تشغيل لملاحظاتك: مساعدك الذكي يقرؤها، ويضع ما تقوله في مكانه، ويبقيها مرتبة. بجانب العنوان تقول 'كلّمت مارتا، وموعد تسليم الغلاف صار يوم 15'، فيحدّث مساعدك الذكي ثلاث ملاحظات: المشاريع/Picture-Book والعلاقات/Penguin Kids واليوميات/2026-10-20." width="100%"></p>
 
 <h1 align="center">Phygital Brain</h1>
 
@@ -77,7 +77,7 @@ Phygital Brain يعطي المساعد مكانًا واحدًا يقرأ منه
 
 ## كيف يعمل
 
-<p align="center" dir="rtl"><img src="docs/images/os.png" alt="نظام تشغيل لملاحظاتك، في خمس طبقات: 01 أنت تتكلم وتضيف الملفات وتطرح الأسئلة، على كمبيوترك أو هاتفك. 02 مساعدك الذكي: Claude وCodex وHermes Agent وOpenClaw وغيرها. 03 القواعد: ملف CLAUDE.md في كل مجلد يقول أين توضع الأشياء وما الذي يُسأل عنه أولًا. 04 ملاحظاتك: سبعة مجلدات من ملفات Markdown البسيطة في تخزينك السحابي. 05 منظّم العقل: يرتب كل يوم، ويجري فحصًا شاملًا عندما تطلب." width="100%"></p>
+<p align="center" dir="rtl"><img src="docs/images/os-ar.png" alt="نظام تشغيل لملاحظاتك، في خمس طبقات: 01 أنت تتكلم وتضيف الملفات وتطرح الأسئلة، على كمبيوترك أو هاتفك. 02 مساعدك الذكي: Claude وCodex وHermes Agent وOpenClaw وغيرها. 03 القواعد: ملف CLAUDE.md في كل مجلد يقول أين توضع الأشياء وما الذي يُسأل عنه أولًا. 04 ملاحظاتك: سبعة مجلدات من ملفات Markdown البسيطة في تخزينك السحابي. 05 منظّم العقل: يرتب كل يوم، ويجري فحصًا شاملًا عندما تطلب." width="100%"></p>
 
 لكل جزء من نظام تشغيل الكمبيوتر جزء يقابله في عقلك:
 
@@ -133,13 +133,13 @@ sequenceDiagram
 
 ## كيف يعمل مساعدك الذكي
 
-<p align="center" dir="rtl"><img src="docs/images/rules.png" alt="عمل حذر، وكتابة تشبهك. عادات عمل يتبعها مساعدك في كل مهمة: يسأل عندما لا يكون متأكدًا ويقول ما يفترضه، ويختار أبسط طريقة بلا إضافات، ويغيّر فقط ما يلزم فيعدّل ما طلبته ويترك الباقي، ويراجع عمله قبل أن يقول إنه انتهى. ومراجعة الكتابة على كل ما يكتبه: يكتب بأسلوبك أولًا، من صفحة علامتك التجارية، ثم يجد ما يبدو مكتوبًا بالذكاء الاصطناعي، مثل الكلمات المبالغ فيها والحشو والشرطات الطويلة، ويعرض عليك كل واحد منها مع إصلاح، فتختار أنت قبل أن يقرأه أحد." width="100%"></p>
+<p align="center" dir="rtl"><img src="docs/images/rules-ar.png" alt="عمل حذر، وكتابة تشبهك. عادات عمل يتبعها مساعدك في كل مهمة: يسأل عندما لا يكون متأكدًا ويقول ما يفترضه، ويختار أبسط طريقة بلا إضافات، ويغيّر فقط ما يلزم فيعدّل ما طلبته ويترك الباقي، ويراجع عمله قبل أن يقول إنه انتهى. ومراجعة الكتابة على كل ما يكتبه: يكتب بأسلوبك أولًا، من صفحة علامتك التجارية، ثم يجد ما يبدو مكتوبًا بالذكاء الاصطناعي، مثل الكلمات المبالغ فيها والحشو والشرطات الطويلة، ويعرض عليك كل واحد منها مع إصلاح، فتختار أنت قبل أن يقرأه أحد." width="100%"></p>
 
 عادات العمل هي إرشادات Andrej Karpathy للمساعدات الذكية ([andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills))، مكتوبة بكلماتنا داخل القواعد الرئيسية لكل عقل. ومراجعة الكتابة تستخدم مهارة [no-ai-slop](https://github.com/petergyang/no-ai-slop)، التي يحصل عليها كل عقل في `Skills/no-ai-slop/`. المزيد في [القواعد الرئيسية](docs/folders/main-rules.md).
 
 ## داخل عقلك
 
-<p align="center" dir="rtl"><img src="docs/images/folders.png" alt="سبعة مجلدات، ومكان لكل شيء: About لك ولأهدافك وعملك وأسلوبك. Daily لملاحظة واحدة في اليوم ولمهامك المفتوحة. Projects لمجلد لكل مشروع مع صفحة رئيسية. Relationships لملاحظة لكل شخص أو شركة. Memory للقرارات وأسبابها، والأبحاث، والمال، والأرشيف. Library للأوامر الجاهزة والقوالب وقوائم التحقق. Skills لمنظّم العقل وموجز الصباح. وCLAUDE.md، القواعد الرئيسية في أعلى العقل." width="100%"></p>
+<p align="center" dir="rtl"><img src="docs/images/folders-ar.png" alt="سبعة مجلدات، ومكان لكل شيء: عني لك ولأهدافك وعملك وأسلوبك. اليوميات لملاحظة واحدة في اليوم ولمهامك المفتوحة. المشاريع لمجلد لكل مشروع مع صفحة رئيسية. العلاقات لملاحظة لكل شخص أو شركة. الذاكرة للقرارات وأسبابها، والأبحاث، والمال، والأرشيف. المكتبة للأوامر الجاهزة والقوالب وقوائم التحقق. المهارات لمنظّم العقل وموجز الصباح. وCLAUDE.md، القواعد الرئيسية في أعلى العقل." width="100%"></p>
 
 ```
 My Brain/
@@ -158,7 +158,7 @@ My Brain/
 
 ## البدء السريع
 
-<p align="center" dir="rtl"><img src="docs/images/setup.png" alt="الإعداد: أربعة نماذج في حوالي عشر دقائق. 1 عنك: الاسم، وما تعمله، ونقاط قوتك، وقيمك، وكيف تحب أن تعمل. 2 عملك: ثلاثة أسئلة مكتوبة لمهنتك، ثم الأهداف والمشاريع والمخاوف. 3 الأيام والأشخاص: أيام العمل، ووقت الموجز، والأشخاص المهمون، ووسائل التواصل الاجتماعي، والأدوات. 4 الملفات: السيرة الذاتية، والنبذة، وقائمة الأسعار، والملاحظات القديمة، أو تخطَّ هذه الخطوة. ثم ابنِ عقلي: المجلدات والقواعد والملاحظات ومنظّم العقل." width="100%"></p>
+<p align="center" dir="rtl"><img src="docs/images/setup-ar.png" alt="الإعداد: أربعة نماذج في حوالي عشر دقائق. 1 عنك: الاسم، وما تعمله، ونقاط قوتك، وقيمك، وكيف تحب أن تعمل. 2 عملك: ثلاثة أسئلة مكتوبة لمهنتك، ثم الأهداف والمشاريع والمخاوف. 3 الأيام والأشخاص: أيام العمل، ووقت الموجز، والأشخاص المهمون، ووسائل التواصل الاجتماعي، والأدوات. 4 الملفات: السيرة الذاتية، والنبذة، وقائمة الأسعار، والملاحظات القديمة، أو تخطَّ هذه الخطوة. ثم ابنِ عقلي: المجلدات والقواعد والملاحظات ومنظّم العقل." width="100%"></p>
 
 تحتاج إلى مساعد ذكي يستطيع العمل داخل مجلد، وتخزين سحابي يستطيع مساعدك الاتصال به، وكمبيوتر. بدون أي برمجة. ننصح بـ Claude مع Google Drive، فهذا هو الثنائي الذي جربناه أكثر، لذلك الخطوات أدناه تستخدمهما. الخطوات الكاملة، مع أنواع أخرى من التخزين والمساعدات، موجودة في [البداية](docs/getting-started.md).
 
@@ -174,13 +174,13 @@ My Brain/
 **التثبيت:** اضغط الزر الخاص بمساعدك.
 
 <p align="center" dir="rtl">
-<a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="docs/images/buttons/claude-desktop.png" width="240" alt="أضفه إلى Claude على الكمبيوتر"></a>
-<a href="docs/install.md#claude-code"><img src="docs/images/buttons/claude-code.png" width="240" alt="ثبّته في Claude Code"></a>
-<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsInBoeWdpdGFsLWJyYWluIl19"><img src="docs/images/buttons/cursor.png" width="240" alt="أضفه إلى Cursor"></a>
+<a href="https://github.com/Phygital-Brain/phygital-brain/releases/latest/download/phygital-brain.mcpb"><img src="docs/images/buttons/claude-desktop-ar.png" width="240" alt="أضفه إلى Claude على الكمبيوتر"></a>
+<a href="docs/install.md#claude-code"><img src="docs/images/buttons/claude-code-ar.png" width="240" alt="ثبّته في Claude Code"></a>
+<a href="https://cursor.com/en/install-mcp?name=phygital-brain&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsInBoeWdpdGFsLWJyYWluIl19"><img src="docs/images/buttons/cursor-ar.png" width="240" alt="أضفه إلى Cursor"></a>
 <br>
-<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522phygital-brain%2522%255D%257D"><img src="docs/images/buttons/vscode.png" width="240" alt="أضفه إلى VS Code"></a>
-<a href="docs/install.md#codex"><img src="docs/images/buttons/codex.png" width="240" alt="جهّزه في Codex"></a>
-<a href="docs/install.md#hermes-agent-and-openclaw"><img src="docs/images/buttons/other-agents.png" width="240" alt="جهّزه في Hermes Agent أو OpenClaw"></a>
+<a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522phygital-brain%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522phygital-brain%2522%255D%257D"><img src="docs/images/buttons/vscode-ar.png" width="240" alt="أضفه إلى VS Code"></a>
+<a href="docs/install.md#codex"><img src="docs/images/buttons/codex-ar.png" width="240" alt="جهّزه في Codex"></a>
+<a href="docs/install.md#hermes-agent-and-openclaw"><img src="docs/images/buttons/other-agents-ar.png" width="240" alt="جهّزه في Hermes Agent أو OpenClaw"></a>
 </p>
 
 **أو من الطرفية (terminal)، لأي مساعد يستخدم المهارات** (Claude Code وCodex وCursor وGemini CLI وغيرها):
@@ -356,7 +356,7 @@ Phygital Brain مجاني ومفتوح المصدر. تدفع مقابل مسا�
 | `package.json` | حزمة npm، حتى يشغّل `npx -y phygital-brain` الموصل |
 | `.github/workflows/` | ينشر كل إصدار جديد: على npm، وإصدار GitHub مع ملف Claude للكمبيوتر |
 
-<p align="center" dir="rtl"><img src="docs/images/ownership.png" alt="ملاحظاتك. أي ذكاء اصطناعي. يتذكرك. مجلد عقلك في تخزينك السحابي، نص عادي وملكك أنت، في المنتصف، ومرتبط بـ Claude وCodex وHermes Agent وOpenClaw وCursor والذكاء الاصطناعي التالي الذي تختاره. انتقل إلى ذكاء اصطناعي آخر متى شئت: سيقرأ الملاحظات نفسها، فلا تبدأ من الصفر أبدًا. مجاني ومفتوح المصدر." width="100%"></p>
+<p align="center" dir="rtl"><img src="docs/images/ownership-ar.png" alt="ملاحظاتك. أي ذكاء اصطناعي. يتذكرك. مجلد عقلك في تخزينك السحابي، نص عادي وملكك أنت، في المنتصف، ومرتبط بـ Claude وCodex وHermes Agent وOpenClaw وCursor والذكاء الاصطناعي التالي الذي تختاره. انتقل إلى ذكاء اصطناعي آخر متى شئت: سيقرأ الملاحظات نفسها، فلا تبدأ من الصفر أبدًا. مجاني ومفتوح المصدر." width="100%"></p>
 
 ## المساعدة والمساهمة
 
