@@ -11,7 +11,6 @@
 <a href="#开源和署名"><img src="https://img.shields.io/badge/-open%20source-F05AB8" alt="开源"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="许可证：Apache-2.0"></a>
 <a href="https://www.npmjs.com/package/phygital-brain"><img src="https://img.shields.io/npm/v/phygital-brain?color=5AC8FA" alt="npm 版本"></a>
-<a href="https://www.npmjs.com/package/phygital-brain"><img src="https://img.shields.io/npm/dt/phygital-brain?color=F05AB8" alt="npm 下载量"></a>
 <a href="#快速开始"><img src="https://img.shields.io/badge/Claude-plugin-D97757?logo=anthropic&logoColor=white" alt="Claude 插件"></a>
 <a href="docs/install.md"><img src="https://img.shields.io/badge/MCP-connector-F05AB8" alt="MCP 连接器"></a>
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-5AC8FA" alt="欢迎提交 Pull Request"></a>
