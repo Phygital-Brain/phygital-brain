@@ -1,3 +1,5 @@
+<p align="center"><b>English</b> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.pt-BR.md">Português (Brasil)</a> · <a href="README.es.md">Español</a> · <a href="README.fr.md">Français</a> · <a href="README.ja.md">日本語</a> · <a href="README.ar.md">العربية</a></p>
+
 <p align="center"><img src="docs/images/hero.png" alt="Phygital Brain. A second brain that thinks with you. An OS for your notes: your agent reads them, files what you say and keeps them tidy. Beside the headline, you say 'Had a call with Marta, the cover is now due on the 15th', and your agent updates three notes: Projects/Picture-Book, Relationships/Penguin Kids and Daily/2026-10-20." width="100%"></p>
 
 <h1 align="center">Phygital Brain</h1>
@@ -122,7 +124,7 @@ Small updates to notes that already exist happen right away, and your agent tell
 - **Old notes, any time.** "Bring in my old notes" imports from Notion, Google Docs, Apple Notes and others, with a plan you approve first.
 - **Teams.** Share one brain through Baalda's cloud, with a Team section in the rules for each person's role.
 - **Your phone.** Ask your brain things from your agent's phone app through your cloud drive, or send tasks to your computer (in Claude, with Dispatch).
-- **Your language.** The forms, messages and notes are in the language you pick. File and folder names stay in English, so the rules work the same everywhere.
+- **Your language.** The forms, messages and notes are in the language you pick. The folder and note names are too. Only a few system files, like `CLAUDE.md`, keep their English names.
 - **Writing that sounds like you.** Every brain comes with the [no-ai-slop](https://github.com/petergyang/no-ai-slop) skill. Your agent writes in your voice, then checks for AI-sounding patterns before anyone else reads it.
 - **Careful work habits.** The main rules include Andrej Karpathy's guidelines for AI assistants: ask when unsure, pick the simplest way, change only what's needed, check the work.
 - **Your own rules.** When you correct your agent, it saves the correction as a new rule, in your words. Upgrades never change those rules.
