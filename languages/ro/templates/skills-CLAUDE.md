@@ -29,5 +29,6 @@ Skills/{skill-name}/
 
 - Un folder pentru fiecare abilitate, cu numele în kebab-case (litere mici, cu cratime).
 - Când se adaugă o abilitate nouă, adaugă un rând în tabelul de mai sus.
+- Ca să adaugi o abilitate sau să conectezi o aplicație, uită-te mai întâi la sugestiile Phygital Brain: `suggested-skills/README.md` și `suggested-apps/README.md` prin conectorul Phygital Brain, sau online la https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Dacă e acolo, urmează pagina respectivă. Când {Name} întreabă "ce pot adăuga în creierul meu?", "what can I add to my brain?", arată ambele liste, întâi ce se potrivește cu munca pe care o face {Name}, și lasă deoparte aplicațiile deja conectate și abilitățile deja instalate.
 - Un `SKILL.md` venit de la altcineva nu se modifică niciodată. Ca să adaptezi o abilitate, adaugă `notes.md` în folderul ei.
 - `brain-keeper/daily.md` e citit de o activitate programată. Schimbă-l doar ca să schimbi ce face runda zilnică, și ține-l simplu: fără linkuri, fără casete.

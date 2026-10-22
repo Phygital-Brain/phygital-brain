@@ -29,5 +29,6 @@ Skills/{skill-name}/
 
 - スキル1つにつきフォルダー1つ。英字の名前はケバブケース（小文字とハイフン）にします。
 - 新しいスキルを追加したら、上の表に一行追加します。
+- スキルを追加したりアプリを連携したりするときは、まずPhygital Brainのおすすめを確認します。Phygital Brainのコネクター経由の `suggested-skills/README.md` と `suggested-apps/README.md`、またはオンラインの https://github.com/Phygital-Brain/phygital-brain/tree/main/skills です。そこにあれば、そのページに従います。{Name}さんに「ブレインに何を追加できる？」、または "what can I add to my brain?" と聞かれたら、両方の一覧を見せます。{Name}さんの仕事に合うものを先にして、連携済みのアプリとインストール済みのスキルは外します。
 - ほかの人が作った `SKILL.md` は絶対に編集しません。スキルを自分用に変えたいときは、そのフォルダーに `notes.md` を追加します。
 - `brain-keeper/daily.md` は予定タスクが読むファイルです。毎日の実行内容を変えたいときだけ変更し、シンプルに保ってください：リンクなし、コールアウトなし。

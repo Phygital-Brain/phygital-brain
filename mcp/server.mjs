@@ -59,7 +59,7 @@ const TOOLS = [
     name: "phygital_brain_read_file",
     title: "Read a Phygital Brain file",
     description:
-      "Read one of Phygital Brain's own files and return its full text: a form, a template, a language file or a skill. Use it when the instructions from phygital_brain_start name a file; if you don't know the exact name, list the folder with phygital_brain_list_files first. A missing file, a folder, or a path outside the skills folder returns an error that says so. It reads only Phygital Brain's files, never the person's brain, and changes nothing.",
+      "Read one of Phygital Brain's own files and return its full text: a form, a template, a language file, a skill, or the suggested skills and apps people can add (start with 'suggested-skills/README.md' and 'suggested-apps/README.md'). Use it when the instructions from phygital_brain_start name a file, or when the person asks what they can add to their brain; if you don't know the exact name, list the folder with phygital_brain_list_files first. A missing file, a folder, or a path outside the skills folder returns an error that says so. It reads only Phygital Brain's files, never the person's brain, and changes nothing.",
     inputSchema: {
       type: "object",
       properties: {

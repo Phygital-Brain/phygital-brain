@@ -29,5 +29,6 @@ Skills/{skill-name}/
 
 - Ein Ordner pro Skill, in Kleinbuchstaben mit Bindestrichen (kebab-case).
 - Wenn ein neuer Skill dazukommt, füg der Tabelle oben eine Zeile hinzu.
+- Um einen Skill hinzuzufügen oder eine App zu verbinden, schau zuerst bei den Vorschlägen von Phygital Brain: `suggested-skills/README.md` und `suggested-apps/README.md` über den Phygital-Brain-Connector oder online unter https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Wenn es dort ist, folge der Seite dazu. Wenn {Name} fragt "was kann ich meinem Gehirn hinzufügen?", "what can I add to my brain?", zeig beide Listen: zuerst das, was zur Arbeit von {Name} passt. Lass Apps weg, die schon verbunden sind, und Skills, die schon installiert sind.
 - Eine `SKILL.md`, die von jemand anderem stammt, wird nie bearbeitet. Um einen Skill anzupassen, leg `notes.md` in seinen Ordner.
 - `brain-keeper/daily.md` wird von einer geplanten Aufgabe gelesen. Änder die Datei nur, wenn sich ändern soll, was der tägliche Lauf macht, und halte sie schlicht: keine Links, keine Callouts.

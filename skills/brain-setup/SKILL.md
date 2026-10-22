@@ -5,7 +5,7 @@ description: Build a Phygital Brain second brain in the selected folder through 
 
 # Phygital Brain: Setup
 
-Version 0.1.9. Everything below is for the agent. Follow it step by step, and check each step before moving on.
+Version 0.1.10. Everything below is for the agent. Follow it step by step, and check each step before moving on.
 
 ## What you are building
 
@@ -48,7 +48,7 @@ If you are another agent and your tool loads a different rule file (for example 
 
    Never delete or overwrite existing notes.
 3. If the folder has other files, don't touch them. Build around them and mention them at the end.
-4. **The cloud drive** comes in Step 1.6, after the language question, so it's asked in the person's language. Baalda comes last, in Step 4.1.
+4. **The cloud drive** comes in Step 1.6, after the language question, so it's asked in the person's language. Add-ons and Baalda come last, in Steps 4.1 and 4.2.
 5. **Form window.** Check whether you can show an HTML form window (in Claude, the `show_widget` tool). Remember the answer. If you can't, use `forms/questions.md` in Step 2: click questions where you have them (AskUserQuestion, up to 4 questions per call), otherwise numbered options in chat. **On a phone, never use form windows**, even if you have the tool: they don't work well there. Use click questions for every step, from the language question on, with the texts and options from the forms (for a ready language, from `i18n/{code}/forms/`).
 
 ## Step 1: Language
@@ -278,7 +278,7 @@ If they named work they say no to (form 1, `values`), add it as the first rule u
 
 ### 3.7b Connected apps
 
-Look at which connectors you have in this chat for the apps {Name} named in form 3 (`comms`, `notes_now`): email (for example Gmail or Outlook), calendar (Google Calendar or Outlook), and their cloud drive. Then ask one question (click options, multi): "Which of these should your brain read from?" with one option per connected app, and `None for now`. Write the ones picked into `Skills/connected-apps/connected-apps.md` under Connected, read only, in the shape its ADAPTING note shows. An app {Name} uses but hasn't connected: mention it in the finish message with the guide link https://github.com/Phygital-Brain/phygital-brain/blob/main/docs/connect-your-apps.md.
+Look at which connectors you have in this chat for the apps {Name} named in form 3 (`comms`, `notes_now`): email (for example Gmail or Outlook), calendar (Google Calendar or Outlook), and their cloud drive. Then ask one question (click options, multi): "Which of these should your brain read from?" with one option per connected app, and `None for now`. Write the ones picked into `Skills/connected-apps/connected-apps.md` under Connected, read only, in the shape its ADAPTING note shows. An app {Name} uses but hasn't connected: it's offered in Step 4.1, if it's in `../suggested-apps/README.md`.
 
 ### 3.8 Brain Keeper
 
@@ -321,9 +321,30 @@ A short, warm welcome, not a report of what was built. Say each message below fr
 
 Don't list the folders and files, don't explain the rules, and don't give the instructions text (it's only for the phone-only setup, see below): they can ask.
 
-### Step 4.1: Baalda
+### Step 4.1: Add-ons for their work
 
-Last, one click question (skip it on a phone): `baalda_offer` ("Want to browse your notes like an app? Baalda shows your brain as a notes app on your computer.") `baalda_install_button` ("Install Baalda") · `not_now` ("Not now"). For Install Baalda, give the link https://github.com/naveedharri/baalda and say to open this folder in it once it's installed.
+Right after the welcome, pick add-ons for them from two lists: the apps in `../suggested-apps/README.md` and the skills in `../suggested-skills/README.md`. Keep only those whose "Good for" clearly fits what they told you in the forms (their work, who they sell to, where they post, which apps they use, their projects), at most 5 in all. Leave out:
+
+- apps that already show up as connectors in this chat (Step 3.7b already asked about those). For a set of apps, like Google Workspace (Gmail, Calendar, Drive), offer only the parts not connected yet and name them ("Google Calendar"),
+- skills you already have,
+- the ones your agent can't run (for example GEO-SEO needs Claude Code), and on a phone the ones that need a computer.
+
+If none is left, skip this list and go to Step 4.2.
+
+Otherwise, show one list, not a question: the title `addons_title` ("Add-ons for your work"), then each add-on as a choice they can tick, several at once. For each one, in their language: its name, what it is (`addon_type_app` ("app to connect") or `addon_type_skill` ("skill")), and one or two sentences on what it does and what it would do for their own work, named from their answers. Be specific. Not "for your reels", but "turns a script into a short video in your brand colours, so you can make the weekly reels for your bakery without a video editor." Buttons: `addons_add_button` ("Add selected") · `not_now` ("Not now"). Don't install or connect anything yet.
+
+For Not now, or if they tick none, say `addons_later` ("You can add these anytime. Just ask "what can I add to my brain?"").
+
+### Step 4.2: Baalda
+
+Then, one more click question (skip it on a phone): `baalda_offer` ("Want to browse your notes like an app? Baalda shows your brain as a notes app on your computer.") `baalda_install_button` ("Install Baalda") · `not_now` ("Not now").
+
+### Step 4.3: Install what they chose
+
+Only now, after both answers:
+
+1. Each add-on they ticked, one at a time: follow its page in `../suggested-apps/` or `../suggested-skills/`. Check what it needs, skip the install if you already have the skill, ask before installing anything, and when two picks share one install (Skill Creator and Canva's Canvas Design both come with Anthropic's example skills), run it once. Then write `Skills/{skill-name}/notes.md` from the page's example and add its row in `Skills/CLAUDE.md`. An app whose page has no notes example (Google Workspace) goes in `Skills/connected-apps/connected-apps.md` instead, as its page says.
+2. For Install Baalda, give the link https://github.com/naveedharri/baalda and say to open this folder in it once it's installed.
 
 Then stop.
 

@@ -29,5 +29,6 @@ Skills/{skill-name}/
 
 - En mapp per skill, namngiven i kebab-case.
 - När en ny skill läggs till, lägg till en rad i tabellen ovan.
+- För att lägga till en skill eller ansluta en app, kolla först förslagen från Phygital Brain: `suggested-skills/README.md` och `suggested-apps/README.md` via connectorn för Phygital Brain, eller online på https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Om det finns där, följ sidan för det. När {Name} frågar "vad kan jag lägga till i min hjärna?", "what can I add to my brain?", visa båda listorna, först det som passar arbetet som {Name} gör, och hoppa över appar som redan är anslutna och skills som redan är installerade.
 - En `SKILL.md` som kommer från någon annan redigeras aldrig. För att anpassa en skill, lägg till `notes.md` i dess mapp.
 - `brain-keeper/daily.md` läses av en schemalagd uppgift. Ändra den bara för att ändra vad den dagliga körningen gör, och håll den enkel: inga länkar, inga callouts.

@@ -264,7 +264,7 @@ Phygital Brain 已支持 **41 种语言**。在搭建开始时选好你的语言
 - **不是应用**。没有什么要运行的。干活的是你的 AI 助手，它照着这个仓库里的文件做事。
 - **还没有锁**。规则能起作用，只是因为你的 AI 助手会遵守它们。真正机密的东西请放在大脑文件夹之外。上锁的文件夹在[路线图](#路线图)上。
 - **不会一直运行，除非你把它搬到云端**。在你的电脑上，大脑管家和晨间简报只在 AI 助手的应用开着时才运行。作为云端例行任务，电脑关机它们也能运行。
-- **早期版本**。目前是 0.1.9 版，搭建流程还没有经过很多人测试。
+- **早期版本**。目前是 0.1.10 版，搭建流程还没有经过很多人测试。
 
 ## 路线图
 
@@ -325,7 +325,7 @@ Phygital Brain 免费开源。你需要付费的是你的 AI 助手，以及在�
 | [安装](docs/install.md) | Claude 桌面应用、Cursor 和 VS Code 一键安装，以及 Claude Code、Codex、Hermes Agent、OpenClaw 等的安装步骤 |
 | [入门指南](docs/getting-started.md) | 从零到一个能用的大脑的每一步，附带检查和解决办法 |
 | [连接你的应用](docs/connect-your-apps.md) | Gmail、日历、Drive 和其他服务，只读，以及完全在线运行 |
-| [添加更多技能](docs/add-skills.md) | 给你的大脑添加任何技能，用 [HyperFrames](https://github.com/heygen-com/hyperframes) 做视频，用 [PhotoCraft](https://github.com/storytold/photocraft) 修图 |
+| [添加更多技能](docs/add-skills.md) | 给你的大脑添加任何技能，用 [HyperFrames](https://github.com/heygen-com/hyperframes) 做视频，用 [Canva](https://www.canva.com) 做设计 |
 | [团队](docs/teams.md) | 通过 Baalda 的云端共享同一个大脑 |
 | [把以前的笔记搬进来](docs/importing.md) | 从 Notion、Google Docs、苹果备忘录等导出，再全部归好类 |
 | [示例大脑](docs/example-brain/README.md) | 几条虚构的笔记，让你在搭建自己的大脑之前先看看文件长什么样 |

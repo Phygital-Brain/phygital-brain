@@ -29,5 +29,6 @@ Skills/{skill-name}/
 
 - مجلد واحد لكل مهارة، باسم بصيغة kebab-case.
 - عند إضافة مهارة جديدة، أضف صفًا إلى الجدول أعلاه.
+- لإضافة مهارة أو ربط تطبيق، راجع أولًا اقتراحات Phygital Brain: `suggested-skills/README.md` و `suggested-apps/README.md` عبر موصل Phygital Brain، أو على الإنترنت في https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. إذا كان موجودًا هناك، فاتبع صفحته. عندما يسأل {Name} "ماذا يمكنني أن أضيف إلى عقلي؟"، "what can I add to my brain?"، اعرض القائمتين، وابدأ بما يناسب عمل {Name}، واترك التطبيقات المربوطة بالفعل والمهارات المثبّتة بالفعل.
 - ملف `SKILL.md` القادم من شخص آخر لا يُعدَّل أبدًا. لتخصيص مهارة، أضف `notes.md` في مجلدها.
 - `brain-keeper/daily.md` تقرؤه مهمة مجدولة. غيّره فقط لتغيير ما يفعله التشغيل اليومي، واجعله بسيطًا: بلا روابط وبلا تنبيهات (callouts).

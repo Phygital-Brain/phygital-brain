@@ -7,6 +7,6 @@ authors:
   - name: "Phygital-Brain"
 repository-code: "https://github.com/Phygital-Brain/phygital-brain"
 license: Apache-2.0
-version: 0.1.9
-date-released: "2026-10-21"
+version: 0.1.10
+date-released: "2026-10-22"
 keywords: [second-brain, notes, knowledge-base, markdown, claude-plugin, ai-agents]

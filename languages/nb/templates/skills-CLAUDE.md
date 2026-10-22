@@ -29,5 +29,6 @@ Skills/{skill-name}/
 
 - Én mappe per ferdighet, med navn i kebab-case (små bokstaver og bindestreker).
 - Når en ny ferdighet legges til, legg til en rad i tabellen over.
+- For å legge til en ferdighet eller koble til en app, sjekk først forslagene fra Phygital Brain: `suggested-skills/README.md` og `suggested-apps/README.md` gjennom koblingen til Phygital Brain, eller på nett på https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Hvis det er der, følg siden for det. Når {Name} spør «hva kan jeg legge til i hjernen min?», «what can I add to my brain?», vis begge listene, først det som passer til arbeidet til {Name}, og hopp over apper som allerede er koblet til og ferdigheter som allerede er installert.
 - En `SKILL.md` som kommer fra noen andre, redigeres aldri. For å tilpasse en ferdighet, legg til `notes.md` i mappen dens.
 - `brain-keeper/daily.md` leses av en planlagt oppgave. Endre den bare for å endre hva den daglige kjøringen gjør, og hold den enkel: ingen lenker, ingen callouts.

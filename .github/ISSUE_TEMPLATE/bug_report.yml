@@ -12,7 +12,7 @@ body:
     attributes:
       label: Version
       description: "The first line of your brain's root CLAUDE.md, or the plugin version"
-      placeholder: "Phygital Brain, version 0.1.9"
+      placeholder: "Phygital Brain, version 0.1.10"
     validations:
       required: true
   - type: dropdown

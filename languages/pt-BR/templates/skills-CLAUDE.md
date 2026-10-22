@@ -29,5 +29,6 @@ Skills/{skill-name}/
 
 - Uma pasta por skill, com nome em kebab-case (minúsculas com hífens).
 - Quando uma skill nova for adicionada, acrescente uma linha na tabela acima.
+- Para adicionar uma skill ou conectar um app, veja primeiro as sugestões do Phygital Brain: `suggested-skills/README.md` e `suggested-apps/README.md` pelo conector do Phygital Brain, ou online em https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Se estiver lá, siga a página. Quando {Name} perguntar "o que eu posso adicionar ao meu cérebro?", "what can I add to my brain?", mostre as duas listas, primeiro o que combina com o trabalho de {Name}, e deixe de fora os apps já conectados e as skills já instaladas.
 - Um `SKILL.md` que veio de outra pessoa nunca é editado. Para personalizar uma skill, crie um `notes.md` na pasta dela.
 - `brain-keeper/daily.md` é lido por uma tarefa agendada. Mude esse arquivo só para mudar o que a execução diária faz, e mantenha simples: sem links, sem callouts.

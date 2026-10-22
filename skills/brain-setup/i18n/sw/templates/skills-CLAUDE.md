@@ -29,5 +29,6 @@ Ujuzi/{skill-name}/
 
 - Folda moja kwa kila ujuzi, yenye jina kwa mtindo wa kebab-case.
 - Ujuzi mpya ukiongezwa, ongeza mstari kwenye jedwali hapo juu.
+- Ili kuongeza ujuzi au kuunganisha programu, angalia kwanza mapendekezo ya Phygital Brain: `suggested-skills/README.md` na `suggested-apps/README.md` kupitia kiunganishi (connector) cha Phygital Brain, au mtandaoni kwenye https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Kikiwa hapo, fuata ukurasa wake. {Name} akiuliza "naweza kuongeza nini kwenye ubongo wangu?", "what can I add to my brain?", mwonyeshe orodha zote mbili, zile zinazofaa kazi ya {Name} kwanza, na uache programu ambazo tayari zimeunganishwa na ujuzi ambao tayari umewekwa.
 - `SKILL.md` iliyotoka kwa mtu mwingine haibadilishwi kamwe. Ili kubadilisha ujuzi upendavyo, ongeza `noti.md` ndani ya folda yake.
 - `mtunzaji-wa-ubongo/kila-siku.md` inasomwa na kazi iliyopangwa kwa ratiba. Ibadilishe tu kama unataka kubadilisha kile kinachofanyika kila siku, na iwe rahisi: bila viungo, bila callouts.

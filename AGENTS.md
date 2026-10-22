@@ -19,6 +19,8 @@ skills/brain-setup/forms/         the four forms (HTML for the form window) and 
 skills/brain-setup/templates/     every file a new brain gets, with {placeholders}
 skills/brain-setup/bundled/       third-party skills copied unchanged into every brain (no-ai-slop, MIT)
 skills/brain-keeper/SKILL.md      installs and updates the Brain Keeper
+skills/suggested-skills/          other people's skills that work with a brain: README.md (the list) and one page per skill, offered at the end of setup
+skills/suggested-apps/            apps to connect (Google Workspace, Canva): README.md (the list) and one page per app, offered with the skills at the end of setup
 skills/brain-keeper/templates/    daily.md, check-up.md, queue.md, the root CLAUDE.md section
 skills/add-language/SKILL.md      makes a full set in a new language, or switches a brain's language
 skills/brain-setup/i18n/{code}/   built language sets (don't edit: run scripts/i18n.py build)

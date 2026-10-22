@@ -264,7 +264,7 @@ A lista completa está em [Limites](docs/limits.md).
 - **Não é um app.** Não tem nada para rodar. Seu agente de IA faz o trabalho, seguindo os arquivos deste repositório.
 - **Ainda não tem tranca.** As regras só funcionam porque seu agente segue elas. Guarde o que for realmente secreto fora da pasta do cérebro. As pastas trancadas estão nos [próximos passos](#próximos-passos).
 - **Não fica sempre ligado, a não ser que você leve para a nuvem.** No seu computador, o Guardião do Cérebro e o resumo da manhã só rodam enquanto o app do seu agente está aberto. Como rotina na nuvem, eles rodam com o computador desligado.
-- **Uma versão inicial.** Esta é a versão 0.1.9, e a configuração ainda não foi testada com muita gente.
+- **Uma versão inicial.** Esta é a versão 0.1.10, e a configuração ainda não foi testada com muita gente.
 
 ## Próximos passos
 
@@ -325,7 +325,7 @@ O Phygital Brain é grátis e de código aberto. Você paga pelo seu agente de I
 | [Instalação](docs/install.md) | Um clique para o Claude para computador, o Cursor e o VS Code, e o passo a passo para Claude Code, Codex, Hermes Agent, OpenClaw e outros |
 | [Primeiros passos](docs/getting-started.md) | Cada passo, do zero até um cérebro funcionando, com verificações e soluções |
 | [Conecte seus apps](docs/connect-your-apps.md) | Gmail, Agenda, Drive e outros serviços, só leitura, e rodando tudo online |
-| [Adicione mais skills](docs/add-skills.md) | Como adicionar qualquer skill ao seu cérebro, fazer vídeos com o [HyperFrames](https://github.com/heygen-com/hyperframes) e editar imagens com o [PhotoCraft](https://github.com/storytold/photocraft) |
+| [Adicione mais skills](docs/add-skills.md) | Como adicionar qualquer skill ao seu cérebro, fazer vídeos com o [HyperFrames](https://github.com/heygen-com/hyperframes) e criar designs com o [Canva](https://www.canva.com) |
 | [Equipes](docs/teams.md) | Como compartilhar um cérebro pela nuvem do Baalda |
 | [Trazendo suas notas antigas](docs/importing.md) | Como exportar do Notion, Google Docs, Notas da Apple e outros, e guardar tudo no lugar |
 | [Cérebro de exemplo](docs/example-brain/README.md) | Algumas notas inventadas, para você ver os arquivos antes de montar o seu |

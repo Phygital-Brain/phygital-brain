@@ -5,7 +5,7 @@ description: Set up, update, pause or run the Brain Keeper, which looks after a 
 
 # Phygital Brain: Brain Keeper
 
-Version 0.1.9. Everything below is for the agent. Follow it step by step, and check each step before moving on.
+Version 0.1.10. Everything below is for the agent. Follow it step by step, and check each step before moving on.
 
 The Brain Keeper looks after the brain in two ways:
 

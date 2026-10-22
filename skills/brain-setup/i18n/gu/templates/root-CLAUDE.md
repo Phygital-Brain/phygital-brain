@@ -6,7 +6,7 @@
 - Rule 12: write their style choice from form 1 into it (for example, "By default: detailed explanations" if they picked `Detailed`).
 -->
 
-<!-- Phygital Brain, version 0.1.9, language: {lang} -->
+<!-- Phygital Brain, version 0.1.10, language: {lang} -->
 
 # {Name}નું સેકન્ડ બ્રેન
 

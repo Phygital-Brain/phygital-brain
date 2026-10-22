@@ -29,5 +29,6 @@ Kỹ năng/{skill-name}/
 
 - Mỗi skill một thư mục, đặt tên bằng chữ thường nối gạch nối (kebab-case).
 - Khi thêm một skill mới, thêm một dòng vào bảng trên.
+- Để thêm một skill hoặc kết nối một ứng dụng, trước hết hãy xem các gợi ý của Phygital Brain: `suggested-skills/README.md` và `suggested-apps/README.md` qua connector của Phygital Brain, hoặc trên mạng tại https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Nếu có trong danh sách, hãy làm theo trang của nó. Khi {Name} hỏi "mình có thể thêm gì vào bộ não?", "what can I add to my brain?", hãy đưa ra cả hai danh sách, những mục hợp với công việc của {Name} lên trước, và bỏ qua các ứng dụng đã kết nối và các skill đã cài.
 - Một `SKILL.md` lấy từ người khác thì không bao giờ được sửa. Muốn điều chỉnh một skill, hãy thêm `ghi-chú.md` vào thư mục của nó.
 - `quản-gia/dọn-dẹp-hằng-ngày.md` được một tác vụ chạy theo lịch đọc. Chỉ sửa nó khi muốn đổi việc mà lần chạy hằng ngày làm, và giữ nó đơn giản: không liên kết, không callout.

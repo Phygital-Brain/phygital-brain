@@ -29,5 +29,6 @@ Beceriler/{skill-name}/
 
 - Her beceri için bir klasör, adı kebab-case (küçük harf, kelimeler arasında tire).
 - Yeni bir beceri eklenince yukarıdaki tabloya bir satır ekle.
+- Bir beceri eklemek ya da bir uygulama bağlamak için önce Phygital Brain'in önerilerine bak: Phygital Brain bağlayıcısıyla `suggested-skills/README.md` ve `suggested-apps/README.md`, ya da internette https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Oradaysa sayfasındaki adımları izle. {Name} "beynime neler ekleyebilirim?", "what can I add to my brain?" diye sorduğunda iki listeyi de göster, işine uyanlar önce gelsin. Zaten bağlı olan uygulamaları ve zaten kurulu becerileri gösterme.
 - Başka birinden gelen bir `SKILL.md` asla düzenlenmez. Bir beceriyi kişiselleştirmek için klasörüne `notlar.md` ekle.
 - `düzen-bekçisi/günlük-tur.md` zamanlanmış bir görev tarafından okunur. Sadece günlük turun ne yapacağını değiştirmek için düzenle ve sade tut: bağlantı yok, bilgi kutusu yok.

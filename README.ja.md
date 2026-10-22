@@ -264,7 +264,7 @@ Phygital Brainは**41言語**に対応しています。セットアップの最
 - **アプリではありません。** 起動するものはありません。作業をするのはAIエージェントで、このリポジトリのファイルに沿って動きます。
 - **まだ鍵はかけられません。** ルールが守られるのは、エージェントがルールに従うからです。本当に秘密にしたいものは、ブレインのフォルダーの外に置いてください。鍵つきフォルダーは[ロードマップ](#ロードマップ)にあります。
 - **クラウドに移さない限り、常に動いているわけではありません。** パソコンで使う場合、ブレイン整理係と朝のまとめは、エージェントのアプリが開いているあいだだけ動きます。クラウドのルーティンにすれば、パソコンの電源が切れていても動きます。
-- **まだ初期のバージョンです。** 今はバージョン0.1.9で、セットアップはまだ多くの人に試してもらっていません。
+- **まだ初期のバージョンです。** 今はバージョン0.1.10で、セットアップはまだ多くの人に試してもらっていません。
 
 ## ロードマップ
 
@@ -325,7 +325,7 @@ Phygital Brainは無料のオープンソースです。お金がかかるのは
 | [インストール](docs/install.md) | ClaudeデスクトップとCursorとVS Codeはワンクリック、Claude Code、Codex、Hermes Agent、OpenClawなどは手順つき |
 | [はじめに](docs/getting-started.md) | ゼロから動くブレインができるまでの全手順、確認と直し方つき |
 | [アプリを接続する](docs/connect-your-apps.md) | Gmail、カレンダー、ドライブなどのサービスを読むだけで接続、すべてオンラインで動かす方法 |
-| [スキルを追加する](docs/add-skills.md) | ブレインに好きなスキルを追加する方法、[HyperFrames](https://github.com/heygen-com/hyperframes)で動画を作る方法、[PhotoCraft](https://github.com/storytold/photocraft)で画像を編集する方法 |
+| [スキルを追加する](docs/add-skills.md) | ブレインに好きなスキルを追加する方法、[HyperFrames](https://github.com/heygen-com/hyperframes)で動画を作る方法、[Canva](https://www.canva.com)でデザインを作る方法 |
 | [チーム](docs/teams.md) | Baaldaのクラウドで1つのブレインを共有する |
 | [今までのメモを取り込む](docs/importing.md) | Notion、Google Docs、Apple Notesなどからエクスポートして、すべて整理する |
 | [ブレインの例](docs/example-brain/README.md) | 架空のノートをいくつか。自分のブレインを作る前にファイルを見られます |

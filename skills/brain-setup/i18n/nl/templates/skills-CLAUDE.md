@@ -29,5 +29,6 @@ Skills/{skill-name}/
 
 - Eén map per skill, in kebab-case (kleine letters met koppeltekens).
 - Komt er een nieuwe skill bij, voeg dan een rij toe aan de tabel hierboven.
+- Wil je een skill toevoegen of een app koppelen, kijk dan eerst bij de suggesties van Phygital Brain: `suggested-skills/README.md` en `suggested-apps/README.md` via de connector van Phygital Brain, of online op https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Staat het daar, volg dan de pagina ervan. Als {Name} vraagt "wat kan ik aan mijn brein toevoegen?", "what can I add to my brain?", laat dan beide lijsten zien, eerst wat past bij het werk van {Name}, en laat apps die al gekoppeld zijn en skills die al geïnstalleerd zijn weg.
 - Een `SKILL.md` die van iemand anders komt, wordt nooit bewerkt. Wil je een skill aanpassen, zet dan een `notities.md` in de map.
 - `opruimhulp/dagelijks.md` wordt gelezen door een geplande taak. Pas het alleen aan als de dagelijkse ronde iets anders moet doen, en houd het eenvoudig: geen links, geen callouts.

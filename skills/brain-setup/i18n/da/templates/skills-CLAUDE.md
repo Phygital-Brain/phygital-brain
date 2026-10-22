@@ -29,5 +29,6 @@ Skills/{skill-name}/
 
 - Én mappe pr. skill, navngivet i kebab-case (små bogstaver med bindestreger).
 - Når der kommer en ny skill til, så tilføj en række i tabellen ovenfor.
+- Før du tilføjer en skill eller forbinder en app, så tjek først Phygital Brains forslag: `suggested-skills/README.md` og `suggested-apps/README.md` via Phygital Brain-connectoren eller online på https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Hvis den er der, så følg dens side. Når {Name} spørger "hvad kan jeg tilføje til min hjerne?", "what can I add to my brain?", så vis begge lister. Sæt dem, der passer til det arbejde, {Name} laver, først, og udelad apps, der allerede er forbundet, og skills, der allerede er installeret.
 - En `SKILL.md`, der kommer fra en anden, bliver aldrig ændret. Hvis du vil tilpasse en skill, så tilføj `noter.md` i dens mappe.
 - `oprydningshjælper/daglig.md` bliver læst af en planlagt opgave. Ret den kun for at ændre, hvad den daglige kørsel gør, og hold den enkel: ingen links, ingen callouts.

@@ -264,7 +264,7 @@ La lista completa está en [Límites](docs/limits.md).
 - **No es una app.** No hay nada que ejecutar. Tu agente de IA hace el trabajo, siguiendo los archivos de este repositorio.
 - **Todavía sin bloqueo.** Las reglas funcionan solo porque tu agente las sigue. Guarda lo que sea realmente secreto fuera de la carpeta del cerebro. Las carpetas bloqueadas están en la [hoja de ruta](#hoja-de-ruta).
 - **No siempre está activo, a menos que lo pases a la nube.** En tu computadora, el Guardián del Cerebro y el resumen de la mañana solo funcionan mientras la app de tu agente está abierta. Como rutina en la nube, funcionan con la computadora apagada.
-- **Una versión temprana.** Esta es la versión 0.1.9, y la configuración todavía no se ha probado con mucha gente.
+- **Una versión temprana.** Esta es la versión 0.1.10, y la configuración todavía no se ha probado con mucha gente.
 
 ## Hoja de ruta
 
@@ -325,7 +325,7 @@ Phygital Brain es gratis y de código abierto. Pagas tu agente de IA y, si neces
 | [Instalación](docs/install.md) | Un clic para Claude desktop, Cursor y VS Code, y pasos para Claude Code, Codex, Hermes Agent, OpenClaw y otros |
 | [Primeros pasos](docs/getting-started.md) | Cada paso, de cero a un cerebro que funciona, con comprobaciones y arreglos |
 | [Conecta tus apps](docs/connect-your-apps.md) | Gmail, Calendar, Drive y otros servicios, solo lectura, y funcionando todo en línea |
-| [Añade más habilidades](docs/add-skills.md) | Cómo añadir cualquier habilidad a tu cerebro, hacer vídeos con [HyperFrames](https://github.com/heygen-com/hyperframes) y editar imágenes con [PhotoCraft](https://github.com/storytold/photocraft) |
+| [Añade más habilidades](docs/add-skills.md) | Cómo añadir cualquier habilidad a tu cerebro, hacer vídeos con [HyperFrames](https://github.com/heygen-com/hyperframes) y crear diseños con [Canva](https://www.canva.com) |
 | [Equipos](docs/teams.md) | Compartir un cerebro a través de la nube de Baalda |
 | [Trae tus notas antiguas](docs/importing.md) | Exportar desde Notion, Google Docs, Apple Notes y otras, y ordenarlo todo |
 | [Cerebro de ejemplo](docs/example-brain/README.md) | Unas cuantas notas inventadas, para que veas los archivos antes de crear el tuyo |

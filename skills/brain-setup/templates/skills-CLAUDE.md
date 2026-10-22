@@ -29,5 +29,6 @@ Skills/{skill-name}/
 
 - One folder per skill, named in kebab-case.
 - When a new skill is added, add a row to the table above.
+- To add a skill or connect an app, check Phygital Brain's suggestions first: `suggested-skills/README.md` and `suggested-apps/README.md` through the Phygital Brain connector, or online at https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. If it's there, follow its page. When {Name} asks "what can I add to my brain?", show both lists, the ones that fit {Name}'s work first, and leave out apps already connected and skills already installed.
 - A `SKILL.md` that came from someone else is never edited. To customise a skill, add `notes.md` in its folder.
 - `brain-keeper/daily.md` is read by a scheduled task. Change it only to change what the daily run does, and keep it plain: no links, no callouts.

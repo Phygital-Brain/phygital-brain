@@ -485,7 +485,7 @@ Yes. Say "Add a rule: never book calls on Fridays." Your rules live at the botto
 <details>
 <summary><b>Can I add other skills, like making videos or editing images?</b></summary>
 
-Yes. Install the skill in your agent, then say "Add it to my brain". Your agent writes a short notes file telling the skill what to read in your brain and where to save its work. For videos, [HyperFrames](https://github.com/heygen-com/hyperframes) and its Keyframes editor work well. For images, [PhotoCraft](https://github.com/storytold/photocraft), an open-source editor similar to Photoshop. Both are in [Add more skills](add-skills.md).
+Yes. Install the skill in your agent, then say "Add it to my brain". Your agent writes a short notes file telling the skill what to read in your brain and where to save its work. For videos, [HyperFrames](https://github.com/heygen-com/hyperframes) and its Keyframes editor work well. For posts, covers and other designs, [Canva](https://www.canva.com), with a free account. These and more are in [Suggested skills](../skills/suggested-skills/README.md), and your agent offers the ones that fit your work at the end of setup.
 </details>
 
 <details>

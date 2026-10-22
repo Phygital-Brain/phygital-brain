@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.10 (2026-10-22)
+
+- Suggested skills and suggested apps: two new folders, `skills/suggested-skills/` (HyperFrames for videos, Impeccable for website and app design, last30days for research, GEO-SEO for AI search, Agent Skills for building software, Anthropic's document skills and Skill Creator) and `skills/suggested-apps/` (Google Workspace, and Canva with Anthropic's Canvas Design skill), one page each. They come with Phygital Brain, so your agent can read them.
+- At the end of setup, your agent shows "Add-ons for your work": only the apps and skills that fit your work (up to five), each marked as an app or a skill, with what it would do for you. Apps you've already connected and skills you already have are left out. Then it asks about Baalda, then sets up what you chose. Later, say "what can I add to my brain?" to see them all.
+- Add more skills is shorter: how to add any skill, with links to the suggestions. Connect your apps links to the Google Workspace page.
+
 ## 0.1.9 (2026-10-21)
 
 - The connector's three tools explain themselves better to AI apps: what each returns, when to use it and which tool to use instead. They're marked read only, because they only read Phygital Brain's own files. Nothing else changed.

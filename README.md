@@ -263,7 +263,7 @@ The full list is in [Limits](docs/limits.md).
 - **No app.** There's nothing to run. Your AI agent does the work, following the files in this repository.
 - **No lock yet.** The rules work only because your agent follows them. Keep truly secret things outside the brain folder. Locked folders are on the [roadmap](#roadmap).
 - **Not always on, unless you move it to the cloud.** On your computer, the Brain Keeper and the morning brief run only while your agent's app is open. As a cloud routine, they run with the computer off.
-- **An early version.** This is version 0.1.9, and the setup hasn't been tested with many people yet.
+- **An early version.** This is version 0.1.10, and the setup hasn't been tested with many people yet.
 
 ## Roadmap
 
@@ -324,7 +324,7 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 | [Install](docs/install.md) | One click for Claude desktop, Cursor and VS Code, and steps for Claude Code, Codex, Hermes Agent, OpenClaw and others |
 | [Getting started](docs/getting-started.md) | Every step from nothing to a working brain, with checks and fixes |
 | [Connect your apps](docs/connect-your-apps.md) | Gmail, Calendar, Drive and other services, read only, and running fully online |
-| [Add more skills](docs/add-skills.md) | Adding any skill to your brain, making videos with [HyperFrames](https://github.com/heygen-com/hyperframes) and editing images with [PhotoCraft](https://github.com/storytold/photocraft) |
+| [Add more skills](docs/add-skills.md) | Adding any skill to your brain, making videos with [HyperFrames](https://github.com/heygen-com/hyperframes) and making designs with [Canva](https://www.canva.com) |
 | [Teams](docs/teams.md) | Sharing one brain through Baalda's cloud |
 | [Bringing in your old notes](docs/importing.md) | Exporting from Notion, Google Docs, Apple Notes and others, and filing it all |
 | [Example brain](docs/example-brain/README.md) | A few made-up notes, so you can see the files before you build yours |

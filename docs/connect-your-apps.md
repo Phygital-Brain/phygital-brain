@@ -31,14 +31,7 @@ These are in `Skills/connected-apps/connected-apps.md` in your brain:
 
 ## Connect Google Workspace (Gmail, Calendar, Drive)
 
-With Claude:
-
-1. In Claude's settings, open **Connectors**.
-2. Connect **Gmail**, **Google Calendar** and **Google Drive**, and sign in with your Google account.
-3. In a chat on your brain folder, say: **"Connect my Gmail and calendar to my brain."**
-4. Your agent checks the connectors work, asks which ones your brain should read from, and adds them to `Skills/connected-apps/connected-apps.md`.
-
-With another agent, use its own connector or integration settings, then do step 3.
+The steps are on [Connect Google Workspace](../skills/suggested-apps/google-workspace.md). That page is one of the [suggested apps](../skills/suggested-apps/README.md), which your agent offers at the end of setup when they fit your work and aren't connected yet. Later, say **"What can I add to my brain?"**
 
 ## Connect other services
 

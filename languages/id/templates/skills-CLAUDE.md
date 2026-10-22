@@ -29,5 +29,6 @@ Skills/{skill-name}/
 
 - Satu folder per skill, dinamai dengan huruf kecil dan tanda hubung (kebab-case).
 - Kalau ada skill baru, tambahkan satu baris ke tabel di atas.
+- Untuk menambahkan skill atau menghubungkan aplikasi, cek dulu saran dari Phygital Brain: `suggested-skills/README.md` dan `suggested-apps/README.md` lewat konektor Phygital Brain, atau online di https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Kalau ada di sana, ikuti halamannya. Kalau {Name} bertanya "apa saja yang bisa kutambahkan ke otakku?", "what can I add to my brain?", tunjukkan kedua daftar itu, yang cocok dengan pekerjaan {Name} lebih dulu, dan jangan tampilkan aplikasi yang sudah terhubung atau skill yang sudah terpasang.
 - `SKILL.md` yang berasal dari orang lain tidak pernah diedit. Untuk menyesuaikan sebuah skill, tambahkan `notes.md` di foldernya.
 - `brain-keeper/daily.md` dibaca oleh tugas terjadwal. Ubah file ini hanya untuk mengubah apa yang dikerjakan rutinitas harian, dan biarkan tetap polos: tanpa tautan, tanpa callout.

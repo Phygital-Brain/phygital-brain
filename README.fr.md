@@ -265,7 +265,7 @@ La liste complète est dans [Limites](docs/limits.md).
 - **Pas une app.** Il n'y a rien à lancer. Votre agent IA fait le travail, en suivant les fichiers de ce dépôt.
 - **Pas encore de verrou.** Les règles ne marchent que parce que votre agent les suit. Gardez ce qui est vraiment secret hors du dossier du cerveau. Les dossiers verrouillés sont dans la [feuille de route](#feuille-de-route).
 - **Pas toujours actif, sauf si vous le passez dans le cloud.** Sur votre ordinateur, le Gardien du cerveau et le point du matin ne tournent que quand l'app de votre agent est ouverte. En routine dans le cloud, ils tournent ordinateur éteint.
-- **Une première version.** C'est la version 0.1.9, et la création n'a pas encore été testée par beaucoup de monde.
+- **Une première version.** C'est la version 0.1.10, et la création n'a pas encore été testée par beaucoup de monde.
 
 ## Feuille de route
 
@@ -326,7 +326,7 @@ Phygital Brain est gratuit et open source. Vous payez votre agent IA et, si l'es
 | [Installation](docs/install.md) | Un clic pour l'app de bureau Claude, Cursor et VS Code, et les étapes pour Claude Code, Codex, Hermes Agent, OpenClaw et d'autres |
 | [Bien démarrer](docs/getting-started.md) | Chaque étape, de zéro à un cerveau qui marche, avec des vérifications et des solutions |
 | [Connecter vos apps](docs/connect-your-apps.md) | Gmail, Agenda, Drive et d'autres services, en lecture seule, et tout en ligne |
-| [Ajouter des skills](docs/add-skills.md) | Ajouter n'importe quelle skill à votre cerveau, faire des vidéos avec [HyperFrames](https://github.com/heygen-com/hyperframes) et retoucher des images avec [PhotoCraft](https://github.com/storytold/photocraft) |
+| [Ajouter des skills](docs/add-skills.md) | Ajouter n'importe quelle skill à votre cerveau, faire des vidéos avec [HyperFrames](https://github.com/heygen-com/hyperframes) et créer des visuels avec [Canva](https://www.canva.com) |
 | [Équipes](docs/teams.md) | Partager un cerveau via le cloud de Baalda |
 | [Importer vos anciennes notes](docs/importing.md) | Exporter depuis Notion, Google Docs, Notes d'Apple et d'autres, puis tout ranger |
 | [Exemple de cerveau](docs/example-brain/README.md) | Quelques notes inventées, pour voir les fichiers avant de créer les vôtres |

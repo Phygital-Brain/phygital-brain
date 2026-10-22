@@ -29,5 +29,6 @@ Kemahiran/{skill-name}/
 
 - Satu folder untuk setiap kemahiran, dinamakan dalam kebab-case.
 - Apabila kemahiran baharu ditambah, tambah satu baris dalam jadual di atas.
+- Untuk menambah kemahiran atau menyambungkan aplikasi, semak dahulu cadangan Phygital Brain: `suggested-skills/README.md` dan `suggested-apps/README.md` melalui penyambung Phygital Brain, atau dalam talian di https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Jika ada di situ, ikut halamannya. Apabila {Name} bertanya "apa yang boleh saya tambah pada otak saya?", "what can I add to my brain?", tunjukkan kedua-dua senarai, yang sesuai dengan kerja {Name} dahulu, dan tinggalkan aplikasi yang sudah disambungkan serta kemahiran yang sudah dipasang.
 - `SKILL.md` yang datang daripada orang lain tidak pernah disunting. Untuk menyesuaikan sesuatu kemahiran, tambah `nota.md` dalam foldernya.
 - `penjaga-otak/harian.md` dibaca oleh tugasan berjadual. Ubah hanya untuk mengubah apa yang dibuat oleh larian harian, dan pastikan ia ringkas: tiada pautan, tiada kotak nota.

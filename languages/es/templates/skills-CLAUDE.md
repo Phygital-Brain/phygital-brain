@@ -29,5 +29,6 @@ Skills/{skill-name}/
 
 - Una carpeta por habilidad, con el nombre en minúsculas y guiones.
 - Cuando se añade una habilidad nueva, añade una fila a la tabla de arriba.
+- Para añadir una habilidad o conectar una app, mira primero las sugerencias de Phygital Brain: `suggested-skills/README.md` y `suggested-apps/README.md` a través del conector de Phygital Brain, o en internet, en https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Si está ahí, sigue su página. Cuando {Name} pregunte "¿qué puedo añadir a mi cerebro?", "what can I add to my brain?", muestra las dos listas: primero lo que encaje con el trabajo de {Name}. Deja fuera las apps que ya están conectadas y las habilidades que ya están instaladas.
 - Un `SKILL.md` que viene de otra persona nunca se edita. Para adaptar una habilidad, añade un `notes.md` en su carpeta.
 - Una tarea programada lee `brain-keeper/daily.md`. Cámbialo solo para cambiar lo que hace la ejecución diaria, y mantenlo sencillo: sin enlaces ni avisos destacados (callouts).

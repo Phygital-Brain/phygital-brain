@@ -29,5 +29,6 @@ Skills/{skill-name}/
 
 - Un dossier par compétence, nommé en kebab-case (minuscules et tirets).
 - Quand une nouvelle compétence est ajoutée, ajoutez une ligne au tableau ci-dessus.
+- Pour ajouter une compétence ou connecter une app, regardez d'abord les suggestions de Phygital Brain : `suggested-skills/README.md` et `suggested-apps/README.md` via le connecteur Phygital Brain, ou en ligne sur https://github.com/Phygital-Brain/phygital-brain/tree/main/skills. Si l'élément y est, suivez sa page. Quand {Name} demande « qu'est-ce que je peux ajouter à mon cerveau ? », "what can I add to my brain?", montrez les deux listes, d'abord ce qui correspond au travail de {Name}, sans les apps déjà connectées ni les compétences déjà installées.
 - Un `SKILL.md` venu de quelqu'un d'autre n'est jamais modifié. Pour adapter une compétence, ajoutez un `notes.md` dans son dossier.
 - `brain-keeper/daily.md` est lu par une tâche programmée. Modifiez-le seulement pour changer ce que fait le passage quotidien, et gardez-le simple : pas de liens, pas d'encadrés.
