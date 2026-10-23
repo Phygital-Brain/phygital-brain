@@ -264,7 +264,7 @@ La lista completa está en [Límites](docs/limits.md).
 - **No es una app.** No hay nada que ejecutar. Tu agente de IA hace el trabajo, siguiendo los archivos de este repositorio.
 - **Todavía sin bloqueo.** Las reglas funcionan solo porque tu agente las sigue. Guarda lo que sea realmente secreto fuera de la carpeta del cerebro. Las carpetas bloqueadas están en la [hoja de ruta](#hoja-de-ruta).
 - **No siempre está activo, a menos que lo pases a la nube.** En tu computadora, el Guardián del Cerebro y el resumen de la mañana solo funcionan mientras la app de tu agente está abierta. Como rutina en la nube, funcionan con la computadora apagada.
-- **Una versión temprana.** Esta es la versión 0.1.10, y la configuración todavía no se ha probado con mucha gente.
+- **Una versión temprana.** Esta es la versión 0.1.11, y la configuración todavía no se ha probado con mucha gente.
 
 ## Hoja de ruta
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.11 (2026-10-23)
+
+- Suggested skills: two new ones, Public Relations (press coverage for your work) and Marketing Psychology (why people buy, for your copy, pricing and offers). Both come from the open-source Marketing Skills library (MIT).
+- Name and logo: `TRADEMARKS.md` now has a copyright section, and says any project that uses Phygital Brain must say where it came from.
+- The Claude desktop file now comes with a Sigstore signature (`phygital-brain.mcpb.sigstore.json`) so you can check it is the one this project built. How: the "How releases are made" part of `SECURITY.md`.
+- Repository: a Tests workflow, code scanning, an OpenSSF Scorecard check, weekly update checks and the community files (code of conduct, governance, support, contributors).
+
 ## 0.1.10 (2026-10-22)
 
 - Suggested skills and suggested apps: two new folders, `skills/suggested-skills/` (HyperFrames for videos, Impeccable for website and app design, last30days for research, GEO-SEO for AI search, Agent Skills for building software, Anthropic's document skills and Skill Creator) and `skills/suggested-apps/` (Google Workspace, and Canva with Anthropic's Canvas Design skill), one page each. They come with Phygital Brain, so your agent can read them.

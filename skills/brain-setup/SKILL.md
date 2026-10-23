@@ -5,7 +5,7 @@ description: Build a Phygital Brain second brain in the selected folder through 
 
 # Phygital Brain: Setup
 
-Version 0.1.10. Everything below is for the agent. Follow it step by step, and check each step before moving on.
+Version 0.1.11. Everything below is for the agent. Follow it step by step, and check each step before moving on.
 
 ## What you are building
 

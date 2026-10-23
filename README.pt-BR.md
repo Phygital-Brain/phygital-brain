@@ -264,7 +264,7 @@ A lista completa está em [Limites](docs/limits.md).
 - **Não é um app.** Não tem nada para rodar. Seu agente de IA faz o trabalho, seguindo os arquivos deste repositório.
 - **Ainda não tem tranca.** As regras só funcionam porque seu agente segue elas. Guarde o que for realmente secreto fora da pasta do cérebro. As pastas trancadas estão nos [próximos passos](#próximos-passos).
 - **Não fica sempre ligado, a não ser que você leve para a nuvem.** No seu computador, o Guardião do Cérebro e o resumo da manhã só rodam enquanto o app do seu agente está aberto. Como rotina na nuvem, eles rodam com o computador desligado.
-- **Uma versão inicial.** Esta é a versão 0.1.10, e a configuração ainda não foi testada com muita gente.
+- **Uma versão inicial.** Esta é a versão 0.1.11, e a configuração ainda não foi testada com muita gente.
 
 ## Próximos passos
 
