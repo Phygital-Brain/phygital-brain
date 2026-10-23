@@ -38,6 +38,8 @@ Skills that work well with your brain, each with a page on how to install it and
 - [Agent Skills](../skills/suggested-skills/agent-skills.md): plan, build, test and review software step by step.
 - [Document skills](../skills/suggested-skills/document-skills.md): make Word documents, decks, spreadsheets and PDFs from your notes.
 - [Skill Creator](../skills/suggested-skills/skill-creator.md): turn something you do often into your own skill.
+- [Public Relations](../skills/suggested-skills/public-relations.md): find story angles, pitch journalists and prepare for interviews.
+- [Marketing Psychology](../skills/suggested-skills/marketing-psychology.md): use how people decide to improve your copy, pricing and offers.
 
 To connect apps instead, like Gmail or Canva, see [Suggested apps](../skills/suggested-apps/README.md).
 

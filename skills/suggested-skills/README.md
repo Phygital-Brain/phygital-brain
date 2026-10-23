@@ -11,6 +11,8 @@ Skills made by other people that work well with your brain. A skill teaches your
 | Agent Skills | Makes your agent plan, build, test and review software step by step | People who build software, apps or tools | A computer and an agent that can work on code | [agent-skills.md](agent-skills.md) |
 | Document skills | Makes Word documents, PowerPoint decks, Excel spreadsheets and PDFs from your notes | People who send proposals, quotes, reports or decks | Nothing in the Claude app (paid plans); a computer elsewhere | [document-skills.md](document-skills.md) |
 | Skill Creator | Turns something you do often into your own skill, and tests it | People with a task they repeat every week, like a client update | Nothing in the Claude app (paid plans); a computer elsewhere | [skill-creator.md](skill-creator.md) |
+| Public Relations | Finds your story angles, writes pitches and press releases, and prepares you for podcasts and press questions | People who want press coverage for their work, a launch or a studio | A computer, an agent that can run commands, and Node.js | [public-relations.md](public-relations.md) |
+| Marketing Psychology | Uses behavioural science to explain why people buy, and improves your copy, pricing and offers | People who sell a product or service, or write marketing for clients | A computer, an agent that can run commands, and Node.js | [marketing-psychology.md](marketing-psychology.md) |
 
 ## For your agent
 
