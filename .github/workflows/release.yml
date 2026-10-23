@@ -11,8 +11,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # create the release and attach the .mcpb
-  id-token: write # npm trusted publishing
+  contents: read
 
 concurrency:
   group: release
@@ -21,6 +20,9 @@ concurrency:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # create the release and attach the .mcpb
+      id-token: write # npm trusted publishing
     env:
       GH_TOKEN: ${{ github.token }}
     steps:
