@@ -1,11 +1,25 @@
 # Name and logo
 
-The code and text in this repository are open source under the Apache License 2.0. The **Phygital Brain** name and the One wire logo (in `docs/images/`) are not. Section 6 of the licence says it gives no permission to use them.
+## Copyright
+
+Copyright 2026 Phygital-Brain and the Phygital Brain contributors.
+
+You can use the code and text under the [Apache License 2.0](LICENSE). Keep the [NOTICE](NOTICE) file with any copy or changed version you share: it carries the line "Created by Phygital-Brain".
+
+## The name and logo
+
+The licence covers the code and text. It does not cover the Phygital Brain name or the One wire logo (in `docs/images/`). Section 6 of the licence says it gives no permission to use them.
+
+## Always say where it came from
+
+Any project that uses Phygital Brain, changed or not, must say so in its README or about page, with a link to this repository. Use one of these: "built on Phygital Brain", "based on Phygital Brain" or "a fork of Phygital Brain".
+
+This applies to every project.
 
 ## You can
 
 - Use, change and share the code and text, under the licence.
-- Say true things about it: "built on Phygital Brain", "based on Phygital Brain", "a fork of Phygital Brain".
+- Say true things about it, like the lines above.
 - Show the logo next to a link to this repository, unchanged, when you talk about the project.
 
 ## You can't, without written permission
