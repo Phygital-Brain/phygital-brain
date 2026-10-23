@@ -35,6 +35,14 @@ Since 0.1.1, every release is built from this repository by GitHub Actions (`.gi
 - **The npm package** `phygital-brain`, through npm trusted publishing: no npm password or token is stored anywhere. Each version carries a signed provenance record that links it to the exact commit and workflow run. You can see it on the [npm page](https://www.npmjs.com/package/phygital-brain), under Provenance, or check an installed copy with `npm audit signatures`.
 - **The GitHub release** `vX.Y.Z`, with `phygital-brain.mcpb` (the Claude desktop file) built in the same run.
 
+From the next release on, `phygital-brain.mcpb` also comes with a Sigstore signature, `phygital-brain.mcpb.sigstore.json`. It shows the file was built by this workflow and not changed afterwards. Older releases have none. To check one, install the free [cosign](https://docs.sigstore.dev/cosign/system_config/installation/) tool, download both files into one folder, and run:
+
+```bash
+cosign verify-blob --bundle phygital-brain.mcpb.sigstore.json --certificate-identity-regexp '^https://github.com/Phygital-Brain/phygital-brain/' --certificate-oidc-issuer https://token.actions.githubusercontent.com phygital-brain.mcpb
+```
+
+You should see `Verified OK`. Any other answer means the file is not the one this project built.
+
 ## Reporting a problem
 
 Please don't open a public issue, discussion or pull request for a security problem.
