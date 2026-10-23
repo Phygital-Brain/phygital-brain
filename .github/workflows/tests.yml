@@ -1,0 +1,26 @@
+# Runs on every push and pull request: the repository checks (links, files the skills name, em dashes, forms, versions),
+# a syntax check of the connector, and a check of the Python scripts for real bugs. Nothing here touches a real brain.
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1   # v7.0.1, pinned
+        with:
+          persist-credentials: false
+      - name: Repository checks
+        run: python3 scripts/check.py
+      - name: Connector syntax
+        run: node --check mcp/server.mjs
+      - name: Lint the scripts (ruff, real bugs only)
+        run: pipx run ruff==0.17.2 check --isolated --select E9,F63,F7,F82,F601,F541,F841 scripts
