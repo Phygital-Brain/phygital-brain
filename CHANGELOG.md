@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.12 (2026-10-25)
 
 - A new guide, `docs/search-with-phygital-engram.md`, for brains with thousands of notes: when to add the Phygital Engram search, what a brain already gives it, and the one rule to add. The README and the limits page point to it. Docs only, no skill or template changed.
 

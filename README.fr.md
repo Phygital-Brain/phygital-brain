@@ -265,7 +265,7 @@ La liste complète est dans [Limites](docs/limits.md).
 - **Pas une app.** Il n'y a rien à lancer. Votre agent IA fait le travail, en suivant les fichiers de ce dépôt.
 - **Pas encore de verrou.** Les règles ne marchent que parce que votre agent les suit. Gardez ce qui est vraiment secret hors du dossier du cerveau. Les dossiers verrouillés sont dans la [feuille de route](#feuille-de-route).
 - **Pas toujours actif, sauf si vous le passez dans le cloud.** Sur votre ordinateur, le Gardien du cerveau et le point du matin ne tournent que quand l'app de votre agent est ouverte. En routine dans le cloud, ils tournent ordinateur éteint.
-- **Une première version.** C'est la version 0.1.11, et la création n'a pas encore été testée par beaucoup de monde.
+- **Une première version.** C'est la version 0.1.12, et la création n'a pas encore été testée par beaucoup de monde.
 
 ## Feuille de route
 

@@ -6,7 +6,7 @@
 - Rule 12: write their style choice from form 1 into it (for example, "By default: detailed explanations" if they picked `Detailed`).
 -->
 
-<!-- Phygital Brain, version 0.1.11, language: {lang} -->
+<!-- Phygital Brain, version 0.1.12, language: {lang} -->
 
 # العقل الثاني لـ{Name}
 
