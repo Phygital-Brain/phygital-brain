@@ -13,6 +13,9 @@ Skills made by other people that work well with your brain. A skill teaches your
 | Skill Creator | Turns something you do often into your own skill, and tests it | People with a task they repeat every week, like a client update | Nothing in the Claude app (paid plans); a computer elsewhere | [skill-creator.md](skill-creator.md) |
 | Public Relations | Finds your story angles, writes pitches and press releases, and prepares you for podcasts and press questions | People who want press coverage for their work, a launch or a studio | A computer, an agent that can run commands, and Node.js | [public-relations.md](public-relations.md) |
 | Marketing Psychology | Uses behavioural science to explain why people buy, and improves your copy, pricing and offers | People who sell a product or service, or write marketing for clients | A computer, an agent that can run commands, and Node.js | [marketing-psychology.md](marketing-psychology.md) |
+| Diagram Design | Draws clean diagrams in your brand: flowcharts, timelines, journeys, org charts and more | People who explain processes, plans or ideas to clients or a team | A computer and an agent that can work with files | [diagram-design.md](diagram-design.md) |
+| Taste Skill | Builds web pages with a real design direction, so they don't look AI-made | People who build or run a website, landing page or portfolio | A computer, Node.js 22 or newer and Chrome, Edge or Chromium | [taste-skill.md](taste-skill.md) |
+| Ponytail | Makes your agent write the smallest code that works, and reviews code in plain words | People who build software, apps, sites or tools with an agent | A computer and an agent that can work on code | [ponytail.md](ponytail.md) |
 
 ## For your agent
 

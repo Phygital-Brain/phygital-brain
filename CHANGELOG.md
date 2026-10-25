@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Suggested skills: three new ones, Diagram Design (diagrams in your brand), Taste Skill (web pages with a real design direction) and Ponytail (small code and plain-word reviews). All MIT. Docs only.
 - The Phygital Engram guide now matches its first release (0.1.0): the default folder levels, and what is tested. Docs only.
 
 ## 0.1.12 (2026-10-25)

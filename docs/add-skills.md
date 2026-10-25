@@ -40,6 +40,9 @@ Skills that work well with your brain, each with a page on how to install it and
 - [Skill Creator](../skills/suggested-skills/skill-creator.md): turn something you do often into your own skill.
 - [Public Relations](../skills/suggested-skills/public-relations.md): find story angles, pitch journalists and prepare for interviews.
 - [Marketing Psychology](../skills/suggested-skills/marketing-psychology.md): use how people decide to improve your copy, pricing and offers.
+- [Diagram Design](../skills/suggested-skills/diagram-design.md): draw clean diagrams in your brand.
+- [Taste Skill](../skills/suggested-skills/taste-skill.md): build web pages that look designed, not AI-made.
+- [Ponytail](../skills/suggested-skills/ponytail.md): keep the code your agent writes small, and get plain-word reviews.
 
 To connect apps instead, like Gmail or Canva, see [Suggested apps](../skills/suggested-apps/README.md).
 
