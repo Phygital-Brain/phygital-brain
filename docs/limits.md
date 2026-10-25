@@ -20,7 +20,7 @@ Building a brain writes many files in one go, so the setup uses more of your AI 
 
 ## Search is by words, not by meaning
 
-Your agent finds notes by names, words, links and folders. It doesn't search by meaning ("notes like this one"). For a brain of a few thousand notes this works well, because the folders and links do most of the finding.
+Your agent finds notes by names, words, links and folders. It doesn't search by meaning ("notes like this one"). For a brain of a few thousand notes this works well, because the folders and links do most of the finding. When it gets bigger and your agent slows down, [Phygital Engram](search-with-phygital-engram.md) adds a fast search on top of the same notes.
 
 ## Files that aren't text
 

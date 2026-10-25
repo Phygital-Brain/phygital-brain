@@ -26,7 +26,7 @@ skills/add-language/SKILL.md      makes a full set in a new language, or switche
 skills/brain-setup/i18n/{code}/   built language sets (don't edit: run scripts/i18n.py build)
 languages/                        en.json source strings, {code}.json and {code}/ translations, TRANSLATING.md
 scripts/i18n.py                   extract, build and check translations
-docs/                             for people: getting started, use cases, FAQ, glossary, add more skills, importing, connect your apps, teams, limits, example brain, phone, how it works, other agents
+docs/                             for people: getting started, use cases, FAQ, glossary, add more skills, importing, connect your apps, teams, limits, example brain, phone, how it works, other agents, fast search with Phygital Engram
 docs/folders/                     one page per brain folder, and the main rules in plain words
 docs/images/                      the README picture and the logo
 languages/                        how other languages work

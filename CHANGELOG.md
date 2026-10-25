@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- A new guide, `docs/search-with-phygital-engram.md`, for brains with thousands of notes: when to add the Phygital Engram search, what a brain already gives it, and the one rule to add. The README and the limits page point to it. Docs only, no skill or template changed.
+
 ## 0.1.11 (2026-10-23)
 
 - Suggested skills: two new ones, Public Relations (press coverage for your work) and Marketing Psychology (why people buy, for your copy, pricing and offers). Both come from the open-source Marketing Skills library (MIT).

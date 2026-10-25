@@ -248,6 +248,8 @@ The `add-language` skill asks you three things (formal or informal "you", the ma
 
 The rule files are called `CLAUDE.md`. Agents that look for another name, like `AGENTS.md` in Codex, get a one-line file that points to `CLAUDE.md`, so there's only one set of rules. More in [Other agents](docs/other-agents.md).
 
+When your brain has thousands of notes, [Phygital Engram](https://github.com/Phygital-Brain/phygital-engram) can add a fast search that your agent uses first. It is a separate add-on and your brain works without it: see [Fast search with Phygital Engram](docs/search-with-phygital-engram.md).
+
 ## Privacy
 
 Your notes are read by your AI agent and stored in your cloud drive. Phygital Brain itself has no server and collects nothing. More in [What you share with your AI](SECURITY.md#what-you-share-with-your-ai).
@@ -332,6 +334,7 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 | [The folders in your brain](docs/folders/README.md) | One page per folder and subfolder, with examples and rules |
 | [Main rules](docs/folders/main-rules.md) | The main `CLAUDE.md`, in plain words |
 | [Your brain on your phone](docs/phone.md) | Ask from your agent's phone app, send tasks to your computer |
+| [Fast search with Phygital Engram](docs/search-with-phygital-engram.md) | A separate add-on that makes your agent's search fast once your brain has thousands of notes |
 | [Other agents](docs/other-agents.md) | Using Codex, Hermes Agent, OpenClaw or another agent, rule file names, two agents on one brain |
 | [Languages](languages/README.md) | How other languages work |
 | [Limits](docs/limits.md) | What it does badly, or not yet |
