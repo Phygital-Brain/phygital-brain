@@ -249,6 +249,8 @@ Phygital Brainは**41言語**に対応しています。セットアップの最
 
 ルールファイルの名前は`CLAUDE.md`です。Codexの`AGENTS.md`のように別の名前を探すエージェントには、`CLAUDE.md`を指す1行のファイルを用意します。だからルールは1セットだけです。詳しくは[ほかのエージェント](docs/other-agents.md)へ。
 
+ブレインのノートが数千件になったら、[Phygital Engram](https://github.com/Phygital-Brain/phygital-engram)で速い検索を追加できます。エージェントはまずその検索を使います。別のアドオンなので、なくてもブレインは動きます。詳しくは[Phygital Engramで速く検索する](docs/search-with-phygital-engram.md)へ。
+
 ## プライバシー
 
 ノートを読むのはあなたのAIエージェントで、保存先はあなたのクラウドドライブです。Phygital Brain自体にはサーバーがなく、何も集めません。詳しくは[AIと共有するもの](SECURITY.md#what-you-share-with-your-ai)へ。
@@ -333,6 +335,7 @@ Phygital Brainは無料のオープンソースです。お金がかかるのは
 | [ブレインのフォルダー](docs/folders/README.md) | フォルダーとサブフォルダーごとに1ページ、例とルールつき |
 | [メインのルール](docs/folders/main-rules.md) | メインの`CLAUDE.md`を、やさしい言葉で |
 | [スマホでブレインを使う](docs/phone.md) | エージェントのスマホアプリから聞く、パソコンに作業を送る |
+| [Phygital Engramで速く検索する](docs/search-with-phygital-engram.md) | ブレインのノートが数千件になったとき、エージェントの検索を速くする別のアドオン |
 | [ほかのエージェント](docs/other-agents.md) | Codex、Hermes Agent、OpenClawなどのエージェントを使う方法、ルールファイルの名前、1つのブレインで2つのエージェントを使う方法 |
 | [言語](languages/README.md) | ほかの言語のしくみ |
 | [制限事項](docs/limits.md) | 苦手なこと、まだできないこと |

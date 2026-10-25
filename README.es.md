@@ -249,6 +249,8 @@ La habilidad `add-language` te pregunta tres cosas (si tratar de "tú" o de "ust
 
 Los archivos de reglas se llaman `CLAUDE.md`. Los agentes que buscan otro nombre, como `AGENTS.md` en Codex, reciben un archivo de una línea que apunta a `CLAUDE.md`, así que solo hay un conjunto de reglas. Más en [Otros agentes](docs/other-agents.md).
 
+Cuando tu cerebro tiene miles de notas, [Phygital Engram](https://github.com/Phygital-Brain/phygital-engram) puede añadir una búsqueda rápida que tu agente usa primero. Es un complemento aparte y tu cerebro funciona sin él: mira [Búsqueda rápida con Phygital Engram](docs/search-with-phygital-engram.md).
+
 ## Privacidad
 
 Tus notas las lee tu agente de IA y se guardan en tu nube. Phygital Brain no tiene servidor y no recopila nada. Más en [Lo que compartes con tu IA](SECURITY.md#what-you-share-with-your-ai).
@@ -333,6 +335,7 @@ Phygital Brain es gratis y de código abierto. Pagas tu agente de IA y, si neces
 | [Las carpetas de tu cerebro](docs/folders/README.md) | Una página por carpeta y subcarpeta, con ejemplos y reglas |
 | [Reglas principales](docs/folders/main-rules.md) | El `CLAUDE.md` principal, con palabras sencillas |
 | [Tu cerebro en el móvil](docs/phone.md) | Pregunta desde la app de tu agente en el móvil, envía tareas a tu computadora |
+| [Búsqueda rápida con Phygital Engram](docs/search-with-phygital-engram.md) | Un complemento aparte que hace rápida la búsqueda de tu agente cuando tu cerebro tiene miles de notas |
 | [Otros agentes](docs/other-agents.md) | Usar Codex, Hermes Agent, OpenClaw u otro agente, nombres de los archivos de reglas, dos agentes en un cerebro |
 | [Idiomas](languages/README.md) | Cómo funcionan los demás idiomas |
 | [Límites](docs/limits.md) | Lo que hace mal, o todavía no hace |

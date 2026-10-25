@@ -249,6 +249,8 @@ Phygital Brain 已支持 **41 种语言**。在搭建开始时选好你的语言
 
 规则文件叫 `CLAUDE.md`。有些 AI 助手找的是别的文件名，比如 Codex 找 `AGENTS.md`，它们会得到一个只有一行的文件，指向 `CLAUDE.md`，所以始终只有一套规则。详见[其他 AI 助手](docs/other-agents.md)。
 
+当你的大脑有几千条笔记时，[Phygital Engram](https://github.com/Phygital-Brain/phygital-engram) 可以加上一个快速搜索，你的 AI 助手会先用它来找。它是一个单独的附加组件，没有它你的大脑也能正常用：详见[用 Phygital Engram 快速搜索](docs/search-with-phygital-engram.md)。
+
 ## 隐私
 
 你的笔记由你的 AI 助手读取，保存在你的云盘里。Phygital Brain 本身没有服务器，什么都不收集。详见[你和 AI 分享了什么](SECURITY.md#what-you-share-with-your-ai)。
@@ -333,6 +335,7 @@ Phygital Brain 免费开源。你需要付费的是你的 AI 助手，以及在�
 | [大脑里的文件夹](docs/folders/README.md) | 每个文件夹和子文件夹一页，附带示例和规则 |
 | [总规则](docs/folders/main-rules.md) | 用平常的话解释总的 `CLAUDE.md` |
 | [在手机上用你的大脑](docs/phone.md) | 在 AI 助手的手机应用里提问，把任务发到你的电脑上 |
+| [用 Phygital Engram 快速搜索](docs/search-with-phygital-engram.md) | 一个单独的附加组件，当你的大脑有几千条笔记时，让 AI 助手搜索得更快 |
 | [其他 AI 助手](docs/other-agents.md) | 使用 Codex、Hermes Agent、OpenClaw 或其他 AI 助手；规则文件的名字；两个 AI 助手共用一个大脑 |
 | [语言](languages/README.md) | 其他语言是怎么实现的 |
 | [局限](docs/limits.md) | 它做得不好或者还做不到的事 |
