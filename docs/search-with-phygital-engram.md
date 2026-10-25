@@ -30,8 +30,8 @@ We ran it on the example brain in this repository, with an empty `CLAUDE.md` add
 
 ## What to know first
 
-- **It is a pre-release.** The first version is not released yet. Phygital Engram has docs, a connector for your AI app and a server version, and the search code joins at version 0.1.0. The pages in its repository say what was and was not tested.
-- **Its folder levels use other names.** Out of the box, Phygital Engram counts `Context/` and `Intelligence/decisions/` as more important. Your brain calls those `About/` and `Memory/decisions/`, so for now they count as normal notes. You can add them to its settings: see [Folder levels and hints](https://github.com/Phygital-Brain/phygital-engram/blob/main/docs/settings.md#folder-levels-and-hints). Test your own questions before and after, because a change can help one question and hurt another.
+- **It is a first release.** Version 0.1.0 has the search, a connector for your AI app and a server version. The pages in its repository say what was and was not tested.
+- **Its default folder levels are general.** A rules file (`CLAUDE.md`) counts more, and so does a folder named `Context/`. Notes in any `decisions` folder never fade, so your `Memory/decisions/` is covered. `Library/` and `archive` folders count less. `Memory/finances/` is private by default, and your `.claudeignore` lists it too. Your `About/` folder is not boosted. You can add it in its settings: see [Folder levels and hints](https://github.com/Phygital-Brain/phygital-engram/blob/main/docs/settings.md#folder-levels-and-hints). Test your own questions before and after, because a change can help one question and hurt another. In our small check on the example brain, extra weight on `About/` pushed a note about services above the decision we were looking for.
 - **It searches by words,** not by meaning, in the same way your agent does today. It is just much faster on a big brain.
 
 ## Set it up
