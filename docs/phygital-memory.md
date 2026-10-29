@@ -17,7 +17,7 @@ The notes stay plain Markdown files. Stop using the app and they're still yours,
 1. Download it from the [Phygital Memory releases](https://github.com/Phygital-Brain/Phygital-Memory/releases/latest).
 2. Click the memory name at the top of the sidebar, then **Add memory › From this computer**, and choose your `My Brain` folder.
 
-New to both? Phygital Memory can also build a brain for you: press **New memory**, and it makes the folders, rules and first notes, then leaves one task for your agent to finish the rest.
+If you're new to both, Phygital Memory can also build a brain for you: press **New memory**, and it makes the folders, rules and first notes, then leaves one task for your agent to finish the rest.
 
 ## Share with a team
 
