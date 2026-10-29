@@ -16,4 +16,4 @@ Dit brein wordt gedeeld. Iedereen die erin werkt, leest deze regels.
 - **Bij beslissingen staat wie er besliste.** Elke beslissingsnotitie noemt de mensen die de beslissing namen.
 - **Eigen regels per persoon:** een verbetering van één persoon komt onder een kop `### Regels van {Person}` aan het eind van dit deel, tenzij die persoon zegt dat het voor iedereen geldt (dan komt het zoals gewoonlijk bij "Regels van {Name}").
 - **Vraag het eerst aan {Name}** als je regelbestanden of profielpagina's wilt aanpassen, of iets buiten de mappen die iemand mag veranderen.
-- **Privémappen:** wat {Name} in `.claudeignore` zet, blijft voor iedereen dicht. De rechten per map zelf stel je in in de notitie-app (bijvoorbeeld Baalda), niet hier.
+- **Privémappen:** wat {Name} in `.claudeignore` zet, blijft voor iedereen dicht. De rechten per map zelf stel je in in de notitie-app (bijvoorbeeld Phygital Memory), niet hier.

@@ -17,7 +17,7 @@ body:
     attributes:
       label: It's about
       options:
-        - "Getting started: your agent, your cloud drive, Baalda, the plugin"
+        - "Getting started: your agent, your cloud drive, Phygital Memory, the plugin"
         - "The setup forms"
         - "Using my brain every day"
         - "A folder or what goes where"

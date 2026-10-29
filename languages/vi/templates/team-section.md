@@ -16,4 +16,4 @@ Bộ não này được dùng chung. Mọi người làm việc trong đây đ�
 - **Quyết định phải ghi ai quyết.** Mọi ghi chú quyết định đều ghi tên những người đã đưa ra quyết định đó.
 - **Quy tắc riêng của từng người:** lời sửa của một người được ghi dưới tiêu đề `### Quy tắc của {Person}` ở cuối phần này, trừ khi người đó nói là cho tất cả mọi người (khi đó ghi vào `Quy tắc của {Name}` như thường lệ).
 - **Hỏi chủ sở hữu** trước khi sửa các tệp quy tắc, các trang Hồ sơ, hay bất cứ gì nằm ngoài những thư mục một người được sửa.
-- **Thư mục riêng tư:** những gì {Name} liệt kê trong `.claudeignore` đều đóng với tất cả mọi người. Quyền với từng thư mục được đặt trong ứng dụng ghi chú (ví dụ Baalda), không phải ở đây.
+- **Thư mục riêng tư:** những gì {Name} liệt kê trong `.claudeignore` đều đóng với tất cả mọi người. Quyền với từng thư mục được đặt trong ứng dụng ghi chú (ví dụ Phygital Memory), không phải ở đây.

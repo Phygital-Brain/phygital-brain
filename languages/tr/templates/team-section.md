@@ -16,4 +16,4 @@ Bu beyin ortak kullanılıyor. İçinde çalışan herkes bu kuralları okur.
 - **Kararlarda kimin karar verdiği yazar.** Her karar notu, kararı veren kişilerin adını verir.
 - **Herkesin kendi kuralları:** bir kişiden gelen düzeltme, bu bölümün sonundaki `### {Person} kuralları` başlığının altına gider. Kişi bunun herkes için olduğunu söylerse her zamanki gibi `{Name} Kuralları` bölümüne gider.
 - Kural dosyalarını, Profil sayfalarını ya da bir kişinin değiştirebileceği klasörlerin dışındaki herhangi bir şeyi değiştirmeden önce **sahibine sor**.
-- **Özel klasörler:** {Name} tarafından `.claudeignore` içine yazılanlar herkese kapalı kalır. Klasör izinlerinin kendisi burada değil, not uygulamasında (örneğin Baalda) ayarlanır.
+- **Özel klasörler:** {Name} tarafından `.claudeignore` içine yazılanlar herkese kapalı kalır. Klasör izinlerinin kendisi burada değil, not uygulamasında (örneğin Phygital Memory) ayarlanır.

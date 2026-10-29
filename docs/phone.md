@@ -86,7 +86,7 @@ No signal, or the computer is off? Write it down anywhere (your phone's notes ap
 ## Reading your notes without asking
 
 - **Your drive's phone app** (Google Drive, Nextcloud, Dropbox...): open your brain folder and tap a note. Notes are plain text files, so they open as text. Links won't be clickable.
-- **Baalda:** you don't need it on your phone. It's for browsing on your computer.
+- **Phygital Memory:** you don't need it on your phone. It's for browsing on your computer.
 
 ## Safety on your phone
 

@@ -4,7 +4,7 @@
 
 Your brain is a folder of notes. Some of those notes are **rules**: files called `CLAUDE.md` that tell your agent where everything goes and how to work with you. Every time you open a chat on your brain folder, your agent reads those rules. So it doesn't start from zero each time. It already knows you, your projects and your people.
 
-You talk. Your agent writes, files and links. You read it all in Baalda whenever you like.
+You talk. Your agent writes, files and links. You read it all in Phygital Memory whenever you like.
 
 ## The folders
 

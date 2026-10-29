@@ -111,7 +111,7 @@ Skriv anteckningar som en kollega skulle skriva dem: konkreta namn, konkret samm
 
 ## Syntax för anteckningar
 
-Det här fungerar i Baalda.
+Det här fungerar i Phygital Memory.
 
 - **Wikilänkar** (inte markdown-länkar): `[[Anteckningens namn]]`, `[[Anteckning|Text som visas]]`. Väv in dem i meningar. Aldrig som punktlistor eller fotnoter.
 - **Inbäddningar**: `![[Anteckningens namn]]`, `![[bild.png|300]]`

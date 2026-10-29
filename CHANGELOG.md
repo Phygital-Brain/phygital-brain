@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Phygital Memory replaces Baalda as the notes app, everywhere: the README in every language, the guides, the setup's last offer (Step 4.2) and its 40 languages, and the rule files a new brain gets. `docs/teams.md` became `docs/phygital-memory.md`: reading your notes in the app, and sharing one brain with a team computer to computer (Can edit or Can view), with no paid cloud.
 - Suggested skills: three new ones, Diagram Design (diagrams in your brand), Taste Skill (web pages with a real design direction) and Ponytail (small code and plain-word reviews). All MIT. Docs only.
 - The Phygital Engram guide now matches its first release (0.1.0): the default folder levels, and what is tested. Docs only.
 

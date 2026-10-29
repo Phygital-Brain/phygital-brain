@@ -111,7 +111,7 @@ Scrivi le note come farebbe un collega: nomi precisi, contesto preciso, consegue
 
 ## Sintassi delle note
 
-Funzionano in Baalda.
+Funzionano in Phygital Memory.
 
 - **Wikilink** (non link markdown): `[[Note Name]]`, `[[Note|Display Text]]`. Inseriscili dentro le frasi. Mai come elenchi puntati o note a piè di pagina.
 - **Incorporati**: `![[Note Name]]`, `![[image.png|300]]`

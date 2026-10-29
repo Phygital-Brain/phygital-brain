@@ -111,7 +111,7 @@ Tulis catatan seperti rekan kerja menulisnya: nama yang spesifik, konteks yang s
 
 ## Sintaks Catatan
 
-Semua ini berfungsi di Baalda.
+Semua ini berfungsi di Phygital Memory.
 
 - **Wikilink** (bukan link markdown): `[[Nama Catatan]]`, `[[Catatan|Teks Tampilan]]`. Selipkan di dalam kalimat. Jangan pernah sebagai daftar poin atau catatan kaki.
 - **Sematan**: `![[Nama Catatan]]`, `![[gambar.png|300]]`

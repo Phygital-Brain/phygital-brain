@@ -16,4 +16,4 @@ Otak ini dikongsi. Setiap orang yang bekerja di dalamnya membaca peraturan ini.
 - **Keputusan menyebut siapa yang membuatnya.** Setiap nota keputusan menamakan orang yang membuat keputusan itu.
 - **Peraturan setiap orang:** pembetulan daripada seseorang masuk di bawah tajuk `### Peraturan {Person}` di hujung bahagian ini, kecuali orang itu kata ia untuk semua (maka ia masuk ke `Peraturan {Name}` seperti biasa).
 - **Tanya pemilik** sebelum mengubah fail peraturan, halaman Profil, atau apa-apa di luar folder yang seseorang boleh ubah.
-- **Folder peribadi:** apa yang {Name} senaraikan dalam `.claudeignore` kekal tertutup untuk semua orang. Kebenaran folder itu sendiri ditetapkan dalam aplikasi nota (contohnya Baalda), bukan di sini.
+- **Folder peribadi:** apa yang {Name} senaraikan dalam `.claudeignore` kekal tertutup untuk semua orang. Kebenaran folder itu sendiri ditetapkan dalam aplikasi nota (contohnya Phygital Memory), bukan di sini.

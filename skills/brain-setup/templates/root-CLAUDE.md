@@ -92,7 +92,7 @@ Before any change that's hard to take back, copy every file you'll change into `
 
 ## Team
 
-"set up my team", or the same in {Language}: follow Step T in the Phygital Brain setup skill (`brain-setup`). The guide is https://github.com/Phygital-Brain/phygital-brain/blob/main/docs/teams.md.
+"set up my team", or the same in {Language}: follow Step T in the Phygital Brain setup skill (`brain-setup`). The guide is https://github.com/Phygital-Brain/phygital-brain/blob/main/docs/phygital-memory.md.
 
 ## Connected Apps
 
@@ -111,7 +111,7 @@ Write notes the way a teammate would: specific names, specific context, specific
 
 ## Note Syntax
 
-These work in Baalda.
+These work in Phygital Memory.
 
 - **Wikilinks** (not markdown links): `[[Note Name]]`, `[[Note|Display Text]]`. Weave them into sentences. Never as bullet lists or footnotes.
 - **Embeds**: `![[Note Name]]`, `![[image.png|300]]`

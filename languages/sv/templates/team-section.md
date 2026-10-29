@@ -16,4 +16,4 @@ Den här hjärnan är delad. Alla som jobbar i den läser de här reglerna.
 - **Beslut säger vem som bestämde.** Varje beslutsanteckning nämner personerna som fattade beslutet.
 - **Egna regler för varje person:** en rättelse från en person hamnar under rubriken `### Regler för {Person}` i slutet av det här avsnittet, om personen inte säger att den gäller alla (då hamnar den som vanligt under "Regler för {Name}").
 - **Fråga {Name} först** innan du ändrar regelfiler, profilsidor eller något utanför de mappar en person får ändra.
-- **Privata mappar:** det som {Name} listar i `.claudeignore` är stängt för alla. Behörigheter för mappar ställs in i anteckningsappen (till exempel Baalda), inte här.
+- **Privata mappar:** det som {Name} listar i `.claudeignore` är stängt för alla. Behörigheter för mappar ställs in i anteckningsappen (till exempel Phygital Memory), inte här.

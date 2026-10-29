@@ -111,7 +111,7 @@ Skriv notater slik en kollega ville gjort det: konkrete navn, konkret sammenheng
 
 ## Notatsyntaks
 
-Dette virker i Baalda.
+Dette virker i Phygital Memory.
 
 - **Wikilenker** (ikke markdown-lenker): `[[Note Name]]`, `[[Note|Display Text]]`. Flett dem inn i setningene. Aldri som punktlister eller fotnoter.
 - **Innebygging**: `![[Note Name]]`, `![[image.png|300]]`

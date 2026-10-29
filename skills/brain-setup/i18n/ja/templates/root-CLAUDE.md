@@ -111,7 +111,7 @@
 
 ## ノートの記法
 
-Baaldaで使える書き方です。
+Phygital Memoryで使える書き方です。
 
 - **ウィキリンク**（Markdownのリンクではなく）：`[[Note Name]]`、`[[Note|Display Text]]`。文の中に入れます。箇条書きや脚注にはしません。
 - **埋め込み**：`![[Note Name]]`、`![[image.png|300]]`

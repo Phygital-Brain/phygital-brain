@@ -111,7 +111,7 @@
 
 ## નોંધ લખવાની રીત
 
-આ બધું Baaldaમાં ચાલે છે.
+આ બધું Phygital Memoryમાં ચાલે છે.
 
 - **Wikilinks** (markdown લિંક નહીં): `[[Note Name]]`, `[[Note|Display Text]]`. તેમને વાક્યોમાં વણી લો. ક્યારેય બુલેટ યાદી કે ફૂટનોટ તરીકે નહીં.
 - **Embeds**: `![[Note Name]]`, `![[image.png|300]]`

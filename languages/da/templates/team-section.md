@@ -16,4 +16,4 @@ Den her hjerne er delt. Alle, der arbejder i den, læser de her regler.
 - **Beslutninger siger, hvem der besluttede.** Hver beslutningsnote nævner de personer, der traf den.
 - **Hver persons egne regler:** en rettelse fra én person kommer under overskriften `### Regler fra {Person}` nederst i det her afsnit, medmindre personen siger, at den gælder for alle (så kommer den under "Regler fra {Name}" som normalt).
 - **Spørg ejeren** ({Name}), før du ændrer regelfiler, profilsider eller noget uden for de mapper, en person må ændre.
-- **Private mapper:** det, {Name} skriver i `.claudeignore`, er lukket for alle. Selve rettighederne til mapperne sættes i noteappen (for eksempel Baalda), ikke her.
+- **Private mapper:** det, {Name} skriver i `.claudeignore`, er lukket for alle. Selve rettighederne til mapperne sættes i noteappen (for eksempel Phygital Memory), ikke her.

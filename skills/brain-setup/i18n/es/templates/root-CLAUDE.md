@@ -111,7 +111,7 @@ Escribe las notas como lo haría un compañero de equipo: nombres concretos, con
 
 ## Sintaxis de las notas
 
-Todo esto funciona en Baalda.
+Todo esto funciona en Phygital Memory.
 
 - **Enlaces wiki** (no enlaces markdown): `[[Nombre de la nota]]`, `[[Nota|Texto que se ve]]`. Inclúyelos dentro de las frases. Nunca como listas de viñetas ni notas al pie.
 - **Incrustados**: `![[Nombre de la nota]]`, `![[imagen.png|300]]`

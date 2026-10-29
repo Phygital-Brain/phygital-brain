@@ -16,4 +16,4 @@ Nämä aivot ovat yhteiset. Jokainen, joka työskentelee niissä, lukee nämä s
 - **Päätöksissä lukee, kuka päätti.** Jokaisessa päätösmuistiinpanossa mainitaan ihmiset, jotka tekivät päätöksen.
 - **Jokaisen omat säännöt:** yhden henkilön korjaus menee tämän osion loppuun otsikon `### {Person}: omat säännöt` alle, paitsi jos henkilö sanoo sen koskevan kaikkia (silloin se menee tavalliseen tapaan osioon "{Name}: omat säännöt").
 - **Kysy ensin omistajalta ({Name})**, ennen kuin muutat sääntötiedostoja, profiilisivuja tai mitään sellaisten kansioiden ulkopuolella, joita henkilö saa muuttaa.
-- **Yksityiset kansiot:** se, minkä {Name} listaa tiedostoon `.claudeignore`, pysyy suljettuna kaikilta. Itse kansioiden käyttöoikeudet asetetaan muistiinpanosovelluksessa (esimerkiksi Baaldassa), ei täällä.
+- **Yksityiset kansiot:** se, minkä {Name} listaa tiedostoon `.claudeignore`, pysyy suljettuna kaikilta. Itse kansioiden käyttöoikeudet asetetaan muistiinpanosovelluksessa (esimerkiksi Phygital Memory -sovelluksessa), ei täällä.

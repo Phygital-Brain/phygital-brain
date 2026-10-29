@@ -111,7 +111,7 @@ Scrie notele cum ar face-o un coleg: nume precise, context precis, urmări preci
 
 ## Sintaxa notelor
 
-Toate astea merg în Baalda.
+Toate astea merg în Phygital Memory.
 
 - **Wikilinkuri** (nu linkuri markdown): `[[Note Name]]`, `[[Note|Display Text]]`. Pune-le în interiorul frazelor. Niciodată ca liste cu buline sau note de subsol.
 - **Încorporări**: `![[Note Name]]`, `![[image.png|300]]`

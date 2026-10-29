@@ -111,7 +111,7 @@ Notları bir ekip arkadaşı gibi yaz: belli isimler, belli bağlam, belli sonu�
 
 ## Not Yazımı
 
-Bunlar Baalda'da çalışır.
+Bunlar Phygital Memory'de çalışır.
 
 - **Wikilink'ler** (markdown bağlantısı değil): `[[Not Adı]]`, `[[Not|Görünen Metin]]`. Cümlelerin içine yerleştir. Asla madde listesi ya da dipnot olarak kullanma.
 - **Gömmeler**: `![[Not Adı]]`, `![[resim.png|300]]`

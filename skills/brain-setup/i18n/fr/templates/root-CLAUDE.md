@@ -111,7 +111,7 @@ Quand {Name} dit « point du matin », « programme mon point du matin », "
 
 ## Syntaxe des notes
 
-Tout ceci fonctionne dans Baalda.
+Tout ceci fonctionne dans Phygital Memory.
 
 - **Wikilinks** (pas de liens Markdown) : `[[Note Name]]`, `[[Note|Display Text]]`. Glissez-les dans les phrases. Jamais en liste à puces ni en notes de bas de page.
 - **Intégrations** : `![[Note Name]]`, `![[image.png|300]]`

@@ -16,4 +16,4 @@ Tenhle mozek je sdílený. Tahle pravidla čte každý, kdo v něm pracuje.
 - **U rozhodnutí je vidět, kdo rozhodl.** Každá poznámka o rozhodnutí jmenuje lidi, kteří rozhodovali.
 - **Vlastní pravidla každého člověka:** oprava od jednoho člověka patří pod nadpis `### Pravidla: {Person}` na konci tohohle oddílu, ledaže ten člověk řekne, že platí pro všechny (pak patří do oddílu „Osobní pravidla“ jako obvykle).
 - **Zeptej se vlastníka** (to je {Name}), než změníš soubory s pravidly, stránky v profilu nebo cokoli mimo složky, které daný člověk smí měnit.
-- **Soukromé složky:** co {Name} uvede v `.claudeignore`, zůstává zavřené pro všechny. Samotná oprávnění ke složkám se nastavují v aplikaci na poznámky (například v Baaldě), ne tady.
+- **Soukromé složky:** co {Name} uvede v `.claudeignore`, zůstává zavřené pro všechny. Samotná oprávnění ke složkám se nastavují v aplikaci na poznámky (například v Phygital Memory), ne tady.

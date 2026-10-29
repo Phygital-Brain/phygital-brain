@@ -112,7 +112,7 @@ Schrijf notities zoals een collega dat zou doen: concrete namen, concrete contex
 
 ## Opmaak in notities
 
-Dit werkt in Baalda.
+Dit werkt in Phygital Memory.
 
 - **Wikilinks** (geen markdown-links): `[[Naam van de notitie]]`, `[[Notitie|Zichtbare tekst]]`. Verwerk ze in zinnen. Nooit als opsomming of voetnoot.
 - **Insluiten**: `![[Naam van de notitie]]`, `![[afbeelding.png|300]]`

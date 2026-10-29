@@ -49,7 +49,7 @@ O Phygital Brain é um sistema operacional para as suas notas e para o seu agent
 - **Notas:** arquivos Markdown simples (arquivos de texto com uma formatação leve) sobre você, seus projetos, as pessoas com quem você trabalha, suas decisões e seus dias. Seu agente escreve as notas enquanto você fala e liga uma à outra.
 - **O Guardião do Cérebro:** uma tarefa agendada que arruma o cérebro todo dia de trabalho, além de um check-up completo sempre que você pedir.
 
-Toda conversa nessa pasta começa com seu agente lendo as regras e as notas mais recentes. Então ele já sabe seu nome, seus clientes, suas metas e o que você fez ontem. Você pode ler e navegar pelas mesmas notas no [Baalda](https://github.com/naveedharri/baalda), ou pelo celular, através do seu drive.
+Toda conversa nessa pasta começa com seu agente lendo as regras e as notas mais recentes. Então ele já sabe seu nome, seus clientes, suas metas e o que você fez ontem. Você pode ler e navegar pelas mesmas notas no [Phygital Memory](https://github.com/Phygital-Brain/Phygital-Memory), ou pelo celular, através do seu drive.
 
 Ele vem em duas skills (conjuntos de instruções que seu agente segue): uma monta o cérebro, a outra mantém tudo em ordem. Elas vêm num plugin para o Claude, porque é o Claude que a gente usa e recomenda, mas qualquer agente que trabalhe numa pasta consegue seguir as duas. Veja [Outros agentes](docs/other-agents.md).
 
@@ -113,7 +113,7 @@ Pequenas atualizações em notas que já existem acontecem na hora, e seu agente
 
 - **Um cérebro feito a partir das suas respostas.** Quem vende ganha páginas para o negócio, os serviços e o público. Quem não vende não ganha nenhuma delas. O resumo da manhã só aparece se você pedir.
 - **Perguntas escritas para o seu trabalho.** O segundo formulário começa com três perguntas que seu agente escreve para a sua profissão. Uma ilustradora ouve perguntas sobre editoras e como ela cobra; um desenvolvedor, sobre os projetos e as ferramentas dele.
-- **Projetos, pessoas e dias, tudo ligado.** Cada pessoa, empresa e projeto vira um `[[link]]`, então com um clique no Baalda você vai de um projeto para o cliente e para o dia em que vocês conversaram.
+- **Projetos, pessoas e dias, tudo ligado.** Cada pessoa, empresa e projeto vira um `[[link]]`, então com um clique no Phygital Memory você vai de um projeto para o cliente e para o dia em que vocês conversaram.
 - **Decisões com o motivo.** Cada nota de decisão diz o que você escolheu, por quê, do que abriu mão e qual é o risco. As decisões em aberto aparecem na sua nota do dia até você fechar.
 - **O Guardião do Cérebro.** Todo dia de trabalho, ele cria a nota de amanhã, fecha as antigas, lista as decisões em aberto, corrige até 5 coisinhas e escreve um relatório. Um check-up completo roda sempre que você diz "faz um check-up no meu cérebro".
 - **Um resumo da manhã,** se você quiser: suas três coisas mais importantes, o que você está esperando e uma decisão para tomar.
@@ -123,7 +123,7 @@ Pequenas atualizações em notas que já existem acontecem na hora, e seu agente
 - **Tudo online, se você quiser.** O Guardião do Cérebro pode rodar como uma rotina na nuvem, lendo e escrevendo suas notas pelo seu drive, com o computador desligado.
 - **Backup e desfazer.** Antes de uma mudança grande, seu agente copia os arquivos para uma pasta escondida `.backups/` por 10 dias. "Desfaz a última mudança" põe tudo de volta.
 - **Notas antigas, quando quiser.** "Traz minhas notas antigas" importa do Notion, Google Docs, Notas da Apple e outros, com um plano que você aprova antes.
-- **Equipes.** Compartilhe um cérebro pela nuvem do Baalda, com uma seção Equipe nas regras para o papel de cada pessoa.
+- **Equipes.** Compartilhe um cérebro pelo Phygital Memory, de computador para computador, com uma seção Equipe nas regras para o papel de cada pessoa.
 - **Seu celular.** Pergunte coisas para o seu cérebro pelo app de celular do seu agente, através do seu drive na nuvem, ou mande tarefas para o seu computador (no Claude, com o Dispatch).
 - **Seu idioma.** Os formulários, as mensagens e as notas ficam no idioma que você escolher. Os nomes das pastas e das notas também. Só alguns arquivos do sistema, como o `CLAUDE.md`, continuam com o nome em inglês.
 - **Textos com a sua cara.** Todo cérebro vem com a skill [no-ai-slop](https://github.com/petergyang/no-ai-slop). Seu agente escreve com a sua voz e depois procura padrões com cara de IA antes que alguém leia.
@@ -167,7 +167,7 @@ Você precisa de um agente de IA que trabalhe numa pasta, de um drive na nuvem q
 | 2 | Instale o app para computador do seu drive na nuvem (por exemplo, o Google Drive) e crie uma pasta para o seu cérebro dentro dele | 3 min |
 | 3 | No seu agente, comece uma tarefa e escolha essa pasta | 1 min |
 | 4 | Conecte o drive ao seu agente (no Claude: Configurações, Conectores), para o seu celular conseguir acessar o cérebro | 1 min |
-| 5 | Baixe o [Baalda](https://github.com/naveedharri/baalda) e abra a mesma pasta | 2 min |
+| 5 | Baixe o [Phygital Memory](https://github.com/Phygital-Brain/Phygital-Memory) e abra a mesma pasta | 2 min |
 | 6 | Instale o Phygital Brain (um clique, logo abaixo) e diga **"Monta meu segundo cérebro."** | 10 min |
 
 **Instalar:** clique no botão do seu agente.
@@ -200,7 +200,7 @@ flowchart LR
     B --> D[Uma mensagem curta:<br>o que foi montado, como usar]
 ```
 
-No final, seu agente se apresenta como seu assistente pessoal e sugere o Baalda para você navegar pelas suas notas como num app.
+No final, seu agente se apresenta como seu assistente pessoal e sugere o Phygital Memory para você navegar pelas suas notas como num app.
 
 ## Uma semana com seu cérebro
 
@@ -328,7 +328,7 @@ O Phygital Brain é grátis e de código aberto. Você paga pelo seu agente de I
 | [Primeiros passos](docs/getting-started.md) | Cada passo, do zero até um cérebro funcionando, com verificações e soluções |
 | [Conecte seus apps](docs/connect-your-apps.md) | Gmail, Agenda, Drive e outros serviços, só leitura, e rodando tudo online |
 | [Adicione mais skills](docs/add-skills.md) | Como adicionar qualquer skill ao seu cérebro, fazer vídeos com o [HyperFrames](https://github.com/heygen-com/hyperframes) e criar designs com o [Canva](https://www.canva.com) |
-| [Equipes](docs/teams.md) | Como compartilhar um cérebro pela nuvem do Baalda |
+| [Phygital Memory](docs/phygital-memory.md) | Ler suas notas num app e compartilhar um cérebro com uma equipe |
 | [Trazendo suas notas antigas](docs/importing.md) | Como exportar do Notion, Google Docs, Notas da Apple e outros, e guardar tudo no lugar |
 | [Cérebro de exemplo](docs/example-brain/README.md) | Algumas notas inventadas, para você ver os arquivos antes de montar o seu |
 | [Como funciona](docs/how-it-works.md) | O que seu agente faz em cada passo, quando ele salva e quando ele pergunta |

@@ -16,4 +16,4 @@ Este cerebro es compartido. Cada persona que trabaja en él lee estas reglas.
 - **Las decisiones dicen quién decidió.** Cada nota de decisión nombra a las personas que la tomaron.
 - **Las reglas de cada persona:** una corrección de una persona va bajo un título `### Reglas de {Person}` al final de esta sección, salvo que diga que es para todos (entonces va en `Reglas de {Name}`, como siempre).
 - **Pregunta al dueño** antes de cambiar archivos de reglas, páginas del Perfil o cualquier cosa fuera de las carpetas que esa persona puede cambiar.
-- **Carpetas privadas:** lo que {Name} pone en `.claudeignore` queda cerrado para todos. Los permisos de las carpetas se configuran en la app de notas (por ejemplo, Baalda), no aquí.
+- **Carpetas privadas:** lo que {Name} pone en `.claudeignore` queda cerrado para todos. Los permisos de las carpetas se configuran en la app de notas (por ejemplo, Phygital Memory), no aquí.

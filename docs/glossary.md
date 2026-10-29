@@ -22,7 +22,7 @@ Words you'll see in Phygital Brain, in plain terms.
 | **Form window** | A window inside the chat where you click choices, type short answers and drop files. The setup uses four. Claude can show them; other agents ask the same questions in chat. |
 | **Info block** | The few lines between `---` marks at the top of a note, like `status: active` and `tags: [...]`. Your agent uses them to find and sort notes. They stay in English. |
 | **Lead** | Someone who might become a client. Leads live in `Relationships/Clients/_Leads.md` until they send a real brief. |
-| **Link** | A pointer from one note to another, written with double brackets, like `[[Marta]]`. Click it in Baalda to jump to that note. |
+| **Link** | A pointer from one note to another, written with double brackets, like `[[Marta]]`. Click it in Phygital Memory to jump to that note. |
 | **Markdown** | Plain text with light formatting: `#` for headings, `-` for lists, `**` for bold. Any text app can open it. Your notes are Markdown files (`.md`). |
 | **MCP server** | A small program that lets an agent use another app, such as a Nextcloud drive. MCP stands for Model Context Protocol. |
 | **Meeting prep** | A short brief before a call, from your notes. Say "prep me for" and a name. |

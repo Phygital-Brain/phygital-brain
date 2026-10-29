@@ -111,7 +111,7 @@ Piš poznámky tak, jak by je psal kolega z týmu: konkrétní jména, konkrétn
 
 ## Zápis poznámek
 
-Tohle všechno funguje v Baaldě.
+Tohle všechno funguje v Phygital Memory.
 
 - **Wiki odkazy** (ne odkazy markdown): `[[Název poznámky]]`, `[[Poznámka|Zobrazený text]]`. Piš je přímo do vět. Nikdy jako odrážky nebo poznámky pod čarou.
 - **Vložení**: `![[Název poznámky]]`, `![[obrazek.png|300]]`

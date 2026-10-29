@@ -111,7 +111,7 @@ Kirjoita muistiinpanot niin kuin tiimikaveri kirjoittaisi: tarkat nimet, tarkka 
 
 ## Muistiinpanojen merkinnät
 
-Nämä toimivat Baaldassa.
+Nämä toimivat Phygital Memory -sovelluksessa.
 
 - **Wikilinkit** (ei markdown-linkkejä): `[[Muistiinpanon nimi]]`, `[[Muistiinpano|Näkyvä teksti]]`. Kirjoita ne suoraan lauseisiin. Ei koskaan luettelona tai alaviitteinä.
 - **Upotukset**: `![[Muistiinpanon nimi]]`, `![[kuva.png|300]]`

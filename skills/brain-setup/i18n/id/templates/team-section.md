@@ -16,4 +16,4 @@ Otak ini dipakai bersama. Setiap orang yang bekerja di sini membaca aturan-atura
 - **Keputusan menyebut siapa yang memutuskan.** Setiap catatan keputusan menyebut nama orang-orang yang mengambilnya.
 - **Aturan masing-masing orang:** koreksi dari satu orang masuk di bawah judul `### Aturan {Person}` di akhir bagian ini, kecuali orang itu bilang aturannya untuk semua (kalau begitu, masuk ke `Aturan {Name}` seperti biasa).
 - **Tanya pemiliknya** sebelum mengubah file aturan, halaman Tentang, atau apa pun di luar folder yang boleh diubah orang itu.
-- **Folder pribadi:** apa yang dicantumkan {Name} di `.claudeignore` tetap tertutup untuk semua orang. Izin akses folder sendiri diatur di aplikasi catatan (misalnya Baalda), bukan di sini.
+- **Folder pribadi:** apa yang dicantumkan {Name} di `.claudeignore` tetap tertutup untuk semua orang. Izin akses folder sendiri diatur di aplikasi catatan (misalnya Phygital Memory), bukan di sini.

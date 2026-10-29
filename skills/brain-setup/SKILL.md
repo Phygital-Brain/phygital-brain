@@ -48,7 +48,7 @@ If you are another agent and your tool loads a different rule file (for example 
 
    Never delete or overwrite existing notes.
 3. If the folder has other files, don't touch them. Build around them and mention them at the end.
-4. **The cloud drive** comes in Step 1.6, after the language question, so it's asked in the person's language. Add-ons and Baalda come last, in Steps 4.1 and 4.2.
+4. **The cloud drive** comes in Step 1.6, after the language question, so it's asked in the person's language. Add-ons and Phygital Memory come last, in Steps 4.1 and 4.2.
 5. **Form window.** Check whether you can show an HTML form window (in Claude, the `show_widget` tool). Remember the answer. If you can't, use `forms/questions.md` in Step 2: click questions where you have them (AskUserQuestion, up to 4 questions per call), otherwise numbered options in chat. **On a phone, never use form windows**, even if you have the tool: they don't work well there. Use click questions for every step, from the language question on, with the texts and options from the forms (for a ready language, from `i18n/{code}/forms/`).
 
 ## Step 1: Language
@@ -335,16 +335,16 @@ Otherwise, show one list, not a question: the title `addons_title` ("Add-ons for
 
 For Not now, or if they tick none, say `addons_later` ("You can add these anytime. Just ask "what can I add to my brain?"").
 
-### Step 4.2: Baalda
+### Step 4.2: Phygital Memory
 
-Then, one more click question (skip it on a phone): `baalda_offer` ("Want to browse your notes like an app? Baalda shows your brain as a notes app on your computer.") `baalda_install_button` ("Install Baalda") · `not_now` ("Not now").
+Then, one more click question (skip it on a phone): `phygital_memory_offer` ("Want to browse your notes like an app? Phygital Memory shows your brain as a notes app on your computer.") `phygital_memory_install_button` ("Install Phygital Memory") · `not_now` ("Not now").
 
 ### Step 4.3: Install what they chose
 
 Only now, after both answers:
 
 1. Each add-on they ticked, one at a time: follow its page in `../suggested-apps/` or `../suggested-skills/`. Check what it needs, skip the install if you already have the skill, ask before installing anything, and when two picks share one install (Skill Creator and Canva's Canvas Design both come with Anthropic's example skills), run it once. Then write `Skills/{skill-name}/notes.md` from the page's example and add its row in `Skills/CLAUDE.md`. An app whose page has no notes example (Google Workspace) goes in `Skills/connected-apps/connected-apps.md` instead, as its page says.
-2. For Install Baalda, give the link https://github.com/naveedharri/baalda and say to open this folder in it once it's installed.
+2. For Install Phygital Memory, give the link https://github.com/Phygital-Brain/Phygital-Memory/releases/latest and say to open this folder in it once it's installed (Add memory › From this computer).
 
 Then stop.
 
@@ -385,13 +385,13 @@ When Step 0 found an older Phygital Brain and they picked `Upgrade my brain`.
 
 ## Step T: Set up a team
 
-When {Name} says "set up my team". The guide for people is https://github.com/Phygital-Brain/phygital-brain/blob/main/docs/teams.md.
+When {Name} says "set up my team". The guide for people is https://github.com/Phygital-Brain/phygital-brain/blob/main/docs/phygital-memory.md#share-with-a-team.
 
-1. **Check the folder is shared.** Ask whether the brain is already shared through Baalda's cloud (or another sync service the team uses). If not, point them to the guide and stop. Don't move or copy the folder yourself.
+1. **Check the folder is shared.** Ask whether the brain is already shared through Phygital Memory (or another sync service the team uses). If not, point them to the guide and stop. Don't move or copy the folder yourself.
 2. **Ask who's on the team** (one chat message): each person's name, role, and which folders they may change. The person asking is the owner unless they say otherwise.
 3. **Back up** the root `CLAUDE.md` (Backups and Undo).
 4. **Replace the short Team section** of the root `CLAUDE.md` with the one from `templates/team-section.md`, filled in. Ask first (root rule 9): show the section, then write it after the yes.
 5. **For each person:** a note in `Relationships/Team/` (search first, create the folder and its `CLAUDE.md` if needed), and their daily notes folder `Daily/{person}/` (created when their first note is written).
 6. **Brain Keeper:** ask whose agent, or which cloud routine, runs it. Only one may. Remove any other schedule. In `Skills/brain-keeper/daily.md`, note under Settings that daily notes are per person, in `Daily/{person}/`.
-7. **Finish:** one short message: who's in, what each can change, and that permissions themselves are set in Baalda.
+7. **Finish:** one short message: who's in, what each can change, and that permissions themselves are set when sharing in Phygital Memory.
 

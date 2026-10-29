@@ -111,7 +111,7 @@ Viết ghi chú như một người đồng nghiệp viết: tên cụ thể, b�
 
 ## Cú pháp ghi chú
 
-Những cú pháp này dùng được trong Baalda.
+Những cú pháp này dùng được trong Phygital Memory.
 
 - **Wikilink** (không dùng link markdown): `[[Tên ghi chú]]`, `[[Ghi chú|Chữ hiển thị]]`. Lồng chúng vào trong câu. Đừng bao giờ để thành danh sách gạch đầu dòng hay chú thích cuối trang.
 - **Nhúng**: `![[Tên ghi chú]]`, `![[hinh-anh.png|300]]`

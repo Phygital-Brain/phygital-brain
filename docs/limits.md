@@ -30,9 +30,9 @@ Your agent reads PDFs, images and Word files when you drop them into a chat, and
 
 Your brain can read email and calendar through connectors (see [Connect your apps](connect-your-apps.md)), but only to note who you talked to and what's coming up. It never sends or changes anything in an app, it doesn't read chat apps like Slack yet, and it can't read meeting recordings.
 
-## Teams need Baalda's paid cloud
+## Teams share computer to computer
 
-A team can share one brain through Baalda's cloud, which is paid (see [Teams](teams.md)). Permissions are set in Baalda, per folder, not inside a note. Large teams writing at once haven't been tested.
+A team can share one brain through Phygital Memory, straight from computer to computer (see [Share with a team](phygital-memory.md#share-with-a-team)). Changes move only while both computers are on with the app open. Permissions are set when you share, per memory, folder or file, not inside a note. Large teams writing at once haven't been tested.
 
 ## Phone use depends on your agent and drive
 

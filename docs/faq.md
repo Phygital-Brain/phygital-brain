@@ -57,7 +57,7 @@ There's an [example brain](example-brain/README.md) in this repository: a few ma
 <details>
 <summary><b>What does it look like?</b></summary>
 
-A folder with seven folders inside (`About`, `Daily`, `Projects`, `Relationships`, `Memory`, `Library`, `Skills`) and a rule file at the top. Each note is a plain text file. In [Baalda](https://github.com/naveedharri/baalda) you see them as linked pages. See [The folders in your brain](folders/README.md).
+A folder with seven folders inside (`About`, `Daily`, `Projects`, `Relationships`, `Memory`, `Library`, `Skills`) and a rule file at the top. Each note is a plain text file. In [Phygital Memory](https://github.com/Phygital-Brain/Phygital-Memory) you see them as linked pages. See [The folders in your brain](folders/README.md).
 </details>
 
 ## Before you start
@@ -65,7 +65,7 @@ A folder with seven folders inside (`About`, `Daily`, `Projects`, `Relationships
 <details>
 <summary><b>What do I need?</b></summary>
 
-An AI agent that can work in a folder on your computer, a cloud drive your agent can connect to, and a computer. We recommend the Claude desktop app with a paid plan and Google Drive, because that's the pair we tested most. Baalda is part of the setup too, for browsing your notes.
+An AI agent that can work in a folder on your computer, a cloud drive your agent can connect to, and a computer. We recommend the Claude desktop app with a paid plan and Google Drive, because that's the pair we tested most. Phygital Memory is part of the setup too, for browsing your notes.
 </details>
 
 <details>
@@ -131,9 +131,9 @@ Because most people use Claude. Agents that look for another name, like `AGENTS.
 </details>
 
 <details>
-<summary><b>Can I use another notes app instead of Baalda?</b></summary>
+<summary><b>Can I use another notes app instead of Phygital Memory?</b></summary>
 
-Yes. Your notes are plain Markdown files, so any app that opens a folder of Markdown works, like Obsidian or a plain text editor. Baalda is the one the setup suggests.
+Yes. Your notes are plain Markdown files, so any app that opens a folder of Markdown works, like Obsidian or a plain text editor. Phygital Memory is the one the setup suggests.
 </details>
 
 <details>
@@ -171,7 +171,7 @@ Yes, read only, if you connect them to your agent. The Brain Keeper notes yester
 <details>
 <summary><b>Can the brain live in more than one drive?</b></summary>
 
-Yes. A team can keep it in Baalda's cloud for real-time sync and also in a drive like Google Drive for phones and cloud routines. Pick one as the main one for edits, and test the second one first: two sync services on one folder can make duplicate copies. See [Teams](teams.md).
+Yes. A team can share it through Phygital Memory and also keep it in a drive like Google Drive for phones and cloud routines. Pick one as the main one for edits, and test the second one first: two sync services on one folder can make duplicate copies. See [Share with a team](phygital-memory.md#share-with-a-team).
 </details>
 
 <details>
@@ -277,7 +277,7 @@ Tell it: "Don't do that, do this instead." It saves your correction as a new rul
 <details>
 <summary><b>Can I write notes myself?</b></summary>
 
-Yes. They're plain text files. Write in Baalda or any text editor. The Brain Keeper adds a missing info block (the few lines at the top of each note) the next time it passes by.
+Yes. They're plain text files. Write in Phygital Memory or any text editor. The Brain Keeper adds a missing info block (the few lines at the top of each note) the next time it passes by.
 </details>
 
 <details>
@@ -387,9 +387,9 @@ To read, no: your agent reads straight from the drive. To add or change things t
 </details>
 
 <details>
-<summary><b>Do I need Baalda on my phone?</b></summary>
+<summary><b>Do I need Phygital Memory on my phone?</b></summary>
 
-No. Baalda is for browsing on your computer. On your phone, your drive's app opens notes as plain text.
+No. Phygital Memory is for browsing on your computer. On your phone, your drive's app opens notes as plain text.
 </details>
 
 ## Privacy and safety
@@ -427,7 +427,7 @@ A list of files and folders your agent must not open unless you ask for that exa
 <details>
 <summary><b>Can my team use one brain?</b></summary>
 
-Yes, through Baalda's cloud, which is paid. It syncs everyone's copy in real time, and folder permissions are set in Baalda. Then say "Set up my team" and your agent adds a Team section to the rules, with each person's role and daily notes. See [Teams](teams.md).
+Yes, through Phygital Memory, which is free. It keeps everyone's copy in step, straight from computer to computer, and who can edit or only view is set when you share. Then say "Set up my team" and your agent adds a Team section to the rules, with each person's role and daily notes. See [Share with a team](phygital-memory.md#share-with-a-team).
 </details>
 
 <details>
@@ -538,7 +538,7 @@ Phygital Brain is free and open source. What you might pay for:
 | Phygital Brain | Free |
 | Your AI agent | A paid plan. Claude's paid plans start at about $20 a month; check the current price on their site |
 | Your cloud drive | Most have a free tier, which is enough for a brain of text notes. Nextcloud can run on your own server |
-| Baalda | Check the current terms on [its repository](https://github.com/naveedharri/baalda) |
+| Phygital Memory | Free and open source |
 
 The first setup uses more of your AI plan's usage than a normal chat, because it writes many files at once. After that, daily use is like any other chat, plus a little for the Brain Keeper's daily run.
 </details>

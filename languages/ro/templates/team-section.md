@@ -16,4 +16,4 @@ Creierul ăsta e comun. Fiecare persoană care lucrează în el citește regulil
 - **Deciziile spun cine a hotărât.** Fiecare notă de decizie numește oamenii care au luat-o.
 - **Regulile fiecăruia:** o corectură de la o persoană merge sub un titlu `### Reguli de la {Person}` la sfârșitul acestei secțiuni, dacă persoana nu spune că e pentru toată lumea (atunci merge, ca de obicei, în `Reguli de la {Name}`).
 - **Cere întâi acordul de la {Name}** înainte să schimbi fișierele de reguli, paginile din Profil sau orice e în afara folderelor pe care le poate schimba persoana respectivă.
-- **Folderele private:** ce trece {Name} în `.claudeignore` rămâne închis pentru toată lumea. Permisiunile pe foldere se setează în aplicația de note (de exemplu Baalda), nu aici.
+- **Folderele private:** ce trece {Name} în `.claudeignore` rămâne închis pentru toată lumea. Permisiunile pe foldere se setează în aplicația de note (de exemplu Phygital Memory), nu aici.

@@ -16,4 +16,4 @@ Ez az agy közös. Mindenki, aki benne dolgozik, ezeket a szabályokat olvassa.
 - **A döntésnél ott van, ki döntött.** Minden döntési jegyzet megnevezi, kik hozták meg a döntést.
 - **Mindenkinek saját szabályai:** ha valaki kijavít, a javítás ennek a résznek a végére, egy `### {Person} szabályai` címsor alá kerül, hacsak nem mondja, hogy mindenkire vonatkozik (akkor a szokásos módon a "{Name} szabályai" részbe megy).
 - **Kérdezd meg a tulajdonost**, mielőtt szabályfájlokat, Rólam oldalakat vagy bármit módosítasz azokon a mappákon kívül, amiket az illető módosíthat.
-- **Privát mappák:** amit {Name} felsorol a `.claudeignore` fájlban, az mindenki számára zárva marad. A mappák jogosultságait a jegyzetelő appban kell beállítani (például a Baaldában), nem itt.
+- **Privát mappák:** amit {Name} felsorol a `.claudeignore` fájlban, az mindenki számára zárva marad. A mappák jogosultságait a jegyzetelő appban kell beállítani (például a Phygital Memory alkalmazásban), nem itt.

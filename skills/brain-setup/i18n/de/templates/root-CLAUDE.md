@@ -111,7 +111,7 @@ Schreib Notizen so, wie es jemand aus dem Team tun würde: konkrete Namen, konkr
 
 ## Notiz-Syntax
 
-Das funktioniert in Baalda.
+Das funktioniert in Phygital Memory.
 
 - **Wikilinks** (keine Markdown-Links): `[[Notizname]]`, `[[Notiz|Angezeigter Text]]`. Bau sie in Sätze ein. Nie als Stichpunktliste oder Fußnote.
 - **Einbettungen**: `![[Notizname]]`, `![[bild.png|300]]`

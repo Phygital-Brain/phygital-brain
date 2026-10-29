@@ -111,7 +111,7 @@ Escreva as notas como um colega de equipe escreveria: nomes concretos, contexto 
 
 ## Sintaxe das notas
 
-Isto funciona no Baalda.
+Isto funciona no Phygital Memory.
 
 - **Wikilinks** (não links de markdown): `[[Note Name]]`, `[[Note|Display Text]]`. Coloque dentro das frases. Nunca em listas de tópicos ou notas de rodapé.
 - **Incorporar**: `![[Note Name]]`, `![[image.png|300]]`

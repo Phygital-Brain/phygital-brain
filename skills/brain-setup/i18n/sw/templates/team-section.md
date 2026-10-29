@@ -16,4 +16,4 @@ Ubongo huu unashirikiwa. Kila mtu anayefanya kazi ndani yake anasoma kanuni hizi
 - **Maamuzi yanasema nani aliamua.** Kila noti ya uamuzi inataja watu walioufanya.
 - **Kanuni za kila mtu:** marekebisho kutoka kwa mtu mmoja yanakwenda chini ya kichwa `### Kanuni za {Person}` mwishoni mwa sehemu hii, isipokuwa akisema ni kwa kila mtu (hapo yanakwenda kwenye `Kanuni za {Name}` kama kawaida).
 - **Muulize mmiliki** kabla ya kubadilisha faili za kanuni, kurasa za Kuhusu, au chochote nje ya folda ambazo mtu anaruhusiwa kubadilisha.
-- **Folda binafsi:** kile ambacho {Name} ameorodhesha kwenye `.claudeignore` kinabaki kimefungwa kwa kila mtu. Ruhusa za folda zenyewe zinawekwa ndani ya programu ya noti (kwa mfano Baalda), si hapa.
+- **Folda binafsi:** kile ambacho {Name} ameorodhesha kwenye `.claudeignore` kinabaki kimefungwa kwa kila mtu. Ruhusa za folda zenyewe zinawekwa ndani ya programu ya noti (kwa mfano Phygital Memory), si hapa.

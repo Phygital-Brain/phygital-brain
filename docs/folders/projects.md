@@ -112,7 +112,7 @@ The `type` matches the folder: `notes`, `research`, `brief`, `draft`, `idea` or 
 
 **What it's for:** pictures, sketches, photos and small media files the project uses.
 
-**What goes in:** the files themselves, like `assets/cover-sketch-v2.png`. Notes link to them, and Baalda can show them inside a note.
+**What goes in:** the files themselves, like `assets/cover-sketch-v2.png`. Notes link to them, and Phygital Memory can show them inside a note.
 
 **Good to know:** very big files (video, layered design files) are better kept outside the brain. A note says where they are.
 

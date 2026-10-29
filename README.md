@@ -48,7 +48,7 @@ Phygital Brain is an OS (operating system) for your notes and your AI agent. It 
 - **Notes:** plain Markdown files (simple text files with light formatting) about you, your projects, your people, your decisions and your days. Your agent writes them as you talk, and links them together.
 - **The Brain Keeper:** a scheduled task that tidies the brain every work day, plus a full check-up whenever you ask for one.
 
-Every chat on that folder starts with your agent reading the rules and the latest notes. So it already knows your name, your clients, your goals and what you did yesterday. You can read and browse the same notes in [Baalda](https://github.com/naveedharri/baalda), or from your phone through your drive.
+Every chat on that folder starts with your agent reading the rules and the latest notes. So it already knows your name, your clients, your goals and what you did yesterday. You can read and browse the same notes in [Phygital Memory](https://github.com/Phygital-Brain/Phygital-Memory), or from your phone through your drive.
 
 It comes as two skills (sets of instructions your agent follows): one builds the brain, one keeps it tidy. They're packaged as a Claude plugin, because Claude is what we use and recommend, but any agent that can work in a folder can follow them. See [Other agents](docs/other-agents.md).
 
@@ -112,7 +112,7 @@ Small updates to notes that already exist happen right away, and your agent tell
 
 - **A brain built from your answers.** People who sell get pages for their business, services and customers. People who don't sell get none of those. A morning brief appears only if you ask for one.
 - **Questions written for your work.** The second form starts with three questions your agent writes for your job. An illustrator gets asked about publishers and how they charge; a developer gets asked about their projects and tools.
-- **Projects, people and days, linked.** Every person, company and project is a `[[link]]`, so one click in Baalda takes you from a project to the client to the day you talked.
+- **Projects, people and days, linked.** Every person, company and project is a `[[link]]`, so one click in Phygital Memory takes you from a project to the client to the day you talked.
 - **Decisions with the reason.** Each decision note says what you chose, why, what you gave up, and the risk. Open decisions show up in your daily note until you close them.
 - **The Brain Keeper.** Every work day it makes tomorrow's note, closes old ones, lists open decisions, fixes up to 5 small things and writes a report. A full check-up runs whenever you say "check up my brain".
 - **A morning brief,** if you want one: your three most important things, what you're waiting on, and one decision to make.
@@ -122,7 +122,7 @@ Small updates to notes that already exist happen right away, and your agent tell
 - **Fully online, if you want.** The Brain Keeper can run as a cloud routine, reading and writing your notes through your cloud drive, with your computer off.
 - **Backups and undo.** Before a big change, your agent copies the files into a hidden `.backups/` folder for 10 days. "Undo the last change" puts them back.
 - **Old notes, any time.** "Bring in my old notes" imports from Notion, Google Docs, Apple Notes and others, with a plan you approve first.
-- **Teams.** Share one brain through Baalda's cloud, with a Team section in the rules for each person's role.
+- **Teams.** Share one brain through Phygital Memory, computer to computer, with a Team section in the rules for each person's role.
 - **Your phone.** Ask your brain things from your agent's phone app through your cloud drive, or send tasks to your computer (in Claude, with Dispatch).
 - **Your language.** The forms, messages and notes are in the language you pick. The folder and note names are too. Only a few system files, like `CLAUDE.md`, keep their English names.
 - **Writing that sounds like you.** Every brain comes with the [no-ai-slop](https://github.com/petergyang/no-ai-slop) skill. Your agent writes in your voice, then checks for AI-sounding patterns before anyone else reads it.
@@ -166,7 +166,7 @@ You need an AI agent that can work in a folder, a cloud drive your agent can con
 | 2 | Install your cloud drive's desktop app (for example Google Drive), and make a folder for your brain inside it | 3 min |
 | 3 | In your agent, start a task and choose that folder | 1 min |
 | 4 | Connect the drive to your agent (in Claude: Settings, Connectors), so your phone can reach the brain | 1 min |
-| 5 | Download [Baalda](https://github.com/naveedharri/baalda) and open the same folder | 2 min |
+| 5 | Download [Phygital Memory](https://github.com/Phygital-Brain/Phygital-Memory) and open the same folder | 2 min |
 | 6 | Install Phygital Brain (one click, below) and say **"Set up my second brain."** | 10 min |
 
 **Install:** click the button for your agent.
@@ -199,7 +199,7 @@ flowchart LR
     B --> D[One short message:<br>what was built, how to use it]
 ```
 
-At the end, your agent welcomes you as your personal assistant, and offers Baalda to browse your notes like an app.
+At the end, your agent welcomes you as your personal assistant, and offers Phygital Memory to browse your notes like an app.
 
 ## A week with your brain
 
@@ -327,7 +327,7 @@ Phygital Brain is free and open source. You pay for your AI agent and, if you ne
 | [Getting started](docs/getting-started.md) | Every step from nothing to a working brain, with checks and fixes |
 | [Connect your apps](docs/connect-your-apps.md) | Gmail, Calendar, Drive and other services, read only, and running fully online |
 | [Add more skills](docs/add-skills.md) | Adding any skill to your brain, making videos with [HyperFrames](https://github.com/heygen-com/hyperframes) and making designs with [Canva](https://www.canva.com) |
-| [Teams](docs/teams.md) | Sharing one brain through Baalda's cloud |
+| [Phygital Memory](docs/phygital-memory.md) | Reading your notes in an app, and sharing one brain with a team |
 | [Bringing in your old notes](docs/importing.md) | Exporting from Notion, Google Docs, Apple Notes and others, and filing it all |
 | [Example brain](docs/example-brain/README.md) | A few made-up notes, so you can see the files before you build yours |
 | [How it works](docs/how-it-works.md) | What your agent does at each step, when it saves and when it asks |

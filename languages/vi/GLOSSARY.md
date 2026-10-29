@@ -38,7 +38,7 @@ Không bao giờ dùng đại từ có giới tính cho {Name} (không "anh ấy
 - **Danh bạ** thay vì "Quan hệ" hay "Mối quan hệ": đứng một mình, "quan hệ" dễ bị hiểu sai, còn "danh bạ" là từ ai cũng quen trên điện thoại.
 - **Trí nhớ** thay vì "Bộ nhớ": "bộ nhớ" nghe như dung lượng máy, còn "trí nhớ" hợp với hình ảnh bộ não.
 - **Kỹ năng** là từ thường dùng trong ứng dụng tiếng Việt. Trong câu văn đôi khi vẫn giữ chữ "skill" khi nói về tệp `SKILL.md`.
-- Thư mục chính và các thư mục con của Danh bạ viết hoa chữ đầu và giữ khoảng trắng như chữ thường ngày ("Dự án", "Khách hàng"), vì tiếng Việt gần như không có từ một âm tiết cho các ý này, và viết "Dự-án" trông rất lạ. Mọi hệ điều hành và Baalda đều xử lý tốt tên có khoảng trắng ở giữa. Thư mục con và tên ghi chú viết chữ thường, nối bằng gạch nối, đúng như `TRANSLATING.md`.
+- Thư mục chính và các thư mục con của Danh bạ viết hoa chữ đầu và giữ khoảng trắng như chữ thường ngày ("Dự án", "Khách hàng"), vì tiếng Việt gần như không có từ một âm tiết cho các ý này, và viết "Dự-án" trông rất lạ. Mọi hệ điều hành và Phygital Memory đều xử lý tốt tên có khoảng trắng ở giữa. Thư mục con và tên ghi chú viết chữ thường, nối bằng gạch nối, đúng như `TRANSLATING.md`.
 
 ## Thư mục con và tên ghi chú
 

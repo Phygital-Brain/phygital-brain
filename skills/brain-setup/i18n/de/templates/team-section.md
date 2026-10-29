@@ -16,4 +16,4 @@ Dieses Gehirn wird geteilt. Alle, die darin arbeiten, lesen diese Regeln.
 - **Entscheidungen sagen, wer entschieden hat.** Jede Entscheidungsnotiz nennt die Leute, die sie getroffen haben.
 - **Eigene Regeln jeder Person:** Eine Korrektur von einer Person kommt unter eine Überschrift `### Regeln von {Person}` am Ende dieses Abschnitts, außer sie sagt, dass sie für alle gilt (dann kommt sie wie immer in "Regeln von {Name}").
 - **Frag erst {Name}**, bevor du Regeldateien, Profilseiten oder etwas außerhalb der Ordner änderst, die eine Person ändern darf.
-- **Private Ordner:** Was {Name} in `.claudeignore` einträgt, bleibt für alle zu. Die Ordnerrechte selbst werden in der Notiz-App eingestellt (zum Beispiel Baalda), nicht hier.
+- **Private Ordner:** Was {Name} in `.claudeignore` einträgt, bleibt für alle zu. Die Ordnerrechte selbst werden in der Notiz-App eingestellt (zum Beispiel Phygital Memory), nicht hier.

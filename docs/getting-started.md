@@ -7,7 +7,7 @@ flowchart LR
     A[1 Your agent] --> B[2 A cloud drive<br>folder]
     B --> C[3 Open the folder<br>in your agent]
     C --> D[4 Connect the drive<br>to your agent]
-    D --> E[5 Baalda]
+    D --> E[5 Phygital Memory]
     E --> F[6 Install<br>Phygital Brain]
     F --> G[7 Set up my<br>second brain]
     G --> H[8 Instructions<br>for every chat]
@@ -21,7 +21,7 @@ flowchart LR
 
 You don't need to know any code.
 
-The cloud drive and Baalda are part of the setup. The cloud drive matters most: it's how you use your brain from your phone. If you don't want one of them, say so and the setup goes on without it.
+The cloud drive and Phygital Memory are part of the setup. The cloud drive matters most: it's how you use your brain from your phone. If you don't want one of them, say so and the setup goes on without it.
 
 Your agent reads your notes, and your drive stores them. It's worth a look at your AI's privacy settings: see [What you share with your AI](../SECURITY.md#what-you-share-with-your-ai).
 
@@ -77,11 +77,11 @@ In Claude's settings, under connectors, connect **Google Drive**. With another d
 
 The cloud part is done.
 
-## 5. Baalda
+## 5. Phygital Memory
 
-Download [Baalda](https://github.com/naveedharri/baalda) and open the same `My Brain` folder. This is where you read and browse your notes: click a `[[link]]` to jump to that note.
+Download [Phygital Memory](https://github.com/Phygital-Brain/Phygital-Memory) and open the same `My Brain` folder: **Add memory › From this computer**. More in [Phygital Memory](phygital-memory.md). This is where you read and browse your notes: click a `[[link]]` to jump to that note.
 
-You don't have to use Baalda to use your brain. Your agent does the writing, and Baalda is for looking around on your computer. You don't need it on your phone.
+You don't have to use Phygital Memory to use your brain. Your agent does the writing, and Phygital Memory is for looking around on your computer. You don't need it on your phone.
 
 ## 6. Install Phygital Brain
 
@@ -112,7 +112,7 @@ Then this happens:
 7. **Form 3: Your days and people.** Work days, morning brief time, the people who matter, your social media, your tools.
 8. **Form 4: Files.** Drop your CV, a bio, a price list or old notes. Or skip it.
 9. **Build.** Your agent makes the folders, the rule files, your first notes and the Brain Keeper. This takes a few minutes. You don't need to do anything.
-10. **Finish.** A short welcome from your agent, now your personal assistant: ask it anything, and start by talking to it like a friend. Last, it offers Baalda, to browse your notes like an app.
+10. **Finish.** A short welcome from your agent, now your personal assistant: ask it anything, and start by talking to it like a friend. Last, it offers Phygital Memory, to browse your notes like an app.
 
 **Tips for the forms:**
 
@@ -169,7 +169,7 @@ Once the brain is in a cloud drive and the drive is connected to your agent, you
 - **Talk to it every day,** even small things: "Had a call with Marta", "Sent the invoice". The more it knows, the more it helps.
 - **Drop things in:** an email you got, a brief, a photo of notes. Ask "Where should this go?"
 - **Correct it** when it gets something wrong: "Don't do that, do this." It saves your correction as a rule.
-- **Look in Baalda** once or twice, to see how your notes link up.
+- **Look in Phygital Memory** once or twice, to see how your notes link up.
 - **Tell it to save what matters:** "Save this as a decision", "Remember this about Marta". It saves a lot on its own, but a decision or a lesson you name is never missed.
 - **Read the Brain Keeper's reports** for the first two weeks, in `Skills/brain-keeper/reports/`. Once its fixes look right, read only the line in your daily note when something needs you.
 

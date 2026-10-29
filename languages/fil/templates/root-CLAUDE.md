@@ -111,7 +111,7 @@ Isulat ang mga note na parang kasamahan sa trabaho: tiyak na pangalan, tiyak na 
 
 ## Syntax ng Note
 
-Gumagana ang mga ito sa Baalda.
+Gumagana ang mga ito sa Phygital Memory.
 
 - **Wikilink** (hindi markdown link): `[[Pangalan ng Note]]`, `[[Note|Tekstong Makikita]]`. Isingit ang mga ito sa loob ng pangungusap. Hindi kailanman bilang bullet list o footnote.
 - **Embed**: `![[Pangalan ng Note]]`, `![[larawan.png|300]]`

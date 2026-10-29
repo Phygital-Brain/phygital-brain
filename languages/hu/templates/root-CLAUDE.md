@@ -111,7 +111,7 @@ Ha {Name} azt mondja: "reggeli összefoglaló", "állítsd be a reggeli összefo
 
 ## Jegyzetszintaxis
 
-Ezek működnek a Baaldában.
+Ezek működnek a Phygital Memory alkalmazásban.
 
 - **Wikilinkek** (nem markdown linkek): `[[Jegyzet Neve]]`, `[[Jegyzet|Megjelenő Szöveg]]`. Sződ bele őket a mondatokba. Soha ne külön listába vagy lábjegyzetbe tedd őket.
 - **Beágyazás**: `![[Jegyzet Neve]]`, `![[image.png|300]]`

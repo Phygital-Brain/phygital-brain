@@ -111,7 +111,7 @@ Andika noti kama mwenzako wa kazi angeandika: majina halisi, maelezo halisi, mat
 
 ## Jinsi ya Kuandika Noti
 
-Hivi vinafanya kazi ndani ya Baalda.
+Hivi vinafanya kazi ndani ya Phygital Memory.
 
 - **Wikilinks** (si viungo vya markdown): `[[Jina la Noti]]`, `[[Noti|Maandishi ya Kuonyesha]]`. Viweke ndani ya sentensi. Kamwe si kama orodha ya vitone wala tanbihi.
 - **Kupachika**: `![[Jina la Noti]]`, `![[picha.png|300]]`

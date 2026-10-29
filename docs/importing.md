@@ -51,5 +51,5 @@ For a big export, ask it to go in parts: "Start with my client notes."
 ## After importing
 
 - Say **"check up my brain"**. The check-up finds duplicates, missing info and notes that nothing links to.
-- Look through the new notes in Baalda.
+- Look through the new notes in Phygital Memory.
 - When you're happy, you can stop using the old app.

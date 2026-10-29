@@ -111,7 +111,7 @@
 
 ## 筆記語法
 
-這些在 Baalda 裡都能用。
+這些在 Phygital Memory 裡都能用。
 
 - **Wikilink**（不是 Markdown 連結）：`[[Note Name]]`、`[[Note|Display Text]]`。要自然地寫進句子裡，絕對不要做成條列或註腳。
 - **嵌入**：`![[Note Name]]`、`![[image.png|300]]`

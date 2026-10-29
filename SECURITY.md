@@ -87,7 +87,7 @@ In scope:
 
 Out of scope:
 
-- Problems in your AI app, your cloud drive, Baalda, npm, Node.js or your computer, or in skills you add yourself (like HyperFrames or Canva). Please report those to their makers.
+- Problems in your AI app, your cloud drive, Phygital Memory, npm, Node.js or your computer, or in skills you add yourself (like HyperFrames or Canva). Please report those to their makers.
 - `.claudeignore` not stopping a determined agent. The agent follows it as a rule, and it doesn't lock anything. Truly private things shouldn't be in the brain folder.
 - An AI model that doesn't follow its instructions in general, without a way to make it happen.
 - Reports from automated scanners without a real problem.

@@ -111,7 +111,7 @@ Pisz notatki tak, jak pisałby je ktoś z zespołu: konkretne nazwy, konkretny k
 
 ## Składnia notatek
 
-To działa w Baaldzie.
+To działa w Phygital Memory.
 
 - **Wikilinki** (nie linki markdown): `[[Nazwa notatki]]`, `[[Notatka|Wyświetlany tekst]]`. Wplataj je w zdania. Nigdy jako listy punktów ani przypisy.
 - **Osadzenia**: `![[Nazwa Notatki]]`, `![[image.png|300]]`

@@ -16,4 +16,4 @@ Ce cerveau est partagé. Chaque personne qui y travaille lit ces règles.
 - **Chaque décision dit qui a décidé.** Chaque note de décision nomme les personnes qui l'ont prise.
 - **Les règles de chacun :** une correction venant d'une personne va sous un titre `### Règles de {Person}` à la fin de cette section, sauf si elle dit que c'est pour tout le monde (elle va alors dans « Les règles de {Name} », comme d'habitude).
 - **Demandez au propriétaire** avant de modifier les fichiers de règles, les pages Profil, ou quoi que ce soit en dehors des dossiers qu'une personne peut modifier.
-- **Dossiers privés :** ce que {Name} liste dans `.claudeignore` reste fermé pour tout le monde. Les droits sur les dossiers se règlent dans l'app de notes (par exemple Baalda), pas ici.
+- **Dossiers privés :** ce que {Name} liste dans `.claudeignore` reste fermé pour tout le monde. Les droits sur les dossiers se règlent dans l'app de notes (par exemple Phygital Memory), pas ici.

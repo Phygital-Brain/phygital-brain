@@ -111,7 +111,7 @@ Tulis nota seperti rakan sepasukan menulis: nama yang khusus, konteks yang khusu
 
 ## Sintaks Nota
 
-Semua ini berfungsi dalam Baalda.
+Semua ini berfungsi dalam Phygital Memory.
 
 - **Wikilink** (bukan pautan markdown): `[[Nama Nota]]`, `[[Nota|Teks Paparan]]`. Selitkan dalam ayat. Jangan sekali-kali sebagai senarai titik atau nota kaki.
 - **Benaman**: `![[Nama Nota]]`, `![[image.png|300]]`
